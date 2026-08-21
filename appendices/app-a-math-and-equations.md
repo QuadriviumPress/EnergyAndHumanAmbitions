@@ -70,13 +70,9 @@ The values in [Table A.1](#tab-a-1) are selected to multiply to 10, which is an 
 
 How is [Table A.1](#tab-a-1) useful to us? We can turn division problems, which tend to be mentally challenging, into more intuitive multiplication problems. Several examples may highlight their usefulness.
 
-What is one eighth of 1,000? Rather than carry out division, just multiply 1,000 by the reciprocal—a “125–like” number. In this case, the answer is 125. We can use common sense and intuition to reject 1,250 as $\frac{1}{8}$ of 1,000, as we know the answer should be significantly *smaller* than 1,000. But 12.5 goes too far. Also, we can recognize that [^1] 8
+What is one eighth of 1,000? Rather than carry out division, just multiply 1,000 by the reciprocal—a “125–like” number. In this case, the answer is 125. We can use common sense and intuition to reject 1,250 as $\frac{1}{8}$ of 1,000, as we know the answer should be significantly *smaller* than 1,000. But 12.5 goes too far. Also, we can recognize that $\frac{1}{8}$ is not too far from one-tenth,[^6] one-tenth of 1,000 would be 100, close to 125.
 
-is not too far from one-tenth,[^6] one-tenth of 1,000 would be 100, close to 125.
-
-How many hours is one minute? Now we are looking for one-sixtieth ( $\frac{1}{60}$) of an hour, so we pull out the “167–like” reciprocal and weigh wthhei cchho wicoeus l0d. 1b6e7,0 0.0.01.1 6W7,e 0 e.x0p01e6c7t,t ehtec.r eWsuelllt, t$\frac{1}{60}$o bcea n*a* ’t*li t*b*t*e*le t booig* f*g*a*e*r*r* ftrhoamn $\frac{$\frac{1}{1100}$}{100}$,,
-
-leaving us to have one minute as 0.0167 of an hour.
+How many hours is one minute? Now we are looking for one-sixtieth ( $\frac{1}{60}$) of an hour, so we pull out the “167–like” reciprocal and weigh the choices 0.167, 0.0167, 0.00167, etc. Well, $\frac{1}{60}$ can’t be *too* far from $\frac{1}{100}$, which would be 0.01. We expect the result to be *a little bigger* than $\frac{1}{100}$, leaving us to have one minute as 0.0167 of an hour.
 
 Now we do a few quick statements that may not match our table *exactly* for all cases, but you should be able to “read between the lines” using blurry numbers to reconcile the statements. One out of seven
 
@@ -275,9 +271,7 @@ x^{p}\cdot x^{q}= x^{(p+q)}.
 
 We *add* exponents when multiplying two pieces, each having their own exponent. Note that this does *not* work when the bases are unequal, as you could verify yourself for $3^{2}\cdot 5^{4}$.
 
-Finally, what about inversion, or dividing by $x^{n}$? As a preview, a negative power is equivalent to putting the item in the denominator, so that $x^{-1}= \frac{1}{x}$. To see this, consider [Eq. A.8](#eq-a-8) in the case where $p$ and $q$ are opposite sign but the same magnitude. For instance, following the “add the exponents rule” we get that $3^{4}\cdot 3^{-4}= 3^{4-4}= 3^{0}= 1$, because anything raised to the zero power is 1.[^22]3 $\cdot 3 \cdot 3 \cdot 3$ in order to get 1 is $_{3\cdot 3\cdot 3\cdot 3}$. This means that $3^{-4}$ is the same as[^1] The only thing we can multiply into
-
-$1/3^{4}$, or more generally:
+Finally, what about inversion, or dividing by $x^{n}$? As a preview, a negative power is equivalent to putting the item in the denominator, so that $x^{-1}= \frac{1}{x}$. To see this, consider [Eq. A.8](#eq-a-8) in the case where $p$ and $q$ are opposite sign but the same magnitude. For instance, following the “add the exponents rule” we get that $3^{4}\cdot 3^{-4}= 3^{4-4}= 3^{0}= 1$, because anything raised to the zero power is 1.[^22] The only thing we can multiply into 3 $\cdot 3 \cdot 3 \cdot 3$ in order to get 1 is $\frac{1}{3\cdot 3\cdot 3\cdot 3}$. This means that $3^{-4}$ is the same as $1/3^{4}$, or more generally:
 
 :::{math}
 :label: eq-a-9
@@ -319,9 +313,7 @@ Most of the time, students get it right: they see $1.6 \times 10^{2}$ and move t
 
 The hangup can come about if the process is misconstrued as simply “counting zeros.” Ironically, a student might correctly convert 6 $\times 10^{3}$ by adding three zeros to the 6 to get 6,000, but then mistake $10^{3}$ for 10,000—thinking: start with 10 and add three zeros.
 
-The sure-fire way is to connect to the concept of integer powers, so that $10^{3}$ is simply 10 $\cdot 10 \cdot 10$, which is unmistakably 1,000. Likewise, $10^{-4}$ is fooru 0r. 1r.e Spteriantged fo (umru toltgipetliheedr,) ainnsdt awnec ehsa ovef $1_{1}0_{0,}^{-}_{10}^{1}_{00}$,,e oacr h0.o0n0e0 1r.e Spor efasleln btaincgk o$\frac{1}{10}$n,
-
-the basics.
+The sure-fire way is to connect to the concept of integer powers, so that $10^{3}$ is simply 10 $\cdot 10 \cdot 10$, which is unmistakably 1,000. Likewise, $10^{-4}$ is four repeated (multiplied) instances of $10^{-1}$, each one representing $\frac{1}{10}$, or 0.1. String four together, and we have $\frac{1}{10,000}$, or 0.0001. So fall back on the basics.
 
 ::::{admonition} Example A.7.1
 :class: seealso
@@ -393,15 +385,13 @@ Whatever you want to do, just do it to both sides.
 
 ::::
 
-It’s not always so straightforward. Sometimes we have to “undo” or “invert” a mathematical function. Consider for instance a familiar problem: find the side length, $a$, of a right triangle whose other side is $b$ and hypotenuse $c$. We know from the Pythagorean Theorem that $a^{2}+b^{2}= c^{2}$, so that $a^{2}= c^{2}- b^{2}$. But we want $a$, not $a^{2}$. How do we “undo” the square? Take a page from [Eq. A.7](#eq-a-7). We want $a$ to the power of 1, so we want to raise $a^{2}$ to whatever power will neutralize the 2 via multiplication.
+It’s not always so straightforward. Sometimes we have to “undo” or “invert” a mathematical function. Consider for instance a familiar problem: find the side length, $a$, of a right triangle whose other side is $b$ and hypotenuse $c$. We know from the Pythagorean Theorem that $a^{2}+b^{2}= c^{2}$, so that $a^{2}= c^{2}- b^{2}$. But we want $a$, not $a^{2}$. How do we “undo” the square? Take a page from [Eq. A.7](#eq-a-7). We want $a$ to the power of 1, so we want to raise $a^{2}$ to whatever power will neutralize the 2 via multiplication. Looks like $\frac{1}{2}$ (square root) will do the trick. But we need to treat both sides:
 
 :::{math}
 :label: eq-a-12
 :enumerator: A.12
-\mathrm{Looks} \mathrm{like} \frac{1}{2} (\mathrm{square} \mathrm{root}) \mathrm{wi}a = (a^{2}) \frac{\mathrm{ll}_{1}}{2} \mathrm{do} \mathrm{t}= \sqrt{a^{2}\mathrm{he}} \mathrm{trick}. \mathrm{But} \mathrm{we} \mathrm{need} \mathrm{to} \mathrm{treat} \mathrm{both}= \sqrt{c^{2}}- b^{2}
+a = (a^{2}) ^{\frac{1}{2}} = \sqrt{a^{2}} = \sqrt{c^{2}}- b^{2}
 :::
-
-sides:
 
 In this case, the power $\frac{1}{n}$ can be said to perform the inverse function of the power $n$. In more familiar contexts: subtraction is the inverse of addition; division is the inverse of multiplication. Less familiarly, but in similar veins: the sine is “undone” by arcsine;[^27] the exponential $e^{x}$ is undone by the natural $\log (\ln x)$; $10^{x}$ is undone by $\log _{10}x$, etc.
 
@@ -500,9 +490,7 @@ You want an answer in time units, and see one instance in the 10 J/s rate at whi
 \frac{1}{10\mathrm{J/s}} \cdot \frac{1,000\mathrm{J}}{\mathrm{kg} \cdot^{\circ}\mathrm{C}} = 100 \frac{\mathrm{s}}{\mathrm{kg} \cdot^{\circ}\mathrm{C}}
 :::
 
-It looks like if we multiply by the mass in kg and multiply by the temperature difference, we’re home free. Doing so results in 5,000 seconds. Whenever possible, try to extract the most context/intuition
-
-out of an answer as you can. Does 5,000 seconds mean a lot to you?Divide by 60 (or multiply by [^1] $^{\min}$factor of 60 and we’re at 1.4 hours. That seems like the most natural$^{60}$ $^{\mathrm{s}}$ ) to get 83 minutes. Better. Or another
+It looks like if we multiply by the mass in kg and multiply by the temperature difference, we’re home free. Doing so results in 5,000 seconds. Whenever possible, try to extract the most context/intuition out of an answer as you can. Does 5,000 seconds mean a lot to you? Divide by 60 (or multiply by $\frac{1\min}{60\mathrm{s}}$ ) to get 83 minutes. Better. Or another factor of 60 and we’re at 1.4 hours. That seems like the most natural
 
 way to express the answer.
 

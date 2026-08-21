@@ -99,7 +99,12 @@ def merge_baselines(frags, bars=()):
 
 
 def _bar_members(group, bar):
-    """Fragments that make up one fraction or radical drawn around ``bar``."""
+    """Fragments that make up one fraction or radical drawn around ``bar``.
+
+    Neighbouring body lines that only share an x-column with a stacked
+    fraction — common when consecutive inline fractions end at the right
+    margin — must not be pulled in; that zips two lines of prose together.
+    """
     wide = bar[2] - bar[0] >= 12
     kind = bar[3] if len(bar) > 3 else "frac"
     lo, hi = bar[0] - 1.0, bar[2] + 1.0
@@ -109,15 +114,34 @@ def _bar_members(group, bar):
         if f.bbox[2] < bar[0] - 3 or f.bbox[0] > bar[2] + 3:
             continue
         delta = f.baseline - bar[1]
-        if wide:
-            if abs(delta) <= 19:
-                members.append(k)
+        vis = [c for c in f.chars if c.c.strip()]
+        if not vis:
             continue
-        # the numerator or denominator: script-sized characters straddling the rule
+        if wide:
+            if abs(delta) > 19:
+                continue
+            # reject a full prose line from an adjacent baseline that only
+            # grazes this rule in x (the zip-together failure mode)
+            if abs(delta) > 5.5:
+                overlap = max(0.0, min(f.bbox[2], bar[2]) - max(f.bbox[0], bar[0]))
+                frag_w = max(f.bbox[2] - f.bbox[0], 1e-6)
+                bar_w = max(bar[2] - bar[0], 1e-6)
+                if frag_w > 2 * bar_w and overlap / frag_w < 0.35:
+                    continue
+            members.append(k)
+            continue
+        # narrow (inline) fractions: numerator/denominator may be glued to
+        # neighbouring body glyphs in the same fragment
         top = f.maxsize
         stacked = any(c.c.strip() and lo <= c.x + (c.w or 0.0) / 2 <= hi
                       and abs(c.y - bar[1]) <= 10 and c.size <= 0.86 * top
                       for c in f.chars)
+        # a neighbouring line's den can look "stacked" against this rule;
+        # ignore that when the fragment's baseline is a full line away and
+        # still carries body-sized prose
+        if stacked and abs(delta) > 6.5 \
+                and any(c.size > 0.86 * SIZE_BODY for c in vis):
+            stacked = False
         if stacked or host_lo <= delta <= host_hi:
             members.append(k)
     if wide:
@@ -821,12 +845,15 @@ def page_blocks(pg):
 # --------------------------------------------------------------------------
 
 INLINE_BAR = 12.0
+#: running text may contain wider stacked fracs (e.g. 1/10,000)
+INLINE_BAR_TEXT = 36.0
 
 
 def apply_inline_fractions(frag, bars, raised_only=False):
     """Replace a fraction set inside running text with an inline ``\\frac``."""
+    limit = INLINE_BAR if raised_only else INLINE_BAR_TEXT
     narrow = [b for b in bars
-              if b[2] - b[0] < INLINE_BAR
+              if b[2] - b[0] < limit
               and (not raised_only or frag.baseline - b[1] > 5.0)
               and frag.bbox[0] - 3 <= b[0] and b[2] <= frag.bbox[2] + 3
               and frag.bbox[1] - 3 <= b[1] <= frag.bbox[3] + 3]
@@ -851,6 +878,11 @@ def apply_inline_fractions(frag, bars, raised_only=False):
         elif not over or not under:
             continue
         else:
+            # wider-than-usual bars: only treat as inline if both sides are
+            # script-sized (1/10,000); body-sized unit fracs stay as glyphs
+            if bar[2] - bar[0] >= INLINE_BAR:
+                if any(c.size > 0.86 * SIZE_BODY for c in over + under):
+                    continue
             body = "\\frac{" + render_math_only(over) + "}{" + render_math_only(under) + "}"
             raised = frag.baseline - bar[1] > 5.0
             latex = "$^{" + body + "}$" if raised else "$" + body + "$"

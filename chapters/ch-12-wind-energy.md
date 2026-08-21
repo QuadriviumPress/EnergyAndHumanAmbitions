@@ -297,11 +297,11 @@ Average wind power by state, divided by state area to indicate a density of the 
 Following the flow we used in [Sec. 11.3](#sec-11-3) (p. 186), we show wind generation
 
 :::{margin}
-… 0.05 $\mathrm{W/m}^{2}$ in Washington; followed by New York at 0.02 $\mathrm{W/m}^{2}$
+… about 10 times, in the case of Iowa, but bear in mind the 0.2 $\mathrm{W/m}^{2}$ estimate was based on 5 m/s, while Iowa scores a bit higher, according to [Figure 12.2](#fig-12-2)
 :::
 
 :::{margin}
-… about 10 times, in the case of Iowa, but bear in mind the 0.2 $\mathrm{W/m}^{2}$ estimate was based on 5 m/s, while Iowa scores a bit higher, according to [Figure 12.2](#fig-12-2)
+… 0.05 $\mathrm{W/m}^{2}$ in Washington; followed by New York at 0.02 $\mathrm{W/m}^{2}$
 :::
 
 :::{figure} ../images/fig-12-10.png

@@ -111,11 +111,19 @@ def main():
         (r"\$\s*\$", "empty maths run"),
         (r"[a-z]- [a-z]{2,}", "hyphenation left un-joined"),
         (r"\\mathrm\{[A-Za-z]{9,}\}", "prose captured inside maths"),
+        # stacked-fraction / multi-baseline merge: adjacent lines zipped by x
+        (r"\\frac\{\$", "nested maths inside \\frac"),
+        (r"(?:\*[A-Za-z0-9]\*){3,}", "single-letter italic scramble"),
     ]
     for path, text in texts.items():
         for pattern, label in artifacts:
             hits = re.findall(pattern, text)
-            if len(hits) > 6:
+            # zero tolerance for zip/scramble; others allow a few stragglers
+            limit = 0 if label in (
+                "nested maths inside \\frac",
+                "single-letter italic scramble",
+            ) else 6
+            if len(hits) > limit:
                 fail(f"{os.path.basename(path)}: {len(hits)} instances of {label}")
 
     # ---- directive fences ------------------------------------------------
