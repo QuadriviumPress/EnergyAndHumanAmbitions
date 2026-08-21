@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="59.5pt" height="40.3pt" viewBox="0 0 59.5 40.3">
+<rect x="0" y="0" width="59.50" height="40.30" fill="#ffffff"/>
+<defs>
+<clipPath id="clip_1">
+<path transform="matrix(1,0,0,-1,-297.9,579.039)" d="M297.9 538.739H357.4V579.039H297.9Z"/>
+</clipPath>
+<clipPath id="clip_2">
+<path transform="matrix(1,0,0,-1,-297.9,579.039)" d="M0 0H554.173V715.039H0Z"/>
+</clipPath>
+<clipPath id="clip_3">
+<path transform="matrix(1.10881,0,0,-1.10881,-109.395999,38.809999)" d="M0 0H271V111H0Z"/>
+</clipPath>
+<clipPath id="clip_4">
+<path transform="matrix(1.10881,0,0,-1.10881,-109.395999,38.809999)" d="M0 111H271V0H0Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#clip_1)">
+<g clip-path="url(#clip_2)">
+<g clip-path="url(#clip_3)">
+<g id="layer_1" data-name="Layer 1">
+<g clip-path="url(#clip_4)">
+<path transform="matrix(1.10881,0,0,-1.10881,56.126939,1.9642449)" d="M0 0C.79-2.43 1.22-5.03 1.22-7.73 1.22-21.54-9.97-32.73-23.78-32.73-37.59-32.73-48.78-21.54-48.78-7.73-48.78-5.03-48.35-2.43-47.56 0L-23.78-7.73Z" fill="#40ff40"/>
+<path transform="matrix(1.10881,0,0,-1.10881,56.126939,1.9642449)" stroke-width="1" stroke-linecap="butt" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M0 0C.79-2.43 1.22-5.03 1.22-7.73 1.22-21.54-9.97-32.73-23.78-32.73-37.59-32.73-48.78-21.54-48.78-7.73-48.78-5.03-48.35-2.43-47.56 0"/>
+<path transform="matrix(1.10881,0,0,-1.10881,29.759659,10.535343)" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M0 0-23.78 7.73"/>
+<path transform="matrix(1.10881,0,0,-1.10881,29.759659,10.535343)" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" stroke-linejoin="miter" fill="none" stroke="#000000" d="M0 0 23.78 7.73"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

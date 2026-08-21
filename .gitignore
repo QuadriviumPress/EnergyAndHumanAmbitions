@@ -1,0 +1,14 @@
+# MyST build output
+_build/
+
+# conversion cache (regenerate with scripts/build.sh)
+build/
+
+# the source PDFs are large; keep them out of the repository
+220222_2.pdf
+eScholarship UC item 9js5291m.pdf
+
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store

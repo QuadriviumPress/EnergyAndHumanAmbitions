@@ -1,0 +1,90 @@
+version: 1
+project:
+  id: energy-and-human-ambitions
+  title: "Energy and Human Ambitions on a Finite Planet"
+  short_title: "Energy and Human Ambitions"
+  subtitle: "Assessing and Adapting to Planetary Limits"
+  description: >-
+    A web-native MyST edition of Tom Murphy's open textbook on energy, growth
+    and the limits a finite planet imposes on human ambitions.
+  authors:
+    - name: Thomas W. Murphy, Jr.
+      affiliations:
+        - institution: University of California, San Diego
+          city: San Diego
+          state: California
+          country: United States
+  date: 2022-02-22
+  license:
+    content: CC-BY-NC-4.0
+  open_access: true
+  doi: 10.21221/S2978-0-578-86717-5
+  github: QuadriviumPress/EnergyAndHumanAmbitions
+  keywords:
+    - energy
+    - growth
+    - climate change
+    - renewable energy
+    - sustainability
+  numbering:
+    heading_2: false
+    heading_3: false
+  math:
+    '\mars': '\unicode{x2642}'
+  toc:
+    - file: index.md
+    - file: front/preface.md
+    - file: front/how-to-use-this-book.md
+    - title: "Part I — Setting the Stage: Growth and Limitations"
+      children:
+        - file: chapters/ch-01-exponential-growth.md
+        - file: chapters/ch-02-economic-growth-limits.md
+        - file: chapters/ch-03-population.md
+        - file: chapters/ch-04-space-colonization.md
+    - title: "Part II — Energy and Fossil Fuels"
+      children:
+        - file: chapters/ch-05-energy-and-power-units.md
+        - file: chapters/ch-06-putting-thermal-energy-to-work.md
+        - file: chapters/ch-07-the-energy-landscape.md
+        - file: chapters/ch-08-fossil-fuels.md
+        - file: chapters/ch-09-climate-change.md
+    - title: "Part III — Alternative Energy"
+      children:
+        - file: chapters/ch-10-renewable-overview.md
+        - file: chapters/ch-11-hydroelectric-energy.md
+        - file: chapters/ch-12-wind-energy.md
+        - file: chapters/ch-13-solar-energy.md
+        - file: chapters/ch-14-biological-energy.md
+        - file: chapters/ch-15-nuclear-energy.md
+        - file: chapters/ch-16-small-players.md
+        - file: chapters/ch-17-comparison-of-alternatives.md
+    - title: "Part IV — Going Forward"
+      children:
+        - file: chapters/ch-18-human-factors.md
+        - file: chapters/ch-19-a-plan-might-be-welcome.md
+        - file: chapters/ch-20-adaptation-strategies.md
+    - title: "Closing"
+      children:
+        - file: back/epilogue.md
+        - file: back/image-attributions.md
+        - file: back/changes-and-corrections.md
+    - title: "Appendices"
+      children:
+        - file: appendices/app-a-math-and-equations.md
+        - file: appendices/app-b-chemistry-primer.md
+        - file: appendices/app-c-selected-answers.md
+        - file: appendices/app-d-alluring-tangents.md
+    - title: "Reference"
+      children:
+        - file: back/bibliography.md
+        - file: back/notation.md
+        - file: back/glossary.md
+site:
+  template: book-theme
+  title: "Energy and Human Ambitions on a Finite Planet"
+  options:
+    favicon: images/favicon.svg
+  actions:
+    - title: Original OER
+      url: https://escholarship.org/uc/item/9js5291m
+  nav: []
