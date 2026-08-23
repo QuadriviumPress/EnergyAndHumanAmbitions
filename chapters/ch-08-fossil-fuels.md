@@ -170,17 +170,13 @@ Chemical energy is released as heat when combustible materials are ignited in th
 Fossil fuels all work the same way, chemically. The three key reactions for coal, methane, and octane[^35] are:
 
 :::{math}
-coal : C + O _{2}\rightarrow CO _{2}+ 32.8 \mathrm{kJ/g}
-:::
-
-:::{math}
 :label: eq-8-1
 :enumerator: 8.1
-gas : CH _{4}+ 2O _{2}\rightarrow CO _{2}+ 2H _{2} O + 55.6 \mathrm{kJ/g}
-:::
-
-:::{math}
-\mathrm{oil} : \mathrm{C}_{8}\mathrm{H}_{18}+ \frac{25}{2} \mathrm{O}_{2}\rightarrow 8\mathrm{CO}_{2}+ 9\mathrm{H}_{2}\mathrm{O} + 48.0\mathrm{kJ/g}
+\begin{align}
+\mathrm{coal} &: \mathrm{C} + \mathrm{O}_{2}\rightarrow \mathrm{CO}_{2}+ 32.8\ \mathrm{kJ/g}\\
+\mathrm{gas} &: \mathrm{CH}_{4}+ 2\mathrm{O}_{2}\rightarrow \mathrm{CO}_{2}+ 2\mathrm{H}_{2}\mathrm{O} + 55.6\ \mathrm{kJ/g}\\
+\mathrm{oil} &: \mathrm{C}_{8}\mathrm{H}_{18}+ \frac{25}{2}\mathrm{O}_{2}\rightarrow 8\mathrm{CO}_{2}+ 9\mathrm{H}_{2}\mathrm{O} + 48.0\ \mathrm{kJ/g}
+\end{align}
 :::
 
 The energy amounts above represent the total energy available per gram of input fuel.[^36] [Table 8.2](#tab-8-2) provides several key attributes of fossil fuel combustion. Energy density, in kJ per gram or often kcal/g, is a fundamentally important measure of the fuel’s potency. By expressing in kcal/g, we can compare to food labels in the U.S., for which fats are around 9 kcal/g, while carbohydrates and proteins clock in around 4 kcal/g.

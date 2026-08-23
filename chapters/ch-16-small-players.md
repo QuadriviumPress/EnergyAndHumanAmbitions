@@ -200,7 +200,7 @@ Only two large tidal facilities operate in the world today: Rance in France ([Ex
 
 The other facility is Sihwa Lake in South Korea, a 254 MW facility that came online in 2011. Much like Rance, and for the same reasons, its capacity factor is 25%, averaging 63 MW. Its basin is 30 $\mathrm{km}^{2}$ and has similar operating height as the French installation. The Sihwa Lake facility cost \$560 million to build, making it \$9 per average Watt of delivered power. This puts it roughly in line with the cost of nuclear power (page 266), and a little higher than utility-scale PV, currently.
 
-Two other large tidal stations in the 300–400 MW capacity range are in the works for the UK, including Scotland. But it’s not something that works well everywhere: best suited for areas that have large tidal swings and large inlets having narrow mouths that are easy to dam. It’s a niche player now and always will be. After all, the 3 TW global budget for tidal energy suggests that it is not an energy jackpot.
+Two other large tidal stations in the 300–400 MW capacity range are in the works for the UK. But it’s not something that works well everywhere: best suited for areas that have large tidal swings and large inlets having narrow mouths that are easy to dam. It’s a niche player now and always will be. After all, the 3 TW global budget for tidal energy suggests that it is not an energy jackpot.
 
 (sec-16-3)=
 ## 16.3 Ocean Currents

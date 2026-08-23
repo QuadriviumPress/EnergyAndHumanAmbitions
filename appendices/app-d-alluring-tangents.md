@@ -106,7 +106,7 @@ In the end, most of the heat we generate on Earth’s surface finds its way back
 (sec-d-3)=
 ## D.3 Electrified Transport
 
-This section aims to answer the question: Why can’t we *just*[^14] electrify transportation and be done with fossil fuels? It turns out to be hard. Rather then rely on external studies, this section applies lessons from the book to demonstrate the power of first-principles quantitative assessment.
+This section aims to answer the question: Why can’t we *just*[^14] electrify transportation and be done with fossil fuels? It turns out to be hard. Rather than rely on external studies, this section applies lessons from the book to demonstrate the power of first-principles quantitative assessment.
 
 [Box 13.3](#box-13-3) (p. 222) indicated that direct drive of cars and airplanes from solar energy is impractical: while it may work in limited applications, solar power is too diffuse to power air and car travel as we know it.
 
@@ -209,7 +209,7 @@ Electric cars are a growing part of transportation, and will no doubt grow more.
 (sec-d-3-6)=
 ### D.3.6 Wired Systems
 
-To finalize the progression of hardest–to–easiest electrified transportation, we leave the problematic element behind: batteries. Vehicles on prescribed routes (trains, buses) can take advantage of wires carrying electricity: either overhead or tucked into a “third rail” on the ground. Most light rail systems use this approach, and some cities have wires over their streets for trolley buses. High-speed trains also tend to be driven electrically, via overhead lines.
+To finalize the progression of hardest-to-easiest electrified transportation, we leave the problematic element behind: batteries. Vehicles on prescribed routes (trains, buses) can take advantage of wires carrying electricity: either overhead or tucked into a “third rail” on the ground. Most light rail systems use this approach, and some cities have wires over their streets for trolley buses. High-speed trains also tend to be driven electrically, via overhead lines.
 
 The ease with which wired electrical transport is implemented[^35] relative to the other modes discussed in this Appendix is another way to emphasize the degree to which storage is the bottleneck.
 
@@ -458,7 +458,7 @@ Please, please, please—let this tragic fate not come to pass!
 [^50]: … author’s conjecture; it could well be higher
 [^51]: Any activity today not geared to contribute to ultimate success (true sustainability) is therefore likely only contributing to failure. Most activities today are in the latter category, alarmingly.
 [^52]: … hardly different from \$18,000 per year, so if you’re going this far already, why not?
-[^53]: Interest is an artificial construct made possble by accelerating resource use.
+[^53]: Interest is an artificial construct made possible by accelerating resource use.
 [^54]: Annual income would be in the form of solar energy delivered and biomass that has grown in the course of the year, for instance.
 [^55]: … in this case hypothetical wise humans who have managed a successful transition through the adolescent phase
 [^56]: Note the similarity of the words!

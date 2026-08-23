@@ -177,7 +177,7 @@ Fusion". "PV and ST" is carried over verbatim from the identical margin note in
 
 The body text at line 900 correctly says "153 million kcal/g". Recomputing:
 p–p 153 million, D–D 136 million, D–T 81 million kcal/g. The first two are
-missing "million" (and "to to" is a doubled word — see §3.1).
+missing "million" (and "to to" was a doubled word).
 *Author erratum.*
 
 ### 1.14 `chapters/ch-16-small-players.md:203` — Scotland listed as separate from the UK
@@ -236,297 +236,7 @@ mismatches a reader will trip over:
 
 ---
 
-## 2. Spelling and wrong-word errors
-
-All confirmed by inspection; the ones flagged by `hunspell` are noted.
-
-| Location | As printed | Should be |
-| --- | --- | --- |
-| `chapters/ch-04-space-colonization.md:142` | "not enough to allow it **climb** out" | allow it **to** climb out |
-| `chapters/ch-04-space-colonization.md:167` | "a brightly **growing** grain of sand" | brightly **glowing** |
-| `chapters/ch-06-putting-thermal-energy-to-work.md:218` | "Steam…races **though** the turbine" | **through** |
-| `chapters/ch-06-putting-thermal-energy-to-work.md:757` | "**equipped a** 5,000 W heater" | equipped **with** a |
-| `chapters/ch-08-fossil-fuels.md:564` | "on American's **behalfs**" | **behalf** |
-| `chapters/ch-12-wind-energy.md:396` | "sits atop **very** square meter" | **every** |
-| `chapters/ch-15-nuclear-energy.md:878` | "oppose building more nuclear **plant**" | **plants** |
-| `chapters/ch-15-nuclear-energy.md:994` | "a significant fraction **the** world's power" | fraction **of** the |
-| `chapters/ch-15-nuclear-energy.md:1157` | "lose in a year **trough** pure energy conversion" | **through** |
-| `chapters/ch-16-small-players.md:87` | "thermal energy under **out** feet" | **our** |
-| `chapters/ch-16-small-players.md:381` | "than **as set** of hopeful candidates" | as **a** set |
-| `chapters/ch-16-small-players.md:447` | "moderating the tides by **filing** in the gaps" | **filling** |
-| `chapters/ch-19-a-plan-might-be-welcome.md:88` | "particularly acute **aver** the Antarctic" | **over** |
-| `chapters/ch-19-a-plan-might-be-welcome.md:142` | "evidence that the ground **rushing up**" | the ground **is** rushing up |
-| `chapters/ch-19-a-plan-might-be-welcome.md:260` | "monosodium-**glutimate** (MSG)" | glut**a**mate (hunspell) |
-| `chapters/ch-20-adaptation-strategies.md:215` | "natural gas **form** a power plant" | **from** |
-| `chapters/ch-20-adaptation-strategies.md:308` | "among those for whom air travel **is a utilized**" | is **utilized** / is a utilized **option** |
-| `chapters/ch-20-adaptation-strategies.md:493` | "author's 2019 **expenditures energy**" (Table 20.4 caption) | **energy expenditures** |
-| `chapters/ch-20-adaptation-strategies.md:562` | "we do get to **chose** the plan" | **choose** |
-| `chapters/ch-20-adaptation-strategies.md:582` | "should not **underestimated**" | should not **be** underestimated |
-| `appendices/app-a-math-and-equations.md:449` | "It would **like like** this" | would **look like** |
-| `appendices/app-d-alluring-tangents.md:461` | "made **possble** by" | **possible** (hunspell) |
-| `back/image-attributions.md:19` | "The History Trust of South **Australian**" | South **Australia** |
-
-Also: `chapters/ch-17-comparison-of-alternatives.md:17` uses "**lynchpin**", a
-nonstandard variant of *linchpin*.
-
----
-
-## 3. Grammar
-
-### 3.1 Doubled words
-
-Twelve genuine cases (a thirteenth, "ha ha" at `ch-14:374`, is intentional):
-
-| Location | Text |
-| --- | --- |
-| `chapters/ch-03-population.md:46` | "If we extend **the the** 0.04% line" |
-| `chapters/ch-03-population.md:793` | "recalling **that that** the natural log" (footnote 3) |
-| `chapters/ch-04-space-colonization.md:88` | "about 25,000 light years **away away**" |
-| `chapters/ch-08-fossil-fuels.md:88` | "it can serve **to to** counterbalance" |
-| `chapters/ch-09-climate-change.md:837` | "how/why **in in** [Section 13.2]" (footnote 19) |
-| `chapters/ch-11-hydroelectric-energy.md:410` | "Each millimeter **of of** water depth" |
-| `chapters/ch-13-solar-energy.md:920` | "solar payback **time time**" |
-| `chapters/ch-15-nuclear-energy.md:405` | "profitable on **the the** left-hand side" |
-| `chapters/ch-15-nuclear-energy.md:1227` | "reduces energy yield a bit **to to** 137" |
-| `chapters/ch-16-small-players.md:149` | "produced **in in** Nevada" |
-| `appendices/app-a-math-and-equations.md:250` | "Notice that **the the** symbols" |
-| `back/glossary.md:542` | "a broad term that **can can** describe light" |
-
-### 3.2 Subject–verb agreement
-
-| Location | Text | Fix |
-| --- | --- | --- |
-| `front/how-to-use-this-book.md:26` | "supplemental content that **build** useful contextual links" | build**s** |
-| `chapters/ch-02-economic-growth-limits.md:159` | "6 rabbits **does** not imply" | **do** |
-| `chapters/ch-02-economic-growth-limits.md:354` | "student payments…**accounts** for 40%" | account |
-| `chapters/ch-02-economic-growth-limits.md:421` | "Growth in both workforce and investments **are** essential" | **is** (footnote 22) |
-| `chapters/ch-03-population.md:499` | "**Asia's** demands…**their** already-dominant population" | **its** |
-| `chapters/ch-05-energy-and-power-units.md:180` | "The **differences**…**is** about *coherence*" | difference is / differences are |
-| `chapters/ch-07-the-energy-landscape.md:190` | "the recent **entry** of wind and solar…**are** the most interesting" | **is** (Fig. 7.5 caption) |
-| `chapters/ch-07-the-energy-landscape.md:238` | "The **source** of numbers for this section **mix**" | mix**es** (Box 7.3) |
-| `chapters/ch-08-fossil-fuels.md:153`, `:417` | "the **chances** of finding any…**is** about 0.01%"; "The **chances** of striking oil…**is**" | **are** (twice) |
-| `chapters/ch-08-fossil-fuels.md:302` | "past civilizations **overextend** and collapsed" | overextend**ed** |
-| `chapters/ch-08-fossil-fuels.md:361` | "the **amount** of oil and gas remaining **are**" | amount**s**…are |
-| `chapters/ch-08-fossil-fuels.md:588` | "what…**experiences** do you imagine **contributes**" | contribute |
-| `chapters/ch-12-wind-energy.md:186` | "**Each** of the 7 designs shown **have** arched curves" | **has** (Fig. 12.4 caption) |
-| `chapters/ch-12-wind-energy.md:356` | "Life-cycle CO₂ **emissions** for wind **is** only 2%" | **are** |
-| `chapters/ch-13-solar-energy.md:734` | "a **field** of PV panels **outperform** an ST installation" | outperform**s** |
-| `chapters/ch-15-nuclear-energy.md:857` | "Life-cycle CO₂ **emissions** for nuclear fission **is** only 2%" | **are** |
-| `chapters/ch-18-human-factors.md:112` | "The prevailing **narrative** of growth and progress **are** so firmly rooted" | **is** |
-| `chapters/ch-18-human-factors.md:207` | "The **combination** of capitalism and democracy **have** been ideal" | **has** |
-| `chapters/ch-18-human-factors.md:207` | "how **do either work** in a decline scenario" | **does** either work |
-| `appendices/app-b-chemistry-primer.md:242` | "$N$…and $n$…**differs** simply by a factor" | differ |
-
-Also, `ch-13:851` and `ch-13:876` use "emissions are…smaller than **that** of";
-should be "**those** of".
-
-### 3.3 Other grammatical faults
-
-- `chapters/ch-08-fossil-fuels.md:271` — spurious comma between subject and
-  verb: "Extracting energy from fossil fuels**,**[^43] leaves no choice…"
-- `chapters/ch-10-renewable-overview.md:142` — same fault: "human
-  metabolism**,**[^17] is about 0.8 TW".
-- `chapters/ch-10-renewable-overview.md:63` — missing comma: "Solar energy, for
-  instance is not 'used up'" → "for instance**,** is".
-- `chapters/ch-15-nuclear-energy.md:888` — "**It's** main problem is that it is
-  incredibly difficult" → possessive **Its**.
-- `chapters/ch-01-exponential-growth.md:599` — "more intense there due to
-  **it's** being closer to the sun" → **its**.
-- `chapters/ch-01-exponential-growth.md:567` — "Ignoring the fact that **it
-  impossible** to get to them" → "that it **is** impossible".
-- `chapters/ch-17-comparison-of-alternatives.md:17` — spurious comma before the
-  verb: "Hydroelectricity, nuclear fission, wind, and solar photovoltaics**,**
-  had all been invented."
-- `chapters/ch-17-comparison-of-alternatives.md:257` — "**What is at about** the
-  backyard attribute" → "What is **it** about".
-- `chapters/ch-18-human-factors.md:24` — "**both** individually **or**
-  collectively" → "both individually **and** collectively".
-- `chapters/ch-18-human-factors.md:216` — "climate change or other
-  resource/planetary limitations **removes** the fossil fuel source" — with
-  *or* the verb should agree with the nearer subject: **remove**.
-- `chapters/ch-19-a-plan-might-be-welcome.md:175` — "that from which all value
-  ultimately **depends** and derives" → "**on** which all value ultimately
-  depends".
-- `chapters/ch-20-adaptation-strategies.md:638` — Problem 22 opens with a
-  subjectless fragment: "Comparing the human body to a car with a gas tank, and
-  recognizing that a human can *live* for about two weeks without food,
-  provided adequate water and shelter."
-- `appendices/app-a-math-and-equations.md:210` — sentence fragment: "**Since**
-  $\frac{1}{3}$ is larger than $\frac{1}{4}$**.** So adding…" — the *Since*
-  clause has no main clause.
-- `appendices/app-b-chemistry-primer.md:45` — garbled sentence: "This means
-  that an accurate count of how many of each atom type are present at the
-  start, a proper count at the end should yield *exactly* the same results."
-- `appendices/app-b-chemistry-primer.md:113` — "This problem can be approached
-  in **Two** equivalent ways" — stray capital.
-- `chapters/ch-02-economic-growth-limits.md:394` — "Justify what, **In** your
-  mind, is a reasonable lower limit" — stray capital.
-- `chapters/ch-03-population.md:341` — "As suggested by [Figure 3.9](#fig-3-9),
-  **Human** population is *not* following…" — stray capital.
-- `chapters/ch-12-wind-energy.md:332` — "Putting a few of the previous results
-  together, **If** the entire contiguous U.S…." — stray capital.
-
----
-
-## 4. Punctuation and typography
-
-### 4.1 Missing sentence-ending punctuation
-
-| Location | Text |
-| --- | --- |
-| `chapters/ch-02-economic-growth-limits.md:159` | "…any more (e.g., see [Figure 2.3](#fig-2-3))**_** One way to put it is…" — missing period after the parenthesis |
-| `chapters/ch-03-population.md:787` | "…a biological child of their own[^45]**_** Consider not only personal contexts…" |
-| `chapters/ch-06-putting-thermal-energy-to-work.md:649` | "…works out to 30/10, or 3.0**_** The COP is then simply 3.0." |
-| `chapters/ch-09-climate-change.md:649` | "…sea level has risen about 230 mm**_** At the *current* rate…" |
-| `chapters/ch-18-human-factors.md:301` | "…experiencing 5% less energy each year[^50]**_** A new renewable energy infrastructure effort…" |
-| `back/glossary.md:23` | "…ejected from a larger nucleus in an alpha decay**_** It therefore consists of two protons…" |
-
-### 4.2 Doubled or stray punctuation
-
-- `chapters/ch-04-space-colonization.md:270` — "breathtaking views**!.**"
-- `chapters/ch-08-fossil-fuels.md:131` — "…goes to industrial processes.[^23]**.**"
-- `chapters/ch-08-fossil-fuels.md:182` — "…and 22% globally.[^33]**.**"
-- `chapters/ch-13-solar-energy.md:889` — "…highest number for each month.[^114]**.**"
-- `chapters/ch-13-solar-energy.md:844` — "whose band gap is 1.1 eV**„**" — a
-  comma followed by U+201E (the only occurrence of that character in the book)
-- `chapters/ch-05-energy-and-power-units.md:816` — "(it **doesn't'**)" — stray apostrophe
-- `chapters/ch-10-renewable-overview.md:200` — "at a rate of 30 MW**,**[^24]**,** then we *could*…" — doubled comma
-- `appendices/app-a-math-and-equations.md:116` — "…perimeter of the square**,**[^11]**,** but a good deal larger…" — doubled comma
-- `chapters/ch-06-putting-thermal-energy-to-work.md:751` — "…at a rate of 700 W**.** How long should you run…" — the period makes a fragment of the conditional clause; should be a comma
-- `chapters/ch-15-nuclear-energy.md:380` and `back/glossary.md:530` — "56.46340 a.m.u**..**" / "1.0072765 a.m.u**..**"
-
-### 4.3 Quotation marks
-
-The book has 578 opening and 576 closing curly double quotes — a mismatch of
-two. Five specific faults:
-
-| Location | Text |
-| --- | --- |
-| `front/preface.md:25` | internalize (**“own"**) — straight closing quote |
-| `chapters/ch-05-energy-and-power-units.md:318` | note the capital **”C”** — the opening mark is a *closing* curly quote |
-| `chapters/ch-06-putting-thermal-energy-to-work.md:803` | not **“thermally woke"** — straight closing quote |
-| `chapters/ch-08-fossil-fuels.md:588` | **“run out one day,"** — straight closing quote |
-| `chapters/ch-16-small-players.md:17` | some of the **"but what about *insert-scheme*?"** questions — both marks straight |
-
-Additionally, `chapters/ch-19-a-plan-might-be-welcome.md:156` has an **unclosed
-quotation**: Dr. Daly's first line of dialogue opens with `“great, now draw a
-box around this and label it: The Environment.` and is never closed — the
-narration "The obvious point is that all economic activity takes place *inside*
-the environment." runs on inside the quotation.
-
-### 4.4 Declarative/imperative sentences ending in a question mark
-
-Seven cases where a command is punctuated as a question:
-
-- `chapters/ch-02-economic-growth-limits.md:385`, `:392` — "Based on your present state of knowledge, **detail** what you think an optimist/pessimist might say…**?**"
-- `chapters/ch-02-economic-growth-limits.md:394` — "**Justify** what…is a reasonable lower limit…**?**"
-- `chapters/ch-03-population.md:718` — "In a few clear sentences, **explain** why the maps…look so different…**?**"
-- `chapters/ch-07-the-energy-landscape.md:299` — "Building off the result in Problem 2, **calculate** the percentages…**?**"
-- `chapters/ch-12-wind-energy.md:443` — "**Provide** a clear explanation of why…**?**"
-- `chapters/ch-13-solar-energy.md:825` — "**Explain** how both things can be true**?**"
-
-A few similar cases end with a period where a question mark is wanted, e.g.
-`chapters/ch-20-adaptation-strategies.md:577` ("And how bad would it be if we
-'built some character' along the way for no reason**.**") and
-`appendices/app-a-math-and-equations.md:18` ("so why carry extra digits**.**").
-
-### 4.5 Dash and hyphen misuse
-
-Five places use an en dash where an em dash or a hyphen belongs:
-
-- `chapters/ch-14-biological-energy.md:230` — "5 came out**–**only 1 of the 5" (em dash)
-- `chapters/ch-14-biological-energy.md:434` — "our demand**–**not just 5 times" (em dash)
-- `chapters/ch-15-nuclear-energy.md:568` — "energy**–**dense" (hyphen)
-- `appendices/app-a-math-and-equations.md:562` — "complicated**–**looking" (hyphen)
-- `appendices/app-d-alluring-tangents.md:212` — "hardest**–**to**–**easiest" (hyphens)
-
-### 4.6 Minor style inconsistencies
-
-- `chapters/ch-02-economic-growth-limits.md:177` "transatlantic" vs.
-  `chapters/ch-04-space-colonization.md:208` "trans-atlantic".
-- `front/preface.md:31` "off-putting" vs. `chapters/ch-18-human-factors.md:156`
-  "offputting".
-- `chapters/ch-18-human-factors.md:64` "over-representation" vs. `:71`
-  "underrepresentation".
-- `back/notation.md:31` "Stefan-Boltzmann" (hyphen) vs. everywhere else
-  "Stefan–Boltzmann" (en dash).
-- `chapters/ch-01-exponential-growth.md:210` — "ln 2 $\approx 0.693 \approx
-  **.70**$" — leading zero dropped.
-- `chapters/ch-08-fossil-fuels.md:449` — "the mid **80s**" → "mid-1980s".
-- `index.md:36` uses British "labelled" in an otherwise US-spelling edition.
-
----
-
-## 5. Broken mathematics (conversion defects)
-
-The conversion pipeline reconstructs fractions and radicals from glyph
-geometry. In the following places it failed, and the equation as published is
-either wrong or unreadable. This is the most serious class of defect in this
-edition.
-
-### 5.1 Equations with pieces lost or relocated
-
-| Equation | Location | As printed | Should be |
-| --- | --- | --- | --- |
-| Eq. 3.2 | `ch-03-population.md:93` | `t - t_{0}= lnln (1 (+ ^{\frac{P}{P_{0}}} p))` | $t-t_0=\dfrac{\ln(P/P_0)}{\ln(1+p)}$ |
-| Eq. 3.6 | `ch-03-population.md:238` | `P(t) = 1 + e^{-r(t-t_{0})}.Q` | $P(t)=\dfrac{Q}{1+e^{-r(t-t_0)}}$ |
-| Eq. 5.4 | `ch-05-energy-and-power-units.md:611` | `E = h\nu = hc` followed by a separate math block containing `\lambda,` | $E=h\nu=\dfrac{hc}{\lambda}$ |
-| Eq. 5.5 | `ch-05-energy-and-power-units.md:641` | `E_{\mathrm{eV}}= \lambda (\mu \mathrm{m}) eV .1.24` | $E_\mathrm{eV}=\dfrac{1.24}{\lambda(\mu\mathrm{m})}$ |
-| Eq. 6.10 | `ch-06-putting-thermal-energy-to-work.md:535` | `\epsilon_{cool}\le \frac{}{} = \frac{T_c}{\Delta T}` plus a spurious 3-row table holding $T_\mathrm{c}$, $T_\mathrm{h}-T_\mathrm{c}$, $T_\mathrm{h}$ | $\epsilon_\mathrm{cool}\le\dfrac{T_\mathrm{c}}{T_\mathrm{h}-T_\mathrm{c}}$ |
-| Eq. 6.11 | `ch-06-putting-thermal-energy-to-work.md:558` | `\epsilon_{heat}\le \frac{}{T_h-T_c}` — empty numerator | $\epsilon_\mathrm{heat}\le\dfrac{T_\mathrm{h}}{T_\mathrm{h}-T_\mathrm{c}}$ |
-| Eq. 6.13, 6.15 | `ch-06…:666`, `:702` | `\mathrm{EER}[\frac{Btu}{Wh}] 3600\mathrm{J/Wh} = \mathrm{EER}\cdot 0.293,1055\mathrm{J/Btu}` | EER × (1055 J/Btu)/(3600 J/Wh) = EER × 0.293 |
-| Eq. 9.4 | `ch-09-climate-change.md:310` | `T = [\frac{RF_{\odot}}{\sigma}]0.25 + 33` — exponent lost its superscript | $T=\left[\frac{RF_\odot}{\sigma}\right]^{0.25}+33$ (Eq. 9.6 has it right) |
-| Eq. 12.3 | `ch-12-wind-energy.md:225` | `\frac{\epsilon\rho\pi R^2 v^3}{ ^{\frac{1}{2}} 480R^2}` — the ½ landed in the denominator | $\dfrac{\frac{1}{2}\epsilon\rho\pi R^2v^3}{480R^2}$ |
-| Eq. 13.1 | `ch-13-solar-energy.md:39` | `= ^{\frac{hc}{\lambda}} \approx … = \lambda 1(.\mathrm{i}2\mathrm{n}4\mu \mathrm{emV})` — the last term is character-interleaved gibberish | …$=\dfrac{1.24}{\lambda(\mathrm{in}\ \mu\mathrm{m})}$ eV |
-| Eq. 13.4 | `ch-13-solar-energy.md:92` | `B_\lambda = \frac{2\pi hc^2}{\lambda^5}\frac{}{}\frac{W/m^2}{m}]` plus a spurious table holding `[`, `1`, `e^{hc/\lambda k_B T}-1` | $B_\lambda=\frac{2\pi hc^2}{\lambda^5}\frac{1}{e^{hc/\lambda k_\mathrm{B}T}-1}$ |
-| Eq. 16.2 | `ch-16-small-players.md:184` | `\frac{\epsilon mg}{\Delta t ^{\frac{h}{2}}}` — the $h/2$ landed in the denominator | $\dfrac{\epsilon mg\frac{h}{2}}{\Delta t}$ |
-| Eq. 16.5 | `ch-16-small-players.md:282` | `\frac{\rho\lambda\ell gA^2}{}` plus a spurious table holding `16\Delta t`, `8`, `= \rho gA^2 v` | $\dfrac{\rho\lambda\ell gA^2}{16\Delta t}$ |
-| Eq. 16.6 | `ch-16-small-players.md:295` | `P_{tot} = \frac{\rho\ell gA^2v}{}` — empty denominator; also numbered as literal text "(16.6)" so it carries no label | $\dfrac{\rho\ell gA^2v}{8}$ |
-| Eq. 16.7 | `ch-16-small-players.md:303` | `\frac{P_{tot}}{\ell} 8` — the whole right-hand side is missing; also literal "(16.7)" | $\dfrac{P_\mathrm{tot}}{\ell}=\dfrac{\rho gA^2v}{8}$ (which is what yields the text's 3,750 W/m) |
-| Eq. A.2 | `appendices/app-a…:159` | `b \cdot ^{\frac{x}{y}} = ^{\frac{?}{?}}` plus an orphan `\frac{a}{}` block and literal "(A.2)" | $\frac{a}{b}\cdot\frac{x}{y}=\frac{?}{?}$ |
-| Eq. A.3 | `appendices/app-a…:170–174` | "In math terms: 1 1 3 / 2 $\cdot ^{\frac{1}{2}} = ^{\frac{1}{4}}$…" then `\frac{}{3} = 1.` | $\frac12\cdot\frac12=\frac14$; $\frac12\cdot\frac45=\frac25$; $\frac13\cdot\frac33=1$ |
-| Eq. A.4 | `appendices/app-a…:181` | `^{\frac{a}{b}} \cdot ^{\frac{x}{y}} = …`; literal "(A.4)" | $\frac{a}{b}\cdot\frac{x}{y}=\frac{a\cdot x}{b\cdot y}$ |
-| Eq. A.5 | `appendices/app-a…:200–206` | "1 1 3 / 2 $+ 1 2 + ^{\frac14}=^{\frac34}$; 4 $<^{\frac12}+1$" then `\frac{}{2} = 1; \frac{}{} \frac{}{} \frac{}{} \frac{}{} \frac{}{} \frac{}{3} < 1` | $\frac12+\frac12=1$; $\frac12+\frac14=\frac34$; $\frac12+\frac13<1$ |
-| Eq. A.6 | `appendices/app-a…:246` | `x^{n}= ?1` (third clause) | $\frac{1}{x^n}=?$ |
-| Eq. A.9 | `appendices/app-a…:279` | `x^{n}= x^{-n}.1` | $\frac{1}{x^n}=x^{-n}$ |
-| Eq. A.12 | `appendices/app-a…:393` | `= \sqrt{c^{2}}- b^{2}` — the radical does not cover the subtraction | $\sqrt{c^2-b^2}$ |
-| Eq. B.1 | `appendices/app-b…:144` | `10012c + h + 16o + 14n kcal /\mathrm{g}.c + 0.3h - 0.5o` | $\dfrac{100(c+0.3h-0.5o)}{12c+h+16o+14n}$ kcal/g — confirmed by the worked sucrose example (13.1/342 = 3.8) and by all six rows of Table B.1 |
-| Eq. B.3 | `appendices/app-b…:203` | `R = 8.314 mol \cdot \mathrm{K.J}` | $R=8.314\ \mathrm{J/(mol\cdot K)}$ |
-| Eq. B.5 | `appendices/app-b…:235` | `k_B = 1.3806\times10^{-23} J` then a separate math block `\mathrm{K}.` | $1.3806\times10^{-23}$ J/K |
-
-### 5.2 Other broken math and math-adjacent text
-
-- `chapters/ch-16-small-players.md:455` — footnote 26: "$(v = **pgd**)$" — the
-  radical sign became the letter `p`; should be $v=\sqrt{gd}$.
-- `appendices/app-a-math-and-equations.md:120` — "throw in a **$pi/3$** factor" —
-  the LaTeX command lost its backslash; should be `$\pi/3$`.
-- `appendices/app-a-math-and-equations.md:434` — the drag-force dimension check
-  has `(\frac{\mathrm{m}}{\mathrm{s}})**2**` — exponent lost its superscript.
-- `appendices/app-a-math-and-equations.md:447–461` — Example A.10.2's
-  unit-conversion chains are unreadable: `person $=10^{4}\mathrm{J/s}$ person
-  $\cdot$ s $,10^{4}$ J`, then `person $\cdot$ s $\cdot 60 \mathrm{s}10^{4}$ J 1
-  $\min \cdot 60$ min1 hour $\cdot 24$ hour1 day $\cdot 365$ day1 year`, then
-  `$3.15 \times 10^{11}$ year $\cdot$ person$.\mathrm{J}$`.
-- `appendices/app-a-math-and-equations.md:473` — Example A.10.3 likewise:
-  `$1.04 \times 10^{20}$ year $\cdot 1$ BtuJ $1,$ 055 J $\cdot 1$
-  quadrillion$10^{15}\approx 100$ quadrillion $\mathrm{Btu}/$year$.$`
-- `appendices/app-a-math-and-equations.md:413` — Example A.10.1: `42 m s $=
-  \frac{4}{2}\cdot$ m` followed by `\frac{}{\mathrm{s}} = 2\mathrm{m/s}`.
-- `chapters/ch-09-climate-change.md:559`, `:580` — the two tables inside
-  Examples 9.4.2 and 9.4.3 lost their structure entirely; the header
-  ("component math depth (m)") and all rows run together on one line.
-- `chapters/ch-14-biological-energy.md:380` — Problem 5: "**5 $\times 10^{1}4$
-  kg**" — should be $5\times10^{14}$ kg. ("4kcal/g" in the same line is also
-  missing a space.)
-- `chapters/ch-15-nuclear-energy.md:1103` — Problem 24: "express the result in
-  the notation $^{\mathrm{A}}$**.X**" — should be $^{A}$X.
-- `chapters/ch-08-fossil-fuels.md:123–131` and
-  `chapters/ch-15-nuclear-energy.md:928–932` — in each case a set of three
-  reactions is given, but only the middle one is inside a numbered math block
-  (Eq. 8.1, Eq. 15.3); the other two are inline text, so the equation label
-  covers only one third of what it names.
-
-### 5.3 Missing space after inline math
+## 2. Missing space after inline math (conversion defect)
 
 58 places where a closing `$` is followed immediately by an English word, e.g.
 `ch-01:362` "$\sigma$is the Stefan–Boltzmann constant", `ch-05:215` "$m$is 10
@@ -536,9 +246,9 @@ kg", `ch-13:100` "$\lambda$and $T$ are variable", `ch-15:173` "$A$by 4",
 
 ---
 
-## 6. Lost and scrambled text (conversion defects)
+## 3. Lost and scrambled text (conversion defects)
 
-### 6.1 Text reordered across the print columns
+### 3.1 Text reordered across the print columns
 
 Four paragraphs read as nonsense because margin-column and body-column runs
 were interleaved:
@@ -574,9 +284,9 @@ Reconstructed: "These are just a few of the **countless examples that may be
 explored using Eq. 20.1 or variants thereof to evaluate the energy impact of
 dietary choices.**"
 
-**`appendices/app-c-selected-answers.md`** — the whole file; see §8.
+**`appendices/app-c-selected-answers.md`** — the whole file; see §5.
 
-### 6.2 Sentences truncated or lost outright
+### 3.2 Sentences truncated or lost outright
 
 - `chapters/ch-11-hydroelectric-energy.md:240` — an orphaned sentence fragment
   sits alone between two margin blocks: "*unusual, having already developed a
@@ -604,7 +314,7 @@ dietary choices.**"
   : 2
   ```
 
-### 6.3 Isotope superscripts detached throughout Chapter 15
+### 3.3 Isotope superscripts detached throughout Chapter 15
 
 Mass-number superscripts were extracted as separate text runs and dumped onto
 their own lines, leaving the prose wrong. Examples:
@@ -625,7 +335,7 @@ Stray digit-only lines survive at `ch-15:165` ("5 8"), `:226` ("8"), `:942`
 ("1 2"), `:1089` ("2"), and `appendices/app-a-math-and-equations.md:200`
 ("1 1 3").
 
-### 6.4 Isotope superscripts turned into *footnote references* — Chapter 15 boron
+### 3.4 Isotope superscripts turned into *footnote references* — Chapter 15 boron
 
 Three places where `$^{10}$B` / `$^{11}$B` became `[^10]` / `[^11]`, which is
 worse than a lost character: MyST resolves them as links to real footnotes with
@@ -638,7 +348,7 @@ natural gas; footnote 11 is about neutrinos).
 | `ch-15:478` | "Boron (**[^10]** ) is a**B** favorite choice" | Boron ($^{10}$B) is a favorite choice |
 | `ch-15:1031` | "…tend to contain **[^10]**, which has**B** a high neutron absorption cross section" | contain $^{10}$B, which has a high… |
 
-### 6.5 Words fused where a line break was removed
+### 3.5 Words fused where a line break was removed
 
 The de-hyphenation step joined words that were never hyphenated. 26 instances:
 
@@ -658,7 +368,7 @@ The de-hyphenation step joined words that were never hyphenated. 26 instances:
 Related: `ch-06:833` has "expend-**ing**" — a print hyphenation that was *not*
 rejoined.
 
-### 6.6 Dangling word fragments at page boundaries
+### 3.6 Dangling word fragments at page boundaries
 
 Words split across a printed page were left split, so a paragraph begins with
 half a word:
@@ -672,9 +382,9 @@ half a word:
 
 ---
 
-## 7. Structural and markup defects (conversion)
+## 4. Structural and markup defects (conversion)
 
-### 7.1 47 numbered margin notes lost
+### 4.1 47 numbered margin notes lost
 
 The print edition's numbered margin notes became Markdown footnotes, but 47 of
 them are gone — neither referenced nor defined — leaving gaps in the numbering:
@@ -716,7 +426,7 @@ Two related symptoms:
    "From U. Calgary. **27: Losing even a drop per second**…"); `ch-11:449`;
    `ch-12:417`; `ch-13:551`; `ch-14:415`; `ch-15:1214`.
 
-### 7.2 202 figure alt-texts damaged
+### 4.2 202 figure alt-texts damaged
 
 Every `:alt:` line is generated by stripping math from the caption and then
 truncating. Consequences:
@@ -736,7 +446,7 @@ truncating. Consequences:
 
 For screen-reader users these are the *only* description of 202 figures.
 
-### 7.3 Captions and titles split across block boundaries
+### 4.3 Captions and titles split across block boundaries
 
 The caption or admonition title ends up partly outside its own block, so it
 renders in the wrong place:
@@ -763,7 +473,7 @@ renders in the wrong place:
   `ch-15:989`, where the paragraph beginning "The smaller number of positive
   points…" is swallowed into the final bullet of the fusion cons list.
 
-### 7.4 Tables whose rows or columns were destroyed
+### 4.4 Tables whose rows or columns were destroyed
 
 - **`ch-04` Table 4.2** (line 118) is unusable. The fraction numerators became
   their own rows and the astronomical symbols were replaced by ASCII:
@@ -798,7 +508,7 @@ renders in the wrong place:
 - **`ch-13` Problem 26** (line 879): a full 13-column month table crushed into
   a single table cell (and Problem 27 at line 889 refers back to it).
 
-### 7.5 Stray artefacts left in the body text
+### 4.5 Stray artefacts left in the body text
 
 - `chapters/ch-05-energy-and-power-units.md:15` — a line of OCR from the
   chapter-opening photograph of a utility bill is sitting in the body directly
@@ -839,7 +549,7 @@ renders in the wrong place:
   one line: `ch-03:690`, `ch-04:439`, `ch-07:295`, `ch-09:759`, `ch-15:1053`,
   `ch-20:610`.
 
-### 7.6 Cross-references and citations not converted
+### 4.6 Cross-references and citations not converted
 
 - **12 bibliography citations** were not turned into links, so they render as
   bare bracketed numbers: `ch-02:43`, `ch-02:76`, `ch-03:26`, `ch-04:10`,
@@ -860,7 +570,7 @@ bibliography entries are present, unduplicated and correctly targeted.
 
 ---
 
-## 8. Appendix C is unusable
+## 5. Appendix C is unusable
 
 `appendices/app-c-selected-answers.md` needs to be regenerated from scratch.
 The print edition sets the answer key in two narrow columns; the converter read
@@ -910,22 +620,7 @@ One author erratum is visible through the damage, at line 15: "A smidge higher
 
 ---
 
-## 9. "rather then" for "rather than"
-
-Four occurrences, plus one in the answer key:
-
-- `chapters/ch-09-climate-change.md:593` — "concentrate heating in the upper layers **rather then** distributing uniformly"
-- `chapters/ch-15-nuclear-energy.md:1203` — footnote 34: "gravity does the pulling **rather then** relying on some other drive force"
-- `chapters/ch-20-adaptation-strategies.md:575` — "…when they come along, **rather then** being paralyzed by distress"
-- `appendices/app-d-alluring-tangents.md:109` — "**Rather then** rely on external studies"
-- `appendices/app-c-selected-answers.md:15` — "A smidge higher **then** boiling"
-
-(`chapters/ch-06-putting-thermal-energy-to-work.md:127` also matches the
-pattern — "This single number then indicates…" — but there "then" is correct.)
-
----
-
-## 10. Edition-consistency notes
+## 6. Edition-consistency notes
 
 Not errors in the source text, but places where this edition contradicts itself
 or the original:
@@ -955,17 +650,6 @@ or the original:
 | Class | Count |
 | --- | --- |
 | Numerical / factual errors | 17 |
-| Misspellings and wrong words | 23 |
-| Doubled words | 12 |
-| Subject–verb agreement faults | 21 |
-| Other grammatical faults | 16 |
-| Missing / doubled / stray punctuation | 17 |
-| Quotation-mark faults | 6 |
-| Imperatives punctuated as questions | 7 |
-| Dash / hyphen misuse | 5 |
-| "rather then" for "rather than" | 5 |
-| Broken display equations | 25 |
-| Other broken math | 10 |
 | Missing space after inline math | 58 |
 | Scrambled paragraphs | 4 (+ all of Appendix C) |
 | Sentences lost or truncated | 5 |

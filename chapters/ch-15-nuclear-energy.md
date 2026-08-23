@@ -495,7 +495,7 @@ Let us now examine the energetics, using the result from [Example 15.4.1](#ex-15
 | mass change | 0.18502 | 172.3 |
 :::
 
-The masses of each piece, according to the Chart of the Nuclides, appear in [Table 15.7](#tab-15-7). Again, we find that the mass sums don’t equal: the final parts are lighter than the inputs. The fission managed to lose 0.185 a.m.u. of mass, corresponding to 172 MeV of energy (via $E = mc^{2}$; see [Example 15.3.1](#ex-15-3-1)). That’s a 0.08% change in the mass, and converts to an energy density of roughly 17 *million* kcal/g, making the process over a million times more energy–dense than our customary $\sim 10$ kcal/g chemical energy density. See [Box 15.3](#box-15-3) for an example of how to compute this.
+The masses of each piece, according to the Chart of the Nuclides, appear in [Table 15.7](#tab-15-7). Again, we find that the mass sums don’t equal: the final parts are lighter than the inputs. The fission managed to lose 0.185 a.m.u. of mass, corresponding to 172 MeV of energy (via $E = mc^{2}$; see [Example 15.3.1](#ex-15-3-1)). That’s a 0.08% change in the mass, and converts to an energy density of roughly 17 *million* kcal/g, making the process over a million times more energy-dense than our customary $\sim 10$ kcal/g chemical energy density. See [Box 15.3](#box-15-3) for an example of how to compute this.
 
 ::::{admonition} Box 15.3: Nuclear Energy Density
 :class: tip
@@ -784,7 +784,7 @@ Collecting the advantages and disadvantages of fission, we start with the positi
 
 - Nuclear fission is proven technology providing a substantial fraction of electrical energy at present;
 
-- Life-cycle CO$_{2}$ emissions for nuclear fission is only 2% that of traditional fossil fuel electricity [[68](#ref-68)];
+- Life-cycle CO$_{2}$ emissions for nuclear fission are only 2% that of traditional fossil fuel electricity [[68](#ref-68)];
 
 :::{margin}
 [[68](#ref-68)]: (2020), *Life Cycle GHG Emissions*
@@ -815,7 +815,7 @@ Nuclear fission is a complex topic that has compelling advantages and worrisome 
 (sec-15-5)=
 ## 15.5 Fusion
 
-Given that fission has problems of finite uranium supply, radioactive waste, proliferation and weapons, and safety issues, its future is uncertain. Fusion, on the other hand, is not plagued by most of these issues. It’s main problem is that it is incredibly difficult and has been in the research stage for 70 years. Other than that, it has many (virtual) virtues. To be clear, the world does not have and never has had an operational fusion power plant. It *may* belong to the future, but is not guaranteed to ever become practical.
+Given that fission has problems of finite uranium supply, radioactive waste, proliferation and weapons, and safety issues, its future is uncertain. Fusion, on the other hand, is not plagued by most of these issues. Its main problem is that it is incredibly difficult and has been in the research stage for 70 years. Other than that, it has many (virtual) virtues. To be clear, the world does not have and never has had an operational fusion power plant. It *may* belong to the future, but is not guaranteed to ever become practical.
 
 :::{figure} ../images/fig-15-22.svg
 :label: fig-15-22
@@ -839,15 +839,15 @@ instead of 1 billion. And colliding one deuteron with a triton[^61] ( H nucleus,
 
 For all three types, the relevant reactions[^62] are:
 
-p $-$ p: $^{1}$H $+ ^{1}$H $+ ^{1}$H $+ ^{1}$H $\rightarrow ^{4}$He $+ 26.7$ MeV
-
 :::{math}
 :label: eq-15-3
 :enumerator: 15.3
-D - D : ^{2} H + ^{2} H \rightarrow ^{4} He + 23.8 MeV
+\begin{align}
+\mathrm{p-p} &: {}^{1}\mathrm{H} + {}^{1}\mathrm{H} + {}^{1}\mathrm{H} + {}^{1}\mathrm{H} \rightarrow {}^{4}\mathrm{He} + 26.7\ \mathrm{MeV}\\
+\mathrm{D-D} &: {}^{2}\mathrm{H} + {}^{2}\mathrm{H} \rightarrow {}^{4}\mathrm{He} + 23.8\ \mathrm{MeV}\\
+\mathrm{D-T} &: {}^{2}\mathrm{H} + {}^{3}\mathrm{H} \rightarrow {}^{4}\mathrm{He} + \mathrm{n} + 17.6\ \mathrm{MeV}
+\end{align}
 :::
-
-D $-$ T: $^{2}$H $+ ^{3}$H $\rightarrow ^{4}$He $+$ n $+ 17.6$ MeV
 
 But the 45 million degrees required for D–T fusion is still frightfully hard to achieve. No containers will withstand temperatures beyond a few thousand degrees. Containment—or confinement—is the big challenge then. The multi-million degree plasma[^63] cannot be permitted to touch the
 
@@ -890,7 +890,7 @@ As for the fusion enterprise, an effort called ITER ([Figure 15.23](#fig-15-23))
 ITER tokamak cut-away where the plasma would be created. The white outer chamber is the size of a six-story building. From the ITER Organization.
 :::
 
-An effort in the U.S. called the nuclear ignition facility (NIF) is pursuing a different approach to fusion research: attempting to implode a tiny sphere of D–T mixture by blasting it with 192 converging laser beams, crushing it to enormous pressure exceeding that in a star’s interior, leading to an explosive release of heat. The building, mostly taken up by gigantic lasers, is the size of three football fields and has so far cost something to the tune of \$10 billion. Again, this experimental facility is not provisioned to harness any net energy gain[^72] to create electricity.
+An effort in the U.S. called the National Ignition Facility (NIF) is pursuing a different approach to fusion research: attempting to implode a tiny sphere of D–T mixture by blasting it with 192 converging laser beams, crushing it to enormous pressure exceeding that in a star’s interior, leading to an explosive release of heat. The building, mostly taken up by gigantic lasers, is the size of three football fields and has so far cost something to the tune of \$10 billion. Again, this experimental facility is not provisioned to harness any net energy gain[^72] to create electricity.
 
 Let’s say that by the year 2050, we will have mastered the art and can build a 1 GW electrical-output[^73] fusion plant for \$15 billion. That’s \$15 per Watt of output, which we can compare to a present-day solar utility-scale installation cost of \$1 per peak Watt [[89](#ref-89)]. Applying typical capacity factors[^74] puts fusion at twice what solar costs *already*, today.
 
@@ -921,10 +921,10 @@ And now the not-so-good aspects:
 (sec-15-6)=
 ## 15.6 Upshot on Nuclear
 
-Nuclear fission is a real thing: it can and does produce a significant fraction the world’s power. A number of substantive challenges stand in the way of scaling up significantly.[^76] For conventional nuclear fission as it has been practiced thus far, the proven reserves of uranium only last 90 years at today’s rate of use, and less than 4 years if we tried to get all 18 TW from fission. Radioactive waste is an unsolved problem that persists for hundreds to thousands of years. Breeder programs can extend the resource by large factors (into the 500 or 1,000 year range under an 18 TW nuclear-breeder effort). But proliferation and bomb dangers become more pronounced—not to mention an even more pressing waste issue and greater accident rates given the profusion of operating reactors. It can be difficult to get excited about a nuclear future. It is very cool that we figured out how to do it. But just because we *can* do something does not mean it is a good idea to scale it up.
+Nuclear fission is a real thing: it can and does produce a significant fraction of the world’s power. A number of substantive challenges stand in the way of scaling up significantly.[^76] For conventional nuclear fission as it has been practiced thus far, the proven reserves of uranium only last 90 years at today’s rate of use, and less than 4 years if we tried to get all 18 TW from fission. Radioactive waste is an unsolved problem that persists for hundreds to thousands of years. Breeder programs can extend the resource by large factors (into the 500 or 1,000 year range under an 18 TW nuclear-breeder effort). But proliferation and bomb dangers become more pronounced—not to mention an even more pressing waste issue and greater accident rates given the profusion of operating reactors. It can be difficult to get excited about a nuclear future. It is very cool that we figured out how to do it. But just because we *can* do something does not mean it is a good idea to scale it up.
 
 :::{margin}
-Pros and cons are listed separately for PV and ST in [Section 15.4.8](#sec-15-4-8) and [Section 15.5.3](#sec-15-5-3), respectively.
+Pros and cons are listed separately for fission and fusion in [Section 15.4.8](#sec-15-4-8) and [Section 15.5.3](#sec-15-5-3), respectively.
 
 :::
 
@@ -1002,7 +1002,7 @@ Hint: [Fig. 15.10](#fig-15-10) is binding energy *per nucleon*.
 
    a) any number of fragments (2 through 235) can be produced b) a small number of fragments will emerge (2 to 5) c) two nearly identical fragments will emerge d) two fragments of distinctly different size will emerge e) the fission is an alpha decay: a small piece having $A = 4$ is emitted
 
-24. A particular fission of $^{235}$U $+$ n (total $A = 236)$ breaks up. One fragment has $Z = 54$ and $N = 86$, making it $^{140}$Xe. If no extra neutrons are produced in this event, what must the other fragment be, so all numbers add up? Refer to a periodic table (e.g., [Fig. B.1](#fig-b-1); p. 387) to learn which element has the corresponding $Z$ value, and express the result in the notation $^{\mathrm{A}}$.X
+24. A particular fission of $^{235}$U $+$ n (total $A = 236)$ breaks up. One fragment has $Z = 54$ and $N = 86$, making it $^{140}$Xe. If no extra neutrons are produced in this event, what must the other fragment be, so all numbers add up? Refer to a periodic table (e.g., [Fig. B.1](#fig-b-1); p. 387) to learn which element has the corresponding $Z$ value, and express the result in the notation $^{A}$X
 
 25. Follow the same scenario as in Problem 24, except this time *two* neutrons are left out of the final fragments. What is the smaller fragment this time, if the larger one is still $^{140}$Xe?
 
@@ -1084,7 +1084,7 @@ Hint: start by adding a neutron to $^{232}$Th
 
 40. On balance, considering the benefits and downsides of conventional nuclear fission, where do you come down in terms of support for either terminating, continuing, or expanding our use of this technology? Should we pursue breeder reactors at a large scale? Please justify your conclusion based on the things you consider to be most important.
 
-41. The sun is a fusion power plant producing $3.8 \times 10^{26}$ W of power. How many kilograms of mass does it lose in a year trough pure energy conversion? How does this compare to the mass of a spherical asteroid 50 km in diameter whose density is 2,000 $\mathrm{kg/m}^{3}$?
+41. The sun is a fusion power plant producing $3.8 \times 10^{26}$ W of power. How many kilograms of mass does it lose in a year through pure energy conversion? How does this compare to the mass of a spherical asteroid 50 km in diameter whose density is 2,000 $\mathrm{kg/m}^{3}$?
 
 :::{margin}
 Hint: the volume of a sphere is $4\pi R^{3}/3$.
@@ -1130,7 +1130,7 @@ Hint: the volume of a sphere is $4\pi R^{3}/3$.
 [^29]: This result, by the way, is the same as 172.3 MeV in [Table 15.7](#tab-15-7) using the conversion that 1 MeV is $1.6022 \times 10^{-13}$ J.
 [^32]: Binding energy *reduces* mass, so larger binding energy means lighter overall mass.
 [^33]: Each missing neutron deprives us of more than the standard $\sim 8$ MeV per nucleon, as neutrons have no penalty for repulsive electric charge. The 8 MeV per nucleon is an average over protons and neutrons.
-[^34]: … always this direction, so that gravity does the pulling rather then relying on some other drive force
+[^34]: … always this direction, so that gravity does the pulling rather than relying on some other drive force
 [^35]: From this, we glean that reactors average roughly 1 GW each.
 [^36]: Recall, for context, that solar is not among the *cheaper* energy resources. Like solar, nuclear power is dominated by up-front costs, rather than fuel cost.
 [^37]: A trace amount, 0.0055%, is in $^{234}$U.
@@ -1154,7 +1154,7 @@ Hint: the volume of a sphere is $4\pi R^{3}/3$.
 [^55]: … in the absence of breeder reactor implementation
 [^56]: … a clear, but not overwhelming, result
 [^57]: We might also acknowledge an intrinsic psychological appeal for complex topics that have been mastered: a sort of pride in the privileged comprehension that might transfer to warm feelings for the subject.
-[^58]: The calculation is that 0.0287 a.m.u. corresponds to $\Delta m = 4.8 \times 10^{-29}$ kg, or $E = \Delta mc^{2}= 4.2 \times 10^{-12}$ J (26.7 MeV). We convert the Joules to kcal by dividing by 4,184, and then divide by the input mass in grams (4.03 a.m.u. times $1.6605 \times 10^{-24}$ g/a.m.u.) to get 153 kcal/g. Starting with two deuterium nuclei reduces energy yield a bit to to 137 kcal/g, and for deuterium-tritium reactions it’s down to 81 million kcal/g.
+[^58]: The calculation is that 0.0287 a.m.u. corresponds to $\Delta m = 4.8 \times 10^{-29}$ kg, or $E = \Delta mc^{2}= 4.2 \times 10^{-12}$ J (26.7 MeV). We convert the Joules to kcal by dividing by 4,184, and then divide by the input mass in grams (4.03 a.m.u. times $1.6605 \times 10^{-24}$ g/a.m.u.) to get 153 million kcal/g. Starting with two deuterium nuclei reduces energy yield a bit to 136 million kcal/g, and for deuterium-tritium reactions it’s down to 81 million kcal/g.
 [^59]: For temperatures this high, it does not matter whether we specify Kelvin or Celsius, as the 273 degree difference is nothing compared to a billion degrees. The scales are therefore essentially identical here.
 [^60]: This is no accident: if the center were too cool, the sun would contract in the absence of radiation pressure until the center heated up from the compression and nuclear fusion ignited—just enough to hold off further contraction. It finds its own equilibrium right at the edge of fusion. In the case of the sun, all it takes is one out of every $10^{26}$ collisions to stick in order to keep the lights on.
 [^61]: If only the UCSD mascot were named after *this* triton…
