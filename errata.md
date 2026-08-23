@@ -117,10 +117,12 @@ order, instead of the converter's straight-across-both-columns reading order
 that had interleaved answers from different chapters throughout all 810
 lines. All twenty chapters' answer keys are now in order, under correct
 headings, with the "then"/"than" author erratum on the Chapter 1 answer also
-fixed. One residual ambiguity is flagged in place with an HTML comment:
-Chapter 17 has two answers both numbered "10" in the source PDF's own
-column-split layout; both are preserved in original reading order pending
-verification against the print edition.
+fixed. (An initial pass mis-attributed five answers on print p. 403 — items 8,
+9, 10, 13, 14 at the top of the right-hand column — to Chapter 17, reading
+them as a straight continuation of the left column; checked against the PDF
+image, that right-column run is actually the continuation of Chapter 19's
+answer key, confirmed against Chapter 19's own problem numbers. Moved
+accordingly, leaving Chapter 17 with its one genuine answer 10.)
 
 ---
 

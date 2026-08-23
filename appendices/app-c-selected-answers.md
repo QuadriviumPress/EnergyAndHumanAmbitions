@@ -710,19 +710,7 @@ This appendix, then, might be thought of as an “intuition implant” that simu
 
 7. Think about what a house *can* access, and steam plants
 
-8. Wait; who has my…
-
-9. Focus on what has mattered until now
-
-<!-- TODO: verify against print p.403 — the source PDF shows two items both numbered "10" in this chapter's answer key ("May be up there with solar (4 to 6, likely)" and "What's the alternative?"), split across the print page's two columns. Both are transcribed below in the order they appear in the original; one may carry a typo in the print numbering. -->
-
 10. May be up there with solar (4 to 6, likely)
-
-10. What’s the alternative?
-
-13. Please figure out how it can work!
-
-14. Is this the movie version, or the real-life one?
 
 ## Chapter 18
 
@@ -757,6 +745,16 @@ This appendix, then, might be thought of as an “intuition implant” that simu
 5. What limits?
 
 7. Does it bear on humanity in some way?
+
+8. Wait; who has my…
+
+9. Focus on what has mattered until now
+
+10. What’s the alternative?
+
+13. Please figure out how it can work!
+
+14. Is this the movie version, or the real-life one?
 
 ## Chapter 20
 
