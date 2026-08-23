@@ -7,7 +7,7 @@ label: how-to-use-this-book
 # How to Use This Book
 
 :::{note} About this section
-The author wrote this guide for the printed and PDF editions. Its description of margins, blue hyperlinks and “back” navigation refers to those editions; the [home page](../index.md) explains how the same conventions appear here. Everything it says about the structure of the book — call-out boxes, examples, appendices, bibliography, glossary — applies to this edition too.
+The author wrote this guide for the printed and PDF editions. Its description of margins, blue hyperlinks and “back” navigation refers to those editions; the [home page](../index.md) explains how the same conventions appear here. Everything it says about the structure of the book — call-out boxes, examples, appendices, bibliography, glossary — applies to this edition too, with one exception: the alphabetical Index mentioned below is omitted from this edition (see the [home page](../index.md)), since its page numbers have no web equivalent and site search covers the same ground.
 :::
 
 This version of the book—available for free in digital form at <https://escholarship.org/uc/energy_ambitions>—is prepared in a two-side mode intended for printing. A single-sided version better-suited for electronic viewing is also available at the aforementioned site. Most graphics are vector-based and can be safely magnified to alarming proportions in the digital version, if hard to read in print.

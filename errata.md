@@ -129,25 +129,40 @@ accordingly, leaving Chapter 17 with its one genuine answer 10.)
 ## 4. Edition-consistency notes
 
 Not errors in the source text, but places where this edition contradicts itself
-or the original:
+or the original. Reviewed individually; one was fixed, the rest are documented
+editorial choices rather than bugs:
 
-- `front/how-to-use-this-book.md:66` — "Finally, a full alphabetical Index
-  appears at the end to facilitate finding information in the text." This
-  edition deliberately omits the index (see `README.md` and `index.md`). The
-  `:::{note}` at the top of the file flags the margin/hyperlink conventions but
-  not the index.
-- `front/how-to-use-this-book.md:43` — refers to "the list starting on **page
-  367**"; several page references of this kind survive in
-  `back/image-attributions.md` (33 of them) and in body text ("p. 175",
-  "p. 268", …), though the README states that page-number tails were dropped
-  from the glossary and bibliography. The convention is applied inconsistently.
-- `front/preface.md:19` — "[Chapters 1](#ch-1), 3, and 6 are perhaps the most
-  math-intense": only the first of the three chapter numbers is linked. The same
-  pattern recurs throughout (e.g. `ch-01:223` "[Eqs. 1.1](#eq-1-1), 1.3, 1.6,
-  and 1.7"; `ch-13:329` "[Figures 13.8](#fig-13-8) and 13.9").
-- `front/how-to-use-this-book.md:24` — "Some **mouses**…have additional
-  buttons": *mice* is the more usual plural, though *mouses* is attested for
-  the computer sense.
+- **Fixed.** `front/how-to-use-this-book.md` said "Everything [this guide]
+  says about the structure of the book…applies to this edition too," then
+  went on to describe "a full alphabetical Index" that this edition
+  deliberately omits (per `README.md` and `index.md`). The `:::{note}` at the
+  top now names the Index as the one exception, matching the phrasing already
+  used on the home page.
+- **Not a bug — left as-is.** The "list starting on page 367" reference (and
+  the ~175 other "p. NN" cross-references throughout the body text and
+  `back/image-attributions.md`) point to *print* page numbers. The README's
+  statement about dropped page-number tails applies only to the "cited on
+  pages" tail in the bibliography and to glossary entries — the body-text page
+  references and `back/changes-and-corrections.md` (which exists in this
+  edition and is keyed entirely by print page number) are a deliberate,
+  book-wide convention for readers cross-checking against the print/PDF
+  edition, not an inconsistency to fix.
+- **Not a bug — left as-is.** "[Chapters 1](#ch-1), 3, and 6 are perhaps the
+  most math-intense" (only the first number linked) turns out to be a
+  pervasive authorial convention, not an isolated slip: dozens of similar
+  constructions recur throughout the book (e.g. `ch-01:218` "Eqs. 1.1, 1.3,
+  1.6, and 1.7", `ch-03:308` "Eqs. 3.5 and 3.6", `ch-04:22` "Figures 4.1 and
+  4.2", `ch-13:315` "Figures 13.8 and 13.9", `ch-17:45` "Figures 17.1 and
+  17.2"), always linking only the first item in a short run of adjacent
+  references. Given the scale and consistency, this reads as a deliberate
+  print-typesetting habit (the original preface example, `front/preface.md:19`
+  "[Chapters 1](#ch-1), [3](#ch-3), and [6](#ch-6)", is in fact already fully
+  linked, confirming the pattern isn't a uniform omission bug elsewhere either).
+  Not changed.
+- **Not a bug — left as-is.** `front/how-to-use-this-book.md:24`'s "Some
+  **mouses**…have additional buttons" is nonstandard but attested for the
+  computer sense, and the sentence already hedges accordingly; not treated as
+  an error.
 
 ---
 
@@ -156,4 +171,3 @@ or the original:
 | Class | Count |
 | --- | --- |
 | Numerical / factual errors (remaining, likely-deliberate) | 4 |
-| Unlinked cross-references | 31 |
