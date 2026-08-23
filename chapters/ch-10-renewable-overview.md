@@ -139,7 +139,7 @@ Not all the sunlight arriving at the top of the atmosphere makes it to the surfa
 
 :::
 
-Clouds and ice (mostly) reflect almost 30% of incoming sunlight, leaving 123,000 TW to be absorbed by land, water, and atmosphere in various forms (see [Table 10.2](#tab-10-2)). Virtually all of the energy hitting the surface goes to direct thermal absorption,[^16] much of which then flows into evaporation of water—the starting point of the hydrological cycle. A tiny portion of the absorbed energy gives rise to wind, some of which will drive waves. An even smaller portion contributes to photosynthesis and supports essentially all life (biology) on the planet. And finally, a tiny fragment of the absorbed energy drives ocean currents. [Table 10.2](#tab-10-2) tracks where the incoming solar energy goes, in several stages, also listing non-solar geothermal and tidal contributions. For comparison, the current energy scale of human activity is approximately 18 TW, while human metabolism,[^17] is about 0.8 TW.
+Clouds and ice (mostly) reflect almost 30% of incoming sunlight, leaving 123,000 TW to be absorbed by land, water, and atmosphere in various forms (see [Table 10.2](#tab-10-2)). Virtually all of the energy hitting the surface goes to direct thermal absorption,[^16] much of which then flows into evaporation of water—the starting point of the hydrological cycle. A tiny portion of the absorbed energy gives rise to wind, some of which will drive waves. An even smaller portion contributes to photosynthesis and supports essentially all life (biology) on the planet. And finally, a tiny fragment of the absorbed energy drives ocean currents. [Table 10.2](#tab-10-2) tracks where the incoming solar energy goes, in several stages, also listing non-solar geothermal and tidal contributions. For comparison, the current energy scale of human activity is approximately 18 TW, while human metabolism[^17] is about 0.8 TW.
 
 :::{table} Earth’s energy input budget. Symbols $\odot, \oplus$, and \$represent Sun, Earth, and Moon, respectively. The second group breaks out the solar input into three pieces that add to the total in the row above. The third group all comes from absorbed energy—mostly at Earth’s surface. The last group is not from radiant solar energy, so that percentages are in parentheses as they do not belong to the solar budget [[63](#ref-63)–[65](#ref-65)].
 :label: tab-10-2
@@ -169,7 +169,7 @@ A nice round-number approximation of full overhead sunlight is that it delivers 
 
 ::::
 
-::::{admonition} Example
+::::{admonition} Example 10.3.2 — Solar Heating (cont.)
 :class: seealso
 
 The table will absorb 1,000 J per second,[^19] and therefore receives 600,000 J over the course of ten minutes. Multiplying the specific heat capacity by the table mass means the table absorbs 20,000 J for every $1^{\circ}\mathrm{C}$ of temperature rise, and therefore would climb $30^{\circ}\mathrm{C}$ in 10 minutes, in this case. That’s a little unrealistically high, because a real table would also have cooling influences from the air and infrared radiation. But the main point is to show how absorbed sunlight heats things up—like the Earth.
@@ -188,7 +188,7 @@ Three neat insights come out of this. First, we currently burn fossil fuels at a
 
 Secondly, out of the total 100 TW photosynthetic budget on Earth, only 30 MW gets captured as fossil fuels, which is one part in three-million. Therefore, the chances that any given living matter on the planet today eventually ends up converted to fossil fuels is exceedingly slim.
 
-Finally, if we only used fossil fuels at a rate of 30 MW,[^24], then we *could* consider fossil fuels to be a renewable resource, as the sun/geology will slowly make more! So whether or not something is renewable also relies on the *rate* of use not exceeding the rate at which it is replenished.
+Finally, if we only used fossil fuels at a rate of 30 MW,[^24] then we *could* consider fossil fuels to be a renewable resource, as the sun/geology will slowly make more! So whether or not something is renewable also relies on the *rate* of use not exceeding the rate at which it is replenished.
 
 ::::
 

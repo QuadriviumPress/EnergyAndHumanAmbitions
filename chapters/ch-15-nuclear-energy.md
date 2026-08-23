@@ -418,7 +418,7 @@ When the nucleus breaks up, the pieces fly out at high speed, carrying kinetic e
 
 As we have seen, in order to get fission to happen, we need $^{235}$U and some wandering neutrons. Once fission commences, the breakup of the nucleus usually “drips” a few spare neutrons, like crumbs left after cutting a piece of bread. The left-over neutrons provide a replenished source of neutrons ready to initiate more fission events. Now the door is open for a chain reaction, in which the neutrons produced by the fission events are the very things needed to stimulate additional fission events.
 
-When the nucleus splits, any extra neutrons come out “hot” (high speed), which tend to bounce off uranium nuclei without sticking. They need to be slowed down, which is accomplished by a moderator: basically light atoms[^26] that can receive the neutron impact as a sort of damping medium. Then the main trick is to prevent a runaway that could occur if *too many* neutrons become available; in which case it’s a party that can get out of control. So nuclear plants employ control rods containing materials particularly effective at absorbing (trapping) neutrons. The colors of the lower halves of some squares in the Chart of the Nuclides ([Figure 15.4](#fig-15-4)) indicate neutron capture cross section. Boron ([^10] ) is aB favorite choice to soak up neutrons and tame (or even halt) the reaction. The goal is to maintain a chain reaction that produces a net balance of **exactly one** unabsorbed slow neutron per fission event, available to attach itself to a waiting $^{235}$U nucleus.
+When the nucleus splits, any extra neutrons come out “hot” (high speed), which tend to bounce off uranium nuclei without sticking. They need to be slowed down, which is accomplished by a moderator: basically light atoms[^26] that can receive the neutron impact as a sort of damping medium. Then the main trick is to prevent a runaway that could occur if *too many* neutrons become available; in which case it’s a party that can get out of control. So nuclear plants employ control rods containing materials particularly effective at absorbing (trapping) neutrons. The colors of the lower halves of some squares in the Chart of the Nuclides ([Figure 15.4](#fig-15-4)) indicate neutron capture cross section. Boron ($^{10}$B) is a favorite choice to soak up neutrons and tame (or even halt) the reaction. The goal is to maintain a chain reaction that produces a net balance of **exactly one** unabsorbed slow neutron per fission event, available to attach itself to a waiting $^{235}$U nucleus.
 
 (sec-15-4-3)=
 ### 15.4.3 Fission Accounting
@@ -495,7 +495,7 @@ Let us now examine the energetics, using the result from [Example 15.4.1](#ex-15
 | mass change | 0.18502 | 172.3 |
 :::
 
-The masses of each piece, according to the Chart of the Nuclides, appear in [Table 15.7](#tab-15-7). Again, we find that the mass sums don’t equal: the final parts are lighter than the inputs. The fission managed to lose 0.185 a.m.u. of mass, corresponding to 172 MeV of energy (via $E = mc^{2}$; see [Example 15.3.1](#ex-15-3-1)). That’s a 0.08% change in the mass, and converts to an energy density of roughly 17 *million* kcal/g, making the process over a million times more energy–dense than our customary $\sim 10$ kcal/g chemical energy density. See [Box 15.3](#box-15-3) for an example of how to compute this.
+The masses of each piece, according to the Chart of the Nuclides, appear in [Table 15.7](#tab-15-7). Again, we find that the mass sums don’t equal: the final parts are lighter than the inputs. The fission managed to lose 0.185 a.m.u. of mass, corresponding to 172 MeV of energy (via $E = mc^{2}$; see [Example 15.3.1](#ex-15-3-1)). That’s a 0.08% change in the mass, and converts to an energy density of roughly 17 *million* kcal/g, making the process over a million times more energy-dense than our customary $\sim 10$ kcal/g chemical energy density. See [Box 15.3](#box-15-3) for an example of how to compute this.
 
 ::::{admonition} Box 15.3: Nuclear Energy Density
 :class: tip
@@ -640,8 +640,7 @@ Evaluating the uranium reserves in energy terms is the most revealing
 | silicon | 282,000 | carbon | 200 | thorium | 9.6 |
 | aluminum | 82,300 | copper | 60 | uranium | 2.7 |
 | iron | 56,300 | lithium | 20 | silver | 0.075 |
-|   |   |   |   | 235 |   |
-| calcium | 41,500 | lead | 14 | U | 0.02 |
+| calcium | 41,500 | lead | 14 | $^{235}$U | 0.02 |
 | titanium | 5,650 | boron | 10 | gold | 0.004 |
 :::
 
@@ -656,8 +655,7 @@ approach. First, we take 0.72% of the 7.6 million tons available to represent th
 | Coal | 20 |
 | Oil | 10 |
 | Gas | 8 |
-| 235 |   |
-| U | 2 |
+| $^{235}$U | 2 |
 :::
 
 Proven uranium reserves would last 90 years at the *current* rate of use, so really it is in a category fairly similar to that of fossil fuels in terms of finite supply. To be fair, proven reserves are always a conservative lower limit on estimated total resource availability. And since fuel cost is not the limiting factor for nuclear plants, higher uranium prices can make more available, from more difficult deposits. Still, even a factor of two more does not transform the story into one of an ample, worry-free resource.
@@ -721,12 +719,7 @@ The lighter of the two fission fragments has a 59% chance of landing on a stable
 :enumerator: 15.19
 :alt: Decay activity of fragments
 
-Decay activity of fragments
-:::
-
-:::{margin}
-from 1 kg of fissioned $^{235}$U over time, on a log–log plot. The vertical axis is the power of radioactive emission, in W, for a variety of relevant isotopes—each having their own characteristic half life. The black line at the top is the total activity (sum of all contributions), and some of the key individuals are separated out. The dashed line for actinides is an approximate representative indicator of the role played by heavy nuclides formed in the reactor by uranium absorption of neutrons. Minor tick marks are at multipliers of 2, 4, 6, and 8 for each axis. As a matter of possible interest, the exponential decays of each element on this log–log plot have the functional form of exponential curves drawn upside-down.
-
+Decay activity of fragments from 1 kg of fissioned $^{235}$U over time, on a log–log plot. The vertical axis is the power of radioactive emission, in W, for a variety of relevant isotopes—each having their own characteristic half life. The black line at the top is the total activity (sum of all contributions), and some of the key individuals are separated out. The dashed line for actinides is an approximate representative indicator of the role played by heavy nuclides formed in the reactor by uranium absorption of neutrons. Minor tick marks are at multipliers of 2, 4, 6, and 8 for each axis. As a matter of possible interest, the exponential decays of each element on this log–log plot have the functional form of exponential curves drawn upside-down.
 :::
 
 [Figure 15.19](#fig-15-19) shows how the fission decays play out over time. For the first month or so out of the reactor, the spent fuel is really “hot” radioactively, but falls quickly as $^{95}$Zr and then $^{144}$Ce dominate around one year out. At about 5 years, the pair of $^{90}$Sr and $^{137}$Cs begin to dominate the output for the next few-hundred years. Some of the products survive for millions of years, albeit at low levels of radioactive power. In addition to the daughter fragments, uranium in the presence of neutrons transmutes into neptunium, plutonium, americium, and curium via neutron absorption and subsequent $\beta ^{-}$ decays, represented approximately and collectively in [Figure 15.19](#fig-15-19) by a dashed curve labeled Actinides.[^47]
@@ -784,7 +777,7 @@ Collecting the advantages and disadvantages of fission, we start with the positi
 
 - Nuclear fission is proven technology providing a substantial fraction of electrical energy at present;
 
-- Life-cycle CO$_{2}$ emissions for nuclear fission is only 2% that of traditional fossil fuel electricity [[68](#ref-68)];
+- Life-cycle CO$_{2}$ emissions for nuclear fission are only 2% that of traditional fossil fuel electricity [[68](#ref-68)];
 
 :::{margin}
 [[68](#ref-68)]: (2020), *Life Cycle GHG Emissions*
@@ -805,7 +798,7 @@ And for the downsides:
 
 - Accidents happen even to the best-managed reactors, the consequences often being severe for a region.
 
-Nuclear fission is a complex topic that has compelling advantages and worrisome faults. Not surprisingly, attitudes are highly mixed. One survey [[104](#ref-104)] indicates that adults in the U.S. oppose building more nuclear plant by a slim 51% to 45%, while scientists overall favor advancing nuclear plants by a 2:1 margin,[^56] and physicists surveyed favored nuclear by 4:1. Scientists are much more likely to view climate change as a serious threat than the U.S. population as a whole, and therefore are likely to be attracted to energy resources that do not emit CO$_{2}$. Of the physicists surveyed, it would be a mistake to assume that even the majority know the topic as thoroughly as it is covered in this chapter—given the degree of specialization within the field. Among those who understand the topic thoroughly[^57] it is almost certain you’d find a healthy split: those for whom the perils outweigh advantages, and those who are concerned enough about climate change to accept the “lesser of two evils,” and/or who are enthusiastic about the technology as a glowing example of our mastery over nature’s hidden secrets.
+Nuclear fission is a complex topic that has compelling advantages and worrisome faults. Not surprisingly, attitudes are highly mixed. One survey [[104](#ref-104)] indicates that adults in the U.S. oppose building more nuclear plants by a slim 51% to 45%, while scientists overall favor advancing nuclear plants by a 2:1 margin,[^56] and physicists surveyed favored nuclear by 4:1. Scientists are much more likely to view climate change as a serious threat than the U.S. population as a whole, and therefore are likely to be attracted to energy resources that do not emit CO$_{2}$. Of the physicists surveyed, it would be a mistake to assume that even the majority know the topic as thoroughly as it is covered in this chapter—given the degree of specialization within the field. Among those who understand the topic thoroughly[^57] it is almost certain you’d find a healthy split: those for whom the perils outweigh advantages, and those who are concerned enough about climate change to accept the “lesser of two evils,” and/or who are enthusiastic about the technology as a glowing example of our mastery over nature’s hidden secrets.
 
 :::{margin}
 [[104](#ref-104)]: Pew Research (2015), “Elaborating on the Views of AAAS Scientists, Issue by Issue”
@@ -815,7 +808,7 @@ Nuclear fission is a complex topic that has compelling advantages and worrisome 
 (sec-15-5)=
 ## 15.5 Fusion
 
-Given that fission has problems of finite uranium supply, radioactive waste, proliferation and weapons, and safety issues, its future is uncertain. Fusion, on the other hand, is not plagued by most of these issues. It’s main problem is that it is incredibly difficult and has been in the research stage for 70 years. Other than that, it has many (virtual) virtues. To be clear, the world does not have and never has had an operational fusion power plant. It *may* belong to the future, but is not guaranteed to ever become practical.
+Given that fission has problems of finite uranium supply, radioactive waste, proliferation and weapons, and safety issues, its future is uncertain. Fusion, on the other hand, is not plagued by most of these issues. Its main problem is that it is incredibly difficult and has been in the research stage for 70 years. Other than that, it has many (virtual) virtues. To be clear, the world does not have and never has had an operational fusion power plant. It *may* belong to the future, but is not guaranteed to ever become practical.
 
 :::{figure} ../images/fig-15-22.svg
 :label: fig-15-22
@@ -825,11 +818,7 @@ Given that fission has problems of finite uranium supply, radioactive waste, pro
 Fusion concept: helium from deuterium.
 :::
 
-First, the basics. We have alluded to the fact that fusion builds from the 1
-
-small to the big. Putting four H nuclei together, at 1.007825 a.m.u. each 4
-
-and forming He at 4.0026033 a.m.u. leaves a difference of 0.0287 a.m.u.— 0.7% of the total mass—which amounts to 153 million kcal/g.[^58] This is *almost ten times* as large as the amount for fission (17 million kcal/g; [Box 15.3](#box-15-3)), making it ten-million times more potent than chemical reactions. Recall that fusion’s better performance can be related to the steepness of the left-hand-side of the binding-energy-per-nucleon curve of [Figure 15.10](#fig-15-10).
+First, the basics. We have alluded to the fact that fusion builds from the small to the big. Putting four $^{1}$H nuclei together, at 1.007825 a.m.u. each and forming $^{4}$He at 4.0026033 a.m.u. leaves a difference of 0.0287 a.m.u.— 0.7% of the total mass—which amounts to 153 million kcal/g.[^58] This is *almost ten times* as large as the amount for fission (17 million kcal/g; [Box 15.3](#box-15-3)), making it ten-million times more potent than chemical reactions. Recall that fusion’s better performance can be related to the steepness of the left-hand-side of the binding-energy-per-nucleon curve of [Figure 15.10](#fig-15-10).
 
 What makes fusion so difficult is that getting protons to stick together is incredibly hard. Their electric repulsion is so strong that they need to be approaching each other at a significant fraction of the speed of light (about 7%) in order to get within reach of the strong nuclear force that takes over at distances smaller than about $10^{-15}$ m. The corresponding temperature is a billion degrees.[^59] Even the center of the sun is “only” 16 million degrees. The sun has the advantage of being enormous, though. So even at a comparatively chilly 16 million degrees, some rare protons by chance will be going extra fast and have enough oomph to overcome the repulsion and stick together. It’s like winning the lottery against very long odds, but the sun is large enough to buy ample tickets so the process still happens often enough.[^60] We don’t have such a luxury in a terrestrial laboratory setting, so we need higher temperatures than what exists in the center of the sun! 2 1
 
@@ -890,7 +879,7 @@ As for the fusion enterprise, an effort called ITER ([Figure 15.23](#fig-15-23))
 ITER tokamak cut-away where the plasma would be created. The white outer chamber is the size of a six-story building. From the ITER Organization.
 :::
 
-An effort in the U.S. called the nuclear ignition facility (NIF) is pursuing a different approach to fusion research: attempting to implode a tiny sphere of D–T mixture by blasting it with 192 converging laser beams, crushing it to enormous pressure exceeding that in a star’s interior, leading to an explosive release of heat. The building, mostly taken up by gigantic lasers, is the size of three football fields and has so far cost something to the tune of \$10 billion. Again, this experimental facility is not provisioned to harness any net energy gain[^72] to create electricity.
+An effort in the U.S. called the National Ignition Facility (NIF) is pursuing a different approach to fusion research: attempting to implode a tiny sphere of D–T mixture by blasting it with 192 converging laser beams, crushing it to enormous pressure exceeding that in a star’s interior, leading to an explosive release of heat. The building, mostly taken up by gigantic lasers, is the size of three football fields and has so far cost something to the tune of \$10 billion. Again, this experimental facility is not provisioned to harness any net energy gain[^72] to create electricity.
 
 Let’s say that by the year 2050, we will have mastered the art and can build a 1 GW electrical-output[^73] fusion plant for \$15 billion. That’s \$15 per Watt of output, which we can compare to a present-day solar utility-scale installation cost of \$1 per peak Watt [[89](#ref-89)]. Applying typical capacity factors[^74] puts fusion at twice what solar costs *already*, today.
 
@@ -916,15 +905,17 @@ And now the not-so-good aspects:
 - 70 years of effort have not yet borne fruit as an energy supply;
 - Tritium is not available, and must be fabricated from a limited supply of lithium;
 
-- Fusion still contends with radioactive fuel (tritium) and a containment vessel that is radioactively contaminated. The smaller number of positive points is not in itself an indicator of imbalance, since the first point is huge. One elephant can balance dozens of kids on a playground see-saw.
+- Fusion still contends with radioactive fuel (tritium) and a containment vessel that is radioactively contaminated.
+
+The smaller number of positive points is not in itself an indicator of imbalance, since the first point is huge. One elephant can balance dozens of kids on a playground see-saw.
 
 (sec-15-6)=
 ## 15.6 Upshot on Nuclear
 
-Nuclear fission is a real thing: it can and does produce a significant fraction the world’s power. A number of substantive challenges stand in the way of scaling up significantly.[^76] For conventional nuclear fission as it has been practiced thus far, the proven reserves of uranium only last 90 years at today’s rate of use, and less than 4 years if we tried to get all 18 TW from fission. Radioactive waste is an unsolved problem that persists for hundreds to thousands of years. Breeder programs can extend the resource by large factors (into the 500 or 1,000 year range under an 18 TW nuclear-breeder effort). But proliferation and bomb dangers become more pronounced—not to mention an even more pressing waste issue and greater accident rates given the profusion of operating reactors. It can be difficult to get excited about a nuclear future. It is very cool that we figured out how to do it. But just because we *can* do something does not mean it is a good idea to scale it up.
+Nuclear fission is a real thing: it can and does produce a significant fraction of the world’s power. A number of substantive challenges stand in the way of scaling up significantly.[^76] For conventional nuclear fission as it has been practiced thus far, the proven reserves of uranium only last 90 years at today’s rate of use, and less than 4 years if we tried to get all 18 TW from fission. Radioactive waste is an unsolved problem that persists for hundreds to thousands of years. Breeder programs can extend the resource by large factors (into the 500 or 1,000 year range under an 18 TW nuclear-breeder effort). But proliferation and bomb dangers become more pronounced—not to mention an even more pressing waste issue and greater accident rates given the profusion of operating reactors. It can be difficult to get excited about a nuclear future. It is very cool that we figured out how to do it. But just because we *can* do something does not mean it is a good idea to scale it up.
 
 :::{margin}
-Pros and cons are listed separately for PV and ST in [Section 15.4.8](#sec-15-4-8) and [Section 15.5.3](#sec-15-5-3), respectively.
+Pros and cons are listed separately for fission and fusion in [Section 15.4.8](#sec-15-4-8) and [Section 15.5.3](#sec-15-5-3), respectively.
 
 :::
 
@@ -958,7 +949,7 @@ The wording is long because without context, it’s just math. The real learning
 
 9. In close analog to the half-lives of $^{235}$U and $^{238}$U, let’s say two elements have half lives of 4.5 billion years and 750 million years.[^80] If we start out having the same number of each (1:1 ratio), what will the ratio be after 4.5 billion years? Express as $x$:1, where $x$ is the larger of the two.
 
-10. Control rods in nuclear reactors tend to contain [^10], which hasB a high neutron absorption cross section.[^81] What happens to this nucleus when it absorbs a neutron, and is the result stable? If not, track the decay chain until it lands on a stable nucleus.
+10. Control rods in nuclear reactors tend to contain $^{10}$B, which has a high neutron absorption cross section.[^81] What happens to this nucleus when it absorbs a neutron, and is the result stable? If not, track the decay chain until it lands on a stable nucleus.
 
 11. If someone managed to create a $^{14}$B nucleus, what would its fate be? Track the decay chain on [Figure 15.4](#fig-15-4)—indicating the type of decay at each step—until it reaches stability, and indicate how long each step is likely to take.
 
@@ -1084,7 +1075,7 @@ Hint: start by adding a neutron to $^{232}$Th
 
 40. On balance, considering the benefits and downsides of conventional nuclear fission, where do you come down in terms of support for either terminating, continuing, or expanding our use of this technology? Should we pursue breeder reactors at a large scale? Please justify your conclusion based on the things you consider to be most important.
 
-41. The sun is a fusion power plant producing $3.8 \times 10^{26}$ W of power. How many kilograms of mass does it lose in a year trough pure energy conversion? How does this compare to the mass of a spherical asteroid 50 km in diameter whose density is 2,000 $\mathrm{kg/m}^{3}$?
+41. The sun is a fusion power plant producing $3.8 \times 10^{26}$ W of power. How many kilograms of mass does it lose in a year through pure energy conversion? How does this compare to the mass of a spherical asteroid 50 km in diameter whose density is 2,000 $\mathrm{kg/m}^{3}$?
 
 :::{margin}
 Hint: the volume of a sphere is $4\pi R^{3}/3$.
@@ -1120,7 +1111,7 @@ Hint: the volume of a sphere is $4\pi R^{3}/3$.
 [^19]: 1 MeV is $10^{6}$ eV, and 1 eV is $1.6022 \times 10^{-19}$ J ([Sec. 5.9](#sec-5-9); p. 83).
 [^20]: … thus how much energy would need to be supplied to completely *unbind* the entire nucleus, as in [Figure 15.9](#fig-15-9)
 [^21]: Actually, $^{62}$Ni wins by a hair at 8.795 MeV/nuc, but is somewhat overlooked because it is only 0.006% as abundant as $^{56}$Fe, whose binding energy per nucleon is essentially tied for the top at 8.790 MeV/nuc.
-[^22]: A peak exists because nucleons initially find advantage in binding together, but ultimately the increasing number of mutuallyrepelling protons makes the environment less appealing for larger nuclides.
+[^22]: A peak exists because nucleons initially find advantage in binding together, but ultimately the increasing number of mutually repelling protons makes the environment less appealing for larger nuclides.
 [^23]: This is in contrast to a fast neutron that tends to bounce rather than stick to the nucleus.
 [^24]: No forces prevent a neutron from approaching a nucleus. Happening to hit the tiny nucleus is the only barrier.
 [^25]: … very high energy photons
@@ -1130,7 +1121,7 @@ Hint: the volume of a sphere is $4\pi R^{3}/3$.
 [^29]: This result, by the way, is the same as 172.3 MeV in [Table 15.7](#tab-15-7) using the conversion that 1 MeV is $1.6022 \times 10^{-13}$ J.
 [^32]: Binding energy *reduces* mass, so larger binding energy means lighter overall mass.
 [^33]: Each missing neutron deprives us of more than the standard $\sim 8$ MeV per nucleon, as neutrons have no penalty for repulsive electric charge. The 8 MeV per nucleon is an average over protons and neutrons.
-[^34]: … always this direction, so that gravity does the pulling rather then relying on some other drive force
+[^34]: … always this direction, so that gravity does the pulling rather than relying on some other drive force
 [^35]: From this, we glean that reactors average roughly 1 GW each.
 [^36]: Recall, for context, that solar is not among the *cheaper* energy resources. Like solar, nuclear power is dominated by up-front costs, rather than fuel cost.
 [^37]: A trace amount, 0.0055%, is in $^{234}$U.

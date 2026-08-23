@@ -25,7 +25,7 @@ So that’s the limit to our vision, based on the idea that light has not had ti
 
 But is it a real edge? All indications are that it is certainly not. When we look 13.8 billion light years away, we just see this glowing plasma (the CMB). But in the intervening years, galaxies and stars and planets have formed in that region of space, and would appear “normal,” or mature today. So imagine a being on such a planet looking at us today, 13.8 billion light years distant. But they see us 13.8 billion years ago, when our neighborhood was still a glowing plasma well before the formation of galaxies, stars, and planets.
 
-Let’s say the distant being is directly behind you and you are both looking offin the same direction—the alien essentially looking over your shoulder as you look directly opposite the direction to the alien. You (or the primordial gas that will someday become you) are at the limit of their vision, and they can’t see anything beyond you. You sit at their edge. But to you it’s no edge. You have no trouble seeing more “normal” universe stretching another 13.8 billion light years beyond what our distant friend can see. It’s only a perceived edge, based on the limit of light travel time.
+Let’s say the distant being is directly behind you and you are both looking off in the same direction—the alien essentially looking over your shoulder as you look directly opposite the direction to the alien. You (or the primordial gas that will someday become you) are at the limit of their vision, and they can’t see anything beyond you. You sit at their edge. But to you it’s no edge. You have no trouble seeing more “normal” universe stretching another 13.8 billion light years beyond what our distant friend can see. It’s only a perceived edge, based on the limit of light travel time.
 
 A nice way to think of it is familiar scenes of limited vision, like in a fog or in the ocean, or even on the curved surface of Earth. All cases have a horizon: a limit to the distance visible. Yet moving to the edge of vision reveals a whole new region that was before invisible. Keep going and your starting region will no longer be visible, or within your horizon. But it has not ceased to exist.
 
@@ -74,7 +74,7 @@ A gas cloud in space collapses due to gravitational attraction, exchanging gravi
 
 Eventually, particles in the core of the about-to-be star are moving so fast as they heat up that the electrical potential barrier[^3] is overcome so that protons can get close enough for the strong nuclear force to take over and permit nuclear fusion to occur, at which point we can call this thing a *star*. Four protons[^4] bond together, two of which convert to neutrons to form a helium nucleus. The total mass of the result is *less* than the summed mass of the inputs, the balance[^5] going into photons, or light energy.
 
-The photons eventually make it out of the opaque plasma of the star, and stream toward Earth, where a leaf absorbs the energy and cleverly converts it to chemical energy by rearranging atoms and electrons into sugars.[^6] The leaf falls offand eventually settles at the bottom of a shallow sea to be buried by sediments and ultimately becomes oil, preserving most[^7] of its chemical energy as it changes molecular form.
+The photons eventually make it out of the opaque plasma of the star, and stream toward Earth, where a leaf absorbs the energy and cleverly converts it to chemical energy by rearranging atoms and electrons into sugars.[^6] The leaf falls off and eventually settles at the bottom of a shallow sea to be buried by sediments and ultimately becomes oil, preserving most[^7] of its chemical energy as it changes molecular form.
 
 One day, a silly human digs up the oil and combusts it with oxygen, converting chemical energy to thermal energy in a contained fireball explosion. The thermal energy is used to produce kinetic energy of a piston in a cylinder, transmitted mechanically to wheels that in turn propel a car along a freeway.[^8]
 
@@ -106,7 +106,7 @@ In the end, most of the heat we generate on Earth’s surface finds its way back
 (sec-d-3)=
 ## D.3 Electrified Transport
 
-This section aims to answer the question: Why can’t we *just*[^14] electrify transportation and be done with fossil fuels? It turns out to be hard. Rather then rely on external studies, this section applies lessons from the book to demonstrate the power of first-principles quantitative assessment.
+This section aims to answer the question: Why can’t we *just*[^14] electrify transportation and be done with fossil fuels? It turns out to be hard. Rather than rely on external studies, this section applies lessons from the book to demonstrate the power of first-principles quantitative assessment.
 
 [Box 13.3](#box-13-3) (p. 222) indicated that direct drive of cars and airplanes from solar energy is impractical: while it may work in limited applications, solar power is too diffuse to power air and car travel as we know it.
 
@@ -186,7 +186,7 @@ Special fast-charge stations can provide a staggering 250 $\mathrm{kW}^{32}$ of 
 … like 200 homes
 :::
 
-So electric cars are not simple drop-in replacements for the gasoline machines roaming the roads today, that effectively refuel at a rate of 10 $\mathrm{MW}^{34}$ given the fast delivery of an extremely energy-dense liquid. On performance and convenience measures, it would be hard to characterize them as *superior* substitutes. But they can *certainly* suit well for local travel when given ample time to recharge—overnight, for instance. And in the long run, it seems we will have little choice.
+So electric cars are not simple drop-in replacements for the gasoline machines roaming the roads today, that effectively refuel at a rate of 10 $\mathrm{MW}$ given the fast delivery of an extremely energy-dense liquid. On performance and convenience measures, it would be hard to characterize them as *superior* substitutes. But they can *certainly* suit well for local travel when given ample time to recharge—overnight, for instance. And in the long run, it seems we will have little choice.
 
 :::{margin}
 … the equivalent electricity consumption of 10,000 homes or a medium-sized college campus
@@ -209,7 +209,7 @@ Electric cars are a growing part of transportation, and will no doubt grow more.
 (sec-d-3-6)=
 ### D.3.6 Wired Systems
 
-To finalize the progression of hardest–to–easiest electrified transportation, we leave the problematic element behind: batteries. Vehicles on prescribed routes (trains, buses) can take advantage of wires carrying electricity: either overhead or tucked into a “third rail” on the ground. Most light rail systems use this approach, and some cities have wires over their streets for trolley buses. High-speed trains also tend to be driven electrically, via overhead lines.
+To finalize the progression of hardest-to-easiest electrified transportation, we leave the problematic element behind: batteries. Vehicles on prescribed routes (trains, buses) can take advantage of wires carrying electricity: either overhead or tucked into a “third rail” on the ground. Most light rail systems use this approach, and some cities have wires over their streets for trolley buses. High-speed trains also tend to be driven electrically, via overhead lines.
 
 The ease with which wired electrical transport is implemented[^35] relative to the other modes discussed in this Appendix is another way to emphasize the degree to which storage is the bottleneck.
 
@@ -458,7 +458,7 @@ Please, please, please—let this tragic fate not come to pass!
 [^50]: … author’s conjecture; it could well be higher
 [^51]: Any activity today not geared to contribute to ultimate success (true sustainability) is therefore likely only contributing to failure. Most activities today are in the latter category, alarmingly.
 [^52]: … hardly different from \$18,000 per year, so if you’re going this far already, why not?
-[^53]: Interest is an artificial construct made possble by accelerating resource use.
+[^53]: Interest is an artificial construct made possible by accelerating resource use.
 [^54]: Annual income would be in the form of solar energy delivered and biomass that has grown in the course of the year, for instance.
 [^55]: … in this case hypothetical wise humans who have managed a successful transition through the adolescent phase
 [^56]: Note the similarity of the words!

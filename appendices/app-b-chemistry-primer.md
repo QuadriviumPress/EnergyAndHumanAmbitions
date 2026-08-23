@@ -42,7 +42,7 @@ Since one mole of 12.00000 a.m.u. carbon-12 atoms is defined to have a mass of 1
 (sec-b-2)=
 ## B.2 Stoichiometry
 
-Chemistry starts by counting atoms and molecules. Since molecules are comprised of integer numbers of atoms of specific types, the counting fun does not stop there. When atoms and molecules react chemically, the atoms themselves are never created or destroyed—only rearranged. This means that an accurate count of how many of each atom type are present at the start, a proper count at the end should yield *exactly* the same results.
+Chemistry starts by counting atoms and molecules. Since molecules are comprised of integer numbers of atoms of specific types, the counting fun does not stop there. When atoms and molecules react chemically, the atoms themselves are never created or destroyed—only rearranged. This means that if an accurate count of how many of each atom type are present at the start is made, a proper count at the end should yield *exactly* the same results.
 
 Before we get into balancing chemical reactions, we need to know something about the scheme for labeling chemical compounds. A compound is an arrangement of atoms (representing pure elements) into a molecule. For instance, water is made of three atoms drawn from two elements: hydrogen and oxygen. Two atoms of hydrogen are bonded to an atom of oxygen to make a molecule of water. We denote this as H$_{2}$O.
 
@@ -72,7 +72,7 @@ Let’s figure out a tougher formula, pertaining to the combustion of ethanol (d
 
 where question marks indicate what we need to figure out. Three unknowns and one equation? It may seem hopeless, but the formula is *not* the equation. The equations are that the total number of carbons on each side are equal, the total number of oxygens are equal, and the total number of hydrogens are equal. So we actually have three equations.[^11]
 
-Start by noticing that the left side has 2 carbons and 6 hydrogens. We don’t know how many oxygens yet, but it’s good enough to start. On the right, carbon only shows up in CO$_{2}$, so getting 2 carbons on the right requires 2CO$_{2}$. Likewise, hydrogen only shows up in water, and ethanol has 6 hydrogen atoms to stuffinto water molecules that hold 2 hydrogens apiece. It will obviously take 3 water molecules to account for 6 hydrogens.[^12] So now the right side is hammered out:
+Start by noticing that the left side has 2 carbons and 6 hydrogens. We don’t know how many oxygens yet, but it’s good enough to start. On the right, carbon only shows up in CO$_{2}$, so getting 2 carbons on the right requires 2CO$_{2}$. Likewise, hydrogen only shows up in water, and ethanol has 6 hydrogen atoms to stuff into water molecules that hold 2 hydrogens apiece. It will obviously take 3 water molecules to account for 6 hydrogens.[^12] So now the right side is hammered out:
 
 :::{math}
 \mathrm{C}_{2} H _{6} O + ?O _{2}\rightarrow 2CO _{2}+ 3H _{2} O
@@ -110,7 +110,7 @@ How much mass of CO$_{2}$ will emerge from the burning of 1 kg of ethanol? We st
 \mathrm{C}_{2} H _{6} O + 3O _{2}\rightarrow 2CO _{2}+ 3H _{2} O
 :::
 
-This problem can be approached in Two equivalent ways: either figure out how many moles of ethanol it takes to amount to 1 kg and then scale the formula accordingly; or just work it out for one mole to get a ratio and then apply to 1 kg. We’ll do it both ways.
+This problem can be approached in two equivalent ways: either figure out how many moles of ethanol it takes to amount to 1 kg and then scale the formula accordingly; or just work it out for one mole to get a ratio and then apply to 1 kg. We’ll do it both ways.
 
 Since ethanol has a molar mass of 46 g, one kilogram corresponds to 21.7 moles. So we could re-write the formula as:
 
@@ -154,7 +154,7 @@ This is a generically useful practice: it helps integrate new knowledge into you
 
 We can explore the sensibility of [Eq. B.1](#eq-b-1) by testing it on some known
 
-product at the end of the energy process. H$_{2}$O, as another commonboundary cases.$^{17}$CO$_{2}$, calculating for CO$_{2}$ should offer no energy to us, since it’s a “waste”Since one ubiquitous end-product of combustion is
+boundary cases. Since one ubiquitous end-product of combustion is CO$_{2}$, calculating for CO$_{2}$ should offer no energy to us, since it’s a “waste” product at the end of the energy process. H$_{2}$O, as another common
 
 :::{margin}
 **Try it:** Try it out, using $c = 1$ and $o = 2$.
@@ -200,7 +200,7 @@ where $P$ stands for pressure (in Pascals[^18]), $V$ is volume (cubic meters), $
 :::{math}
 :label: eq-b-3
 :enumerator: B.3
-R = 8.314 mol \cdot \mathrm{K.J}
+R = 8.314\ \mathrm{J/(mol\cdot K)}
 :::
 
 To get degrees in Kelvin, add 273.15 (273 among friends) to the temperature in Celsius.[^19] Standard atmospheric pressure is about $10^{5}$ Pa.[^20]
@@ -232,14 +232,10 @@ Pressure, volume, and temperature are all unchanged, and expressed in the same u
 :::{math}
 :label: eq-b-5
 :enumerator: B.5
-k_{\mathrm{B}}= 1.3806 \times 10^{-23} J
+k_{\mathrm{B}}= 1.3806 \times 10^{-23}\ \mathrm{J/K}.
 :::
 
-:::{math}
-\mathrm{K}.
-:::
-
-Notice that $N$, the number of particles, and $n$, the number of moles, differs simply by a factor of Avogadro’s number, $N_{\mathrm{A}}= 6.022 \times 10^{23}$. Indeed, if we multiply $N_{\mathrm{A}}$ by $k_{\mathrm{B}}$, we get 8.314, and are back to $R$.[^22]
+Notice that $N$, the number of particles, and $n$, the number of moles, differ simply by a factor of Avogadro’s number, $N_{\mathrm{A}}= 6.022 \times 10^{23}$. Indeed, if we multiply $N_{\mathrm{A}}$ by $k_{\mathrm{B}}$, we get 8.314, and are back to $R$.[^22]
 
 ::::{admonition} Example B.4.2
 :class: seealso
