@@ -15,7 +15,7 @@ Depending on background, math and equations may be an intimidating “foreign la
 (sec-a-1)=
 ## A.1 Relax on the Decimals
 
-First, we can form a more natural, forgiving relationship with numbers. Like your friends, they need not be held to exacting standards: they are simply trying to tell you something useful. Remembering that $\pi$ is roughly 3 is *far* more important than committing any further decimals to memory. If a friend traced out a circle in the sand and asked how much area it had,[^1] the poorly-defined and irregular boundary defies precise measurement, so why carry extra digits. Maybe just recognize that the radius is roughly one meter, so the area is about 3 square meters. Done.[^2] The message here is to give yourself a break and just not over-represent the precision (number of decimals) in your answer.
+First, we can form a more natural, forgiving relationship with numbers. Like your friends, they need not be held to exacting standards: they are simply trying to tell you something useful. Remembering that $\pi$ is roughly 3 is *far* more important than committing any further decimals to memory. If a friend traced out a circle in the sand and asked how much area it had,[^1] the poorly-defined and irregular boundary defies precise measurement, so why carry extra digits? Maybe just recognize that the radius is roughly one meter, so the area is about 3 square meters. Done.[^2] The message here is to give yourself a break and just not over-represent the precision (number of decimals) in your answer.
 
 Part of the reason students have a rigid relationship with numbers is because homework and test problems tend to come pre-loaded with numbers assumed to be exactly known. But the real world is seldom so generous, leaving us to forage for approximate numbers and estimations.
 
@@ -113,7 +113,7 @@ This book, and the problems within, often assume facility in computing areas or 
 
 A helpful trick is to turn the circle into a square, or the sphere into a cube, where our footing is more secure. Hopefully it is clear that the perimeter (length around) of a square whose side length is $a$ will be $4a$. The area will be $a \cdot a = a^{2}$. Units can help us, too: if $a = 3$ m, then the perimeter should also be a length with units of meters and the area should be in square meters. It would never do to have something like $a^{2}$ describe a perimeter (wrong units) or to have the area *not* contain something like $a^{2}$. The cube version has volume $a^{3}$.
 
-About those circles and spheres: The task is to fit a circle or sphere inside of a square or cube, so that $a = 2r$. In other words, the *diameter* $(2r$, where $r$ is radius) fits neatly across the side length of the square. The perimeter of the circle should be smaller than the $4a$ perimeter of the square,[^11], but a good deal larger than $2a$, which would represent a round trip directly across the square, through its center.[^12] So the circle perimeter is between $2a$ and $4a$, probably not far from $3a$. Since $a = 2r$, the perimeter should be somewhat close to $6r$. Suspecting that $\pi \sim 3$ shows up somewhere, the leap is not far to the perimeter being $2\pi r$.
+About those circles and spheres: The task is to fit a circle or sphere inside of a square or cube, so that $a = 2r$. In other words, the *diameter* $(2r$, where $r$ is radius) fits neatly across the side length of the square. The perimeter of the circle should be smaller than the $4a$ perimeter of the square,[^11] but a good deal larger than $2a$, which would represent a round trip directly across the square, through its center.[^12] So the circle perimeter is between $2a$ and $4a$, probably not far from $3a$. Since $a = 2r$, the perimeter should be somewhat close to $6r$. Suspecting that $\pi \sim 3$ shows up somewhere, the leap is not far to the perimeter being $2\pi r$.
 
 Likewise for the area: a circle within the square has an area smaller than that of the surrounding square $(a^{2})$, but surely larger than half the square area—maybe around three-quarters. In terms of radius, the whole square has area $a^{2}= 4r^{2}$, and three-quarters of this is $3r^{2}\sim \pi r^{2}$. Correct again!
 
@@ -247,7 +247,7 @@ So what are the rules for dealing with exponents when we raise the whole thing t
 :::
 
 :::{margin}
-Notice that the the symbols used in this equation are just stand-ins for numbers, and have no intrinsic significance—whether we use $n$ or $p$ or $a$ for an exponent is irrelevant. For that matter, $x$ is not special either and we could have used a hexagon to stand in for the base in these relations, as a symbolic placeholder.
+Notice that the symbols used in this equation are just stand-ins for numbers, and have no intrinsic significance—whether we use $n$ or $p$ or $a$ for an exponent is irrelevant. For that matter, $x$ is not special either and we could have used a hexagon to stand in for the base in these relations, as a symbolic placeholder.
 
 :::
 
@@ -446,7 +446,7 @@ Let’s say we want to know how much energy, in Joules, the U.S. uses in a year 
 
 person $=10^{4}\mathrm{J/s}$ person $\cdot$ s $,10^{4}$ J
 
-where we have just moved the seconds into the denominator to multiply “person” (order doesn’t matter). Most of the problem is in going from seconds to years. It would like like this:
+where we have just moved the seconds into the denominator to multiply “person” (order doesn’t matter). Most of the problem is in going from seconds to years. It would look like this:
 
 person $\cdot$ s $\cdot 60 \mathrm{s}10^{4}$ J 1 $\min \cdot 60$ min1 hour $\cdot 24$ hour1 day $\cdot 365$ day1 year
 
@@ -539,7 +539,7 @@ It is well beyond the scope of this book to engage in an exhaustive review of ma
 [^7]: … teachers, too!
 [^8]: Except, perhaps we would learn that we inexplicably share the word “sock.”
 [^9]: … acknowledging that this exercise may be less intuitively obvious to non-native English speakers
-[^10]: The number of combinations is 4! (fourfactorial), or $4\cdot 3\cdot 2\cdot 1$. It is a worthy exercise to write out all 24 combinations, not only to verify the result but to give practice in how to systematically shuffle the words in an orderly manner—inventing your own functional rules as you go. You might even stumble on *why* 4 $\cdot 3 \cdot 2 \cdot 1$ is the right way to count the combinations based on your method of systematizing.
+[^10]: The number of combinations is 4! (four factorial), or $4\cdot 3\cdot 2\cdot 1$. It is a worthy exercise to write out all 24 combinations, not only to verify the result but to give practice in how to systematically shuffle the words in an orderly manner—inventing your own functional rules as you go. You might even stumble on *why* 4 $\cdot 3 \cdot 2 \cdot 1$ is the right way to count the combinations based on your method of systematizing.
 [^11]: … literally cutting corners
 [^12]: This path would look like a line across the square, traversed twice as a there-and-back trip.
 [^13]: … or length, if on its side
@@ -559,7 +559,7 @@ It is well beyond the scope of this book to engage in an exhaustive review of ma
 [^27]: … and the other way around, for all these examples
 [^28]: Something like 1.23456 would work, but make it your own!
 [^29]: Full disclosure: I don’t always do so, in haste. But I know they belong there and will throw them back in if I get tangled or end up suspecting a nonsense result.
-[^30]: This choice is intentionally unfamiliar and complicated–looking to demonstrate that units can help bring a sense of order and correctness even in alien contexts.
+[^30]: This choice is intentionally unfamiliar and complicated-looking to demonstrate that units can help bring a sense of order and correctness even in alien contexts.
 [^31]: The drag coefficient, $c_{\mathrm{D}}$, is usually in the range 0.3–1.
 [^32]: Force equals mass times acceleration
 [^33]: E.g., 24 hours and 1 day describe the same time interval.

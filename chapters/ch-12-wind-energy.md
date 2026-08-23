@@ -409,10 +409,10 @@ mosphere, $h_{0}$, which you may wish to compare to the tallest mountains on Ear
 
 10. How much *power* would a moderate-sized 50%–efficient wind turbine produce whose radius is 10 m at wind speeds of 5 m/s, 10 m/s, 15 m/s, and 20 m/s? Express the answers in kW or MW, depending on what is most natural.
 
-11. The Betz limit says that we get to keep no more than 59% of the available wind power. If 59% of the kinetic energy in a lump of air moving at speed $^{38}v$ is removed, how fast is it going afterwards,$^{39}$ as a fraction of the original speed?
+11. The Betz limit says that we get to keep no more than 59% of the available wind power. If 59% of the kinetic energy in a lump of air moving at speed $v$ is removed, how fast is it going afterwards, as a fraction of the original speed?
 
 :::{margin}
-Make up your own velocity or solve in symbols/variables: same either way. 39: This relates to wind speed just behind a wind turbine
+Make up your own velocity or solve in symbols/variables: same either way. This relates to wind speed just behind a wind turbine
 :::
 
 12. The largest wind turbines have rotor *diameters*[^40] around 150 m. Using a sensible efficiency of 50%, what power does such a jumbo turbine deliver at a maximum design wind speed of 13 m/s?

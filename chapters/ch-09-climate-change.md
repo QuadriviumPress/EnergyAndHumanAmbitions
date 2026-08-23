@@ -15,7 +15,7 @@ Elephants doing their best. Photo courtesy of O’Connell & Rodwell.
 Climate change stands tall among the global scale problems created by our energy appetite—caused by the accumulation of carbon dioxide (CO$_{2})$ in our atmosphere from the burning of fossil fuels. This chapter aims to provide a no-nonsense account of the basis for climate change that leaves little room for the kind of uncertainty often injected by (alarmingly successful) disinformation campaigns. While the *response* of our complex climate system is more difficult to predict in detail, the core physics is unassailable. We will see that the rise in CO$_{2}$ is not at all mysterious, stemming from fossil fuels. We will also explore a few scenarios and connect the CO$_{2}$ rise to temperature consequences.
 
 (sec-9-1)=
-## 9.1 The Source of** CO$_{2}$
+## 9.1 The Source of CO$_{2}$
 
 The climate change forces at play today are primarily due to increased concentration of CO$_{2}$ in our atmosphere as a result of burning fossil fuels.
 
@@ -50,7 +50,8 @@ A typical tank might hold about 50 L of gasoline (13 gallons). The density of ga
 
 ::::
 
-### 9.1.1** CO$_{2}$ **Measurements
+(sec-9-1-1)=
+### 9.1.1 CO$_{2}$ Measurements
 
 Beginning in 1958, Dave Keeling of the Scripps Institution of Oceanography began recording CO$_{2}$ concentration in the atmosphere from the top of Mauna Loa in the middle of the Pacific ocean.[^3] In addition to seeing annual variation due to the seasonal cycle of photosynthesis,[^4] he began to see a steady year-by-year increase in the level. The measurements have continued to the present, now known as the “Keeling Curve,” shown in [Figure 9.1](#fig-9-1).
 
@@ -66,7 +67,8 @@ When the measurements started, the atmosphere consisted of less than 320 parts p
 
 Measurements of trapped air bubbles in the Greenland ice sheet going back about 100,000 years and the Antarctic ice sheet going back 800,000 years indicate that CO$_{2}$ has fluctuated between 180–280 ppm$_{\mathrm{v}}$, reaching the higher end of the range during the warmer periods between ice ages (interglacial periods). For at least the last thousand years before the Fossil Fuel Age, CO$_{2}$ held steady around 280 ppm$_{\mathrm{v}}$.
 
-### 9.1.2** CO$_{2}$ **Expectations
+(sec-9-1-2)=
+### 9.1.2 CO$_{2}$ Expectations
 
 :::{figure} ../images/fig-9-2.svg
 :label: fig-9-2
@@ -78,11 +80,9 @@ Historical use of fossil fuels worldwide, repeated from [Figure 8.2](#fig-8-2) [
 
 We saw in [Figure 8.2](#fig-8-2)—repeated as [Figure 9.2](#fig-9-2)—a history of fossil fuel usage for the world, in coal, oil, and natural gas. Meanwhile, [Table 9.1](#tab-9-1) indicates how much CO$_{2}$ each fuel contributes per kilogram or Joule used. These two pieces can be combined to make an estimate of how much CO$_{2}$ is emitted globally each year, and to track total CO$_{2}$ emission over time. [Table 9.2](#tab-9-2) and [Box 9.1](#box-9-1) elucidate how to go from the fossil fuel power figures (TW) in [Figure 9.2](#fig-9-2) to CO$_{2}$ atmospheric concentrations.
 
-::::{admonition} Box 9.1: Computing
+::::{admonition} Box 9.1: Computing CO$_{2}$ ppm$_{\mathrm{v}}$ from TW
 :class: tip
 :label: box-9-1
-
-CO$_{2}$ **ppm**$_{\mathrm{v}}$ **from TW**
 
 We will use oil as an example. In [Figure 9.2](#fig-9-2), we appear to get about 6 TW from oil (5 TW from coal, 4 TW from natural gas). Multiplying by $10^{12}$ puts this in Watts (J/s) and by $3.156 \times 10^{7}$ seconds per year results in the annual global energy from oil in Joules: $1.9 \times 10^{20}$ J/yr. [Table 9.1](#tab-9-1) indicates that oil contains about 11.5 kcal/g, so the number of grams of oil used per can be determined by first converting J to kcal
 
@@ -94,19 +94,19 @@ We will use oil as an example. In [Figure 9.2](#fig-9-2), we appear to get about
 :label: tab-9-2
 :enumerator: 9.2
 
-| Operation | Resulting Units | Coal Oil | Gas |
-| --- | --- | --- | --- |
-| Starting value | TW |   |   |
-| $\times 10^{12}$ W/TW | W (J/s) |   |   |
-| $\times 3.16 \times 10^{7}$ s/yr | J/yr |   |   |
-| $\div 4,184$ J/kcal | kcal/yr |   |   |
-| $\div x$ kcal/g | FF g/yr | $x = 6.5$ $x = 11.5$ | $x = 13.3$ |
-| $\div 1,000$ g/kg | FF kg/yr |   |   |
-| $\times y$ CO$_{2}$ kg/kg | CO$_{2}$ kg/yr | $y = 3.67$ $y = 3.09$ | $y = 2.75$ |
-| $\div 5 \times 10^{18}$ kg | CO$_{2}$ frac/yr |   |   |
-| $\times 10^{6}$ | CO$_{2}$ ppm$_{\mathrm{m}}/\mathrm{yr}$ |   |   |
-| $\div 44/29$ | CO$_{2}$ ppm$_{\mathrm{v}}/\mathrm{yr}$ | total emissions |   |
-| $\div \sim 2$ | CO$_{2}$ ppm$_{\mathrm{v}}/\mathrm{yr}$ | stays in atmosphere |   |
+| Operation | Resulting Units | Coal | Oil | Gas |
+| --- | --- | --- | --- | --- |
+| Starting value | TW |   |   |   |
+| $\times 10^{12}$ W/TW | W (J/s) |   |   |   |
+| $\times 3.16 \times 10^{7}$ s/yr | J/yr |   |   |   |
+| $\div 4,184$ J/kcal | kcal/yr |   |   |   |
+| $\div x$ kcal/g | FF g/yr | $x = 6.5$ | $x = 11.5$ | $x = 13.3$ |
+| $\div 1,000$ g/kg | FF kg/yr |   |   |   |
+| $\times y$ CO$_{2}$ kg/kg | CO$_{2}$ kg/yr | $y = 3.67$ | $y = 3.09$ | $y = 2.75$ |
+| $\div 5 \times 10^{18}$ kg | CO$_{2}$ frac/yr |   |   |   |
+| $\times 10^{6}$ | CO$_{2}$ ppm$_{\mathrm{m}}/\mathrm{yr}$ |   |   |   |
+| $\div 44/29$ | CO$_{2}$ ppm$_{\mathrm{v}}/\mathrm{yr}$ (total emissions) |   |   |   |
+| $\div \sim 2$ | CO$_{2}$ ppm$_{\mathrm{v}}/\mathrm{yr}$ (stays in atmosphere) |   |   |   |
 :::
 
 The mass of the atmosphere is about $5\times 10^{18}$ kg, obtained by multiplying 10,000 kg of air[^6] sitting over every square meter by the $4\pi R^{2}_{\oplus}$ surface area of the earth. Dividing the $1.2 \times 10^{13}\mathrm{kg}^{7}$ of oil-generated CO$_{2}$ by the mass of the atmosphere yields $2.4 \times 10^{-6}$, or 2.4 parts per million.[^8] We are almost there. The quantity we have calculated is parts per million by mass (ppm$_{\mathrm{m}})$, not the conventional parts per million by volume (ppm$_{\mathrm{v}})$. Since air[^9] averages 29 g/mol, and CO$_{2}$ is 44 g/mol, the mass concentration of CO$_{2}$ is higher than the volume occupation in air by a factor of 44/29, or 1.52. Thus we divide our 2.4 ppm$_{\mathrm{m}}$ result by 1.52 to get 1.6 ppm$_{\mathrm{v}}$. A final correction is that only half of this stays in the atmosphere, so that today we are putting 0.8 ppm$_{\mathrm{v}}$ into the atmosphere each year from oil.
@@ -307,7 +307,7 @@ sharing substantial overlap with [Eq. 9.2](#eq-9-2)—the factors having been ex
 :::{math}
 :label: eq-9-4
 :enumerator: 9.4
-T = [\frac{RF_{\odot}}{\sigma}]0.25 + 33,
+T = [\frac{RF_{\odot}}{\sigma}]^{0.25}+ 33,
 :::
 
 evaluating to 288 K, or about $15^{\circ}\mathrm{C}$. If we add (or deduct) radiative forcing from another source, it would add (subtract) in the numerator of [Eq. 9.4](#eq-9-4). The addition of CO$_{2}$ over the original amount (CO$_{2,\mathrm{orig}}$; 280 ppm$_{\mathrm{v}})$ generates a radiative forcing of

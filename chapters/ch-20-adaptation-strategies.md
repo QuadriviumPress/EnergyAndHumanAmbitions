@@ -39,7 +39,7 @@ Also important to recognize is that a challenge cannot be effectively mitigated 
 :class: tip
 :label: box-20-1
 
-The Y$2\mathrm{K}^{1}$ scare in 1999 offers a good template for how to mitigate a potential disaster. Computer systems became the dominant means for managing financial and government records, transactions, and accounts in the 1960s through 1980s. A two-digit code was used for the year in many records, not anticipating the roll-over to 2000 decades away. The early programmers either doubted that their code would still be functioning in $2000^{2}$ or assumed it would be cleaned up in time. In the year or two leading up to Y2K, the issue got tons of coverage and predictions of mayhem, as peoples’ digital lives—a new phenomenon—were tossed into any number of unknown upheavals. But the very fact that the issue dominated public consciousness was exactly what ensured a smooth transition. Every bank and agency got on the job and Y2K came and went without a ripple. It would be great to see a repeat in the case of potential collapse. The lack of a specific time prediction is one barrier, unlike Y2K. Without a firm deadline or a clear-and-present danger, the temptation to delay serious attention is strong.
+The Y$2\mathrm{K}$ scare in 1999 offers a good template for how to mitigate a potential disaster. Computer systems became the dominant means for managing financial and government records, transactions, and accounts in the 1960s through 1980s. A two-digit code was used for the year in many records, not anticipating the roll-over to 2000 decades away. The early programmers either doubted that their code would still be functioning in $2000$ or assumed it would be cleaned up in time. In the year or two leading up to Y2K, the issue got tons of coverage and predictions of mayhem, as peoples’ digital lives—a new phenomenon—were tossed into any number of unknown upheavals. But the very fact that the issue dominated public consciousness was exactly what ensured a smooth transition. Every bank and agency got on the job and Y2K came and went without a ripple. It would be great to see a repeat in the case of potential collapse. The lack of a specific time prediction is one barrier, unlike Y2K. Without a firm deadline or a clear-and-present danger, the temptation to delay serious attention is strong.
 
 ::::
 
@@ -154,7 +154,7 @@ Recalling Def. 5.5.1 (p. 78) or the definition of the kilocalorie, heating 150 L
 
 How much energy is a 1,500 W microwave oven at home likely to use in a day, compared to a 25 W television tuner box running 100% of the time?
 
-The microwave might be on for 12 minutes per day, or 0.2 hours. That makes 0.3 $\mathrm{kWh}^{17}$ for the microwave and 0.6 kWh for the tuner box. Time matters.
+The microwave might be on for 12 minutes per day, or 0.2 hours. That makes 0.3 $\mathrm{kWh}$ for the microwave and 0.6 kWh for the tuner box. Time matters.
 
 ::::
 
@@ -212,7 +212,7 @@ Using [Table 20.1](#tab-20-1), the gas amounts to 586 kWh—almost identical to 
 :class: seealso
 :label: ex-20-3-6
 
-A hot water heater using natural gas is likely about 85% efficient at transferring the heat of combustion into the water (enclosed, insulated), while an electric hot water heater manages to get 100% of the delivered energy into the water via a heating coil immersed in the water. If the source of electricity is also natural gas form a power plant achieving 40% efficiency at converting thermal energy into electricity and then transmitting it to the house at 95% efficiency, which method uses more total fossil fuel energy, and by what factor?
+A hot water heater using natural gas is likely about 85% efficient at transferring the heat of combustion into the water (enclosed, insulated), while an electric hot water heater manages to get 100% of the delivered energy into the water via a heating coil immersed in the water. If the source of electricity is also natural gas from a power plant achieving 40% efficiency at converting thermal energy into electricity and then transmitting it to the house at 95% efficiency, which method uses more total fossil fuel energy, and by what factor?
 
 We compare 85% efficient for the direct usage to 40% times 95% times 100%.[^22] The ratio of 85% to 38% is 2.2, so it will take 2.2 times more gas at the power plant than in the home to produce the same result in heated water.
 
@@ -289,7 +289,7 @@ In 2019, the author’s utility bills[^36] indicate total use was 61 Therms for 
 
 ::::
 
-**Gasoline**: A typical American buys about 400 gallons of gasoline[^37] per year for personal transportation, amounting to a daily equivalent of 41 $\mathrm{kWh}^{38}$ of energy use. Keep track of your fuel purchases[^39] and compare how much you use. In the case of multiple occupancy in the car, your share can be computed by dividing how many gallons were used in the trip by the number of people. Knowing an approximate fuel economy[^40] for the car and distance traveled is enough to estimate fuel usage.
+**Gasoline**: A typical American buys about 400 gallons of gasoline[^37] per year for personal transportation, amounting to a daily equivalent of 41 $\mathrm{kWh}$ of energy use. Keep track of your fuel purchases[^39] and compare how much you use. In the case of multiple occupancy in the car, your share can be computed by dividing how many gallons were used in the trip by the number of people. Knowing an approximate fuel economy[^40] for the car and distance traveled is enough to estimate fuel usage.
 
 :::{margin}
 … 36.6 kWh per gallon, or 9.7 kWh/L
@@ -305,7 +305,7 @@ A total of 91 gallons for two people is about 45 gallons per person, equivalent 
 
 ::::
 
-**Air travel**: Expressing an average in this case is inappropriate, as many Americans do not fly at all, while all use some combination of electricity, gas, and gasoline in some capacity. The average works out to 2,300 miles (3,700 km) per year when averaging all people, but among those for whom air travel is a utilized, the number is generally a good bit higher. To put it in context and enable useful comparisons, we will compare it to ground transportation.
+**Air travel**: Expressing an average in this case is inappropriate, as many Americans do not fly at all, while all use some combination of electricity, gas, and gasoline in some capacity. The average works out to 2,300 miles (3,700 km) per year when averaging all people, but among those for whom air travel is utilized, the number is generally a good bit higher. To put it in context and enable useful comparisons, we will compare it to ground transportation.
 
 Typical passenger jets get approximately 90 miles per gallon (m.p.g.) *per seat*[^42] (2.6 L/100 km) for a fully-occupied plane—worse if seats are empty: down to 45 m.p.g. per passenger if half full, for instance. So traveling 1,000 km in a full airplane uses the same amount of fossil fuel energy per person as driving the same 1,000 km in an efficient doubly-occupied car that gets 45 m.p.g. (5.2 L/100 km). For an 80% full airplane,[^43] the effective per-passenger mileage is about 70 m.p.g., coming to an energy cost of about **0.5 kWh per mile (0.32 kWh/km) per passenger**. Because air travel tends to involve *long* trips, the energy used (thus CO$_{2}$ emissions) for air travel can easily exceed that for personal car usage, as is seen in the next example.
 
@@ -408,7 +408,7 @@ where $f_{\mathrm{x}}$ factors are the fraction of one’s diet in form “x,”
 | d.e.f. |   |   | 6.1 | 2.4 | 1.0 | 3.0 |
 :::
 
-In [Table 20.3](#tab-20-3), the first column of numbers is a weighted average of factors from [Table 20.2](#tab-20-2), using the distribution weights listed where available, and assuming equal spread otherwise. The next column scales the energy ratios so that the vegetable category has $R_{\mathrm{v}}= 1,^{49}$ making the dietary energy factor a measure of energy requirements *relative to* a strictly plant-based diet. For instance, red meat requires 37 times as much energy as vegetable matter, for the same metabolic energy content.
+In [Table 20.3](#tab-20-3), the first column of numbers is a weighted average of factors from [Table 20.2](#tab-20-2), using the distribution weights listed where available, and assuming equal spread otherwise. The next column scales the energy ratios so that the vegetable category has $R_{\mathrm{v}}= 1$, making the dietary energy factor a measure of energy requirements *relative to* a strictly plant-based diet. For instance, red meat requires 37 times as much energy as vegetable matter, for the same metabolic energy content.
 
 :::{margin}
 The second column of numbers is the first column divided by 0.65.
@@ -420,13 +420,13 @@ What follows in the table are four diet types, reflecting the average American d
 :class: seealso
 :label: ex-20-3-15
 
-Let’s replicate the American diet result in [Table 20.3](#tab-20-3) using Eq. 20.1.
+Let’s replicate the American diet result in [Table 20.3](#tab-20-3) using [Eq. 20.1](#eq-20-1).
 
 Using $f_{\mathrm{v}}= 0.72, f_{\mathrm{rm}}= 0.09, f_{\mathrm{f}}= 0.01, f_{\mathrm{p}}= 0.05$, and $f_{\mathrm{d}}= 0.13$, then $R_{\mathrm{v}}= 1, R_{\mathrm{rm}}= 37, R_{\mathrm{f}}= 55, R_{\mathrm{p}}= 8.5$, and $R_{\mathrm{d}}= 8$, the dietary energy factor computes to $0.72 + 3.33 + 0.55 + 0.425 + 1.04 = 6.07$, confirming the final row. By breaking things out this way, the red meat category stands out as contributing more[^51] than any other category.
 
 ::::
 
-Compared to a strictly plant-based (vegan) diet, the typical American diet requires about six times the energy. Since the average American diet accounts for 24 kWh per day, a vegan diet is therefore down to 4 kWh/day. A vegetarian diet partaking of dairy and eggs (lacto-ovo diet) is 2.4 times[^52] the vegan diet, or a little less than 40% of the American diet (about 9 kWh/day). Just replacing all meat consumption with chicken (final column) cuts energy demand in half. These are just a few of thethereof to evaluate the energy impact of dietary choices.countless examples that may be explored using Eq. 20.1 or variants
+Compared to a strictly plant-based (vegan) diet, the typical American diet requires about six times the energy. Since the average American diet accounts for 24 kWh per day, a vegan diet is therefore down to 4 kWh/day. A vegetarian diet partaking of dairy and eggs (lacto-ovo diet) is 2.4 times[^52] the vegan diet, or a little less than 40% of the American diet (about 9 kWh/day). Just replacing all meat consumption with chicken (final column) cuts energy demand in half. These are just a few of the countless examples that may be explored using [Eq. 20.1](#eq-20-1) or variants thereof to evaluate the energy impact of dietary choices.
 
 :::{margin}
 **Try it:** Get on it! Evaluate your own diet and how you might modify it.
@@ -443,7 +443,7 @@ Setting $f_{\mathrm{rm}}= 0.33$ and $f_{\mathrm{d}}= 0.10$, we require that $f_{
 
 ::::
 
-It is possible to abandon Eq. 20.1 and roll your own formulation following similar principles. Rather than adopt the distributions from [Table 20.2](#tab-20-2), the technique can be customized to any diet for which energy factors can be found.
+It is possible to abandon [Eq. 20.1](#eq-20-1) and roll your own formulation following similar principles. Rather than adopt the distributions from [Table 20.2](#tab-20-2), the technique can be customized to any diet for which energy factors can be found.
 
 ::::{admonition} Example 20.3.17
 :class: seealso
@@ -463,7 +463,7 @@ The 10:1 input:output energy ratio mentioned at the beginning of this diet segme
 (sec-20-3-5)=
 ### 20.3.5 Flexitarianism
 
-Echoing Point #5 in the list in [Section 20.3.1](#sec-20-3-1), it is worth pointing out that energy and resource concerns are a largely *quantitative* game. One need not become a strict vegan to affect energy demands substantively. For instance, eating meat one meal a week,[^54] and tending to stick to poultry when doing so would drop the energy factor of Eq. 20.1 to a value so near to 1.0 that the difference is of little consequence.
+Echoing Point #5 in the list in [Section 20.3.1](#sec-20-3-1), it is worth pointing out that energy and resource concerns are a largely *quantitative* game. One need not become a strict vegan to affect energy demands substantively. For instance, eating meat one meal a week,[^54] and tending to stick to poultry when doing so would drop the energy factor of [Eq. 20.1](#eq-20-1) to a value so near to 1.0 that the difference is of little consequence.
 
 ::::{admonition} Example 20.3.18
 :class: seealso
@@ -490,7 +490,7 @@ More people are likely to be attracted to join in responsible behaviors if they 
 
 We don’t have direct and immediate control over all the energy expenditures made on our behalf in the same way that we have control over our own light switches and thermostats. Yet, we must accept our communal share of energy and resources used by governmental, military, industrial, agricultural and commercial sectors providing us with structure, protection, goods, and services. The 10,000 W average American power frequently used as a benchmark throughout this book—and mapping to 240 kWh per day—is not all in our direct control. Individuals can make political, consumer, and dietary choices that exercise limited control over these distant activities, but effects are small and gradual.
 
-:::{table} American average and author’s 2019 expenditures energy on a daily average basis expressed in kilowatt-hours.
+:::{table} American average and author’s 2019 energy expenditures on a daily average basis expressed in kilowatt-hours.
 :label: tab-20-4
 :enumerator: 20.4
 
@@ -559,7 +559,7 @@ No one has a crystal ball. No one can credibly say what the future holds. Anyone
 :enumerator: 20.1
 :alt: Asymmetric risk in the face of a potential devastating threat. Plan A is the natural response if the threat is not believed to be real, and
 
-Asymmetric risk in the face of a potential devastating threat. Plan A is the natural response if the threat is not believed to be real, and Plan B is appropriate for mitigating the threat. The downside of the threat being real but sticking to Plan A is catastrophic, whereas pursuing Plan B unnecessarily is not ideal, but not nearly as bad. We don’t get to choose reality (column), but we do get to chose the plan (row). Are we feeling lucky, or conservative?
+Asymmetric risk in the face of a potential devastating threat. Plan A is the natural response if the threat is not believed to be real, and Plan B is appropriate for mitigating the threat. The downside of the threat being real but sticking to Plan A is catastrophic, whereas pursuing Plan B unnecessarily is not ideal, but not nearly as bad. We don’t get to choose reality (column), but we do get to choose the plan (row). Are we feeling lucky, or conservative?
 :::
 
 Another rationale for this book’s tone relates to asymmetric risk ([Figure 20.1](#fig-20-1)). If we take potentially catastrophic threats seriously and at least formulate plans to mitigate them, then little harm is done if the threat does not materialize: just “wasted” time and effort being careful.[^64] But ignoring the threat could mean “game over.” Even if the probability of the threat is low, like 10%, it is worthy of attention if the consequences of ignoring it could be devastating. People routinely buy insurance for similar reasons: to mitigate low-probability but potentially debilitating events.
@@ -572,14 +572,14 @@ A first step may be to become less reliant on technology for simple tasks. Use b
 
 Try modes of living that are less cushy than normal, even if temporarily. A week-long backpacking trip is a great way to feel like a part of nature, and come to understand that some level of discomfort or hardship is tolerable—or even confidence-building.[^66] The first few days may be a difficult adjustment, but it is surprising how well and how quickly adaptation can happen—given time, decent weather, and a constructive attitude. After doing this a few times, minor inconveniences or discomforts that arise might be met with far greater grace. The person who remains stable in the face of adversity will be more resilient than many of their peers, and can help others hold things together in crisis.
 
-Keep in mind that humans evolved outdoors, dealt with seasons, and often went many days without food. When did we become so fragile that we need to live within a narrow temperature range to be comfortable, and lose our heads if we don’t get three square meals a day? What would our ancestors think of us? By learning to toughen up, the future— whatever way it goes—will have less power over us. We can strive to be less vulnerable and at the mercy of events beyond our control. We will have some agency to cope and help others cope with any variety of outcomes. Just by having some confidence in our ability to deal with a bit of adversity or discomfort will allow us to keep cooler heads and be able to recognize important opportunities if and when they come along, rather then being paralyzed by distress.
+Keep in mind that humans evolved outdoors, dealt with seasons, and often went many days without food. When did we become so fragile that we need to live within a narrow temperature range to be comfortable, and lose our heads if we don’t get three square meals a day? What would our ancestors think of us? By learning to toughen up, the future— whatever way it goes—will have less power over us. We can strive to be less vulnerable and at the mercy of events beyond our control. We will have some agency to cope and help others cope with any variety of outcomes. Just by having some confidence in our ability to deal with a bit of adversity or discomfort will allow us to keep cooler heads and be able to recognize important opportunities if and when they come along, rather than being paralyzed by distress.
 
-Hopefully, such preparedness will never be truly needed. And how bad would it be if we “built some character” along the way for no reason.
+Hopefully, such preparedness will never be truly needed. And how bad would it be if we “built some character” along the way for no reason?
 
 (sec-20-6)=
 ## 20.6 Upshot on Strategies
 
-No one can know what fate awaits us, or control the timing of whatever unfolds. But individuals *can* take matters into their own hands and adopt practices that are more likely to be compatible with a future defined by reduced resource availability. We can learn to communicate future concerns constructively, without being required to paint an artificial picture of hope.[^67] Our actions and choices, even if not showcased, can serve as inspiration for others—or at least can be personally rewarding as an impactful adventure. Quantitative assessment of energy and resource demands empowers individuals to make personal choices carrying large impacts. Reductions of factors of 2 and 3 and 4 are not out of reach. Maybe the world does not *need* 18 TW to be happy. Maybe we don’t *have* to work so hard to maintain a peaceful and rewarding lifestyle once growth is not the driver. Maybe we can re-learn how to adapt to the seasons and be fulfilled by a more intimate connection with nature. The value of psychological preparedness should not underestimated. By staring unblinking into the abyss, we are ready to cope with disruption, should it come. And if it never does in our lifetimes, what loss do we
+No one can know what fate awaits us, or control the timing of whatever unfolds. But individuals *can* take matters into their own hands and adopt practices that are more likely to be compatible with a future defined by reduced resource availability. We can learn to communicate future concerns constructively, without being required to paint an artificial picture of hope.[^67] Our actions and choices, even if not showcased, can serve as inspiration for others—or at least can be personally rewarding as an impactful adventure. Quantitative assessment of energy and resource demands empowers individuals to make personal choices carrying large impacts. Reductions of factors of 2 and 3 and 4 are not out of reach. Maybe the world does not *need* 18 TW to be happy. Maybe we don’t *have* to work so hard to maintain a peaceful and rewarding lifestyle once growth is not the driver. Maybe we can re-learn how to adapt to the seasons and be fulfilled by a more intimate connection with nature. The value of psychological preparedness should not be underestimated. By staring unblinking into the abyss, we are ready to cope with disruption, should it come. And if it never does in our lifetimes, what loss do we
 
 really suffer if we have chosen our adventure and lived our personal values?
 
@@ -605,7 +605,17 @@ Continuing the freeway metaphor, the current path has us hurtling forward to cer
 
 6. A person loses their snazzy stainless steel water bottle that they carry everywhere—again. So they go to the store to replace it. What elements of the list in [Section 20.3.1](#sec-20-3-1) are in danger of being violated?
 
-7. Which of the following devices is likely to consume a lot of power, when it is on/running? Explain your selection. a) laptop computer b) phone charging c) toaster oven d) television/display e) lighting for a room
+7. Which of the following devices is likely to consume a lot of power, when it is on/running? Explain your selection.
+
+   a) laptop computer
+
+   b) phone charging
+
+   c) toaster oven
+
+   d) television/display
+
+   e) lighting for a room
 
 8. A microwave oven and a space heater might each draw 1,500 W of electrical power. What determines which one uses more *energy*, and describe a realistic scenario in which one uses a lot more energy than the other.
 
@@ -635,7 +645,7 @@ Continuing the freeway metaphor, the current path has us hurtling forward to cer
 
 21. Describe the circumstances and outcomes of the four boxes in [Figure 20.1](#fig-20-1) in the context of a tornado reported heading for your town—which may or may not hit your house if it even hits your town at all. Plan A would be to do nothing in preparation. Plan B would be to board up the windows on your house and take cover in a tornado shelter. Describe the relative costs and feelings about your decisions in the aftermath for all four scenarios.
 
-22. Comparing the human body to a car with a gas tank, and recognizing that a human can *live*[^73] for about two weeks without food, provided adequate water and shelter. How many skipped meals does this represent, on the standard of three meals per day? If the body had a fuel gauge indicating how close to “empty” (death) we are, what percentage of “full” does our gauge typically read when we “pull into the station” for another fill-up (meal) in the standard case when we get three meals per day?
+22. Compare the human body to a car with a gas tank, and recognize that a human can *live*[^73] for about two weeks without food, provided adequate water and shelter. How many skipped meals does this represent, on the standard of three meals per day? If the body had a fuel gauge indicating how close to “empty” (death) we are, what percentage of “full” does our gauge typically read when we “pull into the station” for another fill-up (meal) in the standard case when we get three meals per day?
 
 :::{margin}
 Note that, unlike a car, the body does not function just as well at 25% “full” as it does when it is 100% full. Thus the analogy is very flawed. Yet, in primitive times, it was surely routine to dip well below hunger levels not often tolerated today.

@@ -36,7 +36,7 @@ The **energy of a single photon**, in various forms, is
 :::{math}
 :label: eq-13-1
 :enumerator: 13.1
-E_{\mathrm{photon}}= h\nu = ^{\frac{hc}{\lambda}} \approx \frac{2 \times 10^{-19}\mathrm{J}}{\lambda (\mathrm{in}\mu \mathrm{m})} = \lambda 1(.\mathrm{i}2\mathrm{n}4\mu \mathrm{emV}),
+E_{\mathrm{photon}}= h\nu = \frac{hc}{\lambda} \approx \frac{2 \times 10^{-19}\mathrm{J}}{\lambda (\mathrm{in}\mu \mathrm{m})} = \frac{1.24}{\lambda(\mathrm{in}\ \mu\mathrm{m})}\ \mathrm{eV},
 :::
 
 where $h = 6.626 \times 10^{-34}$ J $\cdot$ s (Planck’s constant), and $\nu$ is the frequency of the light in Hertz (Hz, or inverse seconds).
@@ -89,15 +89,10 @@ We already saw this equation in the context of Earth’s energy balance in [Sect
 :::{math}
 :label: eq-13-4
 :enumerator: 13.4
-B_{\lambda}= \frac{2\pi hc^{2}}{\lambda ^{5}} \frac{}{} \frac{\mathrm{W/m}^{2}}{\mathrm{m}}],
+B_{\lambda}= \frac{2\pi hc^{2}}{\lambda ^{5}} \frac{1}{e^{hc/\lambda k_{\mathrm{B}}T}- 1}\ \left[\frac{\mathrm{W/m}^{2}}{\mathrm{m}}\right],
 :::
 
-|   | $[$ |
-| --- | --- |
-| 1 |   |
-| $e^{hc/\lambda k_{\mathrm{B}}T}- 1$ |   |
-
-[Eq. 13.4](#eq-13-4) might look formidable, but only $\lambda$and $T$ are variable. It describes the Planck spectrum, otherwise known as the blackbody[^10] spectrum. For some temperature, $T$, this function specifies how much power is emitted at each wavelength, $\lambda$. Three fundamental physical constants from key areas of physics make an appearance: $c \approx 3 \times 10^{8}$ m/s is the familiar speed of light from relativity; $h \approx 6.626 \times 10^{-34}$ J $\cdot$ s is Planck’s constant from quantum mechanics, and $k_{\mathrm{B}}\approx 1.38 \times 10^{-33}$ J $\cdot$ K is the Boltzmann constant of thermodynamics.[^11]
+[Eq. 13.4](#eq-13-4) might look formidable, but only $\lambda$and $T$ are variable. It describes the Planck spectrum, otherwise known as the blackbody[^10] spectrum. For some temperature, $T$, this function specifies how much power is emitted at each wavelength, $\lambda$. Three fundamental physical constants from key areas of physics make an appearance: $c \approx 3 \times 10^{8}$ m/s is the familiar speed of light from relativity; $h \approx 6.626 \times 10^{-34}$ J $\cdot$ s is Planck’s constant from quantum mechanics, and $k_{\mathrm{B}}\approx 1.38 \times 10^{-23}$ J/K is the Boltzmann constant of thermodynamics.[^11]
 
 :::{math}
 :label: eq-13-5
@@ -163,7 +158,7 @@ This choice makes the area about $1.0 \times 10^{8}\mathrm{W/m}^{2}/\mu \mathrm{
 Attempts to crudely match the area under the 6000 K Planck spectrum using rectangles of three different widths. The widest (1 $\mu \mathrm{m}$; dashed line) is too much area; the narrowest (0.5 $\mu \mathrm{m}$; dotted line) is too small. The middle (0.75 $\mu \mathrm{m}$; pink area) seems closest, by eye.
 :::
 
-Now that we’ve batted the equations around a little bit, like a cat mightdo if given a new mouse toy, let’s absorb some key takeaways. First, asthe source gets hotter, the area under the curve[^14] increases *drastically*—as the *fourth-power* of $T$, according to [Eq. 13.3](#eq-13-3). This is seen in [Figure 13.1](#fig-13-1) in that going from 3,000 K to 6,000 $\mathrm{K}^{15}$ leads to a *tremendous* increase in area under the curve: 16 times, in fact.
+Now that we’ve batted the equations around a little bit, like a cat might do if given a new mouse toy, let’s absorb some key takeaways. First, as the source gets hotter, the area under the curve[^14] increases *drastically*—as the *fourth-power* of $T$, according to [Eq. 13.3](#eq-13-3). This is seen in [Figure 13.1](#fig-13-1) in that going from 3,000 K to 6,000 $\mathrm{K}$ leads to a *tremendous* increase in area under the curve: 16 times, in fact.
 
 :::{margin}
 **Try it:** Follow along using [Figure 13.1](#fig-13-1).
@@ -291,10 +286,8 @@ High latitude sites suffer more from low sun angles, and obviously cloudier loca
 | --- | --- |
 | Arriving at Earth | 1,360 |
 | Full, overhead sun (no clouds) | $\sim 1,000$ |
-| Absorbed by $\pi R^{2}$ | 960 |
-| $\oplus$ |   |
-| Absorbed by $4\pi R^{2}$ | 240 |
-| $\oplus$ |   |
+| Absorbed by $\pi R^{2}_{\oplus}$ | 960 |
+| Absorbed by $4\pi R^{2}_{\oplus}$ | 240 |
 | Typical insolation, includes weather | $\sim 200$ |
 | Typical delivered by 15% efficient PV | 30 |
 :::
@@ -306,22 +299,15 @@ High latitude sites suffer more from low sun angles, and obviously cloudier loca
 :enumerator: 13.8
 :alt: Insolation onto locally horizontal surfaces for the world (for flat plates facing directly upward), in units of and day. The area of the blu
 
-Insolation onto locally horizontal surfaces for the world (for flat plates facing directly upward), in units of $\mathrm{W/m}^{2}$ and $\mathrm{kWh/m}^{2}/$day. The area of the blue square in the middle of the Atlantic ocean is enough to satisfy current global energy demand, using
+Insolation onto locally horizontal surfaces for the world (for flat plates facing directly upward), in units of $\mathrm{W/m}^{2}$ and $\mathrm{kWh/m}^{2}/$day. The area of the blue square in the middle of the Atlantic ocean is enough to satisfy current global energy demand, using 15% efficient solar collection (but distributed, of course). Source: The World Bank.
 :::
-
-15% efficient solar collection (but distributed, of course). Source: The World Bank.
 
 :::{figure} ../images/fig-13-9.jpg
 :label: fig-13-9
 :enumerator: 13.9
 :alt: Horizontal insolation for the U.S. for a flat plate facing directly upward. Native units for the graphic are in day, the break-points betwee
 
-Horizontal insolation for the U.S. for a flat plate facing directly upward. Native units for the graphic are in $\mathrm{kWh/m}^{2}/$day, the break-points between 5.75 $\mathrm{kWh/m}^{2}/$day in steps of 0.25. These values can be converted to $\mathrm{W/m}^{2}$ by multiplying by 1,000 W/kW and dividing by 24 h/day. Annotations are added once in each color band (in black or yellow) to indicate the equivalent measure in $\mathrm{W/m}^{2}$ [[87](#ref-87)]. Alaska is not even close to scale. From NREL.
-:::
-
-:::{margin}
-colors running from 4.0 to
-
+Horizontal insolation for the U.S. for a flat plate facing directly upward. Native units for the graphic are in $\mathrm{kWh/m}^{2}/$day, the break-points between 4.0 and 5.75 $\mathrm{kWh/m}^{2}/$day in steps of 0.25. These values can be converted to $\mathrm{W/m}^{2}$ by multiplying by 1,000 W/kW and dividing by 24 h/day. Annotations are added once in each color band (in black or yellow) to indicate the equivalent measure in $\mathrm{W/m}^{2}$ [[87](#ref-87)]. Alaska is not even close to scale. From NREL.
 :::
 
 [Figure 13.9](#fig-13-9) shows the variation of insolation across the U.S. The latitude effect is evident, but also weather/clouds make a mark, giving the southwest desert the highest solar potential. Even so, the variation from best to worst locations[^45] is *not even a factor of two*.
@@ -437,7 +423,7 @@ Placing solar panels on just 10% of the land (itself 29% of Earth’s surface ar
 
 So it seems like a done deal. Solar. Let’s get started! Wait, why aren’t we there yet?
 
-Naturally, solar has some downsides. First, the cost. Panel cost has dropped to something like \$0.50 or less per peak-Watt. To get 10 TW of delivered (average) power at typical locations getting 20% capacity factor[^64] would require about 50 $\mathrm{TW}_{\mathrm{p}}$ (Example 13.4.1 defines $\mathrm{W}_{\mathrm{p}})$, costing 25 trillion dollars. The cost of other necessary components and installation double the cost for utility-scale projects [89], bringing the cost to \$50 trillion.[^65] The global annual economy is not quite twice this. To outfit the world with the requisite number of panels would take about 60% of the economy for a year, or 6% over 10 years, or 1.5% continuously.[^66] For comparison, the world goes through 30 billion barrels of oil each year at a cost of \$50/bbl, meaning \$1.5 trillion per year. Installing enough panels to fully satisfy demand would cost three-decades-worth of the *entire* global petroleum budget. So it’s not going to happen fast. To put things on a personal scale, Americans use power at a rate of 10,000 W. To cover this, we would need about 50 $\mathrm{kW}_{\mathrm{p}}$ of panel per person, costing \$50k per person.[^67] When can we expect your payment?
+Naturally, solar has some downsides. First, the cost. Panel cost has dropped to something like \$0.50 or less per peak-Watt. To get 10 TW of delivered (average) power at typical locations getting 20% capacity factor[^64] would require about 50 $\mathrm{TW}_{\mathrm{p}}$ (Example 13.4.1 defines $\mathrm{W}_{\mathrm{p}})$, costing 25 trillion dollars. The cost of other necessary components and installation double the cost for utility-scale projects [[89](#ref-89)], bringing the cost to \$50 trillion.[^65] The global annual economy is not quite twice this. To outfit the world with the requisite number of panels would take about 60% of the economy for a year, or 6% over 10 years, or 1.5% continuously.[^66] For comparison, the world goes through 30 billion barrels of oil each year at a cost of \$50/bbl, meaning \$1.5 trillion per year. Installing enough panels to fully satisfy demand would cost three-decades-worth of the *entire* global petroleum budget. So it’s not going to happen fast. To put things on a personal scale, Americans use power at a rate of 10,000 W. To cover this, we would need about 50 $\mathrm{kW}_{\mathrm{p}}$ of panel per person, costing \$50k per person.[^67] When can we expect your payment?
 
 Another daunting realization is that even though only 0.4% of the land is needed to match today’s demand, this is comparable to the amount of area currently covered by roads and buildings. A road trip across the country conveys a sense for how vast (and boring) all that pavement can be. And pavement is a fancy form of dirt. It is true that PV panels are *also* an ultra-pure, ultra-fancy form of dirt. But it’s a different level of high-tech. It becomes hard to fathom that much PV around the world. A major impediment to solar power is its **intermittency**.[^68] [Figure 13.15](#fig-13-15) shows 31 days of solar capture, along with typical state-wide electricity demand. The two do not look very similar: not well matched. Demand is far more constant than the solar input, which is obviously zero at night. Even the peaks do not line up well, since demand is highest in the evening, well after solar input has faded away.
 
@@ -446,12 +432,7 @@ Another daunting realization is that even though only 0.4% of the land is needed
 :enumerator: 13.15
 :alt: Solar input (red) and electricity demand (blue) look nothing alike. Solar data from the author’s home begins 31 March 2020, while demand is
 
-Solar input (red) and electricity demand (blue) look nothing alike. Solar data from the author’s home begins 31 March 2020, while demand is for California. Tick marks denote the start of each date, at midnight. April 22–27 are essentially perfect cloudless days, while the earlier part of the month had rainy periods. Note that even a very rainy day (April 10) provides *some* solar power (15% as much as a full-sun day). Intermittent clouds cause the “hair” seen on some days. The capacity factor for the month is 19%, while the perfect six days near the end perform at 27% capacity. From this, we infer that weather caused the yield to be 70% what it would have been had every day
-:::
-
-:::{margin}
-been cloudless.
-
+Solar input (red) and electricity demand (blue) look nothing alike. Solar data from the author’s home begins 31 March 2020, while demand is for California. Tick marks denote the start of each date, at midnight. April 22–27 are essentially perfect cloudless days, while the earlier part of the month had rainy periods. Note that even a very rainy day (April 10) provides *some* solar power (15% as much as a full-sun day). Intermittent clouds cause the “hair” seen on some days. The capacity factor for the month is 19%, while the perfect six days near the end perform at 27% capacity. From this, we infer that weather caused the yield to be 70% what it would have been had every day been cloudless.
 :::
 
 Storage is required in order to mitigate the intermittency, allowing the choppy solar input to satisfy the demand curve of [Figure 13.15](#fig-13-15). We don’t have good solutions for seasonal storage,[^69] so a complete reliance on solar energy would necessitate over-building the system to handle months of low-sun conditions through winter (see the annual variation in [Table 13.2](#tab-13-2)), making it cost all that much more.
@@ -543,7 +524,7 @@ We should assume that the panels will not achieve their rated potential due to t
 
 - The equipment that converts panel output to AC electricity is not 100% efficient.
 
-So it’s a good idea to bump the number up by 20% or so, and order a 7.5 kW PV system for the case under study. A typical full cost (panels, electrical converters, installation) lately runs just shy of \$3 per peak Watt (Figure 13.16), which in this case brings the price tag to roughly \$20k. If electricity costs \$0.15 per kWh—approximately the national average—each 30 kWh day costs \$4.5, accumulating to \$20k after 12 years. Federal and state incentives can make the payback time shorter.
+So it’s a good idea to bump the number up by 20% or so, and order a 7.5 kW PV system for the case under study. A typical full cost (panels, electrical converters, installation) lately runs just shy of \$3 per peak Watt ([Figure 13.16](#fig-13-16)), which in this case brings the price tag to roughly \$20k. If electricity costs \$0.15 per kWh—approximately the national average—each 30 kWh day costs \$4.5, accumulating to \$20k after 12 years. Federal and state incentives can make the payback time shorter.
 
 What would these numbers become if trying to meet monthly instead of annual demands? December is usually the worst month for PV in the northern hemisphere, when the sun is lowest in the south, and the days are shortest. [Table 13.2](#tab-13-2) backs this up, showing 3.1 $\mathrm{kWh/m}^{2}/$day for the chosen panel orientation in December. This is about two-thirds the annual average, so we would need to increase the size of the system (and thus cost and payback time) by a factor of 1.5 to produce enough in December.[^82]
 
@@ -555,7 +536,7 @@ What would these numbers become if trying to meet monthly instead of annual dema
 Evolving price of PV installation per peak Watt. Yellow is for the panels; the two blues for electronics; peach is labor; and hashed is for the utility hookup, inspection, taxes, profits [[89](#ref-89), [91](#ref-91)]. From NREL.
 :::
 
-If sizing for an off-grid system, we need to factor in some inefficiency for battery charge/discharge and design for poorer months, so should increase by another factor of at least 1.5. The cost of batteries can be rather large, too. A good rule of thumb is to have at least three days of storage in the event of no solar input for several days during a stormy period. For our 30 kWh per day target, we would want about 100 kWh of storage. As an easy way to get a cost estimate for storage, the Tesla powerwall 2 is 13.5 $\mathrm{kWh}^{83}$ and costs about \$7k apiece. If we follow along, the cost of the off-grid PV system for 30 kWh/day at an installation cost of \$3/W will be 7500 W $\times 1.5 \times 1.5 \times \$3 \approx$ \$50k for panels/installation plus \$56k for batteries.[^84] Then the batteries may be in need of replacement every 10–15 years.[^85]
+If sizing for an off-grid system, we need to factor in some inefficiency for battery charge/discharge and design for poorer months, so should increase by another factor of at least 1.5. The cost of batteries can be rather large, too. A good rule of thumb is to have at least three days of storage in the event of no solar input for several days during a stormy period. For our 30 kWh per day target, we would want about 100 kWh of storage. As an easy way to get a cost estimate for storage, the Tesla powerwall 2 is 13.5 $\mathrm{kWh}$ and costs about \$7k apiece. If we follow along, the cost of the off-grid PV system for 30 kWh/day at an installation cost of \$3/W will be 7500 W $\times 1.5 \times 1.5 \times \$3 \approx$ \$50k for panels/installation plus \$56k for batteries.[^84] Then the batteries may be in need of replacement every 10–15 years.[^85]
 
 :::{margin}
 … so we would need about 8
@@ -566,7 +547,7 @@ If this seems rather alarming, don’t worry—there’s a trick to making it mu
 (sec-13-7)=
 ## 13.7 Photovoltaic Installations
 
-The Energy Information Administration’s Electric Power Monthly (EPM) [[85](#ref-85)] provides detailed statistics on power generation in the U.S. Photovoltaic data is available in the EPM’s tables 1.17.B and 6.2.B. In the usual way, we first look at installed capacity, based on the actual average *delivered* power. [Figure 13.17](#fig-13-17) shows the situation in the U.S. California is
+The Energy Information Administration’s Electric Power Monthly (EPM) [[85](#ref-85)] provides detailed statistics on power generation in the U.S. Photovoltaic data is available in the EPM’s tables 1.17.B and 6.2.B. In the usual way, we first look at installed capacity, based on the actual average *delivered* power. [Figure 13.17](#fig-13-17) shows the situation in the U.S.
 
 :::{margin}
 [[85](#ref-85)]: U.S. Energy Inform. Admin. (2020), *Electric power monthly*
@@ -651,7 +632,7 @@ Before advancing to solar thermal generation, let’s summarize the major advant
 
 - PV technology works well, and despite expense has been deployed on rooftops across the world;
 
-- Life-cycle CO$_{2}$ emissions are 15 times smaller than that of traditional fossil fuel electricity [[68](#ref-68)];
+- Life-cycle CO$_{2}$ emissions are 15 times smaller than those of traditional fossil fuel electricity [[68](#ref-68)];
 
 :::{margin}
 [[68](#ref-68)]: (2020), *Life Cycle GHG Emissions*
@@ -714,10 +695,8 @@ Solar trough cross sections showing the focusing of sunlight onto a central pipe
 :enumerator: 13.23
 :alt: A common solar thermal power scheme uses parabolic “trough” reflectors to focus sunlight onto a central pipe, which carries oil that can be
 
-A common solar thermal power scheme uses parabolic “trough” reflectors to focus sunlight onto a central pipe, which carries oil that can be heated to very high temperatures for making steam to run a traditional electrical power plant very much like that of
+A common solar thermal power scheme uses parabolic “trough” reflectors to focus sunlight onto a central pipe, which carries oil that can be heated to very high temperatures for making steam to run a traditional electrical power plant very much like that of [Fig. 6.2](#fig-6-2) (p. 95). Optional thermal storage can save heat for later use.
 :::
-
-[Fig. 6.2](#fig-6-2) (p. 95). Optional thermal storage can save heat for later use.
 
 [Figure 13.23](#fig-13-23) shows a schematic representation of a typical solar thermal (ST) collector, and a picture of one appears in [Figure 13.24](#fig-13-24). A curved reflector tilts to track the sun, concentrating light onto a long pipe in front of the reflector carrying a fluid (usually oil) that can be heated to a high temperature by the absorbed sunlight. The hot oil pipes can then be run through water to boil it and make steam, thereafter driving a traditional steam power plant. Such ST arrangements are sometimes called concentrated solar power (CSP). Another common variant—called a “power tower”—is shown in [Figure 13.25](#fig-13-25), in which an array of steerable flat mirrors on the ground direct sunlight to the top of a central tower to make steam.
 
@@ -731,7 +710,7 @@ As for efficiency, solar thermal is at face value similar to PV: 15–20% is fai
 Parabolic trough-based ST plant, in which part of the power generation facility is seen in the background. Reflectors must be spaced out to prevent self-shadowing. From U.S. DoE.
 :::
 
-But efficiency is not everything. 3% of a gigantic resource like solar energy input can still be tremendously large. It translates to over 6 $\mathrm{W/m}^{2}$ for a standard insolation of 200 $\mathrm{W/m}^{2}$, which is about thirty-times better than wind, per land area. While a field of PV panels outperform an ST installation by a factor of 5–6, the technologically simpler solar thermal designs can be more cost effective than PV. Reflectors and oil pipes are low-tech cheap devices, compared to photovoltaic material. The production cost for solar thermal is estimated to be about \$0.06/kWh, which is lower than the typical retail cost of electricity, but still a factor of two higher than fossil fuel electricity production costs.
+But efficiency is not everything. 3% of a gigantic resource like solar energy input can still be tremendously large. It translates to over 6 $\mathrm{W/m}^{2}$ for a standard insolation of 200 $\mathrm{W/m}^{2}$, which is about thirty-times better than wind, per land area. While a field of PV panels outperforms an ST installation by a factor of 5–6, the technologically simpler solar thermal designs can be more cost effective than PV. Reflectors and oil pipes are low-tech cheap devices, compared to photovoltaic material. The production cost for solar thermal is estimated to be about \$0.06/kWh, which is lower than the typical retail cost of electricity, but still a factor of two higher than fossil fuel electricity production costs.
 
 :::{figure} ../images/fig-13-25.jpg
 :label: fig-13-25
@@ -775,7 +754,7 @@ Summarizing the pros and cons for solar thermal (ST), starting with the good asp
 
 - ST has built-in short-term storage capacity for covering evening power demands;
 
-- Life-cycle CO$_{2}$ emissions are 20 times smaller than that of traditional fossil fuel electricity [[68](#ref-68)].
+- Life-cycle CO$_{2}$ emissions are 20 times smaller than those of traditional fossil fuel electricity [[68](#ref-68)].
 
 :::{margin}
 [[68](#ref-68)]: (2020), *Life Cycle GHG Emissions*
@@ -822,7 +801,7 @@ Solar thermal energy is another way to run a traditional steam-based power plant
 
 5. Warm humans at $\sim 300$ K and glowing-hot light bulb filaments at $\sim 2,400$ K both radiate according to [Eq. 13.3](#eq-13-3). How much more power per unit area $(\mathrm{W/m}^{2})$ does an incandescent filament emit compared to human skin, roughly?
 
-6. The outcome of Problem 5 indicates that a hot light bulb filament emits thousands of times more power per unit area than human skin. Yet both a human and a light bulb may emit a similar amount of light[^105]—both around 100 W. Explain how both things can be true?
+6. The outcome of Problem 5 indicates that a hot light bulb filament emits thousands of times more power per unit area than human skin. Yet both a human and a light bulb may emit a similar amount of light[^105]—both around 100 W. Explain how both things can be true.
 
 7. At what wavelength does the Wien Law say the Planck spectrum will peak for a temperature of 4,500 K? Express your answer in microns and compare to [Figure 13.1](#fig-13-1) for confirmation.
 
@@ -841,7 +820,7 @@ Solar thermal energy is another way to run a traditional steam-based power plant
 
 12. Which photons are most responsible for heating up a silicon photovoltaic panel in full sun: blue photons or infrared photons (beyond 1.1 $\mu \mathrm{m})$?
 
-13. If a blue photon having 3.3 electron-volt of energy liberates an electron in silicon, whose band gap is 1.1 eV„ what fraction of the photon’s energy is “kept” by the electron once it settles down from the excess?[^107]
+13. If a blue photon having 3.3 electron-volt of energy liberates an electron in silicon, whose band gap is 1.1 eV, what fraction of the photon’s energy is “kept” by the electron once it settles down from the excess?[^107]
 
 14. If a 2.5 electron-volt photon liberates an electron from silicon with a 1.1 eV band gap, how much kinetic energy does the emerging electron have? Express in both eV and Joules, and then determine the velocity of the electron if the electron mass is 9 $\times 10^{-31}$ kg.
 
@@ -917,7 +896,7 @@ It is a good practice to round the final size up a bit to make sure additional i
 
 33. Using the parameters from Problem 32, interpreting the solar yield as daily hours of peak-sun-equivalent (at solar exposure of 1 $\mathrm{kW/m}^{2})$ what should the array size be in terms of peak Watts in order to deliver 8 kWh per day? How much would the system cost to install at \$3.00 per $\mathrm{W}_{\mathrm{p}}$?
 
-34. One way to look at solar payback time time is to note that an installed system will cost something like \$3,000 for each $\mathrm{kW}_{\mathrm{p}}$ (peak capacity), and that you’ll produce $x$ kWh from that 1 $\mathrm{kW}_{\mathrm{p}}$ array if your region gets $x$ hours of full-sun-equivalent on average. Since each kWh of electricity costs something like \$0.15, it becomes straightforward to compute the value per day as \$$0.15x$, and determine how long to match the \$3k investment. The result is independent of the actual array size, depending only on the cost per $\mathrm{W}_{\mathrm{p}}$, the solar yield at your location, and the cost of electricity. What would the payback time be, in years, if the cost is \$$3/\mathrm{W}_{\mathrm{p}}$,[^117] the yield is 6 hours per day of full-sun-equivalent, and electricity in your region costs \$0.15/kWh?
+34. One way to look at solar payback time is to note that an installed system will cost something like \$3,000 for each $\mathrm{kW}_{\mathrm{p}}$ (peak capacity), and that you’ll produce $x$ kWh from that 1 $\mathrm{kW}_{\mathrm{p}}$ array if your region gets $x$ hours of full-sun-equivalent on average. Since each kWh of electricity costs something like \$0.15, it becomes straightforward to compute the value per day as \$$0.15x$, and determine how long to match the \$3k investment. The result is independent of the actual array size, depending only on the cost per $\mathrm{W}_{\mathrm{p}}$, the solar yield at your location, and the cost of electricity. What would the payback time be, in years, if the cost is \$$3/\mathrm{W}_{\mathrm{p}}$,[^117] the yield is 6 hours per day of full-sun-equivalent, and electricity in your region costs \$0.15/kWh?
 
 35. From [Table 13.3](#tab-13-3), compute the capacity factors for the countries listed, and for the whole world, based on average vs. installed power. What is a characteristic range of numbers, and why[^118] is it so low? Which country does the best, and which does the worst? What clues does [Figure 13.8](#fig-13-8) offer as an explanation?
 
@@ -940,7 +919,7 @@ It is a good practice to round the final size up a bit to make sure additional i
 [^11]: This last one may be more familiar to students in its chemistry form of the gas constant $R = k_{\mathrm{B}}N_{\mathrm{A}}\approx 8.31 \mathrm{J/K/mol}$, where $N_{\mathrm{A}}\approx 6.022 \times 10^{23}$ is Avogadro’s number.
 [^12]: [Eq. 13.4](#eq-13-4) uses units of meters for $\lambda$, but [Figure 13.1](#fig-13-1) uses microns $(\mu \mathrm{m}$, or $10^{-6}$ m) for convenience. Also, [Eq. 13.4](#eq-13-4) delivers an answer in units of $\mathrm{W/m}^{2}$ per *meter* of wavelength, but for the plot we divided by $10^{6}$ so it would be $\mathrm{W/m}^{2}$ per *micron* of wavelength. By taking care of this detail, the area under each curve in [Figure 13.1](#fig-13-1) should match $\sigma T^{4}$ as in [Eq. 13.3](#eq-13-3).
 [^13]: Numerically, the numerator is $3.74 \times 10^{-16}$, the denominator is $10^{-30}$, and the argument in the exponential is 2.4, so that the second fraction is 0.1.
-[^14]: … total power emitted 15: … doubling temperature
+[^14]: … total power emitted … doubling temperature
 [^16]: Solar thermal generation will be covered in [Section 13.8](#sec-13-8).
 [^17]: … either during or after the semiconductor crystal growth; a process called “doping”
 [^18]: So-called $p--n$ junctions form the basis of diodes and transistors.

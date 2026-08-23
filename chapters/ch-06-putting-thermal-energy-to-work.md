@@ -215,7 +215,7 @@ when heat drives motion.
 
 3. The abrupt temperature increase in an internal combustion cylinder drives a rapid expansion of gas within the cylinder;
 
-4. Steam in a power plant races though the turbine because it is flowing to the cold condenser.
+4. Steam in a power plant races through the turbine because it is flowing to the cold condenser.
 
 ::::
 
@@ -272,23 +272,12 @@ between them in some way. They can all have exactly 2.0 units of energy apiece, 
 
 ::::
 
-4:0 (1)
-
-:::{margin}
-4 (1)
-:::
-
 :::{figure} ../images/fig-6-3.svg
 :label: fig-6-3
 :enumerator: 6.3
 :alt: A box containing 4 atoms or molecules of one type (white) and 4 of another type (red) has many more configurations available (number in pare
 
-A box containing 4 atoms or molecules of one type (white) and 4 of another type (red) has many more configurations available (number in parentheses) when species are equally distributed so that left and right sides both have two of each. Entropy is related to the number of ways a system can distribute itself (at the same energy level), acting to favor disordered mixing over (improbable) orderly
-:::
-
-:::{margin}
-separation.
-
+A box containing 4 atoms or molecules of one type (white) and 4 of another type (red) has many more configurations available (number in parentheses) when species are equally distributed so that left and right sides both have two of each. Entropy is related to the number of ways a system can distribute itself (at the same energy level), acting to favor disordered mixing over (improbable) orderly separation.
 :::
 
 ::::{admonition} Example 6.4.3
@@ -506,7 +495,7 @@ We can flip a heat engine around and call it a heat pump. In this case, we *appl
 :enumerator: 6.5
 :alt: Heat pump energy balance. The application of work ; from an electrical source, for instance) can drive heat to flow- counterintuitively-from
 
-Heat pump energy balance. The application of work $(\Delta W$; from an electrical source, for instance) can drive heat to flow— counterintuitively—from a cold reservoir (like the interior of a freezer) to a hotter environment. Example $T_{\mathrm{c}}\rightarrow T_{\mathrm{h}}$ pairs might include freezer-interior $\rightarrow$room-air; cooledinside $\rightarrow$ summer-outside; winter-outside $\rightarrow$warmed-inside. We still must satisfy conservation of energy $(\Delta Q_{\mathrm{h}}= \Delta Q_{\mathrm{c}}+ \Delta W)$, where $\Delta Q$is a heat flow. Entropy constraints limit how large $\Delta Q_{\mathrm{c}}$ can be for a given $\Delta W$ input. Arrow widths are proportional to energy, and red numbers are example energy amounts, for use in the text.
+Heat pump energy balance. The application of work $(\Delta W$; from an electrical source, for instance) can drive heat to flow— counterintuitively—from a cold reservoir (like the interior of a freezer) to a hotter environment. Example $T_{\mathrm{c}}\rightarrow T_{\mathrm{h}}$ pairs might include freezer-interior $\rightarrow$room-air; cooled-inside $\rightarrow$ summer-outside; winter-outside $\rightarrow$warmed-inside. We still must satisfy conservation of energy $(\Delta Q_{\mathrm{h}}= \Delta Q_{\mathrm{c}}+ \Delta W)$, where $\Delta Q$is a heat flow. Entropy constraints limit how large $\Delta Q_{\mathrm{c}}$ can be for a given $\Delta W$ input. Arrow widths are proportional to energy, and red numbers are example energy amounts, for use in the text.
 :::
 
 A very similar chain of logic can be applied to this configuration, invoking the Second Law to guarantee no entropy decrease. We define the efficiency according to the application and what we care about, giving rise to two different figures of merit.
@@ -532,13 +521,8 @@ The derivation goes similarly to the one above, but now we require that the entr
 :::{math}
 :label: eq-6-10
 :enumerator: 6.10
-\epsilon _{\mathrm{cool}}\le \frac{}{} = \frac{T_{\mathrm{c}}}{\Delta T},
+\epsilon _{\mathrm{cool}}\le \frac{T_{\mathrm{c}}}{T_{\mathrm{h}}-T_{\mathrm{c}}},
 :::
-
-| $T_{\mathrm{c}}$ |
-| --- |
-| $T_{\mathrm{h}}-T_{\mathrm{c}}$ |
-| $T_{\mathrm{h}}$ |
 
 and
 
@@ -555,7 +539,7 @@ relations.
 :::{math}
 :label: eq-6-11
 :enumerator: 6.11
-\epsilon _{\mathrm{heat}}\le \frac{}{T_{\mathrm{h}}-T_{\mathrm{c}}} = \frac{T_{\mathrm{h}}}{\Delta T}.
+\epsilon _{\mathrm{heat}}\le \frac{T_{\mathrm{h}}}{T_{\mathrm{h}}-T_{\mathrm{c}}}.
 :::
 
 These look a lot like [Eq. 6.9](#eq-6-9), but *turned upside down*. The maximum efficiencies can be larger than unity![^42]
@@ -580,11 +564,9 @@ First, we express the temperatures in Kelvin: $T_{\mathrm{h}}\approx 293$ K and 
 
 ::::
 
-::::{admonition} Box 6.4: Is
+::::{admonition} Box 6.4: Is $>100\%$ Really Possible?
 :class: tip
 :label: box-6-4
-
-$>100\%$ **Really Possible?**
 
 At first, it seems to be spooky and impossible that efficiencies can be greater than 100%. [Example 6.5.1](#ex-6-5-1) essentially says that as many as 8.8 J of thermal energy can be *moved* for a mere 1 J *input* of work! The situation bears analogy to the martial art of Jiu Jitsu, whereby the opponent’s momentum is used to their detriment, requiring little work to direct its flow. In this case, we convince a bundle of thermal energy sitting in the freezer to move outside where it is hotter (uphill; against natural flow) and in the process use less energy than the amount of thermal energy residing in the bundle.
 
@@ -646,7 +628,7 @@ Typical heat pump energy label in the U.S., showing an EER around 21 and a HSPF 
 
 Using the red numbers in [Figure 6.5](#fig-6-5), we can compute $\epsilon _{\mathrm{heat}}$, the COP, and then determine the minimum $T_{\mathrm{c}}$ theoretically permissible (resulting in maximum possible efficiency) if $T_{\mathrm{h}}= 300$ K.[^49]
 
-We go back to the original definition of $\epsilon _{\mathrm{heat}}$ as $\Delta Q_{\mathrm{h}}/\Delta W$, which for our numbers works out to 30/10, or 3.0 The COP is then simply 3.0.
+We go back to the original definition of $\epsilon _{\mathrm{heat}}$ as $\Delta Q_{\mathrm{h}}/\Delta W$, which for our numbers works out to 30/10, or 3.0. The COP is then simply 3.0.
 
 Setting $\epsilon _{\mathrm{heat},\max}= T_{\mathrm{h}}/\Delta T$ equal to 3.0, we find that $\Delta T$ is 100 K, so that the minimum permissible $T_{\mathrm{c}}= 200$ K in this case.
 
@@ -663,7 +645,7 @@ Heat pumps used for cooling are specified by the energy efficiency ratio (EER), 
 :::{math}
 :label: eq-6-13
 :enumerator: 6.13
-\epsilon _{\mathrm{cool}}= \mathrm{EER} [\frac{\mathrm{Btu}}{\mathrm{Wh}}] 3600\mathrm{J/Wh} = \mathrm{EER} \cdot 0.293,1055\mathrm{J/Btu}
+\epsilon _{\mathrm{cool}}= \mathrm{EER}\left[\frac{\mathrm{Btu}}{\mathrm{Wh}}\right] \cdot \frac{1055\ \mathrm{J/Btu}}{3600\ \mathrm{J/Wh}} = \mathrm{EER} \cdot 0.293
 :::
 
 or the converse
@@ -699,7 +681,7 @@ Heat pumps used for heating are sometimes specified by the heating seasonal perf
 :::{math}
 :label: eq-6-15
 :enumerator: 6.15
-\epsilon _{\mathrm{heat}}= \mathrm{HSPF} [\frac{\mathrm{Btu}}{\mathrm{Wh}}] 3600\mathrm{J/Wh} = \mathrm{HSPF} \cdot 0.293,1055\mathrm{J/Btu}
+\epsilon _{\mathrm{heat}}= \mathrm{HSPF}\left[\frac{\mathrm{Btu}}{\mathrm{Wh}}\right] \cdot \frac{1055\ \mathrm{J/Btu}}{3600\ \mathrm{J/Wh}} = \mathrm{HSPF} \cdot 0.293
 :::
 
 or the converse
@@ -748,13 +730,13 @@ Heat pumps are like heat engines in reverse: driving a flow of thermal energy ag
 
 3. When you put clothes on in the morning in a cool house at $15^{\circ}\mathrm{C}$, you warm them up to something intermediate between your skin temperature $(35^{\circ}\mathrm{C})$ and the ambient environment.[^60] If your clothes have a mass of 2 kg, how much energy must be deposited into the clothes? If you are emitting power at 100 W, how long will this take?
 
-4. You score this massive 1 kg burrito but decide to put it in the refrigerator to eat later. It comes out at $5^{\circ}\mathrm{C}$, and you want to heat it in the microwave up to $75^{\circ}\mathrm{C}$ before eating it. If the microwave puts energy into the burrito at a rate of 700 W.[^61] How long should you run the microwave for a high-water-content burrito having an effective specific heat capacity of 3,000 $\mathrm{J/kg}/^{\circ}\mathrm{C}$?
+4. You score this massive 1 kg burrito but decide to put it in the refrigerator to eat later. It comes out at $5^{\circ}\mathrm{C}$, and you want to heat it in the microwave up to $75^{\circ}\mathrm{C}$ before eating it. If the microwave puts energy into the burrito at a rate of 700 W,[^61] how long should you run the microwave for a high-water-content burrito having an effective specific heat capacity of 3,000 $\mathrm{J/kg}/^{\circ}\mathrm{C}$?
 
 5. Let’s say you come home from a winter vacation to find your house at $5^{\circ}\mathrm{C}$ and you want to heat it to $20^{\circ}\mathrm{C}$. Let’s say the house contains: 500 kg of air;[^62] 1,000 kg of furniture, books, and other possessions; plus walls and ceiling and floor that amount to 6,000 kg of effective[^63] mass. Using the catch-all specific heat capacity for all of this stuff, how much energy will it take, and how long to heat it up at a rate of 10 kW? Express in useful, intuitive units, and feel free to round, since it’s an estimate, anyway.
 
 6. In a house achieving a heat loss rate of 200 $\mathrm{W}/^{\circ}\mathrm{C}$ equipped only with two 1,500 W space heaters, what is the coldest it can get outside if the house is to maintain an internal temperature of $20^{\circ}\mathrm{C}$?
 
-7. In a house achieving a heat loss rate of 200 $\mathrm{W}/^{\circ}\mathrm{C}$ equipped a 5,000 W heater, what will the internal temperature be if the outside temperature is $-10^{\circ}\mathrm{C}$ and the heater is running 100% of the time?
+7. In a house achieving a heat loss rate of 200 $\mathrm{W}/^{\circ}\mathrm{C}$ equipped with a 5,000 W heater, what will the internal temperature be if the outside temperature is $-10^{\circ}\mathrm{C}$ and the heater is running 100% of the time?
 
 8. In a super-tight house achieving 100 $\mathrm{W}/^{\circ}\mathrm{C}$ equipped with a 5,000 W heater, what percentage of the time will the heater need to run in order to keep the internal temperature at $20^{\circ}\mathrm{C}$ if the temperature outside is at the freezing point?[^64]
 
@@ -799,8 +781,8 @@ Heat pumps are like heat engines in reverse: driving a flow of thermal energy ag
 [^11]: … or to remove, if cooling
 [^12]: Only 300 kg is in the form of air: most of the mass to be heated is in the walls, floor, and ceiling.
 [^13]: … or equivalently, Watts per degree Kelvin
-[^14]: … outer walls, ceiling-tounconditioned attic, floor-to-crawl-space
-[^15]: … not “thermally woke"
+[^14]: … outer walls, ceiling-to-unconditioned attic, floor-to-crawl-space
+[^15]: … not “thermally woke”
 [^17]: The rating is effectively the power delivered when operating at full capacity.
 [^18]: 1,055 J in 3,600 s is 0.293 J/s.
 [^19]: These are duty cycles.
