@@ -70,9 +70,9 @@ Lower left start of the Chart of the Nuclides, shown pictorially in terms of the
 :::{figure} ../images/fig-15-3.svg
 :label: fig-15-3
 :enumerator: 15.3
-:alt: Layout of the Chart of the Nuclides, showing positions of naturallyoccurring nuclei (stable or long-lived enough to be present on Earth). St
+:alt: Layout of the Chart of the Nuclides, showing positions of naturally occurring nuclei (stable or long-lived enough to be present on Earth). St
 
-Layout of the Chart of the Nuclides, showing positions of naturallyoccurring nuclei (stable or long-lived enough to be present on Earth). Stable nuclei tend to have more neutrons than protons—especially for heavier nuclei. This is why the track of stable nuclei bends away from the $N = Z$diagonal line. Arrows point to important elements of iron, lead, thorium, and uranium at $Z$ values of 26, 82, 90, and 92, respectively.
+Layout of the Chart of the Nuclides, showing positions of naturally occurring nuclei (stable or long-lived enough to be present on Earth). Stable nuclei tend to have more neutrons than protons—especially for heavier nuclei. This is why the track of stable nuclei bends away from the $N = Z$diagonal line. Arrows point to important elements of iron, lead, thorium, and uranium at $Z$ values of 26, 82, 90, and 92, respectively.
 :::
 
 [Figure 15.4](#fig-15-4) shows the lower-left corner of the chart in much greater detail.[^5] For each element (horizontal row), properties of all known isotopes are listed—even those that are radioactive and do not persist for even a small fraction of a second before decaying. Stable isotopes are denoted by gray boxes. The mass of each, in atomic mass units (a.m.u.)— defined so that the neutral $^{12}\mathrm{C}$ atom is exactly 12.0000 a.m.u.—is given, and the natural abundance as found on Earth, in percent. The Chart of the Nuclides lets us peak inside the periodic table in great detail, as [Example 15.1.2](#ex-15-1-2) suggests.
@@ -81,7 +81,7 @@ Layout of the Chart of the Nuclides, showing positions of naturallyoccurring nuc
 :class: seealso
 :label: ex-15-1-2
 
-From the Boron row $(Z = 5)$ in [Figure 15.4](#fig-15-4), we can see that 19.9% of boron is found in the form of [^10], while the otherB 80.1% is [^11].B
+From the Boron row $(Z = 5)$ in [Figure 15.4](#fig-15-4), we can see that 19.9% of boron is found in the form of $^{10}$B, while the other 80.1% is $^{11}$B.
 
 The weighted composite mass is therefore $0.199\times 10.0129370+0.801\times 11.0093055$, yielding 10.81103 a.m.u., which is the number presented as the molar mass on the periodic table.[^6]
 
@@ -150,29 +150,15 @@ Correspondingly, a single isolated neutron has a 50% chance of still being aroun
 
 Luckily, radioactive decays don’t go just any which way, but stick to a very small menu of possible routes. When a decay happens, the nucleus always spits *something* out, which could be an electron, a positron, a helium nucleus (called an alpha particle), a photon, or more rarely might spit out one or more individual protons or neutrons. Because these particles can emerge at high speed (high energy), they are like little bullets firing at random times and directions into their surroundings. These bullets are potentially damaging to materials and biological tissues—especially DNA, able to cause mutations and/or initiate cancerous growth. The primary decay mechanisms pertaining to the vast majority of decays are listed below and accompanied by [Figure 15.5](#fig-15-5).
 
-⚠⚠⚠ $\alpha$ ⚠⚠
-
 :::{figure} ../images/fig-15-5.svg
 :label: fig-15-5
 :enumerator: 15.5
 :alt: Radioactive decay mechanisms for , and . Protons are colored red, and neutrons light purple. The total nucleon counts
 
-Radioactive decay mechanisms for $\alpha, \beta ^{-}$, and $\beta ^{+}$. Protons are colored red, and neutrons light purple. The total nucleon counts
+Radioactive decay mechanisms for $\alpha, \beta ^{-}$, and $\beta ^{+}$. Protons are colored red, and neutrons light purple. The total nucleon counts are correct for the two beta decays, but only schematic for the larger $^{144}$Nd nucleus used to illustrate alpha decay, which is predominantly seen only in heavier nuclei (aside from $^{5}$Li and $^{8}$Be). The positron is an anti-electron: a positively-charged antimatter counterpart to the electron. Neutrinos are sometimes called “ghost” particles for their near-complete non-interactivity with ordinary matter.
 :::
 
-are correct for the two beta decays, but only schematic for the larger $^{144}$Nd nucleus used to illustrate alpha decay, which is predominantly
-
-5 8
-
-seen only in heavier nuclei (aside from Li and Be ). The positron is an anti-electron: a positively-charged antimatter counterpart to the
-
-electron. Neutrinos are sometimes called “ghost” particles for their near-complete non-interactivity with ordinary matter.
-
-1. **Alpha decay** $(\alpha)$, in which a foursome of two protons and two 4
-
-neutrons—essentially a He nucleus—leaps out.[^10] When this happens, the nucleus reduces its $N$ by two, reduces its $Z$ by two, and therefore $A$by 4. On the chart of the nuclides, it moves two squares left and two squares down (see [Figure 15.7](#fig-15-7)). For example, $^{8}$Be 4
-
-decays this way, essentially splitting into two He nuclei;
+1. **Alpha decay** $(\alpha)$, in which a foursome of two protons and two neutrons—essentially a $^{4}$He nucleus—leaps out.[^10] When this happens, the nucleus reduces its $N$ by two, reduces its $Z$ by two, and therefore $A$by 4. On the chart of the nuclides, it moves two squares left and two squares down (see [Figure 15.7](#fig-15-7)). For example, $^{8}$Be decays this way, essentially splitting into two $^{4}$He nuclei;
 
 :::{margin}
 **Try it:** Follow along on [Figure 15.4](#fig-15-4).
@@ -200,12 +186,7 @@ Gamma decay of an excited nucleus.
 :enumerator: 15.7
 :alt: Radioactive decays shown as moves on the “chess board” of the Chart of the Nuclides. The different decay types are color-coded to match Figu
 
-Radioactive decays shown as moves on the “chess board” of the Chart of the Nuclides. The different decay types are color-coded to match [Figure 15.8](#fig-15-8), and are only shown in a few representative squares. Decays frequently occur in a series, one after the other (a decay chain), as hinted
-:::
-
-:::{margin}
-by the double-sequence starting at $^{12}$Be and ending on $^{12}\mathrm{C}$. Note that the square of every unstable nuclide indicates a decay type, even if arrows are not present.
-
+Radioactive decays shown as moves on the “chess board” of the Chart of the Nuclides. The different decay types are color-coded to match [Figure 15.8](#fig-15-8), and are only shown in a few representative squares. Decays frequently occur in a series, one after the other (a decay chain), as hinted by the double-sequence starting at $^{12}$Be and ending on $^{12}\mathrm{C}$. Note that the square of every unstable nuclide indicates a decay type, even if arrows are not present.
 :::
 
 :::{table} Summary of decay math on nucleon counts.
@@ -220,18 +201,13 @@ by the double-sequence starting at $^{12}$Be and ending on $^{12}\mathrm{C}$. No
 | $\gamma$ | unchanged | unchanged | unchanged |
 :::
 
-::::{admonition} Example
+::::{admonition} Example 15.2.2
 :class: seealso
+:label: ex-15-2-2
 
-8
+What will the fate of $^{8}$He be, according to [Figure 15.4](#fig-15-4)?
 
-**Example 15.2.2** What will the fate of He be, according to [Figure 15.4](#fig-15-4)?
-
-We can play this chess game! According to the chart, the primary decay mechanism of He8 is $\beta ^{-}$ with a half-life of about a tenth of a 8
-
-second. It will become Li, which hangs around for about a second 8
-
-before undergoing another $\beta ^{-}$ decay to Be. This one lasts almost no time at all $(\sim 10^{-16}$ s) before $\alpha$ decay into two alpha particles (two $^{4}$He). Such a sequence is called a decay chain.
+We can play this chess game! According to the chart, the primary decay mechanism of $^{8}$He is $\beta ^{-}$ with a half-life of about a tenth of a second. It will become $^{8}$Li, which hangs around for about a second before undergoing another $\beta ^{-}$ decay to $^{8}$Be. This one lasts almost no time at all $(\sim 10^{-16}$ s) before $\alpha$ decay into two alpha particles (two $^{4}$He). Such a sequence is called a decay chain.
 
 ::::
 
@@ -266,11 +242,9 @@ Energy—whatever the form—*has mass* and actually changes the weight of somet
 
 where the $\Delta$ symbols indicate a *change* in energy or mass, and $c \approx$ 3 $\times 10^{8}$ m/s is the speed of light. Using kilograms for mass results in Joules for energy. Because $c^{2}$ is such a large number (nearly $10^{17})$, the mass change associated with daily/familiar energy quantities is negligibly small. [Box 15.2](#box-15-2) explains why $E = mc^{2}$ is valid for all energy exchanges—not just nuclear ones—but generally results in mass changes too small to measure in non-nuclear contexts. Earlier, we discussed conservation of energy. More correctly, we observe conservation of mass-energy. That is to say, a system *can* actually gain or lose net energy if the mass changes correspondingly. In the case of nuclear energy release, the “new” energy comes at the expense of *reduced mass*.
 
-::::{admonition} Box 15.2: 
+::::{admonition} Box 15.2: $E = mc^{2}$ Everywhere
 :class: tip
 :label: box-15-2
-
-$E = mc^{2}$ **Everywhere**
 
 Physics is not selective about when we might apply $E = mc^{2}$. It always applies, to every situation. It’s just that outside of nuclear reactions it does not result in significant mass differences.
 
@@ -302,8 +276,6 @@ In practice, and perhaps surprisingly, atoms (nuclei) weigh *less* than the sum 
 One must add energy to overcome nuclear binding energy in order to bust up a nucleus into its constituent nucleons (left). Thus, the collective mass of a nucleus *plus* the mass associated with the energy it takes to break it apart (via $E = mc^{2})$ must be equal to the sum of the masses of the constituent parts (middle). Therefore, if we compare the mass of the nucleus *alone* (removing the energy’s mass from the scale) it must be less than the mass of the loose collection of nucleons (right).
 :::
 
-⚠⚠⚠⚠⚠⚠+ Energy ⚠ ⚠
-
 A careful look at [Figure 15.4](#fig-15-4) reveals that lighter stable nuclei (gray-squares) at the lower left of the chart have a mass a little larger than the corresponding mass number, but by the upper right—around oxygen— the mass has edged just lower than $A$. [Table 15.3](#tab-15-3) shows this trend, confirmable in [Figure 15.4](#fig-15-4) for the first four nuclides in the table. The difference between mass and $A$ is most negative around iron, then turns around and becomes positive again for heavy elements like uranium.
 
 :::{table} Example mass progression.
@@ -312,18 +284,12 @@ A careful look at [Figure 15.4](#fig-15-4) reveals that lighter stable nuclei (g
 
 | Nuclide | $A$ | mass (a.m.u.) |
 | --- | --- | --- |
-| 2 |   |   |
-| H | 2 | 2.014 |
-| 4 |   |   |
-| He | 4 | 4.003 |
-| 12 |   |   |
-| C | 12 | 12.000 |
-| 16 |   |   |
-| O | 16 | 15.995 |
-| 56 |   |   |
-| Fe | 56 | 55.935 |
-| 235 |   |   |
-| U | 235 | 235.044 |
+| $^{2}$H | 2 | 2.014 |
+| $^{4}$He | 4 | 4.003 |
+| $^{12}$C | 12 | 12.000 |
+| $^{16}$O | 16 | 15.995 |
+| $^{56}$Fe | 56 | 55.935 |
+| $^{235}$U | 235 | 235.044 |
 :::
 
 What is going on here? If the mass of a nucleus were just the sum of its parts, we would expect the total mass to just track linearly as we add more pieces. In fact, if we try to build a neutral carbon atom out of 6 protons, 6 neutrons, and 6 electrons, the sum, according to [Table 15.4](#tab-15-4), should be 12.099 a.m.u., not 12.000. The discrepancy is due to nuclear binding energy, as was introduced in [Figure 15.9](#fig-15-9).
@@ -377,7 +343,7 @@ traced in [Example 15.3.2](#ex-15-3-2). Because the H nuclide is just a lone pro
 :class: seealso
 :label: ex-15-3-2
 
-Following the entry in [Table 15.5](#tab-15-5) for $^{56}$Fe, we first multiply the individual proton, neutron, and electron masses from [Table 15.4](#tab-15-4) by the 26 protons, 30 neutrons, and 26 electrons comprising $^{56}$Fe to get a sum-of-parts value of 56.46340 a.m.u..[^17]
+Following the entry in [Table 15.5](#tab-15-5) for $^{56}$Fe, we first multiply the individual proton, neutron, and electron masses from [Table 15.4](#tab-15-4) by the 26 protons, 30 neutrons, and 26 electrons comprising $^{56}$Fe to get a sum-of-parts value of 56.46340 a.m.u.[^17]
 
 The *actual* mass, as it appears for $^{56}$Fe in the Chart of the Nuclides is 55.934942 a.m.u., which is smaller by 0.528447 a.m.u.[^18]
 

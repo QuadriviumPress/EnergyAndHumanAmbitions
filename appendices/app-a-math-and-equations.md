@@ -117,7 +117,7 @@ About those circles and spheres: The task is to fit a circle or sphere inside of
 
 Likewise for the area: a circle within the square has an area smaller than that of the surrounding square $(a^{2})$, but surely larger than half the square area—maybe around three-quarters. In terms of radius, the whole square has area $a^{2}= 4r^{2}$, and three-quarters of this is $3r^{2}\sim \pi r^{2}$. Correct again!
 
-Volume is a little harder to visualize, but again the sphere will have a volume smaller than that of the cube: $a^{3}= 8r^{3}$. Maybe the sphere’s volume is about half that of the cube, so $4r^{3}$. But where would a $\pi$ go? It’s always a multiplier in these situations, so we can harmlessly throw in a $pi/3 \sim 1$ factor to get a volume $\frac{4}{3}\pi r^{3}$.
+Volume is a little harder to visualize, but again the sphere will have a volume smaller than that of the cube: $a^{3}= 8r^{3}$. Maybe the sphere’s volume is about half that of the cube, so $4r^{3}$. But where would a $\pi$ go? It’s always a multiplier in these situations, so we can harmlessly throw in a $\pi/3 \sim 1$ factor to get a volume $\frac{4}{3}\pi r^{3}$.
 
 The point is that forgetting the exact formulas is not fatal: just back up to a more familiar setting and build out from there. For cylinders, just combine elements of circular and rectangular geometries to realize that the volume is the area of the circle times the height[^13] of the cylinder. External surface area is twice the areas of the end-caps (each $\pi r^{2})$ plus the perimeter of the circle times the height—as if rolling out the skin into a rectangle and calculating its area.
 
@@ -145,7 +145,7 @@ Let’s formulate rules about multiplication of fractions based on stuff we know
 :enumerator: A.1
 :alt: Paralleling Eq. A.1, we can slice one pie into five equal pieces (left) and keep three of them (lower left); or we can split three pies into
 
-Paralleling [Eq. A.1](#eq-a-1), we can slice one pie into five equal pieces (left) and keep three of them (lower left); or we can split three pies into equal-area pieces (same color; sometimes split up across different pies) and take one of the resulting pieces. In both cases, the bottom row is the same amount of pie: $^{3}$ pies.
+Paralleling [Eq. A.1](#eq-a-1), we can slice one pie into five equal pieces (left) and keep three of them (lower left); or we can split three pies into equal-area pieces (same color; sometimes split up across different pies) and take one of the resulting pieces. In both cases, the bottom row is the same amount of pie.
 :::
 
 :::{margin}
@@ -156,32 +156,26 @@ $_{5}$ of one pie equals $\frac{1}{5}$ of three
 for any symbol (placeholder) and get the right answer? In other words, what should the question marks be in the following:
 
 :::{math}
-b \cdot ^{\frac{x}{y}} = ^{\frac{?}{?}}
+:label: eq-a-2
+:enumerator: A.2
+\frac{a}{b} \cdot \frac{x}{y} = \frac{?}{?}
 :::
 
-:::{math}
-\frac{a}{}
-:::
-
-(A.2)
-
-To answer, pick a scenario you *already know* and back-out the answer. You know that one half of one-half is one quarter. You also know that one half of $\frac{4}{5}$ must be $\frac{2}{5}$, or that three thirds must be a whole “one.” In math terms: 1 1 3
-
-2 $\cdot ^{\frac{1}{2}} = ^{\frac{1}{4}}$; 2 $\cdot ^{\frac{4}{5}} = ^{\frac{2}{5}}$; 1 $\cdot 1$
+To answer, pick a scenario you *already know* and back-out the answer. You know that one half of one-half is one quarter. You also know that one half of $\frac{4}{5}$ must be $\frac{2}{5}$, or that three thirds must be a whole “one.” In math terms:
 
 :::{math}
 :label: eq-a-3
 :enumerator: A.3
-\frac{}{3} = 1.
+\frac{1}{2}\cdot\frac{1}{2}=\frac{1}{4}; \quad \frac{1}{2}\cdot\frac{4}{5}=\frac{2}{5}; \quad \frac{1}{3}\cdot\frac{3}{3}=1.
 :::
 
 From these examples—and others that can be fabricated as wished or needed—it is possible to arrive at the conclusion that
 
 :::{math}
-^{\frac{a}{b}} \cdot ^{\frac{x}{y}} = \frac{a \cdot x}{b \cdot y}.
+:label: eq-a-4
+:enumerator: A.4
+\frac{a}{b} \cdot \frac{x}{y} = \frac{a \cdot x}{b \cdot y}.
 :::
-
-(A.4)
 
 In other words, just multiply the numerators together and multiply the denominators together, simplifying by common factors as needed.
 
@@ -197,17 +191,13 @@ One more framing of fractions and their relationship to multiplication and divis
 
 How can our intuition assist us in figuring out addition and subtraction of fractions? Use what you know:
 
-1 1 3
-
-2 $+ 1 2 + ^{\frac{1}{4}} = ^{\frac{3}{4}}$; 4 $< ^{\frac{1}{2}} + 1$
-
 :::{math}
 :label: eq-a-5
 :enumerator: A.5
-\frac{}{2} = 1; \frac{}{} \frac{}{} \frac{}{} \frac{}{} \frac{}{} \frac{}{3} < 1.
+\frac{1}{2}+\frac{1}{2}=1; \quad \frac{1}{2}+\frac{1}{4}=\frac{3}{4}; \quad \frac{1}{2}+\frac{1}{3}<1.
 :::
 
-Hopefully, the first two statements in [Eq. A.5](#eq-a-5) are apparent enough. The last one bounds the answer by what you already know. Since $\frac{1}{3}$ is larger than $\frac{1}{4}$.[^17] So adding $\frac{1}{2} + \frac{1}{3}$ must be larger than $\frac{1}{2} + \frac{1}{4} = \frac{3}{4}$. By similar logic, since one-third is smaller than one-half,[^18] their sum must be smaller than 1.
+Hopefully, the first two statements in [Eq. A.5](#eq-a-5) are apparent enough. The last one bounds the answer by what you already know. $\frac{1}{3}$ is larger than $\frac{1}{4}$.[^17] So adding $\frac{1}{2} + \frac{1}{3}$ must be larger than $\frac{1}{2} + \frac{1}{4} = \frac{3}{4}$. By similar logic, since one-third is smaller than one-half,[^18] their sum must be smaller than 1.
 
 Adding fractions like $\frac{1}{2}$ and $\frac{1}{3}$ is where common denominators come in. We can add numerators *only if the fractions share the same denominator*. We **never add denominators**. We can’t replicate the middle example in [Eq. A.5](#eq-a-5) by adding numerators *and* denominators, or we would get the nonsense answer $\frac{2}{6} = \frac{1}{3}$, rather than $\frac{3}{4}$.
 
@@ -223,7 +213,7 @@ So how would we ever recreate the whole common denominator scheme based on intui
 :enumerator: A.2
 :alt: Graphically, it is easy to see that similar/familiar scenarios to verify (and reinvent) the rules.
 
-Graphically, it is easy to see that $^{1}$ similar/familiar scenarios to verify (and reinvent) the rules.
+Graphically, it is easy to see that similar/familiar scenarios to verify (and reinvent) the rules.
 :::
 
 :::{margin}
@@ -243,7 +233,7 @@ So what are the rules for dealing with exponents when we raise the whole thing t
 :::{math}
 :label: eq-a-6
 :enumerator: A.6
-(x^{a})^{b}=? x^{p}\cdot x^{q}=? x^{n}= ?1
+(x^{a})^{b}=? \quad x^{p}\cdot x^{q}=? \quad \frac{1}{x^{n}}=?
 :::
 
 :::{margin}
@@ -276,7 +266,7 @@ Finally, what about inversion, or dividing by $x^{n}$? As a preview, a negative 
 :::{math}
 :label: eq-a-9
 :enumerator: A.9
-x^{n}= x^{-n}.1
+\frac{1}{x^{n}} = x^{-n}.
 :::
 
 Negative exponents therefore flip the construction to the denominator, or denote a division rather than multiplication.
@@ -390,7 +380,7 @@ It’s not always so straightforward. Sometimes we have to “undo” or “inve
 :::{math}
 :label: eq-a-12
 :enumerator: A.12
-a = (a^{2}) ^{\frac{1}{2}} = \sqrt{a^{2}} = \sqrt{c^{2}}- b^{2}
+a = (a^{2}) ^{\frac{1}{2}} = \sqrt{a^{2}} = \sqrt{c^{2}-b^{2}}
 :::
 
 In this case, the power $\frac{1}{n}$ can be said to perform the inverse function of the power $n$. In more familiar contexts: subtraction is the inverse of addition; division is the inverse of multiplication. Less familiarly, but in similar veins: the sine is “undone” by arcsine;[^27] the exponential $e^{x}$ is undone by the natural $\log (\ln x)$; $10^{x}$ is undone by $\log _{10}x$, etc.
@@ -431,7 +421,7 @@ So we multiply the meters together just like we do the numbers, following the sa
 More complicated arrangements follow the same rules. For example, the force of drag[^30] on an object moving at speed $v$ through a medium of density $\rho$ is $F_{\mathrm{drag}}= \frac{1}{2}c_{\mathrm{D}}A\rho v^{2}$, where $A$ is the frontal (cross-sectional) area of the object and $c_{\mathrm{D}}$ is the dimensionless drag coefficient.[^31] The dimensions of area are $\mathrm{m}^{2}$; density is $\mathrm{kg/m}^{3}$ (mass per volume), and velocity is m/s (distance over time). The whole arrangement therefore has dimensions:
 
 :::{math}
-\mathrm{m}^{2}\cdot \frac{\mathrm{kg}}{\mathrm{m}^{3}} \cdot (\frac{\mathrm{m}}{\mathrm{s}})2 = \frac{\mathrm{m}^{2}\cdot \mathrm{kg} \cdot \mathrm{m}^{2}}{\mathrm{m}^{3}\cdot \mathrm{s}^{2}} = \frac{\mathrm{kg} \cdot \mathrm{m}^{4}}{\mathrm{m}^{3}\cdot \mathrm{s}^{2}} = \frac{\mathrm{kg} \cdot \mathrm{m}}{\mathrm{s}^{2}}.
+\mathrm{m}^{2}\cdot \frac{\mathrm{kg}}{\mathrm{m}^{3}} \cdot (\frac{\mathrm{m}}{\mathrm{s}})^2 = \frac{\mathrm{m}^{2}\cdot \mathrm{kg} \cdot \mathrm{m}^{2}}{\mathrm{m}^{3}\cdot \mathrm{s}^{2}} = \frac{\mathrm{kg} \cdot \mathrm{m}^{4}}{\mathrm{m}^{3}\cdot \mathrm{s}^{2}} = \frac{\mathrm{kg} \cdot \mathrm{m}}{\mathrm{s}^{2}}.
 :::
 
 The end result matches the definition of Newtons, and can be verified by the (possibly familiar) $F = ma$ form of Newton’s Second Law,[^32] whereby we have mass in kg times acceleration in $\mathrm{m/s}^{2}$ making kg $\cdot \mathrm{m/s}^{2}$.

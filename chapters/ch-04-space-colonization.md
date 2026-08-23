@@ -332,7 +332,10 @@ Despite the pessimistic tone of this chapter, the author is himself captivated b
 
 If, in the fullness of time, we do see a path toward practical space colonization, then fine. But given the extreme challenge and cost— both energetically and economically, and for what could only be a tiny footprint in the near term—it seems vastly more prudent to take care of our relationship with Planet Earth first, and *then* think about space colonization in due time, if it ever makes sense. Otherwise, not only do we spend precious resources unwisely, but (even worse) our mindset is tainted by unrealistic dreams that diminish the importance of confronting the real challenge right here on the ground. We need to have our heads in the real game. Perhaps twenty øne piløts said it best in the song *Stressed Out*:
 
-We used to play pretend, give each other different names We would build a rocket ship and then we’d fly it far away Used to dream of outer space but now they’re laughing at our face Saying, “Wake up, you need to make money.” Yeah.
+We used to play pretend, give each other different names\
+We would build a rocket ship and then we’d fly it far away\
+Used to dream of outer space but now they’re laughing at our face\
+Saying, “Wake up, you need to make money.” Yeah.
 
 Space colonization might be treated as a pretend fantasy for the moment. We would be better off waking up to face real here-and-now challenges. In some sense, perhaps the only way to achieve the dream of migration to space—should that be in the cards at all—is to first pretend that it is impossible and turn attention to the pressing matters on Earth. Otherwise we risk failing at *both* efforts.
 

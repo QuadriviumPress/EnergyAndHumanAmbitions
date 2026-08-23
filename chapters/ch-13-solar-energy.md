@@ -789,11 +789,7 @@ Solar thermal energy is another way to run a traditional steam-based power plant
 
 1. If we had two monochromatic (single-wavelength) light sources—a green one at $\lambda = 0.5 \mu \mathrm{m}$ and a near-infrared one at $\lambda = 1.0 \mu \mathrm{m}$— each emitting photons at an energy rate of 1 W,[^103] how does the number of photons emerging per second from each source compare? Is it the same number for each because both are 1 W sources, or is it a different number—and by what factor, if so?
 
-2. Overhead sunlight arrives on the surface of the earth at an intensity of about 1,000 $\mathrm{W/m}^{2}$. How many photons per second strike a solar panel whose area is 1.6 square meters, if the typical wavelength is
-
-   :::{math}
-   \lambda = 0.5 \mu \mathrm{m} ?
-   :::
+2. Overhead sunlight arrives on the surface of the earth at an intensity of about 1,000 $\mathrm{W/m}^{2}$. How many photons per second strike a solar panel whose area is 1.6 square meters, if the typical wavelength is $\lambda = 0.5\ \mu\mathrm{m}$?
 
 3. Using the setup in Problem 2, how many photons enter your pupil every second if you look directly at the sun? When doing so, your pupil restricts to a diameter of about 2 mm.
 
@@ -855,17 +851,17 @@ Just using this location as an unambiguous spot on the map.
 
 26. The study from Problem 24 finds that a flat panel facing south and tilted at various angles[^113] relative to the horizontal produce the following annual average yields in units of $\mathrm{kWh/m}^{2}/$day:
 
-   | Angle | Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Year |
-   | --- | --- |
-   | $0^{\circ}$ | 3.1 3.9 4.9 6.1 6.3 6.4 6.9 6.5 5.4 4.4 3.4 2.9 5.0 |
-   | $\theta - 15^{\circ}$ | 4.1 4.8 5.6 6.4 6.3 6.3 6.8 6.7 6.0 5.3 4.5 3.9 5.6 |
-   | $\theta$ | 4.7 5.3 5.8 6.3 5.9 5.8 6.4 6.5 6.1 5.7 5.1 4.6 5.7 |
-   | $\theta + 15^{\circ}$ | 5.1 5.5 5.7 5.9 5.2 5.1 5.6 5.9 5.8 5.8 5.4 5.0 5.5 |
-   | $90^{\circ}$ | 4.5 4.3 3.9 3.2 2.4 2.1 2.2 2.9 3.6 4.4 4.6 4.5 3.5 |
+   | Angle | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec | Year |
+   | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+   | $0^{\circ}$ | 3.1 | 3.9 | 4.9 | 6.1 | 6.3 | 6.4 | 6.9 | 6.5 | 5.4 | 4.4 | 3.4 | 2.9 | 5.0 |
+   | $\theta - 15^{\circ}$ | 4.1 | 4.8 | 5.6 | 6.4 | 6.3 | 6.3 | 6.8 | 6.7 | 6.0 | 5.3 | 4.5 | 3.9 | 5.6 |
+   | $\theta$ | 4.7 | 5.3 | 5.8 | 6.3 | 5.9 | 5.8 | 6.4 | 6.5 | 6.1 | 5.7 | 5.1 | 4.6 | 5.7 |
+   | $\theta + 15^{\circ}$ | 5.1 | 5.5 | 5.7 | 5.9 | 5.2 | 5.1 | 5.6 | 5.9 | 5.8 | 5.8 | 5.4 | 5.0 | 5.5 |
+   | $90^{\circ}$ | 4.5 | 4.3 | 3.9 | 3.2 | 2.4 | 2.1 | 2.2 | 2.9 | 3.6 | 4.4 | 4.6 | 4.5 | 3.5 |
 
    What tilt delivers the best yield for the year, and how much better is this (in percent) than a flat plate facing straight up? What tilt appears to result in minimal seasonal variation?
 
-27. What if you adjusted the tilt of panels throughout the season to maximize yield? Reproduce the table above, but only writing in the highest number for each month.[^114]. What average does this track produce for the year, and how much improvement (in percent) does this represent compared to the best fixed-tilt performance?
+27. What if you adjusted the tilt of panels throughout the season to maximize yield? Reproduce the table above, but only writing in the highest number for each month.[^114] What average does this track produce for the year, and how much improvement (in percent) does this represent compared to the best fixed-tilt performance?
 
 28. If typical insolation is 200 $\mathrm{W/m}^{2}$, how much land area would be needed for a 15% efficient flat PV array supplying an average of 10 kW of power—which is the U.S. individual share? If arranged in a square, how large is the side-length of this array? Compare its size or area to something familiar.
 

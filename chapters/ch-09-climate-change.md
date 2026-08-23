@@ -364,10 +364,10 @@ As CO$_{2}$ concentration increases, the radiative forcing (left axis) increases
 
 A few negative feedback mechanisms[^30] exist as well, but are outweighed by the positive feedback terms.
 
-Global temperature increase is already about $1.0^{\circ}\mathrm{C}$ [[58](#ref-58)]. Note that even if we never added another CO$_{2}$ molecule to the atmosphere, the temperature would continue to rise as the ocean$^{31}$ slowly catches up to the new equilibrium. We would expect the temperature to stabilize around $1.7^{\circ}\mathrm{C}$ higher for today’s CO$_{2}$ excess, according to the calculation above. Thus the climb is about 55% done. Of course, more CO$_{2}$ will be added, so the eventual temperature rise is destined to be higher still.
+Global temperature increase is already about $1.0^{\circ}\mathrm{C}$ [[58](#ref-58)]. Note that even if we never added another CO$_{2}$ molecule to the atmosphere, the temperature would continue to rise as the ocean slowly catches up to the new equilibrium. We would expect the temperature to stabilize around $1.7^{\circ}\mathrm{C}$ higher for today’s CO$_{2}$ excess, according to the calculation above. Thus the climb is about 55% done. Of course, more CO$_{2}$ will be added, so the eventual temperature rise is destined to be higher still.
 
 :::{margin}
-[[58](#ref-58)]: National Oceanic and Atmospheric Administration (NOAA) (2019), *Global Climate Report* 31: … lots of thermal mass, or heat capacity
+[[58](#ref-58)]: National Oceanic and Atmospheric Administration (NOAA) (2019), *Global Climate Report*
 
 :::
 
@@ -517,7 +517,7 @@ Using the properties of various constituents in [Table 9.6](#tab-9-6), we can co
 | Atmosphere | 510 | 4,000 | 5.3 | 1.3 | $1,000/^{\circ}\mathrm{C}$ |
 | Land/Rock | 150 | — | — | 2,000 | $1,000/^{\circ}\mathrm{C}$ |
 | Ocean | 360 | 1,400 | 1,400 | 1,000 | $4,184/^{\circ}\mathrm{C}$ |
-| Ice | 16 | 29 | 2.6 | 917 | 334,000 |
+| Ice | 16 | 29 | 26 | 917 | 334,000 |
 :::
 
 takes about 1,000 times more energy than the atmosphere to heat it up by the same amount.
@@ -554,9 +554,11 @@ We are now in a position to appreciate how long it can take to change temperatur
 
 If we could direct *all* of the annual surplus $1.6 \times 10^{22}$ J arising from a 1 $\mathrm{W/m}^{2}$ imbalance into one component only,[^57] we could ask: to what depth will each component be heated by $1^{\circ}\mathrm{C}$ or melt the ice?
 
-component math depth (m)
-
-land $1.6 \times 10^{22}\mathrm{J}/(0.3 \times 10^{21}\mathrm{J/m}/^{\circ}\mathrm{C} \cdot 1^{\circ}\mathrm{C})$ 54 ocean $1.6 \times 10^{22}\mathrm{J}/(1.5 \times 10^{21}\mathrm{J/m}/^{\circ}\mathrm{C} \cdot 1^{\circ}\mathrm{C})$ 11 ice $1.6 \times 10^{22}\mathrm{J}/(4.9 \times 10^{21}\mathrm{J/m})$ 3.3
+| Component | Math | Depth (m) |
+| --- | --- | --- |
+| land | $1.6 \times 10^{22}\mathrm{J}/(0.3 \times 10^{21}\mathrm{J/m}/^{\circ}\mathrm{C} \cdot 1^{\circ}\mathrm{C})$ | 54 |
+| ocean | $1.6 \times 10^{22}\mathrm{J}/(1.5 \times 10^{21}\mathrm{J/m}/^{\circ}\mathrm{C} \cdot 1^{\circ}\mathrm{C})$ | 11 |
+| ice | $1.6 \times 10^{22}\mathrm{J}/(4.9 \times 10^{21}\mathrm{J/m})$ | 3.3 |
 
 From this, we see that land is more easily heated, and ice is most resistant—only shaving about 3 m per year if somehow the entire wrath of radiative imbalance were directed upon it.
 
@@ -575,9 +577,11 @@ Likewise, we can explore how long it would take to raise the temperature of *ent
 
 If we could direct *all* of the annual surplus $1.6 \times 10^{22}$ J arising from a 1 $\mathrm{W/m}^{2}$ imbalance into one component only,[^58] we could ask: how much will the temperature rise of the entire body be per year, or how much ice would melt?
 
-component math $\Delta T (^{\circ}\mathrm{C})$ years to $1^{\circ}\mathrm{C}$
-
-atmosphere $1.6 \times 10^{22}\mathrm{J}/(5.3 \times 10^{21}\mathrm{J}/^{\circ}\mathrm{C})$ 3.0 0.33 ocean $1.6 \times 10^{22}\mathrm{J}/(5.9 \times 10^{24}\mathrm{J}/^{\circ}\mathrm{C})$ 0.0027 367 ice $1.6 \times 10^{22}\mathrm{J}/(8.8 \times 10^{24}\mathrm{J})$ 0.185% 545 to melt
+| Component | Math | $\Delta T (^{\circ}\mathrm{C})$ | Years to $1^{\circ}\mathrm{C}$ |
+| --- | --- | --- | --- |
+| atmosphere | $1.6 \times 10^{22}\mathrm{J}/(5.3 \times 10^{21}\mathrm{J}/^{\circ}\mathrm{C})$ | 3.0 | 0.33 |
+| ocean | $1.6 \times 10^{22}\mathrm{J}/(5.9 \times 10^{24}\mathrm{J}/^{\circ}\mathrm{C})$ | 0.0027 | 367 |
+| ice | $1.6 \times 10^{22}\mathrm{J}/(8.8 \times 10^{24}\mathrm{J})$ | 0.185% | 545 to melt |
 
 The atmosphere is a wimp: it takes very little to change its temperature. The ocean, however, is very sluggish to change temperature. For ice, we look at fractional loss per year instead of temperature increase.
 
@@ -588,7 +592,7 @@ As before, this pretends that the entire radiative imbalance is directed upon a 
 
 :::
 
-What we learn from the examples is that the ocean and ice are both substantial thermal brakes on fast heating. Even though ice has a much larger energy cost per kg,[^59] its total mass is substantially smaller than that of the entire ocean—the two effects roughly balancing. In reality, we might expect oceanic circulation patterns to concentrate heating in the upper layers rather then distributing uniformly to the full depth. So the upper layer of the ocean—which then controls air temperature—can reach a $1^{\circ}\mathrm{C}$ increase well before 367 years elapse. Indeed, we are already seeing warming at this scale in less than a century.
+What we learn from the examples is that the ocean and ice are both substantial thermal brakes on fast heating. Even though ice has a much larger energy cost per kg,[^59] its total mass is substantially smaller than that of the entire ocean—the two effects roughly balancing. In reality, we might expect oceanic circulation patterns to concentrate heating in the upper layers rather than distributing uniformly to the full depth. So the upper layer of the ocean—which then controls air temperature—can reach a $1^{\circ}\mathrm{C}$ increase well before 367 years elapse. Indeed, we are already seeing warming at this scale in less than a century.
 
 :::{margin}
 Tip: don’t treat sections like this as the textbook “telling” you stuff. It is far more productive to follow the logic, reasoning, and numbers yourself as an active participant in the story. Otherwise, OMG is it boring! The value is empowerment: bestowing tools for transparent understanding of fundamental processes.
@@ -597,9 +601,7 @@ Tip: don’t treat sections like this as the textbook “telling” you stuff. I
 
 The way things *really* work is that the excess $1.6 \times 10^{22}$ J annually associated with a radiative excess of 1 $\mathrm{W/m}^{2}$ gets distributed into lots of channels at once. If ice only gets 3% of the attention in proportion to its area, only 5 $\times 10^{20}$ J goes into the ice in a year. Dividing by $4.9 \times 10^{21}$ J/m (from [Table 9.7](#tab-9-7)), we find that we might expect 0.1 m of ice to disappear each year. Since the ocean is roughly 25 times larger than the ice areas,[^60] the associated sea level rise from redistributing the ice melt across the entire ocean surface would be about 25 times less, or about 4 mm/yr.[^61]
 
-Meanwhile, the constant, swirling contact between water and air, and between air and land, keeps all three in sync with each other: one will not race off to get hot without the others. And in this case, the ocean—with its giant thermal mass and extensive air-water interface—is the limiting factor on how fast things can heat up. If we confine ocean heating to the
-
-$1^{\circ}\mathrm{C}$ (at a 1 $\mathrm{W/m}^{2}$ imbalance).top 300 $\mathrm{m}^{62}$temperature rise of about $0.035^{\circ}\mathrm{C}$ per year, or about 30 years to climbof water, the excess $1.6 \times 10^{22}$ J per year leads to an annual
+Meanwhile, the constant, swirling contact between water and air, and between air and land, keeps all three in sync with each other: one will not race off to get hot without the others. And in this case, the ocean—with its giant thermal mass and extensive air-water interface—is the limiting factor on how fast things can heat up. If we confine ocean heating to the top 300 m of water, the excess $1.6 \times 10^{22}$ J per year leads to an annual temperature rise of about $0.035^{\circ}\mathrm{C}$ per year, or about 30 years to climb $1^{\circ}\mathrm{C}$ (at a 1 $\mathrm{W/m}^{2}$ imbalance).
 
 :::{margin}
 **Try it:** See if you can replicate this result.
@@ -644,7 +646,7 @@ Melting ice contributes about 2.4 mm/yr of rise, while thermal expansion account
 
 :::
 
-1880, sea level has risen about 230 mm At the *current* rate, we would expect a comparable addition by 2100 for a total of 0.5 m.
+1880, sea level has risen about 230 mm. At the *current* rate, we would expect a comparable addition by 2100 for a total of 0.5 m.
 
 But the current rate is not likely to be the right measure, since warming air temperatures result in a faster rate of ice melting. Positive feedbacks also accelerate ice melt. For instance, melted pools of water on top of the ice are darker than ice, increasing the rate at which solar energy is absorbed.
 
@@ -754,7 +756,9 @@ Resource[^74] disruptions, however, can send markets into free-fall and stimulat
 
 20. Which of the following are positive vs. negative feedback effects for climate change as a result of warming, and why?
 
-   a) warming tundra releases methane trapped in the permafrost b) more water in the atmosphere creates more clouds and increases the amount of sunlight reflected from Earth
+   a) warming tundra releases methane trapped in the permafrost
+
+   b) more water in the atmosphere creates more clouds and increases the amount of sunlight reflected from Earth
 
    c) an increase in forest fire activity burns lots of carbon-based material and leaves a blackened earth
 
@@ -787,7 +791,7 @@ Hint: It is easiest just to consider a single square meter of surface and figure
 
 26. If the ocean absorbs an additional 3 $\mathrm{W/m}^{2}$ of forcing,[^86] how long would it take to heat the $\sim 4$ km deep column of water directly under a particular square meter (thus 4 $\times 10^{6}$ kg) by $1^{\circ}\mathrm{C}$?[^87]
 
-27. Based on [Table 9.7](#tab-9-7), if we could magically turn offinfrared radiation to space, how long would it take for the sun’s 240 $\mathrm{W/m}^{2}$ average to heat the entire ocean by $1^{\circ}\mathrm{C}$? It is fine to assume that the ocean covers the whole globe, for this limiting-case calculation.
+27. Based on [Table 9.7](#tab-9-7), if we could magically turn off infrared radiation to space, how long would it take for the sun’s 240 $\mathrm{W/m}^{2}$ average to heat the entire ocean by $1^{\circ}\mathrm{C}$? It is fine to assume that the ocean covers the whole globe, for this limiting-case calculation.
 
 :::{margin}
 Hint: multiply by area of Earth and seconds in a year to get Joules of input.
@@ -832,7 +836,7 @@ Hint: multiply by area of Earth and seconds in a year to get Joules of input.
 [^16]: This is called the solar constant [[4](#ref-4)], and will appear again in [Chapter 10](#ch-10) and [Chapter 13](#ch-13).
 [^17]: An imbalance would mean energy is accumulating or being lost, leading to warming or cooling. Even under present conditions, the balance is good to within 1 $\mathrm{W/m}^{2}$.
 [^18]: Life on Earth is adapted to and reliant upon this $33^{\circ}\mathrm{C}$ greenhouse effect. Abruptly *changing* it is what causes problems.
-[^19]: We will see how/why in in [Section 13.2](#sec-13-2) ([Eq. 13.5](#eq-13-5); p. 209).
+[^19]: We will see how/why in [Section 13.2](#sec-13-2) ([Eq. 13.5](#eq-13-5); p. 209).
 [^20]: … the infrared radiation that directly escapes to space
 [^21]: Thus the white portions indicate the open “windows.”
 [^22]: … escaped radiation
