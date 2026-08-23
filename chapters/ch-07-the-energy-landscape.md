@@ -139,9 +139,7 @@ In sum, 80% of the U.S. energy in 2018 came from fossil fuels. Less than 2.5% ca
 :class: tip
 :label: box-7-2
 
-Note that the EIA—and thus [Table 7.1](#tab-7-1)—habitually applies a thermal conversion factor to some energy sources in order to more meaningfully compare one source to another. Fossil fuel energy is characterized by its *thermal* content, which makes sense as they are burned for thermal energy. Often—but not always—the thermal energy is turned into electrical energy. Meanwhile, some sources, like solar, hydroelectric, wind, nuclear, and geothermal are almost exclusively used for electricity production and are most easily mea-
-
-sured by electrical *output*, not thermal input (which is meaningless for solar, wind, and hydro).
+Note that the EIA—and thus [Table 7.1](#tab-7-1)—habitually applies a thermal conversion factor to some energy sources in order to more meaningfully compare one source to another. Fossil fuel energy is characterized by its *thermal* content, which makes sense as they are burned for thermal energy. Often—but not always—the thermal energy is turned into electrical energy. Meanwhile, some sources, like solar, hydroelectric, wind, nuclear, and geothermal are almost exclusively used for electricity production and are most easily measured by electrical *output*, not thermal input (which is meaningless for solar, wind, and hydro).
 
 Multiplying the electrical output by a factor of about 3 recovers the thermal equivalent.[^16] The interpretation is: how much fossil fuel (thermally) would have been necessary to achieve the same result? As a consequence, when [Table 7.1](#tab-7-1) says the solar contribution is 0.92 qBtu, and therefore about 1% of the total, the *actual* solar energy was smaller by a factor of three, but the practice is fair because now we can directly compare solar to the fossil fuels. Reporting electrical output alongside thermal inputs would make the renewables appear to have a smaller contribution than they effectively do, against fossil fuels.
 
@@ -187,10 +185,8 @@ right-hand side of the plot, and the trends suggest a clear reversal of rank goi
 :enumerator: 7.5
 :alt: Recent history of non-fossil energy consumption in the U.S. Nuclear, hydroelectric, and biomass have dominated, while wind and solar are ris
 
-Recent history of non-fossil energy consumption in the U.S. Nuclear, hydroelectric, and biomass have dominated, while wind and solar are rising to join as players. Asterisks indicate thermal equivalents, as described in [Box 7.2](#box-7-2). The same data are plotted at right as a percentage of total energy. Aside from the rapid rise of nuclear in the middle years of the plot, the recent entry of wind and solar (though
+Recent history of non-fossil energy consumption in the U.S. Nuclear, hydroelectric, and biomass have dominated, while wind and solar are rising to join as players. Asterisks indicate thermal equivalents, as described in [Box 7.2](#box-7-2). The same data are plotted at right as a percentage of total energy. Aside from the rapid rise of nuclear in the middle years of the plot, the recent entry of wind and solar (though still only a few percent) is the most interesting developments.
 :::
-
-still only a few percent) are the most interesting developments.
 
 The non-fossil consumption in [Figure 7.5](#fig-7-5) clarifies the breakdown of the “renewables” curve in [Figure 7.4](#fig-7-4), alongside nuclear. From this, we see that nuclear dominates non-fossil energy, rising quickly from 1970 to 2000 and holding steady since then. Hydroelectric has been pretty stable over the last 50 years as other sources surpass it and lower its rank. The surge in biofuels around 1980 appears to be largely driven by increased burning of wood, while the next surge (2000–2010) was due to biofuels—mostly ethanol. Wind is approaching a 3% contribution to our total $\sim 100$ qBtu consumption budget, edging up about 0.2% per year. Solar is also on the move, reaching the 1% level recently and rising more slowly than wind. Geothermal is and will continue to be a paltry contributor.
 
@@ -235,7 +231,7 @@ You may have noticed that as soon as we departed from the AER
 
 data, which expressed energy in qBtu, the units on the plot ([Fig. 7.7](#fig-7-7)) changed to terawatt-hours (TWh). It means what it sounds like: tera is $10^{12}$, so this is $10^{12}$ watt-hours (Wh). We use kWh more often than Wh, so a TWh is the same as a giga-kWh, or GkWh (can you do that?). One kWh is $3.6 \times 10^{6}$ J, so 1 TWh is $3.6 \times 10^{15}$ J. Meanwhile, 1 qBtu is $1.055 \times 10^{18}$ J, facilitating a conversion. The figures for global power also put qBtu on the right side for easier comparison between plots.
 
-The source of numbers for this section [[16](#ref-16)] mix thermal and electrical output, so the plots have multiplied some entries (asterisks in plot legends) by 3.06 for reasons described in [Box 7.2](#box-7-2).
+The source of numbers for this section [[16](#ref-16)] mixes thermal and electrical output, so the plots have multiplied some entries (asterisks in plot legends) by 3.06 for reasons described in [Box 7.2](#box-7-2).
 
 ::::
 
@@ -264,10 +260,10 @@ The left figure combines [Figure 7.4](#fig-7-4) and [Figure 7.7](#fig-7-7) to sh
 
 innovation: first on the scene.
 
-The thicker dark blue line in the left panel of [Figure 7.9](#fig-7-9) represents all sources of energy, combined. Around 1950, Americans used a third of all the global energy, corresponding to almost 8 times$^{0\mathrm{mm}}$ the global
+The thicker dark blue line in the left panel of [Figure 7.9](#fig-7-9) represents all sources of energy, combined. Around 1950, Americans used a third of all the global energy, corresponding to almost 8 times the global
 
 :::{margin}
-0mm: The math is 35% over 6% of population compared to 65% over 94% of population: $(35/6)/(65/94) \approx 8.4$.
+The math is 35% over 6% of population compared to 65% over 94% of population: $(35/6)/(65/94) \approx 8.4$.
 
 :::
 
@@ -287,7 +283,11 @@ The purpose of this chapter was twofold: first to introduce students to sources 
 
    a) What percentage of energy consumption in the U.S. is from petroleum?
 
-   b) What percentage of transportation is powered by petroleum? c) What percentage of petroleum goes directly to transportation? d) What percentage of petroleum goes directly to industrial processes (ignoring via electricity)?
+   b) What percentage of transportation is powered by petroleum?
+
+   c) What percentage of petroleum goes directly to transportation?
+
+   d) What percentage of petroleum goes directly to industrial processes (ignoring via electricity)?
 
 :::{margin}
 ⚠ Not the same as previous question.
@@ -296,7 +296,7 @@ The purpose of this chapter was twofold: first to introduce students to sources 
 
 2. The electricity block at the bottom center of [Figure 7.2](#fig-7-2) is said to be 38.3 qBtu in size. Using the qBtu numbers in the sources at left, and the percentages of each going to electricity, figure out how many qBtu each line connecting to the left side of the electricity block represents.[^19] What is the total, and does it match the 38.3 qBtu expectation, within reasonable rounding errors?
 
-3. Building off the result in Problem 2, calculate the percentages[^20] of contributions coming into the left side of the electricity block in [Figure 7.2](#fig-7-2)? Which is the dominant input?
+3. Building off the result in Problem 2, calculate the percentages[^20] of contributions coming into the left side of the electricity block in [Figure 7.2](#fig-7-2). Which is the dominant input?
 
 4. Following a similar approach as for Problem 2,[^21] concentrate on the output side of electricity production[^22] and figure out how many qBtu are delivered to each sector on the right-hand side of the figure, based on input percentages to each of the four sectors
 

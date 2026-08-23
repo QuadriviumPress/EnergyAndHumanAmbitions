@@ -27,30 +27,11 @@ In order to frame just how important fossil fuels are and have been, we again ta
 
 The result may have greater impact if you are an active participant in its creation. So get some paper, the back of an envelope, or something. Draw a horizontal axis as a timeline. Label the left edge as –10,000 years (past). The right edge is +10,000 years (future). The middle is 0 (now; see the example in the margin). The vertical axis represents global energy production, on a linear scale. For ages, this was too tiny to see poking up above the floor. Only about 200 years ago did it become visible. So for the first 98% of the way from -10,000 to 0, draw a line hugging the floor. In the last 200 years, energy usage has increased exponentially.[^1] So draw a smooth curve connecting the previous line into a steep rise at present (middle of the plot), using much or all of the available vertical space.
 
-| 0 |
-| --- |
-| 0 |
-
-:::{margin}
--10,000 10,000
-
-:::
-
 :::{figure} ../images/art-p141-1.svg
 :alt: Illustration from the original text
 :::
 
-:::{margin}
-10,000
-
-:::
-
 What emerges is the classic “hockey stick” plot that applies to many physical attributes of our world: population, carbon dioxide, temperature, and—in the present case—energy use. In the long flat portion of the plot, our energy came from firewood and muscle (both animal and human labor). But the sudden transformative rise is really a story of fossil fuels. Even today, having added hydroelectric, nuclear, solar, wind, geothermal, and tidal power to the mix, fossil fuels still account for over 80% of the total.[^2]
-
-:::{margin}
-10,000
-
-:::
 
 Let us then continue the plot *in the context of fossil fuels*. Being a finite resource, we know in broad terms what the curve *must* look like. It must drop back down to zero and ride into the future looking much as it did in the past: at zero. One may debate the exact timing of the peak of fossil fuel use, but for a variety of reasons we would be well justified in placing it sometime this century. We’ll leave it to individual preference if you want to allow the curve to climb a bit more before turning down, but don’t stray too far. This century ends only 1% of the way from 0 to +10,000, so don’t let the peak get very far at all from the middle of the plot. Once turning down, the curve is likely to look reasonably symmetric, returning to zero in short order and staying there.
 
@@ -85,7 +66,7 @@ Also, the very disruption of losing such a critical resource without adequate ad
 
 ::::
 
-Note that [Figure 8.1](#fig-8-1) is not intended to predict a particular future path. But it can serve to to counterbalance the prevailing optimism about a technologically marvelous future by providing a sanity check so that we might acknowledge that *we really do not know*. How can it be wrong to say that we do not know what the future holds? Yet, accompanying this uncertainty is a glimmer of hope: if the future is so uncertain and unscripted, then perhaps we have the power to write the script and set ourselves onto a viable and pleasant future path. If we elect to do so, it is of paramount importance that we do not ignore limitations imposed by nature in the process.
+Note that [Figure 8.1](#fig-8-1) is not intended to predict a particular future path. But it can serve to counterbalance the prevailing optimism about a technologically marvelous future by providing a sanity check so that we might acknowledge that *we really do not know*. How can it be wrong to say that we do not know what the future holds? Yet, accompanying this uncertainty is a glimmer of hope: if the future is so uncertain and unscripted, then perhaps we have the power to write the script and set ourselves onto a viable and pleasant future path. If we elect to do so, it is of paramount importance that we do not ignore limitations imposed by nature in the process.
 
 (sec-8-2)=
 ## 8.2 Overview: Coal, Oil, and Gas
@@ -128,7 +109,7 @@ Petroleum—also called oil—is ubiquitous in our world as the source for gasol
 
 Petroleum first entered the modern scene around 1850, and the first drilled well[^18] was in 1858 in Pennsylvania. Early uses were for kerosene lamps.[^19] The first commercial internal combustion engine closely followed in 1859, arriving at an essentially modern form in 1876 at the hands of Nikolaus Otto.[^20] The first production automobile using a gasoline-powered internal combustion engine was developed by Karl Benz in 1885 and Henry Ford’s Model T began mass-production in 1913. In the intervening years, electric cars surprisingly were more popular, but quickly gave way to the gasoline[^21] car due to superior range, quick refueling, and cost.
 
-Today, petroleum supplies 37% of energy consumption in the U.S.[^22] 70% of petroleum goes to transportation (92% of transportation energy is in the form of petroleum), while another 24% goes to industrial processes.[^23]. Globally, petroleum usage represents a slightly smaller fraction of total energy than in the U.S., at 31% of total energy consumption.[^24]
+Today, petroleum supplies 37% of energy consumption in the U.S.[^22] 70% of petroleum goes to transportation (92% of transportation energy is in the form of petroleum), while another 24% goes to industrial processes.[^23] Globally, petroleum usage represents a slightly smaller fraction of total energy than in the U.S., at 31% of total energy consumption.[^24]
 
 The petroleum extracted from the ground is often called crude oil, and consists primarily of hydrocarbon chains of various lengths. The lighter molecules (shorter chains)—typified by octane ([Figure 8.3](#fig-8-3))—are useful for gasoline, while the much heavier (longer) molecules are found in tar/asphalt, lubricants, or used as “petrochemical feedstock” for plastics. The process of refinement separates constituents by chain length, producing gasoline, kerosene, diesel, heating oil, lubricants, tar, etc. 92% of crude oil goes to energy production of some form (burned), while 8% is used to create petrochemical products, as depicted in [Figure 8.4](#fig-8-4).
 
@@ -150,7 +131,7 @@ Fractional use of a barrel of petroleum, from [[41](#ref-41)]. All but asphalt, 
 
 Petroleum is measured in barrels (bbl), equating to 159 L (42 gal). Each barrel of crude oil contains about 6.1 GJ of energy (1,700 kWh; 5.8 MBtu). For reference, the world consumes about 30 billion barrels a year (the U.S. is about 7 billion barrels per year, or 20 million barrels per day). No single country produces oil at a rate greater than about 12 million barrels per day.[^25]
 
-To provide some perspective on how special/rare oil is, the chances of finding any by drilling a random spot on the planet is about 0.01%.[^26] This is because many geological conditions must be met to make oil:
+To provide some perspective on how special/rare oil is, the chances of finding any by drilling a random spot on the planet are about 0.01%.[^26] This is because many geological conditions must be met to make oil:
 
 1. Organic material must be deposited in an oxygen-poor environment to inhibit decomposition, like dead animal and plant remnants settling to the bottom of a still, shallow sea;
 

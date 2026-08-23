@@ -123,7 +123,7 @@ Can you imagine burning through all of Earth’s forests and animals in 15 years
 (sec-14-3)=
 ## 14.3 Biofuels
 
-Biofuels deserve their own category because the origins and end uses are different enough to warrant distinction. While the biomass sources from [Section 14.2](#sec-14-2) tend to be in solid form, biofuels—as treated here—are *liquid*. Liquid fuels are instantly a big deal because they have the energy density and versatility to be used in transportation applications. An airplane can’t very well fly on firewood, hydroelectricity, solar, wind, ocean currents, geothermal, or nuclear energy.[^13] matter. Biofuels therefore occupy a special place in the pantheon of renewable resources as the most obvious viable replacement for petroleum—the dominant fossil fuel responsible for 92%[^14] of transportation in the U.S.
+Biofuels deserve their own category because the origins and end uses are different enough to warrant distinction. While the biomass sources from [Section 14.2](#sec-14-2) tend to be in solid form, biofuels—as treated here—are *liquid*. Liquid fuels are instantly a big deal because they have the energy density and versatility to be used in transportation applications. An airplane can’t very well fly on firewood, hydroelectricity, solar, wind, ocean currents, geothermal, or nuclear energy.[^13] Biofuels therefore occupy a special place in the pantheon of renewable resources as the most obvious viable replacement for petroleum—the dominant fossil fuel responsible for 92%[^14] of transportation in the U.S.
 
 In the U.S. in 2018, 2.28 qBtu (2.3%; 0.08 TW) came from biofuels [[34](#ref-34)], which is very similar to the amount from biomass (wood, waste). Out of the 11.41 qBtu of all renewables, biofuels account for 20% of the U.S. renewable budget ([Table 10.3](#tab-10-3); p. 177).
 
@@ -132,7 +132,7 @@ In the U.S. in 2018, 2.28 qBtu (2.3%; 0.08 TW) came from biofuels [[34](#ref-34)
 
 :::
 
-Most prominently, ethanol is the chief biofuel, accounting for about 80% of the total. It is an alcohol that can be produced by fermenting the photosynthetically-produced sugars in the plant and then distilling the result.[^15] Structurally, ethanol is very similar to ethane$^{16}$ except that the terminating hydrogen on one end of the chain is replaced by a hydroxyl group (OH; shown in [Figure 14.3](#fig-14-3)).
+Most prominently, ethanol is the chief biofuel, accounting for about 80% of the total. It is an alcohol that can be produced by fermenting the photosynthetically-produced sugars in the plant and then distilling the result.[^15] Structurally, ethanol is very similar to ethane except that the terminating hydrogen on one end of the chain is replaced by a hydroxyl group (OH; shown in [Figure 14.3](#fig-14-3)).
 
 Though it is not necessary to fully understand the chemistry,[^17] combustion of ethanol—for comparison to the fossil fuel reactions in [Eq. 8.1](#eq-8-1) (p. 126)—goes according to
 
@@ -152,7 +152,7 @@ In other words, ethanol combines with oxygen via combustion (burning) producing 
 Ethanol is similar to ethane, but replacing the hydrogen at the end with hydroxyl (OH).
 :::
 
-The energy density works out to 7.1 kcal/g, which is considerably lower than octane (representing gasoline) at 11.5 kcal/g ([Table 8.2](#tab-8-2); p. 126). In terms of CO$_{2}$ production, the reaction generates 88 g of CO$_{2}$ for each 46 g of ethanol, coming to 1.9 g/g—which is lower than the 3.09 factor for octane. In terms of CO$_{2}$ energy intensity, ethanol produces 64 g of CO$_{2}$ for every 1 MJ of energy: exactly the same as petroleum ([Table 8.2](#tab-8-2)). Generally speaking, biofuels—and other forms of biomass—are often considered to be carbon-neutral,[^18] as the carbon released upon burning was taken in from the atmosphere in the process of photosynthesis, making it a cycle.
+The energy density works out to 7.1 kcal/g, which is considerably lower than octane (representing gasoline) at 11.5 kcal/g ([Table 8.2](#tab-8-2); p. 126). In terms of CO$_{2}$ production, the reaction generates 88 g of CO$_{2}$ for each 46 g of ethanol, coming to 1.9 g/g—which is lower than the 3.09 factor for octane. In terms of CO$_{2}$ energy intensity, ethanol produces 64 g of CO$_{2}$ for every 1 MJ of energy: exactly the same as petroleum ([Table 9.1](#tab-9-1)). Generally speaking, biofuels—and other forms of biomass—are often considered to be carbon-neutral,[^18] as the carbon released upon burning was taken in from the atmosphere in the process of photosynthesis, making it a cycle.
 
 Most of the ethanol in the U.S. is blended into gasoline into E10, E15, or E85 products meaning 10%, 15%, or 85% ethanol. Not all vehicles are equipped to handle the more corrosive ethanol, and those that are (“flex-fuel” vehicles) might expect lower energy performance due to the fact that ethanol has lower energy density than gasoline.
 
@@ -227,7 +227,7 @@ in 2 years, therefore taking two years to produce as much as went into its manuf
 
 ::::
 
-In a self-supporting sense[^23] the *net* energy is $x - 1$ for an EROEI of $x$:1. In other words, an EROEI of 1.25:1 only “really” produces 0.25 units of exportable energy for every one unit invested, if that one invested unit *comes from* the 1.25 units extracted in a closed system. In this case, for every one unit netted,[^24] 4 units went in and 5 came out–only 1 of the 5 free and clear.
+In a self-supporting sense[^23] the *net* energy is $x - 1$ for an EROEI of $x$:1. In other words, an EROEI of 1.25:1 only “really” produces 0.25 units of exportable energy for every one unit invested, if that one invested unit *comes from* the 1.25 units extracted in a closed system. In this case, for every one unit netted,[^24] 4 units went in and 5 came out—only 1 of the 5 free and clear.
 
 ::::{admonition} Example 14.3.3
 :class: seealso
@@ -377,7 +377,7 @@ Now if you could just think of a way to put the answer on a *log* scale, ha ha.
 
 4. How many logs of firewood per day (whose parameters are specified in Problem 3) would you need to burn to provide 5,000 W of heating to a house?
 
-5. Replicate the conclusion of [Box 14.3](#box-14-3) by assuming one-quarter of the 2 trillion tons (5 $\times 10^{1}4$ kg) of mass is combustible at 4kcal/g. How long—in years—would this amount of energy last if burning at 18 TW?
+5. Replicate the conclusion of [Box 14.3](#box-14-3) by assuming one-quarter of the 2 trillion tons ($5\times10^{14}$ kg) of mass is combustible at 4 kcal/g. How long—in years—would this amount of energy last if burning at 18 TW?
 
 6. Given the energy densities of ethanol vs. octane (gasoline), how many liters of ethanol does it take to replace one liter of gasoline, if the densities are 789 g/L for ethanol and 703 g/L for octane?
 
@@ -415,7 +415,7 @@ If the EROEI is less than 2:1 (as it is for many biofuels), we would cut your es
 [^12]: About a quarter of the biomass is “dry” combustible material, at about 4 kcal/g.
 [^13]: See, for instance, [Box 13.3](#box-13-3) (p. 222) and [Box 17.1](#box-17-1) (p. 300).
 [^14]: Another 5% is from biofuels, usually blended into gasoline.
-[^15]: … also how “moonshine” alcohol is made 16: … $\mathrm{C}_{2}$H$_{6}$: the second in the alkane sequence of methane, ethane, propane, butane, …, octane, etc.
+[^15]: … also how “moonshine” alcohol is made … $\mathrm{C}_{2}$H$_{6}$: the second in the alkane sequence of methane, ethane, propane, butane, …, octane, etc.
 [^17]: [Appendix B](#app-b) provides some background on chemical reactions and associated energy.
 [^18]: In practice, fossil fuels are used in the cultivating of biofuels, so it’s not a perfectly clean, closed cycle in present form.
 [^19]: See [Sec. B.3](#sec-b-3) (p. 391) for more insight into chemical reactions and energy content.
@@ -431,7 +431,7 @@ If the EROEI is less than 2:1 (as it is for many biofuels), we would cut your es
 [^29]: … where corn is grown
 [^30]: … compromised by low EROEI if using fossil-fuel inputs to run production
 [^31]: … subject to availability in the face of deforestation
-[^32]: … compared to solar or wind budgets, for instance, which are 5,000 times and 50 times our demand–not just 5 times as is the case for all biology
+[^32]: … compared to solar or wind budgets, for instance, which are 5,000 times and 50 times our demand—not just 5 times as is the case for all biology
 [^33]: ⓘ Water has a density of 1,000 $\mathrm{kg/m}^{3}$.
 [^34]: You can always multiply both sides by the same factor to make both sides integers, if this is easier to understand.
 [^35]: … i.e., relying on its own energy to re-invest in its extraction

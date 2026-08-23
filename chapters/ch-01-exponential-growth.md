@@ -58,7 +58,7 @@ But let’s explore an example that often reveals our faulty intuition around ex
 
 Think about this on your own for a minute. Normal intuition might suggest a half-full jar at noon—halfway along the experiment. But what happens if we work backwards? The jar is full at midnight, and doubles every ten minutes. So what time is it half full?
 
-The answer is one doubling-time before midnight, or 11:50 PM. [Figure 1.1](#fig-1-1) illustrates the story. At 11 PM, the jar is at one-64th capacity, or 1.7% full. So, for the first 23 of 24 hours, the jar looks basically empty. All the action happens at the end, in dramatic fashion.
+The answer is one doubling-time before midnight, or 11:50 PM. [Figure 1.1](#fig-1-1) illustrates the story. At 11 PM, the jar is at one-64th capacity, or 1.6% full. So, for the first 23 of 24 hours, the jar looks basically empty. All the action happens at the end, in dramatic fashion.
 
 :::{figure} ../images/fig-1-1.svg
 :label: fig-1-1
@@ -109,7 +109,7 @@ For instance, doubling has $M = 2$, tripling has $M = 3$, and increasing by 29% 
 :class: tip
 :label: box-1-2
 
-The same process happens in a bank account accumulating interest. Let’s consider that you deposit \$100 into a bank account bearing 2% annual interest. At the end of one year, you’ll have \$102, which is 1.02 times the original amount. For the next year, it’s 1.02 times \$102, or \$104.04, which is the original \$100 times $1.02 \times 1.02$. Then in three years it will be \$106.18, or \$100 times $1.02^{3}$. Having sussed out the pattern, after 35 years it would be \$100 times $1.02^{35}$, which happens to come to \$199.99. Notice that doubling in 35 years at 2% exactly obeys the rule of 70. [Table 1.2](#tab-1-2) summarizes this example.
+The same process happens in a bank account accumulating interest. Let’s consider that you deposit \$100 into a bank account bearing 2% annual interest. At the end of one year, you’ll have \$102, which is 1.02 times the original amount. For the next year, it’s 1.02 times \$102, or \$104.04, which is the original \$100 times $1.02 \times 1.02$. Then in three years it will be \$106.12, or \$100 times $1.02^{3}$. Having sussed out the pattern, after 35 years it would be \$100 times $1.02^{35}$, which happens to come to \$199.99. Notice that doubling in 35 years at 2% exactly obeys the rule of 70. [Table 1.2](#tab-1-2) summarizes this example.
 
 ::::
 
@@ -207,7 +207,7 @@ From this expression, we can gather that $\ln (1 + p) = \ln 2/t_{2}$ by equating
 t_{2}= \ln 2/\ln (1 + p).
 :::
 
-For small values of $p$ (much smaller than 1), the natural log of 1 $+ p$ is approximately $p$. In other words, when $p = 0.02, \ln 1.02 \approx 0.02 \approx p$. This is part of the reason why we chose $e$ as our base, as it is mathematically “natural.” Since ln 2 $\approx 0.693 \approx.70$, the doubling time, $t_{2}$, is approximately 70 divided by the annual growth rate, $p$, in percent. So the reason it’s a rule of 70 for doubling (and not a rule of 60 or 80) is basically because the natural log of 2 (representing doubling) is roughly 0.70.
+For small values of $p$ (much smaller than 1), the natural log of 1 $+ p$ is approximately $p$. In other words, when $p = 0.02, \ln 1.02 \approx 0.02 \approx p$. This is part of the reason why we chose $e$ as our base, as it is mathematically “natural.” Since ln 2 $\approx 0.693 \approx 0.70$, the doubling time, $t_{2}$, is approximately 70 divided by the annual growth rate, $p$, in percent. So the reason it’s a rule of 70 for doubling (and not a rule of 60 or 80) is basically because the natural log of 2 (representing doubling) is roughly 0.70.
 
 :::{margin}
 **Try it:** Try it yourself to verify on a calculator, by sticking in various small amounts for $p$.
@@ -312,7 +312,7 @@ So within 400 years, we would be at the point of using every scrap of solar ener
 :class: tip
 :label: box-1-3
 
-If we took the material comprising the entire Earth (or Venus) and created a sphere around the sun at the current Earth-Sun distance, it would be a shell less than 4 mm thick! And it’s not necessarily ideal material stock for building a high-tech sphere and solar panels. The earth’s atmosphere distributed over this area would be 0.015 m thick. Don’t hold your breath waiting for this to happen.
+If we took the material comprising the entire Earth (or Venus) and created a sphere around the sun at the current Earth-Sun distance, it would be a shell less than 4 mm thick! And it’s not necessarily ideal material stock for building a high-tech sphere and solar panels. The earth’s atmosphere distributed over this area would be 0.015 mm thick. Don’t hold your breath waiting for this to happen.
 
 ::::
 
@@ -442,7 +442,7 @@ A potential inconsistency in our treatment is that we based our exploration of e
 
 :::
 
-:::{table} At a constant energy growth rate of 2.3% per year, the temperature climb from waste heat (not CO$_{2}$ emissions) is slow at first, but becomes preposterous within a few-hundred years. Water boils in just over 400 years, and by 900 years Earth is hotter than the sun! The scenario of continued growth is obviously absurd.
+:::{table} At a constant energy growth rate of 2.3% per year, the temperature climb from waste heat (not CO$_{2}$ emissions) is slow at first, but becomes preposterous within a few-hundred years. Water boils in just over 400 years, and by 1,000 years Earth is hotter than the sun! The scenario of continued growth is obviously absurd.
 :label: tab-1-4
 :enumerator: 1.4
 
@@ -451,9 +451,9 @@ A potential inconsistency in our treatment is that we based our exploration of e
 | 100 | 1.4 | 288.1 | 0.1 |
 | 200 | 14 | 288.9 | $\sim 1$ |
 | 300 | 140 | 296.9 | $\sim 9$ |
-| 400 | 1,400 | 344 | 56 |
-| 417 | 2,070 | 373 | 100 |
-| 1,000 | $1.4 \times 10^{9}$ | 8,600 | 8,300 |
+| 400 | 1,400 | 352 | 64 |
+| 417 | 2,070 | 373 | 85 |
+| 1,000 | $1.4 \times 10^{9}$ | 8,900 | 8,600 |
 :::
 
 Connecting some ideas, we found in the previous section that we would be consuming the sun’s entire output in 1,400 years at the 2.3% growth rate. It stands to reason that if we used a sun’s worth of energy confined to the surface of the earth, the (smaller) surface would necessarily be hotter than the sun (in 1,400 years), just like a light bulb filament is hotter than human skin despite putting out the same power—owing to the difference in area.[^19]
@@ -564,7 +564,7 @@ Hint: the exponential, $e^{x}$, “undoes” the natural logarithm.
 16. In extrapolating a 2.3% growth rate in energy, we came to the absurd conclusion that we consume all the light from all the stars in the Milky Way galaxy within 2,500 years. How much longer would it take to energetically conquer 100 more “nearby” galaxies, assuming they are identical to our own?
 
 :::{margin}
-ⓘ Ignoring the fact that it impossible to
+ⓘ Ignoring the fact that it is impossible to
 
 :::
 
@@ -596,7 +596,7 @@ away, but then clothing reduces both to bring us to equilibrium/comfort.
 
 20. The moon absorbs 90% of the solar energy incident on it.[^23] How hot would you expect the surface to get under full sun? You don’t need the factor of four here[^24] because the moon rotates very slowly under the sun and we’re considering a patch experiencing overhead sunlight (rather than averaging over the sphere). Compare the result to boiling water temperature.
 
-21. Venus is, ironically, colder than Earth as an infrared radiator. This is because Venus is covered in bright clouds, absorbing only 25% of the incident solar flux. Sunlight is more intense there due to it’s being closer to the sun: it’s almost double, at 2,620 $\mathrm{W/m}^{2}$. Adapting [Eq. 1.11](#eq-1-11), calculate the equilibrium temperature of Venus in the infrared and compare it to the Earth value of 255 K.
+21. Venus is, ironically, colder than Earth as an infrared radiator. This is because Venus is covered in bright clouds, absorbing only 25% of the incident solar flux. Sunlight is more intense there due to its being closer to the sun: it’s almost double, at 2,620 $\mathrm{W/m}^{2}$. Adapting [Eq. 1.11](#eq-1-11), calculate the equilibrium temperature of Venus in the infrared and compare it to the Earth value of 255 K.
 
 :::{margin}
 ⓘ The surface of Venus is *much* hotter than that of Earth owing to a runaway greenhouse condition. On Earth, the greenhouse boost is only 33 K, but on Venus it’s hundreds of degrees.

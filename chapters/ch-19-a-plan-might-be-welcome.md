@@ -85,7 +85,7 @@ Globally, the prospects may be even worse: competition between countries stymies
 :class: tip
 :label: box-19-3
 
-Scientists discovered an alarming decrease in stratospheric ozone (O$_{3})$ in the latter part of the twentieth century—particularly acute aver the Antarctic, earning the title “ozone hole.” A global agreement in 1989 called the Montreal Protocol banned the use of chlorofluorocarbons.[^19] Substitutes largely—but not entirely—mitigated the ozone problem. Ozone depletion has improved by 20% since 2005 [[122](#ref-122)]. While the problem is not yet gone, or solved, it is encouraging that global policy can at least reverse and possibly fix a problem.
+Scientists discovered an alarming decrease in stratospheric ozone (O$_{3})$ in the latter part of the twentieth century—particularly acute over the Antarctic, earning the title “ozone hole.” A global agreement, the Montreal Protocol, signed in 1987 (entering into force in 1989), banned the use of chlorofluorocarbons.[^19] Substitutes largely—but not entirely—mitigated the ozone problem. Ozone depletion has improved by 20% since 2005 [[122](#ref-122)]. While the problem is not yet gone, or solved, it is encouraging that global policy can at least reverse and possibly fix a problem.
 
 On the scale of things, this was an easy problem to solve. Climate change and fossil fuel dependence are *much* harder, making the ozone comparison a false equivalency. Getting energy out of fossil fuels *demands* the release of CO$_{2}$. We can’t “just” switch[^20] to some other liquid fuel that doesn’t have this problem, as this book makes clear.
 
@@ -139,7 +139,7 @@ A vital group has been left out of the discussion thus far: people. The vast maj
 (sec-19-3)=
 ## 19.3 Economic Regimes
 
-A very nice metaphor presented in the 2003 documentary *The Corporation* is that early attempts at mechanized flight were doomed to fail because the contraptions were not built on aerodynamic principles of sustainable flight. All the same, the would-be pilots launched off cliff edges and momentarily felt the thrill of flying: the wind was in their hair. Meanwhile, the ground was rushing up. Likewise, our economy and society are not built on principles of sustainable steady-state operation. Even though it feels like quite the amazing rush,[^27] it is not hard to see evidence that the ground rushing up. Our only chance is to develop a steady-state economic model—one that is based on principles of long-term sustainability in *partnership* with Earth’s ecosystems.
+A very nice metaphor presented in the 2003 documentary *The Corporation* is that early attempts at mechanized flight were doomed to fail because the contraptions were not built on aerodynamic principles of sustainable flight. All the same, the would-be pilots launched off cliff edges and momentarily felt the thrill of flying: the wind was in their hair. Meanwhile, the ground was rushing up. Likewise, our economy and society are not built on principles of sustainable steady-state operation. Even though it feels like quite the amazing rush,[^27] it is not hard to see evidence that the ground is rushing up. Our only chance is to develop a steady-state economic model—one that is based on principles of long-term sustainability in *partnership* with Earth’s ecosystems.
 
 Paying heed to true sustainability is challenging. Firstly, it is difficult to define what it means. Much depends on the lifestyle imagined. The earth can support fewer people if resource consumption per capita is high, for instance.
 
@@ -153,7 +153,7 @@ A story illustrates the challenge. An economist named Herman Daly worked at the 
 Standard concept of the economy, but importantly surrounded by a finite box labeled “The Environment.” Most instances of this figure avoid the insinuation that the economy is contained in a finite domain, in part because it raises the uncomfortable question of how close we are to filling up the box.
 :::
 
-provided labor for the firms. Resources fed the firms and waste was emitted from the households (and firms). Dr. Daly said: “great, now draw a box around this and label it: The Environment. The obvious point is that all economic activity takes place *inside* the environment. The next draft came back sporting a box drawn around the figure, but no label. Dr. Daly’s response: “It *looks* nice, but unless the box is labeled The Environment, it’s only a decorative frame.” The next draft eliminated the figure altogether.
+provided labor for the firms. Resources fed the firms and waste was emitted from the households (and firms). Dr. Daly said: “great, now draw a box around this and label it: The Environment.” The obvious point is that all economic activity takes place *inside* the environment. The next draft came back sporting a box drawn around the figure, but no label. Dr. Daly’s response: “It *looks* nice, but unless the box is labeled The Environment, it’s only a decorative frame.” The next draft eliminated the figure altogether.
 
 Once a box is drawn around the economy, many uncomfortable questions arise: how big should the box be ([Figure 19.2](#fig-19-2))? Are we running out of room? What happens when the box fills up? Economists and governments are not prepared to answer such questions.
 
@@ -172,7 +172,7 @@ Herman Daly described the different philosophies by analogy to loading a boat. M
 (sec-19-3-1)=
 ### 19.3.1 Steady State Economy
 
-[Chapter 2](#ch-2) demonstrated that economic growth cannot go on forever. Continuing to operate as if growth can—and should—persist risks irrevocable damage to that from which all value ultimately depends and derives: a healthy natural environment. The sooner we can jump ship to a new economic model that can survive the long haul, the better.
+[Chapter 2](#ch-2) demonstrated that economic growth cannot go on forever. Continuing to operate as if growth can—and should—persist risks irrevocable damage to that on which all value ultimately depends: a healthy natural environment. The sooner we can jump ship to a new economic model that can survive the long haul, the better.
 
 A few key principles will help flesh out aspects of how a steady state economy might work. A critical goal is to reduce the flow (or demand) of resources into the economy, and reduce the waste (pollution, CO$_{2}$, for instance) back into the environment. This would be akin to diminishing the sizes of the two thick arrows in [Figure 19.1](#fig-19-1). One approach would be to levy substantial taxes on every tree that is cut, mineral that is mined, drop of oil that is extracted, or wild animal that is unnaturally removed from the environment. Likewise, a heavy tax would accompany disposal of waste and emissions of pollutants. Meanwhile, labor would no longer be taxed. Labor can *add* value to resources already in hand. The idea is to tax the damaging things, not the beneficial things.
 
@@ -247,7 +247,7 @@ The value likely goes up if your own biology is adapted to that same life-filled
 [^7]: … would cost 30% more, but we’ll ignore this small adjustment
 [^8]: … rather than by volume
 [^9]: … just 0.4% of Earth’s volume
-[^10]: For instance, gold is about \$60,000 per kilogram, and according to crustal abundances in Table 15.9 (p. 268), gold is 4 parts per billion of the crust by mass. The crust in question has a volume of $4.4 \times 10^{18}\mathrm{m}^{3}$ and a mass around $1.3 \times 10^{22}$ kg. The expected mass of gold is then about $5\times 10^{13}$ kg, and would cost \$3 $\times 10^{18}$. Notice that the total values are amazingly close for these metals: rarer is more expensive in inverse proportion and thus in rough balance.
+[^10]: For instance, gold is about \$60,000 per kilogram, and according to crustal abundances in [Table 15.9](#tab-15-9), gold is 4 parts per billion of the crust by mass. The crust in question has a volume of $4.4 \times 10^{18}\mathrm{m}^{3}$ and a mass around $1.3 \times 10^{22}$ kg. The expected mass of gold is then about $5\times 10^{13}$ kg, and would cost \$3 $\times 10^{18}$. Notice that the total values are amazingly close for these metals: rarer is more expensive in inverse proportion and thus in rough balance.
 [^11]: … for instance, if their food source depended on a pristine sofa for some reason
 [^12]: Why would evolution have resulted in a being smart enough to fully grasp this exceedingly complex reality? Maybe humans are smart enough to ruin things, but not smart enough to refrain from the ruining. [Sec. D.6](#sec-d-6) (p. 421) explores this further.
 [^13]: … although resources are not typically well-distributed, leading to inequality
@@ -257,7 +257,7 @@ The value likely goes up if your own biology is adapted to that same life-filled
 [^17]: … discussed in [Sec. 18.2](#sec-18-2) (p. 320)
 [^18]: … from lowered demand
 [^19]: … often found in refrigerant fluids and aerosol cans
-[^20]: An analogy is if your doctor told you to avoid monosodium-glutimate (MSG) in your food, you’d be able to find substitutes and still do fine. If your doctor asked you to avoid carbohydrates, protein, and fat— sort-of like the three fossil fuels that are the staple of our diet—we’d be down to what, exactly? Progress in eliminating MSG says little about prospects for addressing the much larger problem.
+[^20]: An analogy is if your doctor told you to avoid monosodium-glutamate (MSG) in your food, you’d be able to find substitutes and still do fine. If your doctor asked you to avoid carbohydrates, protein, and fat— sort-of like the three fossil fuels that are the staple of our diet—we’d be down to what, exactly? Progress in eliminating MSG says little about prospects for addressing the much larger problem.
 [^21]: It’s one thing to rinse off (scrub) cans before putting them in the trash. It’s another thing entirely to eliminate the production of trash (CO$_{2})$ altogether.
 [^22]: … usually confined to short-term: quarterly, annual
 [^23]: … or even the *threat* of high-turnover

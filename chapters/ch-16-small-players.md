@@ -14,7 +14,7 @@ Lava seeping along east of Pu’u ’O’o crater in Hawaii as an evident displa
 
 This short chapter serves to round out the menu of renewable energy options. While all of the entries are viable, at various levels of demonstration and implementation, none of them can scale up to be an important contributor to global power at the relevant level of many terawatts. In this sense, we might call the remaining resources “cute.” Because of this, items are kept brief—not warranting unjustified attention. Likewise for graphical adornment: the chapter is a little bare, in part because the subjects do not deserve much in the way of undue promotion.
 
-Skipping this chapter will not sacrifice much in the way of knowledge vital to our future. It simply fills in the gaps and addresses some of the "but what about *insert-scheme*?" questions that may arise. The next chapter, [Chapter 17](#ch-17), highlights the pros and cons of the full range of alternative energy resources, so this installment largely exists to provide a basis for the conclusions of that more important capstone.
+Skipping this chapter will not sacrifice much in the way of knowledge vital to our future. It simply fills in the gaps and addresses some of the “but what about *insert-scheme*?” questions that may arise. The next chapter, [Chapter 17](#ch-17), highlights the pros and cons of the full range of alternative energy resources, so this installment largely exists to provide a basis for the conclusions of that more important capstone.
 
 (sec-16-1)=
 ## 16.1 Geothermal Energy
@@ -84,7 +84,7 @@ The previous section was framed in the context of accessing the 44 TW steady geo
 | Hydroelectric (50 m) | 0.0001 |
 :::
 
-A one-time extraction of thermal energy under out feet—not worrying about replenishment—amounts to *mining* thermal energy, in much the same way that we mine copper, or fossil fuels. Using a rock density of 2,500 $\mathrm{kg/m}^{3}$ and a specific heat capacity of 1,000 $\mathrm{J/kg}/^{\circ}\mathrm{C}$ ([Sec. 6.2](#sec-6-2); p. 90), each cubic meter of rock has an extra 60 MJ of thermal energy for each kilometer deeper we go—based on a gradient of 25 $^{\circ}\mathrm{C/km}$, as before. Is that a lot? It’s about the same as the energy in 2 L of gasoline. The energy density works out to 0.006 kcal/g, to put in familiar units (see [Table 16.1](#tab-16-1)).
+A one-time extraction of thermal energy under our feet—not worrying about replenishment—amounts to *mining* thermal energy, in much the same way that we mine copper, or fossil fuels. Using a rock density of 2,500 $\mathrm{kg/m}^{3}$ and a specific heat capacity of 1,000 $\mathrm{J/kg}/^{\circ}\mathrm{C}$ ([Sec. 6.2](#sec-6-2); p. 90), each cubic meter of rock has an extra 60 MJ of thermal energy for each kilometer deeper we go—based on a gradient of 25 $^{\circ}\mathrm{C/km}$, as before. Is that a lot? It’s about the same as the energy in 2 L of gasoline. The energy density works out to 0.006 kcal/g, to put in familiar units (see [Table 16.1](#tab-16-1)).
 
 So it’s no screaming-good deal, but it’s still energy, and the earth’s crust has a heck of a lot more rock than it does oil. To appreciate the scale, the land area of the lower-48 states is approximately $10^{13}\mathrm{m}^{2}$. A 1-meter-thick slice of earth under the U.S. at a depth of 1 km therefore contains 60 $\mathrm{MJ/m}^{3}$ times $10^{13}\mathrm{m}^{3}$, or 6 $\times 10^{20}$ J of energy. It’s a big number, but recall that 1 qBtu is about $10^{18}$ J, so we’re talking about $\sim 600$ qBtu. The U.S. uses about 100 qBtu per year of energy, but at an average efficiency of 35% in heat engines, so that we seek about 35 qBtu of *useful* energy. As we saw, the geothermal resource, at lower temperature, is less potent in terms of efficiency. If achieving half of the theoretical 8% efficiency for the 1 km $\Delta T$ of $25^{\circ}\mathrm{C}$, a one-meter-thick slice would provide about 24 qBtu of useful work.[^8] Reaching the 35 qBtu goal would require a slice about 1.5 m thick, at 24 qBtu per meter.
 
@@ -146,7 +146,7 @@ Globally, roughly 10 GW of electricity is produced from geothermal energy [[107]
 
 [Table 16.2](#tab-16-2) lists the top 7 producers of geothermal electricity, capturing 72% of the global total. Note that many are on the Pacific Rim, sometimes called the “ring of fire” for its volcanic activity. Iceland gets 30% of its electricity[^14] from geothermal sources. But in absolute terms, it is a small amount of energy. Considering that a single nuclear plant puts out about 1 GW, the countries in [Table 16.2](#tab-16-2) have the equivalent of 1–2 nuclear plants in the form of geothermal (compare to [Table 15.8](#tab-15-8); p. 266).
 
-The U.S. gets an average of 1.9 GW of electrical production[^15] from geothermal sources [[85](#ref-85)]. 72% of this is produced in California—almost all at a site called The Geysers in the northern part of the state—accounting for $\sim 6\%$ of the state’s electricity. Another 22% of U.S. geothermal electricity is produced in in Nevada. The rest is in Utah, Hawaii, Oregon, Idaho, and New Mexico, in that order (7 states total).
+The U.S. gets an average of 1.9 GW of electrical production[^15] from geothermal sources [[85](#ref-85)]. 72% of this is produced in California—almost all at a site called The Geysers in the northern part of the state—accounting for $\sim 6\%$ of the state’s electricity. Another 22% of U.S. geothermal electricity is produced in Nevada. The rest is in Utah, Hawaii, Oregon, Idaho, and New Mexico, in that order (7 states total).
 
 :::{margin}
 [[85](#ref-85)]: U.S. Energy Inform. Admin. (2020), *Electric power monthly*
@@ -181,7 +181,7 @@ The amount of energy depends on the area of the captured body of water and the h
 :::{math}
 :label: eq-16-2
 :enumerator: 16.2
-P = \epsilon \frac{\Delta E}{\Delta t} = \frac{\epsilon mg}{\Delta t ^{\frac{h}{2}} } = \frac{\epsilon \rho Agh^{2}}{2\Delta t},
+P = \epsilon \frac{\Delta E}{\Delta t} = \frac{\epsilon mg\frac{h}{2}}{\Delta t} = \frac{\epsilon \rho Agh^{2}}{2\Delta t},
 :::
 
 where $g \approx 10 \mathrm{m/s}^{2}$ is the acceleration due to gravity and $\epsilon$is the efficiency of converting gravitational energy into electrical energy.
@@ -200,7 +200,7 @@ Only two large tidal facilities operate in the world today: Rance in France ([Ex
 
 The other facility is Sihwa Lake in South Korea, a 254 MW facility that came online in 2011. Much like Rance, and for the same reasons, its capacity factor is 25%, averaging 63 MW. Its basin is 30 $\mathrm{km}^{2}$ and has similar operating height as the French installation. The Sihwa Lake facility cost \$560 million to build, making it \$9 per average Watt of delivered power. This puts it roughly in line with the cost of nuclear power (page 266), and a little higher than utility-scale PV, currently.
 
-Two other large tidal stations in the 300–400 MW capacity range are in the works for the UK and Scotland. But it’s not something that works well everywhere: best suited for areas that have large tidal swings and large inlets having narrow mouths that are easy to dam. It’s a niche player now and always will be. After all, the 3 TW global budget for tidal energy suggests that it is not an energy jackpot.
+Two other large tidal stations in the 300–400 MW capacity range are in the works for the UK, including Scotland. But it’s not something that works well everywhere: best suited for areas that have large tidal swings and large inlets having narrow mouths that are easy to dam. It’s a niche player now and always will be. After all, the 3 TW global budget for tidal energy suggests that it is not an energy jackpot.
 
 (sec-16-3)=
 ## 16.3 Ocean Currents
@@ -251,7 +251,7 @@ As a means of estimation, let’s imagine sinusoidal[^25] waves 1 m in amplitude
 :enumerator: 16.2
 :alt: Sinusoidal waves have amplitude , and wavelength . In terms of harvesting the gravitational potential energy, we can think of it as lopping
 
-Sinusoidal waves have amplitude $A$, and wavelength $\lambda$. In terms of harvesting the gravitational potential energy, we can think of it as lopping offthe crest and flipping it over onto the trough to level the water surface. In doing so, we move some mass, $m$, down a height $h$ to get $mgh$ of energy. The block-equivalent is shown below, where the area and average height of the sinusoidal trough/crest has been faithfully captured by rectangles of height $\sim 0.39A$ and length $\sim 0.41\lambda$. From these, it is possible to figure out the potential energy associated with the wave.
+Sinusoidal waves have amplitude $A$, and wavelength $\lambda$. In terms of harvesting the gravitational potential energy, we can think of it as lopping off the crest and flipping it over onto the trough to level the water surface. In doing so, we move some mass, $m$, down a height $h$ to get $mgh$ of energy. The block-equivalent is shown below, where the area and average height of the sinusoidal trough/crest has been faithfully captured by rectangles of height $\sim 0.39A$ and length $\sim 0.41\lambda$. From these, it is possible to figure out the potential energy associated with the wave.
 :::
 
 In order to figure out the energy involved, we need the mass of water raised and a height to which it is raised. Notice that in [Figure 16.2](#fig-16-2), the potential energy in the wave can be extracted by making the water flat again, which is equivalent to taking all the water from the crest and putting it into the trough. We just need to know how much water we’re moving, and through what height. [Figure 16.2](#fig-16-2) has done the fancy math already and redrawn the wave as rectangular chunks that have equivalent area as the sinusoidal crest and trough and also the same average (midpoint) height relative to the average surface height (dashed line). From this, we learn that the wave crest has area $A\lambda /2\pi$ and the height of the displacement is $\pi A/8$, where $A$is the wave amplitude from the top of the crest to the bottom of the trough.
@@ -279,31 +279,24 @@ It’s not an equation to remember, just a way to keep track of the physics as w
 :::{math}
 :label: eq-16-5
 :enumerator: 16.5
-P_{\mathrm{GPE}}= \frac{E_{\mathrm{GPE}}}{\Delta t} = \frac{\rho \lambda \ell gA^{2}}{} = \frac{\rho \ell gA^{2}v}{16}.
+P_{\mathrm{GPE}}= \frac{E_{\mathrm{GPE}}}{\Delta t} = \frac{\rho \lambda \ell gA^{2}}{16\Delta t} = \frac{\rho \ell gA^{2}v}{16}.
 :::
-
-| $16\Delta t$ |
-| --- |
-| $.$ |
-| 8 |
-| $= \rho gA^{2}v$ |
-| $.$ |
 
 This is how much power the potential energy part of waves contributes as the waves pile onto the shore. But waves also have kinetic energy. It turns out that kinetic energy and potential energy are balanced in a wave—which is perpetually sloshing back and forth between potential and kinetic forms, much as happens in the motion of a pendulum. So the total power is just double $P_{\mathrm{GPE}}$, or
 
 :::{math}
-P_{\mathrm{tot}}= \frac{\rho \ell gA^{2}v}{}
+:label: eq-16-6
+:enumerator: 16.6
+P_{\mathrm{tot}}= \frac{\rho \ell gA^{2}v}{8}
 :::
-
-(16.6)
 
 It is a little awkward to have to specify the length of the wave, but we needed it to make sense of the mass involved. At this point, let’s switch to expressing the *power per unit length* of the wave, or $P/\ell$.
 
 :::{math}
-\frac{P_{\mathrm{tot}}}{\ell} 8
+:label: eq-16-7
+:enumerator: 16.7
+\frac{P_{\mathrm{tot}}}{\ell} = \frac{\rho gA^{2}v}{8}
 :::
-
-(16.7)
 
 Notice that this expression does not actually depend on the wavelength, in the end. The only measures of the wave that enter are the amplitude and velocity.[^26]
 
@@ -378,7 +371,7 @@ Hydrogen in gaseous form is bulky and hard to package—especially in mobile app
 (sec-16-6)=
 ## 16.6 Upshot on Small Players
 
-The topics discussed in this chapter are presented more out of duty to completeness than as set of hopeful candidates for the energy of tomorrow. The first four are physically viable *sources* of real energy. Geothermal and tidal (to a lesser extent) contribute to today’s energy mix, and new development is underway to expand both.
+The topics discussed in this chapter are presented more out of duty to completeness than as a set of hopeful candidates for the energy of tomorrow. The first four are physically viable *sources* of real energy. Geothermal and tidal (to a lesser extent) contribute to today’s energy mix, and new development is underway to expand both.
 
 Geothermal energy is only practical in a small number of places that provide proximate access to high-temperature magma. Plans to extract geothermal energy from “normal” locations have not yet materialized, and the challenges are substantial. We should not expect geothermal energy to contribute at the terawatt scale, in practice.
 
@@ -444,7 +437,7 @@ Hint: breathe. Realized efficiency; amount of *thermal* power needed; thermal en
 [^15]: … $\sim 0.4\%$ of total electricity
 [^16]: The tidal influence from the sun is sub-dominant, at 45% the strength of lunar tides, so for simplicity we will describe just lunar tides from here on.
 [^17]: Actually, an even larger (21 km) effect is the spinning motion of the earth flattening it into an *oblate ellipsoid*.
-[^18]: The sun also contributes, sometimes adding to the peaks and troughs (near new and full moon, when Earth, Moon, and Sun are arranged along a line), and sometimes moderating the tides by filing in the gaps a bit (at quarter moon phases).
+[^18]: The sun also contributes, sometimes adding to the peaks and troughs (near new and full moon, when Earth, Moon, and Sun are arranged along a line), and sometimes moderating the tides by filling in the gaps a bit (at quarter moon phases).
 [^19]: An aggressive global-scale tidal capture enterprise could actually increase the total tidal energy budget, which would have the side effect of pushing the moon further away, slowly, as is described in [Sec. D.4](#sec-d-4) (p. 415).
 [^20]: Six hours is a typical time between high tide and the next low tide.
 [^21]: It has to spend half the time letting water back in as the tide flows.
@@ -452,7 +445,7 @@ Hint: breathe. Realized efficiency; amount of *thermal* power needed; thermal en
 [^23]: Just be careful about diameter vs. radius.
 [^24]: Look at pier pilings and sunken ships to get an idea.
 [^25]: … shaped like a sine wave
-[^26]: The velocity of near-shore waves is set only by the depth, $d$, of the water $(v = pgd)$.
+[^26]: The velocity of near-shore waves is set only by the depth, $d$, of the water $(v=\sqrt{gd})$.
 [^27]: Note that wind and solar are growing year by year, so their ultimate numbers will be significantly higher, still.
 [^28]: Keep in mind that many coastlines are protected from waves by their orientation or lack of exposure to long stretches of open water.
 [^29]: It is too reactive to survive on its own, instead bound in H$_{2}$O and CH$_{4}$, for instance.

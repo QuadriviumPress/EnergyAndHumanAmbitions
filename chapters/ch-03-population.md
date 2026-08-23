@@ -43,7 +43,7 @@ expectations, then discuss the heralded “demographic transition” and its imp
 Global population estimate, over the modern human era, on a linear scale. [Figure 3.1](#fig-3-1) offers a recent close-up. [[14](#ref-14), [15](#ref-15)].
 :::
 
-Wait, what? It still looks somewhat like a hockey stick (even more literally so)! How can that be?! This can’t be good news. Peering more closely, we can crudely break the history into two eras, each following exponential growth (straight lines on the plot), but at different rates. The early phase had a modest 0.044% growth rate. By the “rule of 70,” the corresponding doubling time is about 1,600 years. In more recent times, a 1% rate is more characteristic (70 year doubling). Indeed, we would be justified in saying that recent centuries are anomalous compared to the first 10,000 years of the plot. If we extend the the 0.04% line and the 1% line, we find that they intersect around the year 1700, which helps identify the era of marked transition.
+Wait, what? It still looks somewhat like a hockey stick (even more literally so)! How can that be?! This can’t be good news. Peering more closely, we can crudely break the history into two eras, each following exponential growth (straight lines on the plot), but at different rates. The early phase had a modest 0.044% growth rate. By the “rule of 70,” the corresponding doubling time is about 1,600 years. In more recent times, a 1% rate is more characteristic (70 year doubling). Indeed, we would be justified in saying that recent centuries are anomalous compared to the first 10,000 years of the plot. If we extend the 0.04% line and the 1% line, we find that they intersect around the year 1700, which helps identify the era of marked transition.
 
 :::{figure} ../images/fig-3-3.svg
 :label: fig-3-3
@@ -90,7 +90,7 @@ where $P_{0}$ is the population at time $t_{0}$, and $P$ is the population at ti
 :::{math}
 :label: eq-3-2
 :enumerator: 3.2
-t - t_{0}= lnln (1 (+ ^{\frac{P}{P_{0}}} p)).
+t - t_{0}= \frac{\ln (P/P_{0})}{\ln (1 + p)}.
 :::
 
 ::::{admonition} Example 3.1.1
@@ -338,7 +338,7 @@ halfway to the limiting value. A fit to the data ([Figure 3.9](#fig-3-9)) sugges
 (sec-3-2-2)=
 ### 3.2.2 Logistic Projection
 
-As suggested by [Figure 3.9](#fig-3-9), Human population is *not* following a strict logistic curve. If it were, the early period would look exponential at the $\sim 2.8\%$ rate corresponding to the best-fit logistic matching our recent trajectory, but growth was substantially slower than 2.8% in the past. Technology and fossil fuels have boosted our recent growth well beyond the sub-percent rates typical before $\sim 1950$. The point is that while reference to mathematical models can be extremely helpful in framing our thinking and exposing *robust, generic modes* of interest, *we should seldom take any mathematical model* ***literally***, as it likely does not capture the full complexity of the system it is trying to model. In the present case, it is enough to note that:
+As suggested by [Figure 3.9](#fig-3-9), human population is *not* following a strict logistic curve. If it were, the early period would look exponential at the $\sim 2.8\%$ rate corresponding to the best-fit logistic matching our recent trajectory, but growth was substantially slower than 2.8% in the past. Technology and fossil fuels have boosted our recent growth well beyond the sub-percent rates typical before $\sim 1950$. The point is that while reference to mathematical models can be extremely helpful in framing our thinking and exposing *robust, generic modes* of interest, *we should seldom take any mathematical model* ***literally***, as it likely does not capture the full complexity of the system it is trying to model. In the present case, it is enough to note that:
 
 1. exponentials relentlessly drive toward infinity (ultimately unrealistic);
 
@@ -496,7 +496,7 @@ Graphical representation of [Table 3.4](#tab-3-4), for all countries. Dots, whos
 
 The last column in [Table 3.4](#tab-3-4) is the per-citizen cost, meaning, for instance that each person in the U.S. adds about 50 Watts per year of energy demand via the country’s net population growth rate.[^29] In this sense, the last column is a sort of “personal contribution” an individual makes to the world’s resource demands via net population rates and consumption rates in their society. Those having high scores should think twice about assigning blame externally, and should perhaps tend to their own house, as the saying goes.
 
-Before departing this section, let us look at continent-scale regions rather than individual countries in terms of adding people and resource demands. [Table 3.5](#tab-3-5) echoes similar information to that in [Table 3.4](#tab-3-4), in modified form. What we learn from this table is that Asia’s demands are commensurate with their already-dominant population; North America creates the next largest pressure despite a much smaller population;
+Before departing this section, let us look at continent-scale regions rather than individual countries in terms of adding people and resource demands. [Table 3.5](#tab-3-5) echoes similar information to that in [Table 3.4](#tab-3-4), in modified form. What we learn from this table is that Asia’s demands are commensurate with its already-dominant population; North America creates the next largest pressure despite a much smaller population;
 
 :::{table} Population pressures from regions of the world, ranked by added power demand. Some of the columns are expressed as percentages of the total. The bottom row has totals in millions of people or total GW in place of percentages. [[7](#ref-7), [8](#ref-8), [19](#ref-19), [20](#ref-20)]
 :label: tab-3-5
@@ -715,7 +715,7 @@ Show work and add one more decimal place to the answer as a way to validate that
 
 :::
 
-15. In a few clear sentences, explain why the maps in [Figure 3.13](#fig-3-13) and [Figure 3.14](#fig-3-14) look so different, in terms of which countries are shaded most darkly?
+15. In a few clear sentences, explain why the maps in [Figure 3.13](#fig-3-13) and [Figure 3.14](#fig-3-14) look so different, in terms of which countries are shaded most darkly.
 
 16. [Table 3.4](#tab-3-4) indicates which countries place the highest population-driven new demand on global resources using energy as a proxy. Which countries can American citizens regard as contributing more total resource demand? At the individual citizen-contribution level, what other citizens can Americans identify as being responsible for a greater demand on resources via population growth?
 
@@ -784,13 +784,13 @@ Hint: think about what the graph would look like in these scenarios.
 
 28. Make as compelling an argument as you can for why pursuit of the demographic transition may be ill-advised and potentially create rather than alleviate hardship. What are the downsides?
 
-29. List the pros and cons a young person without children might face around the decision to have a biological child of their own[^45] Consider not only personal contexts, but external, global ones as well, and thoughts about the future as you perceive it. It does not matter which list is longer or more compelling, but it is an exercise many will go through at some point in life—although maybe not explicitly on paper.
+29. List the pros and cons a young person without children might face around the decision to have a biological child of their own[^45]. Consider not only personal contexts, but external, global ones as well, and thoughts about the future as you perceive it. It does not matter which list is longer or more compelling, but it is an exercise many will go through at some point in life—although maybe not explicitly on paper.
 
 30. Do you think governments and/or tribal laws have any business setting policy around child birth policies? If so, what would you consider to be an acceptable form of control? If not, what other mechanisms might you propose for limiting population growth (or do you even consider that to be a priority or at all appropriate)?
 
 [^1]: … so that global average energy use per capita increases by a factor of five from where it is today
 [^2]: … except that famine and plague took a toll in the 14th century
-[^3]: … recalling that that the natural log and exponential functions “undo” each other (as inverse functions)
+[^3]: … recalling that the natural log and exponential functions “undo” each other (as inverse functions)
 [^4]: Gppl is giga-people, or billion people
 [^5]: For reference, the SARS-CoV2 pandemic of 2020 barely impacted global population growth rates. When population grows by more than 80 million each year, a disease killing even a few million people barely registers as a hit to the broader trend.
 [^6]: … no negative feedback yet

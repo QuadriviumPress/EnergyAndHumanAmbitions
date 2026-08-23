@@ -7,7 +7,7 @@ label: ch-4
 :::{figure} ../images/art-p078-1.jpg
 :alt: Chapter opening illustration
 
-Photo credit: NASA/Bill Anders from Apollo 8 [22].
+Photo credit: NASA/Bill Anders from Apollo 8 [[22](#ref-22)].
 :::
 
 # 4. Space Colonization
@@ -85,7 +85,7 @@ Scale models of the universe can be built based on these approximate relations, 
 
 7. The nearest star[^3] is 4.2 light years from us, compared to 500 light-seconds from Earth to the sun—a ratio of 270,000.
 
-8. The Milky Way galaxy has its center about 25,000 light years away away,[^4] and is a disk about four times that size in diameter.
+8. The Milky Way galaxy has its center about 25,000 light years away,[^4] and is a disk about four times that size in diameter.
 
 9. The next large galaxy[^5] is 2.5 million light years away, or about 25 Milky Way diameters away.
 
@@ -113,20 +113,16 @@ We’ll make Earth the size of a grain of sand (about 1 mm diameter). The moon i
 
 | Body | Symbol | Approx. Radius | Distance (AU) | Alt. Distance |
 | --- | --- | --- | --- | --- |
-| Earth | $\oplus$ | $R_{\oplus}\approx 6,400$ km | — |   |
-|   |   | 1 | 1 |   |
-| Moon | $\$$ | $4R_{\oplus}$ |   | $60R_{\oplus}\approx 240R\$$ |
-|   |   |   | 400 |   |
+| Earth | $\oplus$ | $R_{\oplus}\approx 6,400$ km | — | — |
+| Moon | $\unicode{x263E}$ | $\frac14 R_{\oplus}$ | — | $60R_{\oplus}\approx 240R_{\unicode{x263E}}$ |
 | Sun | $\odot$ | $100R_{\oplus}$ | 1 | $240R_{\odot}$ |
-|   |   | 1 |   |   |
-| Mars | $\mars$ | $2R_{\oplus}$ | 0.4–2.7 |   |
-|   |   | 1 |   |   |
-| Jupiter | $X$ | $10R_{\oplus}\approx$ $10R_{\odot}$ | 4–6 |   |
-| Neptune | $[$ | $4R_{\oplus}$ | $\sim 30$ |   |
+| Mars | $\mars$ | $\frac12 R_{\oplus}$ | 0.4–2.7 | — |
+| Jupiter | $\unicode{x2643}$ | $10R_{\oplus}\approx \frac{1}{10}R_{\odot}$ | 4–6 | — |
+| Neptune | $\unicode{x2646}$ | $4R_{\oplus}$ | $\sim 30$ | — |
 | Proxima Centauri | — | $0.15R_{\odot}$ | 270,000 | 4.2 light years |
 :::
 
-for a second that humans have never ventured farther from Earth than the moon, at 3 cm (just over an inch) in this scale.[^7] Mars is outlandishly farther. Neptune is about four-tenths of a kilometer away (on campus at this scale), and the next star is over 3,000 km (roughly San Diego to Atlanta). So we’ve already busted our easy intuitive reckoning and we haven’t even gotten past the first star. Furthermore, this was starting with the earth as a tiny grain of sand. We’ve only ever traveled twofinger-widths away from Earth on this scale,[^8] and the next star is like going on a giant trip across the country. For apples-to-apples, compare how long it takes to walk a distance of two-finger-widths (3 cm) to the time it would take to walk across the U.S. The former feat of traveling to the moon was super-hard; the latter is comparatively impossible.
+for a second that humans have never ventured farther from Earth than the moon, at 3 cm (just over an inch) in this scale.[^7] Mars is outlandishly farther. Neptune is about four-tenths of a kilometer away (on campus at this scale), and the next star is over 3,000 km (roughly San Diego to Atlanta). So we’ve already busted our easy intuitive reckoning and we haven’t even gotten past the first star. Furthermore, this was starting with the earth as a tiny grain of sand. We’ve only ever traveled two-finger-widths away from Earth on this scale,[^8] and the next star is like going on a giant trip across the country. For apples-to-apples, compare how long it takes to walk a distance of two-finger-widths (3 cm) to the time it would take to walk across the U.S. The former feat of traveling to the moon was super-hard; the latter is comparatively impossible.
 
 :::{margin}
 **Try it:** Glance over to where Mars would be if the earth is a grain of sand on your nose.
@@ -139,7 +135,7 @@ for a second that humans have never ventured farther from Earth than the moon, a
 
 It took 12 years for Voyager 2 to get to Neptune, which is “in our back yard.” The only spacecraft to date traveling fast enough to leave the solar system are the two Voyagers, the two Pioneers, and the New Horizons probe [[23](#ref-23)]. The farthest and fastest of this set is Voyager 1 at about 150 times the Earth–Sun distance after 43 years. The closest star is about 2,000 times farther. At its present speed of 17 km/s, it would reach the *distance* to the nearest star[^9] in another 75,000 years.
 
-The fastest spacecraft on record as yet is the Parker Solar Probe, which got up to a screaming 68.6 km/s, but only because it was plunging (falling) around the sun. Because it was so close to the sun, even this amount of speed was not enough to allow it climb out of the sun’s gravitational grip and escape, as the five aforementioned probes managed to do. Even if Voyager 1 ended up with 70 km/s left over after breaking free of the solar system,[^10] it would still take 20,000 years to reach the distance to the nearest star. Note that human lifetimes are about 200 times shorter.
+The fastest spacecraft on record as yet is the Parker Solar Probe, which got up to a screaming 68.6 km/s, but only because it was plunging (falling) around the sun. Because it was so close to the sun, even this amount of speed was not enough to allow it to climb out of the sun’s gravitational grip and escape, as the five aforementioned probes managed to do. Even if Voyager 1 ended up with 70 km/s left over after breaking free of the solar system,[^10] it would still take 20,000 years to reach the distance to the nearest star. Note that human lifetimes are about 200 times shorter.
 
 Pushing a human-habitable spacecraft up to high speed is *immensely* harder than accelerating these scrappy little probes, so the challenges are varied and extreme. For reference, the Apollo missions to the very nearby Moon carried almost 3,000 tons of fuel [[24](#ref-24)], or about 80,000 times the typical car’s gasoline tank capacity. It would take
 
@@ -164,7 +160,7 @@ In fairness, fuel requirements don’t simply scale with distance for space trav
 
 Let’s relax the scale slightly, making the sun a chickpea (garbanzo bean). Earth is now the diameter of a human hair (easy to lose), and one meter from the sun. The moon is essentially invisible and a freckle’s-width away from the earth. The next star is now 300 km away (a 3-hour drive at freeway speed), while the Milky Way center is 1.5 million kilometers away. Oops. This is more than four times the *actual* Earth–Moon distance. We busted our scale *again* without even getting out of the galaxy.
 
-So we reset and make the sun a grain of sand. Now the earth is 10 cm away and the next star is 30 km.[^11] Think about space this way: the swarm of stars within a galaxy are like grains of sand tens of kilometers apart. On this scale, solar systems are bedroom-sized, composed of a brightly growing grain of sand in the middle and a few specks of dust (planets) sprinkled about the room.[^12] It gets even emptier in the vast tracts between the stars. The Milky Way extent on this scale is still much larger than the actual Earth, comparable to the size of the lunar orbit.
+So we reset and make the sun a grain of sand. Now the earth is 10 cm away and the next star is 30 km.[^11] Think about space this way: the swarm of stars within a galaxy are like grains of sand tens of kilometers apart. On this scale, solar systems are bedroom-sized, composed of a brightly glowing grain of sand in the middle and a few specks of dust (planets) sprinkled about the room.[^12] It gets even emptier in the vast tracts between the stars. The Milky Way extent on this scale is still much larger than the actual Earth, comparable to the size of the lunar orbit.
 
 ::::{admonition} Box 4.2: Cosmic Scales
 :class: tip
@@ -188,7 +184,7 @@ Galaxies are actually distributed in a frothy foam-like pattern crudely lining t
 
 Given the vastness of space, it is negligent to think of space travel as a “solution” to our present set of challenges on Earth—challenges that operate on a much shorter timescale than it would take to muster any meaningful space presence. Moreover, space travel is enormously expensive energetically and economically (see [Table 4.3](#tab-4-3)). As we find ourselves competing for dwindling one-time resources later this century, space travel will have a hard time getting priority, except in the context of escapist entertainment.[^13]
 
-:::{table} Approximate/estimated costs, adjusted for inflation (M = million; B = billion). [26–29]
+:::{table} Approximate/estimated costs, adjusted for inflation (M = million; B = billion). [[26](#ref-26), [27](#ref-27), [28](#ref-28), [29](#ref-29)]
 :label: tab-4-3
 :enumerator: 4.3
 
@@ -205,7 +201,7 @@ Given the vastness of space, it is negligent to think of space travel as a “so
 
 Humans are not shy about congratulating themselves on accomplishments, and yes, we have done rather remarkable things. An attractive and common sentiment casts our narrative in evolutionary terms: fish crawled out of the ocean, birds took to the air, and humans are making the next logical step to space—continuing the legacy of escaping the bondage of water, land, and finally Earth. It is a compelling tale, and we have indeed learned to escape Earth’s gravitational pull and set foot on another body.
 
-But let’s not get ahead of ourselves. Just because we can point to a few special *example* accomplishments does not mean that such examples presage a new normal. A person can climb Mt. Everest, but it is not ever likely to become a commonplace activity. We can build a supersonic passenger airplane for trans-atlantic flight, but it does not mean it will be viable to sustain.[^14] One can set up a backyard obstacle course for squirrels and generate viral videos, but the amusing demonstration does not signal a “new normal” in backyard design. We need to separate the *possible* from the *practical*. The moon landings might then be viewed as a nifty stunt—a demonstration of capability—rather than a path to our future. We encountered similar arguments in [Chapter 2](#ch-2) in relation to decoupling: just because it *can* happen in certain domains of the economy does not mean that the entire economy can decouple and “defy gravity.”
+But let’s not get ahead of ourselves. Just because we can point to a few special *example* accomplishments does not mean that such examples presage a new normal. A person can climb Mt. Everest, but it is not ever likely to become a commonplace activity. We can build a supersonic passenger airplane for transatlantic flight, but it does not mean it will be viable to sustain.[^14] One can set up a backyard obstacle course for squirrels and generate viral videos, but the amusing demonstration does not signal a “new normal” in backyard design. We need to separate the *possible* from the *practical*. The moon landings might then be viewed as a nifty stunt—a demonstration of capability—rather than a path to our future. We encountered similar arguments in [Chapter 2](#ch-2) in relation to decoupling: just because it *can* happen in certain domains of the economy does not mean that the entire economy can decouple and “defy gravity.”
 
 The attractive evolutionary argument misses two critical facets of reality. When fish crawled out of the sea, they escaped predation (as the first animals on land) and found new food sources free of competition. That’s a win-win: less dangerous, more sustenance.[^15] Likewise, when birds took flight (or we could discuss insects, which beat the birds to it), it was a similar story: evade ground-based predators who could not fly, and access a whole new menu of food—another win-win.
 
@@ -214,7 +210,7 @@ Going to space could easily be cast as a lose-lose. It’s an extremely hostile 
 promoted evolution onto land and into the air *will not operate* to “evolve” us into space. It’s a much tougher prospect. Yes, it could be possible to grow food on a spacecraft or in a pressurized habitat, but then we are no longer following the evolutionary meme of stumbling onto a good deal.
 
 :::{margin}
-One “win” some imagine from space is access to materials. Yet Earth is already wellstocked with elements from the Periodic Table, and the economics of retrieval from space are prohibitive in any case.
+One “win” some imagine from space is access to materials. Yet Earth is already well-stocked with elements from the Periodic Table, and the economics of retrieval from space are prohibitive in any case.
 
 :::
 
@@ -267,7 +263,7 @@ If undeterred by the vast emptiness, hostile conditions, or lack of human-suppor
 :class: tip
 :label: box-4-4
 
-The way most people experience backpacking is similar to how we go about space exploration: carry on your back all the food, clothing, shelter, and utility devices that will be needed for a finite trip duration. Only air and water are acquired in the wild. For space travel, even the air and water must be launched from Earth. So space travel is like a glorified and hyper-expensive form of backpacking—albeit offering breathtaking views!.
+The way most people experience backpacking is similar to how we go about space exploration: carry on your back all the food, clothing, shelter, and utility devices that will be needed for a finite trip duration. Only air and water are acquired in the wild. For space travel, even the air and water must be launched from Earth. So space travel is like a glorified and hyper-expensive form of backpacking—albeit offering breathtaking views!
 
 ::::
 
@@ -290,12 +286,7 @@ One way to probe the demonstration vs. way-of-the-future question is to list cap
 It would be easier to believe in the possibility of space colonization if we first saw examples of colonization of the ocean floor.[^20] Such an environment carries many similar challenges: native environment unbreathable; large pressure differential; sealed-off self-sustaining environment. But an ocean dwelling has several *major* advantages over space, in that food is scuttling/swimming just outside the habitat; safety/air is a short distance away (meters); ease of access (swim/scuba vs. rocket); and all the resources on Earth to facilitate the construction/operation (e.g., Home Depot not far away).
 
 :::{margin}
-⚠ This is not to advocate ocean floor habi-
-
-:::
-
-:::{margin}
-tation as a *good* idea; it is merely used to illustrate that space habitation is an even *less* practical idea, by far.
+⚠ This is not to advocate ocean floor habitation as a *good* idea; it is merely used to illustrate that space habitation is an even *less* practical idea, by far.
 
 :::
 
@@ -455,7 +446,7 @@ It would be fascinating to do a survey to find out how many people think that we
 
 17. Come up with three examples (not repeating items in the text) of feats that are technically possible, but not common or practical.
 
-18. For some perspective, imagine you were able to drive your car up a ramp to an altitude characteristic of low-earth orbit (about 320 km, or 200 miles). It takes about 5 $\times 10^{10}$ J of energy[^33] to win the fight against gravity. Meanwhile, each gallon of gasoline can do about 25 $\times 10^{6}$ J of useful work. How many gallons would it take to climb to orbital height in a car? Roughly how many miles per gallon is this (just counting vertical miles)?
+18. For some perspective, imagine you were able to drive your car up a ramp to an altitude characteristic of low-earth orbit (about 320 km, or 200 miles). It takes about 5 $\times 10^{9}$ J of energy[^33] to win the fight against gravity. Meanwhile, each gallon of gasoline can do about 25 $\times 10^{6}$ J of useful work. How many gallons would it take to climb to orbital height in a car? Roughly how many miles per gallon is this (just counting vertical miles)?
 
 19. In Problem 18, we ignored the energy required to provide the substantial orbital speed $(\sim 8$ km/s, but will not need), which essentially *doubles* the total energy.[^34] How much gasoline will it now take, and how massive is the fuel if gasoline is 3 kg per gallon, compared to the 1,500 kg mass of the car?
 
