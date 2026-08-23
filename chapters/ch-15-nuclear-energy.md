@@ -325,18 +325,12 @@ traced in [Example 15.3.2](#ex-15-3-2). Because the H nuclide is just a lone pro
 
 | Nucleus | $\Sigma m_{\mathrm{p,n,e}}$ | actual $m$ | $\Delta m$ | $\Delta mc^{2}$ (MeV) | MeV per nucleon |
 | --- | --- | --- | --- | --- | --- |
-| 1 |   |   |   |   |   |
-| H | 1.007825 | 1.007825 | 0 | 0 | 0 |
-| 2 |   |   |   |   |   |
-| H | 2.016490 | 2.014102 | 0.002388 | 2.22 | 1.11 |
-| 4 |   |   |   |   |   |
-| He | 4.032980 | 4.002603 | 0.030377 | 28.29 | 7.07 |
-| 12 |   |   |   |   |   |
-| C | 12.09894 | 12.000000 | 0.098940 | 92.16 | 7.68 |
-| 56 |   |   |   |   |   |
-| Fe | 56.46340 | 55.934942 | 0.528447 | 492.25 | 8.79 |
-| 235 |   |   |   |   |   |
-| U | 236.9590 | 235.043920 | 1.915065 | 1783.85 | 7.59 |
+| $^{1}$H | 1.007825 | 1.007825 | 0 | 0 | 0 |
+| $^{2}$H | 2.016490 | 2.014102 | 0.002388 | 2.22 | 1.11 |
+| $^{4}$He | 4.032980 | 4.002603 | 0.030377 | 28.29 | 7.07 |
+| $^{12}$C | 12.09894 | 12.000000 | 0.098940 | 92.16 | 7.68 |
+| $^{56}$Fe | 56.46340 | 55.934942 | 0.528447 | 492.25 | 8.79 |
+| $^{235}$U | 236.9590 | 235.043920 | 1.915065 | 1783.85 | 7.59 |
 :::
 
 ::::{admonition} Example 15.3.2
@@ -355,21 +349,14 @@ Finally, we divide by the number of nucleons in the nucleus—$A = 56$ in this c
 
 Therefore, the difference between the sum-of-parts mass and actual nucleus mass in [Table 15.5](#tab-15-5) provides a measure of how much binding energy holds the nucleus together.[^20]
 
-Notice that the first entry in [Table 15.5](#tab-15-5) for the single-proton hydrogen atom has *no* binding energy in the nucleus: the lonely proton has no 2
-
-other nucleon to which it might bind. But deuterium ( H) has a proton and a neutron, held together by 2.2 MeV of binding energy. The binding energy per nucleon in the last column of [Table 15.5](#tab-15-5) starts out small, but soon settles to the 7–9 range for most of the entries. It is extremely insightful to plot the binding energy per nucleon as a function of the nucleon mass number, $A$, which we do in [Figure 15.10](#fig-15-10).
+Notice that the first entry in [Table 15.5](#tab-15-5) for the single-proton hydrogen atom has *no* binding energy in the nucleus: the lonely proton has no other nucleon to which it might bind. But deuterium ($^{2}$H) has a proton and a neutron, held together by 2.2 MeV of binding energy. The binding energy per nucleon in the last column of [Table 15.5](#tab-15-5) starts out small, but soon settles to the 7–9 range for most of the entries. It is extremely insightful to plot the binding energy per nucleon as a function of the nucleon mass number, $A$, which we do in [Figure 15.10](#fig-15-10).
 
 :::{figure} ../images/fig-15-10.svg
 :label: fig-15-10
 :enumerator: 15.10
 :alt: Binding energy per nucleon as a function of total mass number, . The nuclei featured in Table 15.5 are indicated
 
-Binding energy per nucleon as a function of total mass number, $A$. The nuclei featured in [Table 15.5](#tab-15-5) are indicated
-:::
-
-:::{margin}
-as red points. Note in particular that $^{56}$Fe sits at the peak of the curve. Fusion operates from left to right, building larger nuclei, and fission goes from right to left, tearing apart nuclei. Only actions that *climb* this curve are energetically favorable, meaning that fusion is profitable on the the left-hand side, and fission makes sense on the right: each driving toward the peak binding energy per nucleon.
-
+Binding energy per nucleon as a function of total mass number, $A$. The nuclei featured in [Table 15.5](#tab-15-5) are indicated as red points. Note in particular that $^{56}$Fe sits at the peak of the curve. Fusion operates from left to right, building larger nuclei, and fission goes from right to left, tearing apart nuclei. Only actions that *climb* this curve are energetically favorable, meaning that fusion is profitable on the left-hand side, and fission makes sense on the right: each driving toward the peak binding energy per nucleon.
 :::
 
 The value of [Figure 15.10](#fig-15-10) is hard to over-emphasize. Key take-aways are:
@@ -412,26 +399,16 @@ Out of all the nuclides, three are amenable for use in a fission reactor. Two ar
 
 What makes $^{235}$U (and the other two) special is that a slow[^23] neutron— one just bumping around at a speed governed by the local temperature, and thus called a thermal neutron—can walk up to and stick[^24] to the nucleus and cause it to split into two large chunks—depicted in [Figure 15.13](#fig-15-13). Other nuclei would not break up, just accepting the new neutron and possibly converting a neutron to a proton via $\beta ^{-}$ decay.
 
-:::{margin}
-235U,
-
-:::
-
 :::{figure} ../images/fig-15-13.svg
 :label: fig-15-13
 :enumerator: 15.13
 :alt: Fission schematic for showing one of many possible outcomes-
 
-Fission schematic for showing one of many possible outcomes—
+Fission schematic for $^{235}$U, showing one of many possible outcomes—in this case $^{90}$Br and $^{144}$La plus two neutrons (an example case treated in detail in the text). The intermediate state, $^{236}$U, created when $^{235}$U absorbs a neutron, is highly unstable and will spontaneously break into (always) two different-size large fragments (“daughter” nuclei) and perhaps some extra neutrons. Gamma rays and kinetic energy (high-velocity fragments) are also released. Note that at each stage, the total number of nucleons is always 236.
 :::
 
 :::{figure} ../images/art-p281-1.svg
 :alt: Illustration from the original text
-:::
-
-:::{margin}
-in this case $^{90}$Br and $^{144}$La plus two neutrons (an example case treated in detail in the text). The intermediate state, $^{236}$U, created when $^{235}$U absorbs a neutron, is highly unstable and will spontaneously break into (always) two different-size large fragments (“daughter” nuclei) and perhaps some extra neutrons. Gamma rays and kinetic energy (high-velocity fragments) are also released. Note that at each stage, the total number of nucleons is always 236.
-
 :::
 
 When the nucleus breaks up, the pieces fly out at high speed, carrying kinetic energy that will be deposited in the local material as they bump their way to a halt. Gamma rays[^25] are also released. By catching all of this energetic output, the surrounding material gets very hot and can be used to make steam.
@@ -450,22 +427,12 @@ The nucleus (uranium in the present discussion) always breaks up into two largis
 
 The math always has to add up: nucleons are not created or destroyed during a fission event. They just rearrange themselves, so the total number of neutrons stays the same, as does the total number of protons. *After* the split, $\beta ^{-}$ decays will carry out flavor changes, but we’ll deal with that part later.
 
-:::{margin}
-$^{235}$U (small red
-
-:::
-
 :::{figure} ../images/fig-15-14.svg
 :label: fig-15-14
 :enumerator: 15.14
 :alt: Fission of square, upper right) tends to produce two neutron-rich fragments. If it split exactly in two, the result would lie at the midpoin
 
-Fission of square, upper right) tends to produce two neutron-rich fragments. If it split exactly in two, the result would lie at the midpoint
-:::
-
-:::{margin}
-of the orange line connecting $^{235}$U to the origin, at the yellow circle. In practice, an equal split is highly unlikely, as one fragment tends to be around $A \sim 95$ and the other around $A \sim 140$, as depicted by the probability histogram in green. The two green stars separated along the orange line represent a more likely outcome for the two fragments. As long as the green stars are located so that the yellow circle is exactly between them, the accounting of proton and neutron number is satisfied. Because the orange line lies to the right of the stable nuclei, the fission products tend to be neutron-rich and undergo a series of radioactive $\beta ^{-}$ decays before reaching stability, which could take a very long time in some cases.
-
+Fission of $^{235}$U (small red square, upper right) tends to produce two neutron-rich fragments. If it split exactly in two, the result would lie at the midpoint of the orange line connecting $^{235}$U to the origin, at the yellow circle. In practice, an equal split is highly unlikely, as one fragment tends to be around $A \sim 95$ and the other around $A \sim 140$, as depicted by the probability histogram in green. The two green stars separated along the orange line represent a more likely outcome for the two fragments. As long as the green stars are located so that the yellow circle is exactly between them, the accounting of proton and neutron number is satisfied. Because the orange line lies to the right of the stable nuclei, the fission products tend to be neutron-rich and undergo a series of radioactive $\beta ^{-}$ decays before reaching stability, which could take a very long time in some cases.
 :::
 
 ::::{admonition} Example 15.4.1

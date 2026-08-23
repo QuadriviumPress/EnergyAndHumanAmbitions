@@ -400,10 +400,8 @@ Because the numbers are often *meaningless* without the accompanying units, we s
 
 If we travel 4 meters in 2 seconds, we have
 
-42 m s $= \frac{4}{2} \cdot$ m
-
 :::{math}
-\frac{}{\mathrm{s}} = 2\mathrm{m/s}.
+\frac{4\ \mathrm{m}}{2\ \mathrm{s}} = \frac{4}{2}\cdot\frac{\mathrm{m}}{\mathrm{s}} = 2\ \mathrm{m/s}.
 :::
 
 Dividing the numbers alone to get 2 is not the whole story. We also divided the units to create a new one that was not in the initial set (m and s).
@@ -434,21 +432,25 @@ When performing a chain of multiplications or divisions, we can carry the units 
 
 Let’s say we want to know how much energy, in Joules, the U.S. uses in a year based on knowledge that the average citizen accounts for 10,000 W (a Watt is a Joule per second) and the U.S. has 330 million people. First, let’s work with the 10,000 W per person metric:
 
-person $=10^{4}\mathrm{J/s}$ person $\cdot$ s $,10^{4}$ J
+:::{math}
+\frac{10^{4}\ \mathrm{J/s}}{\mathrm{person}} = \frac{10^{4}\ \mathrm{J}}{\mathrm{person}\cdot \mathrm{s}}
+:::
 
 where we have just moved the seconds into the denominator to multiply “person” (order doesn’t matter). Most of the problem is in going from seconds to years. It would look like this:
 
-person $\cdot$ s $\cdot 60 \mathrm{s}10^{4}$ J 1 $\min \cdot 60$ min1 hour $\cdot 24$ hour1 day $\cdot 365$ day1 year
+:::{math}
+\frac{10^{4}\ \mathrm{J}}{\mathrm{person}\cdot \mathrm{s}} \cdot \frac{60\ \mathrm{s}}{1\ \mathrm{min}} \cdot \frac{60\ \mathrm{min}}{1\ \mathrm{hour}} \cdot \frac{24\ \mathrm{hour}}{1\ \mathrm{day}} \cdot \frac{365\ \mathrm{day}}{1\ \mathrm{year}}
+:::
 
 Notice that each of the factors we multiply, even though they carry a non-unity numeric value, are *essentially* identities that describe equal intervals on top and bottom, in differing units.[^33] So we are effectively multiplying by 1 repeatedly in a **unit conversion** process.
 
 Also note that the chain we construct allows a boatload of cancellations, as almost all units present appear in both the numerator and denominator once. The only ones that do not are J in the numerator and year and person in the denominator. When we carry out the multiplication above and cancel units, we find that we are left with:
 
-$3.15 \times 10^{11}$ year $\cdot$ person$.\mathrm{J}$
+:::{math}
+\frac{3.15 \times 10^{11}\ \mathrm{J}}{\mathrm{person}\cdot \mathrm{year}}
+:::
 
-Oops, the units are helping us here by reminding us that we need to multiply by the population $(3.3 \times 10^{8}$ persons) to get the answer
-
-we sought.[^34] In this case, we end up with $1.04 \times 10^{20}$ J/year, which is what we were after.
+Oops, the units are helping us here by reminding us that we need to multiply by the population $(3.3 \times 10^{8}$ persons) to get the answer we sought.[^34] In this case, we end up with $1.04 \times 10^{20}$ J/year, which is what we were after.
 
 ::::
 
@@ -460,7 +462,9 @@ We just carried out unit conversions (in time) in [Example A.10.2](#ex-a-10-2), 
 
 We might want to convert the $1.04 \times 10^{20}$ J/year from [Example A.10.2](#ex-a-10-2) into quadrillion Btu per year. We know that 1 Btu is 1,055 J, and that a quadrillion is $10^{15}$. So we arrange the following:
 
-$1.04 \times 10^{20}$ year $\cdot 1$ BtuJ $1,$ 055 J $\cdot 1$ quadrillion$10^{15}\approx 100$ quadrillion $\mathrm{Btu}/$year$.$
+:::{math}
+\frac{1.04 \times 10^{20}\ \mathrm{J}}{\mathrm{year}} \cdot \frac{1\ \mathrm{Btu}}{1{,}055\ \mathrm{J}} \cdot \frac{1\ \mathrm{quadrillion}}{10^{15}} \approx 100\ \mathrm{quadrillion\ Btu/year}.
+:::
 
 ::::
 
