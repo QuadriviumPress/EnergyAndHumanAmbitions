@@ -223,18 +223,18 @@ when heat drives motion.
 :label: tab-6-2
 :enumerator: 6.2
 
-| Source | % elec. therm. turb./ in U.S. gen. |
-| --- | --- |
-| Nat. Gas | 35.3 ✓ ✓ |
-| Coal | 27.3 ✓ ✓ |
-| Nuclear | 19.2 ✓ ✓ |
-| Hydroelec. | 7.0 ✓ |
-| Wind | 6.6 ✓ |
-| Solar PV | 2.2 |
-| Biomass | 1.5 ✓ ✓ |
-| Oil | 0.6 ✓ ✓ |
-| Geotherm. | 0.4 ✓ ✓ |
-| Sol. Therm. | 0.09 ✓ ✓ |
+| Source | % elec. | therm. | turb. in U.S. gen. |
+| --- | --- | --- | --- |
+| Nat. Gas | 35.3 | ✓ | ✓ |
+| Coal | 27.3 | ✓ | ✓ |
+| Nuclear | 19.2 | ✓ | ✓ |
+| Hydroelec. | 7.0 |   | ✓ |
+| Wind | 6.6 |   | ✓ |
+| Solar PV | 2.2 |   |   |
+| Biomass | 1.5 | ✓ | ✓ |
+| Oil | 0.6 | ✓ | ✓ |
+| Geotherm. | 0.4 | ✓ | ✓ |
+| Sol. Therm. | 0.09 | ✓ | ✓ |
 :::
 
 The last example deserves its own graphic, as important as this process is in our lives: almost all of our electricity generation—from all the fossil fuels and even from nuclear fission—follows this arrangement. [Figure 6.2](#fig-6-2) illustrates the basic scheme. [Table 6.2](#tab-6-2) indicates that 98% of our electricity involves turning a turbine on a shaft connected to a generator, and 84% involves a thermal process as the motive agent for the turbine—most often in the form of steam.
