@@ -12,9 +12,9 @@ label: image-attributions
 
 3. [Chapter 4](#ch-4) banner image (page 57): NASA/Bill Anders from Apollo 8 [[22](#ref-22)]; manipulated to—ironically—remove empty space; Public Domain.
 
-4. [Fig. 4.3](#fig-4-3) (p. 60): Millennium Simulation, produced by Volker Springel et al. at the Max Plank Institute [[25](#ref-25)], <https://wwwmpa.mpa-garching.mpg.de/galform/virgo/millennium/>.
+4. [Fig. 4.3](#fig-4-3) (p. 60): Millennium Simulation, produced by Volker Springel et al. at the Max Planck Institute [[25](#ref-25)], <https://wwwmpa.mpa-garching.mpg.de/galform/virgo/millennium/>.
 
-5. [Chapter 6](#ch-6) banner image (page 89): State Government Photographer—The History Trust of South Australian, South Australian Government Photo; This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication.
+5. [Chapter 6](#ch-6) banner image (page 89): State Government Photographer—The History Trust of South Australia, South Australian Government Photo; This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication.
 
 6. [Fig. 6.6](#fig-6-6) (p. 102): originates from U.S. Department of Energy; Public Domain.
 
@@ -36,7 +36,7 @@ label: image-attributions
 
 15. [Fig. 12.4](#fig-12-4) (p. 197): Adapted from Figure 3 in [[74](#ref-74)]; Courtesy of WIT Press from *WIT Transactions on State of the Art in Science and Engineering*, Volume 44 (2010), page 92 (reproduced with permission).
 
-16. [Fig. 12.6](#fig-12-6) (p. 199): Adapted from [[76](#ref-76)]; Reprinted by permission from Springer Nature: *Handbook of Power Systems*, Vol. 2, 2010, “Short-termForecasting in Power Systems: A Guided Tour,” by A. Muñoz, E. Sanchez, A. Cruz, Alberto & J. Marín, ©2010.
+16. [Fig. 12.6](#fig-12-6) (p. 199): Adapted from [[76](#ref-76)]; Reprinted by permission from Springer Nature: *Handbook of Power Systems*, Vol. 2, 2010, “Short-term Forecasting in Power Systems: A Guided Tour,” by A. Muñoz, E. Sanchez, A. Cruz, Alberto & J. Marín, ©2010.
 
 17. [Fig. 12.7](#fig-12-7) (p. 199): Adapted from Figure 1 in [[77](#ref-77)]; Copyright © 2017 John Wiley & Sons, Ltd.; Reproduced with permission.
 

@@ -23,7 +23,7 @@ Although the focus of this chapter will be on the alarming rate of population gr
 :enumerator: 3.1
 :alt: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population
 
-Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. [14–16].
+Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. [[14](#ref-14), [15](#ref-15), [16](#ref-16)].
 :::
 
 Since population plays a giant role in our future trajectory, we need to better understand its past. We can also gain some sense for theoretical
@@ -235,7 +235,7 @@ The mathematical solution to this modified differential equation (whose solution
 :::{math}
 :label: eq-3-6
 :enumerator: 3.6
-P(t) = 1 + e^{-r(t-t_{0})}.Q
+P(t) = \frac{Q}{1 + e^{-r(t-t_{0})}}
 :::
 
 The first part of the curve in [Figure 3.7](#fig-3-7), for very negative values[^11] of $t - t_{0}$, is exponential but still small. At $t = t_{0}$ (time of inflection), the population is $Q/2$. As time marches forward into positive territory, $P$ approaches $Q$. As it does so, negative feedback mechanisms (limits to resource/food availability, predation, disease) become more assertive
@@ -644,10 +644,10 @@ Hint: It is perfectly acceptable to hold a (preferably transparent) straight-edg
 
 :::
 
-2. Notice that on logarithmic plots,[^34] factors of ten on the logarithmic axis span the *same distance*. This applies for *any* numerical factor— not just ten.[^35] Shorter (minor) tick marks between labeled (major) ticks multiply the preceding tick label by 2, 3, 4, 5, 6, 7, 8, 9. The graphic below illustrates the constant distance property for a factor of two.$^{36}$ Now try a different multiplier (not 2 or 10), measuring the distance between tick marks, and report/draw how you graphically verified that your numerical factor spans the same distance no matter where you “slide” it on the axis.
+2. Notice that on logarithmic plots,[^34] factors of ten on the logarithmic axis span the *same distance*. This applies for *any* numerical factor— not just ten.[^35] Shorter (minor) tick marks between labeled (major) ticks multiply the preceding tick label by 2, 3, 4, 5, 6, 7, 8, 9. The graphic below illustrates the constant distance property for a factor of two. Now try a different multiplier (not 2 or 10), measuring the distance between tick marks, and report/draw how you graphically verified that your numerical factor spans the same distance no matter where you “slide” it on the axis.
 
 :::{margin}
-that $\log ( \frac{a}{b} ) = \log a - \log b$. The property applies for any base, so $\log _{10}$ and ln behave the same way. 36: The green bars indicate that the same distance from 1 to 2 applies to 3–6, 40–80, and 500–1,000.
+that $\log ( \frac{a}{b} ) = \log a - \log b$. The property applies for any base, so $\log _{10}$ and ln behave the same way. The green bars indicate that the same distance from 1 to 2 applies to 3–6, 40–80, and 500–1,000.
 
 :::
 
@@ -655,7 +655,7 @@ that $\log ( \frac{a}{b} ) = \log a - \log b$. The property applies for any base
    :alt: Illustration from the original text
    :::
 
-3. Looking at [Figure 3.3](#fig-3-3), if humans had continued the slow growth phase characteristic of the period until about 1700, what does the *graph* suggest world population would be today, approximately, if the magenta line were extended to “now?”[^37] Put the answer in familiar terms, measured in millions or billions, depending on what is most natural.$^{38}$
+3. Looking at [Figure 3.3](#fig-3-3), if humans had continued the slow growth phase characteristic of the period until about 1700, what does the *graph* suggest world population would be today, approximately, if the magenta line were extended to “now?”[^37] Put the answer in familiar terms, measured in millions or billions, depending on what is most natural.
 
 4. Looking at [Figure 3.4](#fig-3-4), if humans had continued the moderate growth phase characteristic of the period from the year 1000 to 1700, what does the *graph* suggest world population would be today, approximately, if the magenta line were extended to “now?”
 
@@ -803,7 +803,7 @@ Hint: think about what the graph would look like in these scenarios.
 [^13]: Not coincidentally, $P = Q/2$ at the halfway point, $t = t_{0}$.
 [^14]: … based on remaining resources, $Q-P$, at the moment in [Eq. 3.5](#eq-3-5)
 [^15]: … meaning that population $P$ arrives at $Q$
-[^16]: For instance, a dramatic overshoot and collapse could be disruptive enough to take out our current infrastructure for fossil-fuelaided agriculture so that the $Q$ value essentially resets to some lower value.
+[^16]: For instance, a dramatic overshoot and collapse could be disruptive enough to take out our current infrastructure for fossil-fuel-aided agriculture so that the $Q$ value essentially resets to some lower value.
 [^17]: This ignores immigration, which just shifts living persons around.
 [^18]: 4 per 1,000 is 0.4 per 100, which is another way to say 0.4 percent.
 [^19]: Note that immigration is not considered here: just birth rate and death rate within the country.
@@ -823,7 +823,7 @@ Hint: think about what the graph would look like in these scenarios.
 [^33]: A group size of 1,200 is small enough to prevent hiding irresponsible actions behind anonymity.
 [^34]: See, for example, [Figures 3.3](#fig-3-3) and 3.4.
 [^35]: This is due to the property of logarithms
-[^37]: Determine graphically (may need to zoom in). See Problem 2 and the associated graphic to better understand how the tick marks work. 38: I.e., don’t say 0.01 billion if 10 million is more natural, or 8,000 million when 8 billion would do.
+[^37]: Determine graphically (may need to zoom in). See Problem 2 and the associated graphic to better understand how the tick marks work. I.e., don’t say 0.01 billion if 10 million is more natural, or 8,000 million when 8 billion would do.
 [^39]: See [Eq. 3.6](#eq-3-6).
 [^40]: Numbers may change from when the plot was made; population can help settle based on dot size.
 [^41]: … much farther from dashed line

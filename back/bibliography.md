@@ -21,7 +21,7 @@ References are numbered in order of first appearance in the book. Page numbers f
 **[4]**  G. Kopp and J. L. Lean. “A new, lower value of total solar irradiance: Evidence and climate significance”. In: *Geophysical Research Letters* 38.1 (Jan. 2011). doi: [10.1029/2010GL045777](https://doi.org/10.1029/2010GL045777)
 
 (ref-5)=
-**[5]**  T W Murphy. *Exponential Economist Meets Finite Pysicist*. Online. Accessed 2021 Jan. 8. Apr. 2012. url: <https://dothemath.ucsd.edu/2012/04/economist-meets-physicist/>
+**[5]**  T W Murphy. *Exponential Economist Meets Finite Physicist*. Online. Accessed 2021 Jan. 8. Apr. 2012. url: <https://dothemath.ucsd.edu/2012/04/economist-meets-physicist/>
 
 (ref-6)=
 **[6]**  *List of countries by GDP (nominal)*. Wikipedia. Source: *World Economic Outlook Database*, International Monetary Fund. Accessed 2019 Sept. 3. Oct. 2019. url: <https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)>
@@ -42,13 +42,13 @@ References are numbered in order of first appearance in the book. Page numbers f
 **[11]**  *Luminous Efficacy*. Wikipedia. Sources: various, cited from Wikipedia page. url: <https://en.wikipedia.org/wiki/Luminous_efficacy>
 
 (ref-12)=
-**[12]**  T J Garret. *Rebound, Backfire, and the Jevons Paradox*. Online. Accessed 2021 Feb. 1. 2014. url: <https://www.inscc.utah.edu/~tgarrett/Economics/Jevons_Paradox.html>
+**[12]**  T J Garrett. *Rebound, Backfire, and the Jevons Paradox*. Online. Accessed 2021 Feb. 1. 2014. url: <https://www.inscc.utah.edu/~tgarrett/Economics/Jevons_Paradox.html>
 
 (ref-13)=
 **[13]**  *List of Countries by Total Primary Energy Consumption and Production*. Wikipedia. Sources: various, cited from Wikipedia page. url: <https://en.wikipedia.org/wiki/List_of_countries_by_total_primary_energy_consumption_and_production>
 
 (ref-14)=
-**[14]**  K Klein Goldewĳk et al. “The HYDE 3.1 spatially explicit database of human-induced global land-use change over the past 12,000 years”. In: *Global Ecology and Biogeography* 20.1 (Jan. 2011). Available via Wikipedia: Estimates of Historical World Population, pp. 73–86. doi: [10.1111/j.1466-8238.2010.00587.x](https://doi.org/10.1111/j.1466-8238.2010.00587.x)
+**[14]**  K Klein Goldewijk et al. “The HYDE 3.1 spatially explicit database of human-induced global land-use change over the past 12,000 years”. In: *Global Ecology and Biogeography* 20.1 (Jan. 2011). Available via Wikipedia: Estimates of Historical World Population, pp. 73–86. doi: [10.1111/j.1466-8238.2010.00587.x](https://doi.org/10.1111/j.1466-8238.2010.00587.x)
 
 (ref-15)=
 **[15]**  *Estimates of Historical World Population*. Wikipedia. Source: U.S. Census Bureau, International Data Base. 2017. url: <https://en.wikipedia.org/wiki/Estimates_of_historical_world_population>
@@ -129,10 +129,10 @@ References are numbered in order of first appearance in the book. Page numbers f
 **[40]**  *Energy Density*. Wikipedia. Accessed 2020 Aug. 27. 2020. url: <https://en.wikipedia.org/wiki/Energy_density>
 
 (ref-41)=
-**[41]**  J M K C Donev. *In a barrel of oil*. Online. In *Energy Education*, University of Calgory. Accessed 2020 Aug. 27. 2017. url: <https://energyeducation.ca/encyclopedia/In_a_barrel_of_oil>
+**[41]**  J M K C Donev. *In a barrel of oil*. Online. In *Energy Education*, University of Calgary. Accessed 2020 Aug. 27. 2017. url: <https://energyeducation.ca/encyclopedia/In_a_barrel_of_oil>
 
 (ref-42)=
-**[42]**  J M K C Donev et al. *Cap rock*. Online. In *Energy Education*, University of Calgory. Accessed 2020 Nov. 13. 2019. url: <https://energyeducation.ca/encyclopedia/Cap_rock>
+**[42]**  J M K C Donev et al. *Cap rock*. Online. In *Energy Education*, University of Calgary. Accessed 2020 Nov. 13. 2019. url: <https://energyeducation.ca/encyclopedia/Cap_rock>
 
 (ref-43)=
 **[43]**  J Diamond. *Collapse: How Societies Choose to Fail or Succeed*. Penguin Books, 2005
