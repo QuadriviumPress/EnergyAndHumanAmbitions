@@ -101,7 +101,7 @@ Transportation needs are hard to satisfy. Together with the fact that oil produc
 :::{figure} ../images/fig-17-2.svg
 :label: fig-17-2
 :enumerator: 17.2
-:alt: Alternative energy matrix of attributes. Blue is good (+1 point); yellow is neutral (0 points), and red is bad point). Only green-labeled en
+:alt: Alternative energy matrix of attributes. Blue is good (+1 point); yellow is neutral (0 points), and red is bad (-1 point). Only green-labeled entries contribute more than a few gigawatts to our energy today, out of the 18,000 GW total. This
 
 Alternative energy matrix of attributes. Blue is good (+1 point); yellow is neutral (0 points), and red is bad $(-1$ point). Only green-labeled entries contribute more than a few gigawatts to our energy today, out of the 18,000 GW total. This comparison is meant to
 :::

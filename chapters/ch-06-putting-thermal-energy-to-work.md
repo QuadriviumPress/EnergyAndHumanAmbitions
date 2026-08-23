@@ -129,7 +129,7 @@ How much it takes to *maintain* temperature depends on how heat flows out of (or
 :::{figure} ../images/fig-6-1.svg
 :label: fig-6-1
 :enumerator: 6.1
-:alt: External walls and windows for the house modeled in Box 6.1. The floor and ceiling are not shown. The numbers in are U-values, and in this c
+:alt: External walls and windows for the house modeled in Box 6.1. The floor and ceiling are not shown. The numbers in W/m^2/°C are U-values, and in this case represent the very best engineering practices. Most houses will have larger values by factors as
 
 External walls and windows for the house modeled in [Box 6.1](#box-6-1). The floor and ceiling are not shown. The numbers in $\mathrm{W/m}^{2}/^{\circ}\mathrm{C}$ are U-values, and in this case represent the very best engineering practices. Most houses will have larger values by factors as high as 2–6. Don’t forget the door in a real house!
 :::
@@ -159,13 +159,9 @@ Let’s compare the requirements to keep three different houses at $20^{\circ}\m
 
 The temperature difference, $\Delta T$, is $20^{\circ}\mathrm{C}$, so that our super-snug house
 
-will require 75 $\mathrm{W}/^{\circ}\mathrm{C}$ times $20^{\circ}\mathrm{C}$, or 1,500 $\mathrm{W}^{16}$ to keep it warm, while the decent house needs 3,000 W and the shoddy house needs 6,000 W.
+will require 75 $\mathrm{W}/^{\circ}\mathrm{C}$ times $20^{\circ}\mathrm{C}$, or 1,500 $\mathrm{W}$[^16] to keep it warm, while the decent house needs 3,000 W and the shoddy house needs 6,000 W.
 
 ::::
-
-:::{margin}
-… a single space heater
-:::
 
 Once we understand how much power it takes to maintain a certain temperature $(\Delta T)$ in a house, we can anticipate the behavior of the house’s heater. Heaters are typically either on full-blast or off. Regulation is achieved by turning the heat on and off—usually controlled by a thermostat. Given the *rating* of a heater,[^17] it is then straightforward to anticipate the duty cycle: the percentage of time it has to be on to produce an *average* output meeting the power requirement for some particular $\Delta T$.
 
@@ -223,7 +219,7 @@ when heat drives motion.
 :label: tab-6-2
 :enumerator: 6.2
 
-| Source | % elec. | therm. | turb. in U.S. gen. |
+| Source | % elec. in U.S. gen. | therm. | turb. |
 | --- | --- | --- | --- |
 | Nat. Gas | 35.3 | ✓ | ✓ |
 | Coal | 27.3 | ✓ | ✓ |
@@ -242,7 +238,7 @@ The last example deserves its own graphic, as important as this process is in ou
 :::{figure} ../images/fig-6-2.svg
 :label: fig-6-2
 :enumerator: 6.2
-:alt: Generic power plant scheme, in which some source of heat at generates steam that flows toward the condenser-where the steam cools and revert
+:alt: Generic power plant scheme, in which some source of heat at Th generates steam that flows toward the condenser—where the steam cools and reverts to liquid water, by virtue of thermal contact to a cool source at Tc provided by a body of water or
 
 Generic power plant scheme, in which some source of heat at $T_{\mathrm{h}}$ generates steam that flows toward the condenser—where the steam cools and reverts to liquid water, by virtue of thermal contact to a cool source at $T_{\mathrm{c}}$ provided by a body of water or evaporative cooling towers. Along the way, the rushing steam turns a turbine connected to a generator, exporting electricity. This basic arrangement is employed for most power plants using fossil fuels, nuclear, solar thermal, or geothermal sources of heat.
 :::
@@ -275,7 +271,7 @@ between them in some way. They can all have exactly 2.0 units of energy apiece, 
 :::{figure} ../images/fig-6-3.svg
 :label: fig-6-3
 :enumerator: 6.3
-:alt: A box containing 4 atoms or molecules of one type (white) and 4 of another type (red) has many more configurations available (number in pare
+:alt: A box containing 4 atoms or molecules of one type (white) and 4 of another type (red) has many more configurations available (number in parentheses) when species are equally distributed so that left and right sides both have two of each. Entropy is
 
 A box containing 4 atoms or molecules of one type (white) and 4 of another type (red) has many more configurations available (number in parentheses) when species are equally distributed so that left and right sides both have two of each. Entropy is related to the number of ways a system can distribute itself (at the same energy level), acting to favor disordered mixing over (improbable) orderly separation.
 :::
@@ -327,7 +323,7 @@ These two laws of thermodynamics, plus a way to quantify entropy changes that we
 :::{figure} ../images/fig-6-4.svg
 :label: fig-6-4
 :enumerator: 6.4
-:alt: Heat engine energy balance. Heat flowing from the hot bath to the cold bath can perform useful work, , in the process-subject to conservatio
+:alt: Heat engine energy balance. Heat flowing from the hot bath to the cold bath can perform useful work, Delta W, in the process—subject to conservation of energy (Delta Qh= Delta Qc+ Delta W), where Delta Q is a heat flow. Entropy constraints limit how
 
 Heat engine energy balance. Heat flowing from the hot bath to the cold bath can perform useful work, $\Delta W$, in the process—subject to conservation of energy $(\Delta Q_{\mathrm{h}}= \Delta Q_{\mathrm{c}}+ \Delta W)$, where $\Delta Q$ is a heat flow. Entropy constraints limit how large $\Delta W$ can be. Arrow widths are proportional to energy, and red numbers are example energy amounts, for use in the text.
 :::
@@ -475,13 +471,9 @@ If the cold bath is fixed,[^36] the maximum possible efficiency improves as the 
 :class: tip
 :label: box-6-3
 
-If $T_{\mathrm{c}}$ approaches 0 $\mathrm{K}^{37}$, the maximum efficiency approaches 100%. We can trace this back to the relation $\Delta Q = T\Delta S$, which implies that when $T$ is very small, it does not take much heat $(\Delta Q)$ to meet the requirement for the amount of entropy added to the cold bath $(\Delta S_{\mathrm{c}})$ to be large enough to satisfy the prohibition on net entropy decrease, so the arrow width in [Figure 6.4](#fig-6-4) for $\Delta Q_{\mathrm{c}}$ can be rather thin (small) allowing $\Delta W$ to be about as thick (large) as $\Delta Q_{\mathrm{h}}$, meaning that essentially all the energy is available to do work and the efficiency can be very high. In practice, Earth does not provide baths cold enough for this effect to kick in, but discussing it is a means to better understand how [Eq. 6.9](#eq-6-9) works.
+If $T_{\mathrm{c}}$ approaches 0 $\mathrm{K}$,[^37] the maximum efficiency approaches 100%. We can trace this back to the relation $\Delta Q = T\Delta S$, which implies that when $T$ is very small, it does not take much heat $(\Delta Q)$ to meet the requirement for the amount of entropy added to the cold bath $(\Delta S_{\mathrm{c}})$ to be large enough to satisfy the prohibition on net entropy decrease, so the arrow width in [Figure 6.4](#fig-6-4) for $\Delta Q_{\mathrm{c}}$ can be rather thin (small) allowing $\Delta W$ to be about as thick (large) as $\Delta Q_{\mathrm{h}}$, meaning that essentially all the energy is available to do work and the efficiency can be very high. In practice, Earth does not provide baths cold enough for this effect to kick in, but discussing it is a means to better understand how [Eq. 6.9](#eq-6-9) works.
 
 ::::
-
-:::{margin}
-… absolute zero temperature, $-273^{\circ}\mathrm{C}$
-:::
 
 Real heat engines like power plants ([Figure 6.2](#fig-6-2)) or automobile engines tend to only get about halfway to the theoretical efficiency due to myriad practical challenges. A typical efficiency for an electrical power plant is 30–40%, while cars are typically in the 15–25% range. In contrast, combustion temperatures around 700–$800^{\circ}\mathrm{C}$ suggest a maximum theoretical efficiency around 60%.
 
@@ -493,7 +485,7 @@ We can flip a heat engine around and call it a heat pump. In this case, we *appl
 :::{figure} ../images/fig-6-5.svg
 :label: fig-6-5
 :enumerator: 6.5
-:alt: Heat pump energy balance. The application of work ; from an electrical source, for instance) can drive heat to flow- counterintuitively-from
+:alt: Heat pump energy balance. The application of work (Delta W; from an electrical source, for instance) can drive heat to flow— counterintuitively—from a cold reservoir (like the interior of a freezer) to a hotter environment. Example Tc→ Th pairs
 
 Heat pump energy balance. The application of work $(\Delta W$; from an electrical source, for instance) can drive heat to flow— counterintuitively—from a cold reservoir (like the interior of a freezer) to a hotter environment. Example $T_{\mathrm{c}}\rightarrow T_{\mathrm{h}}$ pairs might include freezer-interior $\rightarrow$ room-air; cooled-inside $\rightarrow$ summer-outside; winter-outside $\rightarrow$ warmed-inside. We still must satisfy conservation of energy $(\Delta Q_{\mathrm{h}}= \Delta Q_{\mathrm{c}}+ \Delta W)$, where $\Delta Q$ is a heat flow. Entropy constraints limit how large $\Delta Q_{\mathrm{c}}$ can be for a given $\Delta W$ input. Arrow widths are proportional to energy, and red numbers are example energy amounts, for use in the text.
 :::
@@ -779,6 +771,7 @@ Heat pumps are like heat engines in reverse: driving a flow of thermal energy ag
 [^13]: … or equivalently, Watts per degree Kelvin
 [^14]: … outer walls, ceiling-to-unconditioned attic, floor-to-crawl-space
 [^15]: … not “thermally woke”
+[^16]: … a single space heater
 [^17]: The rating is effectively the power delivered when operating at full capacity.
 [^18]: 1,055 J in 3,600 s is 0.293 J/s.
 [^19]: These are duty cycles.
@@ -799,6 +792,7 @@ Heat pumps are like heat engines in reverse: driving a flow of thermal energy ag
 [^34]: If $A \ge B$, then we know that $A/B \ge 1$.
 [^35]: 300 K is a convenient and reasonable temperature for “normal” environments, corresponding to $27^{\circ}\mathrm{C}$ or $80.6^{\circ}$F.
 [^36]: This is a common situation, as $T_{\mathrm{c}}$ is usually set by the ambient temperature of the air or of a body of water.
+[^37]: … absolute zero temperature, $-273^{\circ}\mathrm{C}$
 [^38]: … or a freezer, or air conditioner
 [^39]: … freezer, refrigerator, air conditioner
 [^40]: … home heating via heat pump
@@ -808,7 +802,7 @@ Heat pumps are like heat engines in reverse: driving a flow of thermal energy ag
 [^44]: Note that $\Delta T = 30$ in either K or $^{\circ}\mathrm{C}$.
 [^45]: Following the example numbers in [Figure 6.5](#fig-6-5), we would say that $\epsilon _{\mathrm{cool}}$, defined as $\Delta Q_{\mathrm{c}}/\Delta W$, is 2.0, and $\epsilon _{\mathrm{heat}}$ is 3.0.
 [^46]: 150 $\mathrm{W}/^{\circ}\mathrm{C}$ times $40^{\circ}\mathrm{C}$.
-[^47]: … e.g., four space heaters each expend-ing 1,500 W
+[^47]: … e.g., four space heaters each expending 1,500 W
 [^48]: We are solving for $\Delta W = \Delta Q_{\mathrm{h}}/\epsilon _{\mathrm{heat}}$, and consider the energy moved in one second in order to go from W to J.
 [^49]: This corresponds to maintaining the hotter environment at $27^{\circ}\mathrm{C}$, for instance in the context of heating a house.
 [^50]: … or any other energy unit of choice

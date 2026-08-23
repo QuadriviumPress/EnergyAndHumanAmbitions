@@ -274,13 +274,52 @@ class Writer:
         self.emit()
 
 
+_MATH_SYMBOLS = {
+    r"\times": "×", r"\cdot": "·", r"\approx": "≈", r"\sim": "~",
+    r"\pm": "±", r"\circ": "°", r"\rightarrow": "→", r"\leftarrow": "←",
+    r"\ldots": "…", r"\odot": "Sun", r"\oplus": "Earth", r"\%": "%",
+    r"\pi": "π", r"\alpha": "alpha", r"\beta": "beta", r"\gamma": "gamma",
+    r"\delta": "delta", r"\Delta": "Delta", r"\epsilon": "epsilon",
+    r"\theta": "theta", r"\lambda": "lambda", r"\mu": "mu", r"\nu": "nu",
+    r"\rho": "rho", r"\sigma": "sigma", r"\Sigma": "Sigma", r"\phi": "phi",
+    r"\omega": "omega", r"\infty": "infinity",
+}
+
+
+def _sup_repl(m):
+    c = m.group(1)
+    return c if len(c) == 1 and not c.isalnum() else "^" + c
+
+
+def _math_to_text(expr):
+    """Render a snippet of inline LaTeX math as plain text, for alt text."""
+    s = expr
+    for k, v in _MATH_SYMBOLS.items():
+        s = s.replace(k, v)
+    s = re.sub(r"\\(?:mathrm|mathbf|mathcal|text)\{([^{}]*)\}", r"\1", s)
+    s = re.sub(r"\\frac\{([^{}]*)\}\{([^{}]*)\}", r"\1/\2", s)
+    s = re.sub(r"_\{([^{}]*)\}", r"\1", s)
+    s = re.sub(r"_(\S)", r"\1", s)
+    s = re.sub(r"\^\{([^{}]*)\}", _sup_repl, s)
+    s = re.sub(r"\^(\S)", _sup_repl, s)
+    s = re.sub(r"\\([a-zA-Z]+)", r"\1", s)
+    s = s.replace("{", "").replace("}", "")
+    return s.strip()
+
+
 def _alt_text(caption):
     """A short plain-text description for screen readers."""
     text = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", caption)
-    text = re.sub(r"\$[^$]*\$", "", text)
-    text = re.sub(r"[*`_<>]", "", text).replace("\u2013", "-").replace("\u2014", "-")
+    text = re.sub(r"\$([^$]*)\$", lambda m: _math_to_text(m.group(1)), text)
+    text = re.sub(r"[*`_<>]", "", text)
+    # Collapse spacing left behind by stripped/substituted math (e.g. "disk , while" -> "disk, while").
+    text = re.sub(r"\s+([,;:.!?])", r"\1", text)
     text = re.sub(r"\s+", " ", text).strip()
-    return text[:140].rstrip(" ,;:")
+    if len(text) > 250:
+        # Truncate at a word boundary rather than mid-word.
+        cut = text.rfind(" ", 0, 250)
+        text = text[:cut if cut > 0 else 250]
+    return text.rstrip(" ,;:")
 
 
 def _cell(text):

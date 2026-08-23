@@ -39,17 +39,9 @@ Also important to recognize is that a challenge cannot be effectively mitigated 
 :class: tip
 :label: box-20-1
 
-The Y$2\mathrm{K}$ scare in 1999 offers a good template for how to mitigate a potential disaster. Computer systems became the dominant means for managing financial and government records, transactions, and accounts in the 1960s through 1980s. A two-digit code was used for the year in many records, not anticipating the roll-over to 2000 decades away. The early programmers either doubted that their code would still be functioning in $2000$ or assumed it would be cleaned up in time. In the year or two leading up to Y2K, the issue got tons of coverage and predictions of mayhem, as peoples’ digital lives—a new phenomenon—were tossed into any number of unknown upheavals. But the very fact that the issue dominated public consciousness was exactly what ensured a smooth transition. Every bank and agency got on the job and Y2K came and went without a ripple. It would be great to see a repeat in the case of potential collapse. The lack of a specific time prediction is one barrier, unlike Y2K. Without a firm deadline or a clear-and-present danger, the temptation to delay serious attention is strong.
+The Y2K[^1] scare in 1999 offers a good template for how to mitigate a potential disaster. Computer systems became the dominant means for managing financial and government records, transactions, and accounts in the 1960s through 1980s. A two-digit code was used for the year in many records, not anticipating the roll-over to 2000 decades away. The early programmers either doubted that their code would still be functioning in 2000[^2] or assumed it would be cleaned up in time. In the year or two leading up to Y2K, the issue got tons of coverage and predictions of mayhem, as peoples’ digital lives—a new phenomenon—were tossed into any number of unknown upheavals. But the very fact that the issue dominated public consciousness was exactly what ensured a smooth transition. Every bank and agency got on the job and Y2K came and went without a ripple. It would be great to see a repeat in the case of potential collapse. The lack of a specific time prediction is one barrier, unlike Y2K. Without a firm deadline or a clear-and-present danger, the temptation to delay serious attention is strong.
 
 ::::
-
-:::{margin}
-Surprise—it was!
-:::
-
-:::{margin}
-Y2K is short for year-2000.
-:::
 
 A key contributor to awareness is in how information sources and activities shape opinions and views. A world overflowing with information can be difficult to navigate, and has a tendency to coagulate into isolated domains that cater to predispositions. The result can be disagreement on basic facts, making coordinated progress difficult. Luckily, attentive individuals can perform an assessment of the trustworthiness of various information outlets. The process is to watch an entire live event, like a debate or a hearing, and see how the event is covered by various news sources. Does the coverage[^3] reflect the event as you experienced it? Did it focus on the key developments or on distractions that might be emotionally “triggering?”
 
@@ -60,7 +52,7 @@ Likewise for movies and shows, which can provide healthy joy and social bonding.
 (sec-20-2)=
 ## 20.2 Communication
 
-In a democracy, collective public awareness drives the issues politicians serve. Only by having voters demand action will progress follow. Conversations with friends and family then become necessary to raise awareness among others. Effective communication that accomplishes this goal without turning people offis tricky. When the message contains bad news or suggests sacrifice, the effort can easily backfire.
+In a democracy, collective public awareness drives the issues politicians serve. Only by having voters demand action will progress follow. Conversations with friends and family then become necessary to raise awareness among others. Effective communication that accomplishes this goal without turning people off is tricky. When the message contains bad news or suggests sacrifice, the effort can easily backfire.
 
 It is important not to polarize the conversation by “bossing” people or projecting a sense of authority. An effective strategy is to fairly represent uncertainty, while still conveying credible concern. Caveats like “it seems that,” or “it appears to me that,” or “I may be wrong, but” go a long way to taking the edge off of the message and inviting the listener into a constructive conversation. It is possible to couch the language in uncertainty while still hitting the main points. Words like “possible,” “likely,” “plausible,” and “risk” can be useful to soften the tone but still express concern.
 
@@ -154,13 +146,9 @@ Recalling Def. 5.5.1 (p. 78) or the definition of the kilocalorie, heating 150 L
 
 How much energy is a 1,500 W microwave oven at home likely to use in a day, compared to a 25 W television tuner box running 100% of the time?
 
-The microwave might be on for 12 minutes per day, or 0.2 hours. That makes 0.3 $\mathrm{kWh}$ for the microwave and 0.6 kWh for the tuner box. Time matters.
+The microwave might be on for 12 minutes per day, or 0.2 hours. That makes 0.3 $\mathrm{kWh}$[^17] for the microwave and 0.6 kWh for the tuner box. Time matters.
 
 ::::
-
-:::{margin}
-… 1.5 kW times 0.2 hours
-:::
 
 **Large** $\Delta T$ **is costly.** The power it takes to maintain a temperature difference is *proportional to the temperature difference*.[^18] For related reasons, a refrigerator in a hot garage has to work especially hard[^19] to maintain a large $\Delta T$.
 
@@ -289,7 +277,7 @@ In 2019, the author’s utility bills[^36] indicate total use was 61 Therms for 
 
 ::::
 
-**Gasoline**: A typical American buys about 400 gallons of gasoline[^37] per year for personal transportation, amounting to a daily equivalent of 41 $\mathrm{kWh}$ of energy use. Keep track of your fuel purchases[^39] and compare how much you use. In the case of multiple occupancy in the car, your share can be computed by dividing how many gallons were used in the trip by the number of people. Knowing an approximate fuel economy[^40] for the car and distance traveled is enough to estimate fuel usage.
+**Gasoline**: A typical American buys about 400 gallons of gasoline[^37] per year for personal transportation, amounting to a daily equivalent of 41 $\mathrm{kWh}$[^38] of energy use. Keep track of your fuel purchases[^39] and compare how much you use. In the case of multiple occupancy in the car, your share can be computed by dividing how many gallons were used in the trip by the number of people. Knowing an approximate fuel economy[^40] for the car and distance traveled is enough to estimate fuel usage.
 
 :::{margin}
 … 36.6 kWh per gallon, or 9.7 kWh/L
@@ -408,7 +396,7 @@ where $f_{\mathrm{x}}$ factors are the fraction of one’s diet in form “x,”
 | d.e.f. |   |   | 6.1 | 2.4 | 1.0 | 3.0 |
 :::
 
-In [Table 20.3](#tab-20-3), the first column of numbers is a weighted average of factors from [Table 20.2](#tab-20-2), using the distribution weights listed where available, and assuming equal spread otherwise. The next column scales the energy ratios so that the vegetable category has $R_{\mathrm{v}}= 1$, making the dietary energy factor a measure of energy requirements *relative to* a strictly plant-based diet. For instance, red meat requires 37 times as much energy as vegetable matter, for the same metabolic energy content.
+In [Table 20.3](#tab-20-3), the first column of numbers is a weighted average of factors from [Table 20.2](#tab-20-2), using the distribution weights listed where available, and assuming equal spread otherwise. The next column scales the energy ratios so that the vegetable category has $R_{\mathrm{v}}= 1$,[^49] making the dietary energy factor a measure of energy requirements *relative to* a strictly plant-based diet. For instance, red meat requires 37 times as much energy as vegetable matter, for the same metabolic energy content.
 
 :::{margin}
 The second column of numbers is the first column divided by 0.65.
@@ -557,7 +545,7 @@ No one has a crystal ball. No one can credibly say what the future holds. Anyone
 :::{figure} ../images/fig-20-1.svg
 :label: fig-20-1
 :enumerator: 20.1
-:alt: Asymmetric risk in the face of a potential devastating threat. Plan A is the natural response if the threat is not believed to be real, and
+:alt: Asymmetric risk in the face of a potential devastating threat. Plan A is the natural response if the threat is not believed to be real, and Plan B is appropriate for mitigating the threat. The downside of the threat being real but sticking to Plan A
 
 Asymmetric risk in the face of a potential devastating threat. Plan A is the natural response if the threat is not believed to be real, and Plan B is appropriate for mitigating the threat. The downside of the threat being real but sticking to Plan A is catastrophic, whereas pursuing Plan B unnecessarily is not ideal, but not nearly as bad. We don’t get to choose reality (column), but we do get to choose the plan (row). Are we feeling lucky, or conservative?
 :::
@@ -652,6 +640,8 @@ Note that, unlike a car, the body does not function just as well at 25% “full�
 
 :::
 
+[^1]: Y2K is short for year-2000.
+[^2]: Surprise—it was!
 [^3]: Boring coverage turns out to be a decent indicator of accuracy!
 [^4]: Sure, some games aim to improve cognitive skills, which *could* transfer to real-world application. Is this the most effective path to making a difference?
 [^5]: … a space-faring future; an untrained hero saving the world; the message that anything can be built—just awaiting a genius idea from an unlikely source
@@ -666,6 +656,7 @@ Note that, unlike a car, the body does not function just as well at 25% “full�
 [^14]: A joke illustrates the usual pitfall: “How will you know if a new acquaintance is vegan? Oh, don’t worry, they’ll tell you within 10 minutes.”
 [^15]: … except, of course, in the broadest collective sense: it’s for people you will never meet who are not even alive yet, and for other life on Earth you will never see.
 [^16]: A number of the examples require some thought and estimation, which is not typical of assigned problems but may be advantageous here to promote the kind of thinking that is useful when applying to personalized situations.
+[^17]: … 1.5 kW times 0.2 hours
 [^18]: See heat loss rate and [Sec. 6.3](#sec-6-3) (p. 91).
 [^19]: … and at lower efficiency according to [Eq. 6.10](#eq-6-10) (p. 100)
 [^20]: … coal vs. natural gas vs. hydroelectric, for example
@@ -686,6 +677,7 @@ Note that, unlike a car, the body does not function just as well at 25% “full�
 [^35]: … typical billing unit; one Therm is 29.3 kWh; see [Table 20.1](#tab-20-1)
 [^36]: See the banner image on page 73 for a one-month sample.
 [^37]: Personal transportation accounts for about 65% of gasoline in the transportation sector.
+[^38]: … 36.6 kWh per gallon, or 9.7 kWh/L
 [^39]: This practice is good for tracking fuel economy as well.
 [^40]: … e.g., miles per gallon or L/100 km
 [^41]: … a non-commuting truck and a commuting plug-in hybrid that mostly uses electric drive, charged at home (the electrical demand for which is represented in [Example 20.3.10](#ex-20-3-10))
@@ -696,6 +688,7 @@ Note that, unlike a car, the body does not function just as well at 25% “full�
 [^46]: In this sense, it is the inverse of EROEI: energy *invested* to extract the food divided by energy *delivered*.
 [^47]: Owning egg-laying chickens and feeding them scraps is a delightful win, however.
 [^48]: “Dietary energy factor” is a term used in this textbook; not likely to be found elsewhere.
+[^49]: The second column of numbers is the first column divided by 0.65.
 [^50]: Note: contrived to add to 1 in each case.
 [^51]: Red meat is 3.33, which is 55% of the total energy cost while providing only 9% of the dietary benefit.
 [^52]: The actual number depends on the fraction of calories coming from dairy/eggs $(f_{\mathrm{d}})$, and can be dialed at will: it’s not stuck at exactly 2.4.

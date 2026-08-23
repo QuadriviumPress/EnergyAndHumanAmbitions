@@ -28,7 +28,7 @@ In order to frame just how important fossil fuels are and have been, we again ta
 The result may have greater impact if you are an active participant in its creation. So get some paper, the back of an envelope, or something. Draw a horizontal axis as a timeline. Label the left edge as –10,000 years (past). The right edge is +10,000 years (future). The middle is 0 (now; see the example in the margin). The vertical axis represents global energy production, on a linear scale. For ages, this was too tiny to see poking up above the floor. Only about 200 years ago did it become visible. So for the first 98% of the way from -10,000 to 0, draw a line hugging the floor. In the last 200 years, energy usage has increased exponentially.[^1] So draw a smooth curve connecting the previous line into a steep rise at present (middle of the plot), using much or all of the available vertical space.
 
 :::{figure} ../images/art-p141-1.svg
-:alt: Illustration from the original text
+:alt: Chapter opening illustration
 :::
 
 What emerges is the classic “hockey stick” plot that applies to many physical attributes of our world: population, carbon dioxide, temperature, and—in the present case—energy use. In the long flat portion of the plot, our energy came from firewood and muscle (both animal and human labor). But the sudden transformative rise is really a story of fossil fuels. Even today, having added hydroelectric, nuclear, solar, wind, geothermal, and tidal power to the mix, fossil fuels still account for over 80% of the total.[^2]
@@ -42,7 +42,7 @@ ultimately considers the last century or two to be the most insanely unusual per
 :::{figure} ../images/fig-8-1.svg
 :label: fig-8-1
 :enumerator: 8.1
-:alt: Energy over the ages, in the form of fossil fuels. Up until the present, fossil fuels capture the bulk of the human energy story. We know wh
+:alt: Energy over the ages, in the form of fossil fuels. Up until the present, fossil fuels capture the bulk of the human energy story. We know what it must look like in the long term as well. The huge question is how the second half of human history
 
 Energy over the ages, in the form of fossil fuels. Up until the present, fossil fuels capture the bulk of the human energy story. We know what it must look like in the long term as well. The huge question is how the second half of human history looks, after fossil fuels are depleted or abandoned. The yellow star is a guess as to our current position, based on evidence addressed later in the chapter suggesting that the resources are nearly halfway depleted.
 :::
@@ -81,7 +81,7 @@ Coal—which looks like black rock—is the remnant of plant matter deposited, t
 :::{figure} ../images/fig-8-2.svg
 :label: fig-8-2
 :enumerator: 8.2
-:alt: Historical use of fossil fuels worldwide, which may be viewed as a zoom-in of the left-hand side of the peak in Figure 8.1. The three types
+:alt: Historical use of fossil fuels worldwide, which may be viewed as a zoom-in of the left-hand side of the peak in Figure 8.1. The three types are stacked on top of one another, so that gas makes the smallest contribution, not the biggest. On the left
 
 Historical use of fossil fuels worldwide, which may be viewed as a zoom-in of the left-hand side of the peak in [Figure 8.1](#fig-8-1). The three types are stacked on top of one another, so that gas makes the smallest contribution, not the biggest. On the left is the raw usage rate expressed in terawatts, while the right is a per-capita measure showing that the left-hand rise is much more than just a reflection of population growth [[16](#ref-16)].
 :::
@@ -116,7 +116,7 @@ The petroleum extracted from the ground is often called crude oil, and consists 
 :::{figure} ../images/fig-8-3.svg
 :label: fig-8-3
 :enumerator: 8.3
-:alt: Octane H, containing 8 carbon atoms and 18 hydrogens) is among the shorter/lighter hydrocarbon chains found in oil, and is typical of gasoli
+:alt: Octane (C8H18, containing 8 carbon atoms and 18 hydrogens) is among the shorter/lighter hydrocarbon chains found in oil, and is typical of gasoline. Longer chains of the same basic design are found in lubricants, tar, and as feedstock for plastics.
 
 Octane $(\mathrm{C}_{8}$H$_{18}$, containing 8 carbon atoms and 18 hydrogens) is among the shorter/lighter hydrocarbon chains found in oil, and is typical of gasoline. Longer chains of the same basic design are found in lubricants, tar, and as feedstock for plastics.
 :::
@@ -124,7 +124,7 @@ Octane $(\mathrm{C}_{8}$H$_{18}$, containing 8 carbon atoms and 18 hydrogens) is
 :::{figure} ../images/fig-8-4.svg
 :label: fig-8-4
 :enumerator: 8.4
-:alt: Fractional use of a barrel of petroleum, from [41]. All but asphalt, petrochemical feedstock, lubricants, and “other” are burned for energy
+:alt: Fractional use of a barrel of petroleum, from [41]. All but asphalt, petrochemical feedstock, lubricants, and “other” are burned for energy, amounting to 92% burned. Still gases include methane, ethane, propane and butane in gaseous form, while the
 
 Fractional use of a barrel of petroleum, from [[41](#ref-41)]. All but asphalt, petrochemical feedstock, lubricants, and “other” are burned for energy, amounting to 92% burned. Still gases include methane, ethane, propane and butane in gaseous form, while the light liquids are also mostly propane and butane in liquid form. Coke is not the soft drink.
 :::
@@ -142,12 +142,12 @@ To provide some perspective on how special/rare oil is, the chances of finding a
 :::{figure} ../images/fig-8-5.jpg
 :label: fig-8-5
 :enumerator: 8.5
-:alt: Oil and gas embedded in porous rock, under an impermeable caprock [42]. From U. Calgary. Losing even a drop per second adds up to 20 mil
+:alt: Oil and gas embedded in porous rock, under an impermeable caprock. From U. Calgary.
 
-Oil and gas embedded in porous rock, under an impermeable caprock [[42](#ref-42)]. From U. Calgary. Losing even a drop per second adds up to 20 million barrels over one million years, which is short on these geological timescales.
+Oil and gas embedded in porous rock, under an impermeable caprock [[42](#ref-42)]. From U. Calgary.
 :::
 
-4. An impermeable caprock structure must sit atop the permeable and porous rock ([Figure 8.5](#fig-8-5)) that holds the high-pressure oil to keep it from simply escaping.
+4. An impermeable caprock structure must sit atop the permeable and porous rock ([Figure 8.5](#fig-8-5)) that holds the high-pressure oil to keep it from simply escaping.[^27]
 
 Oil deposits are rare and tend to be clustered in certain regions of the world where ancient shallow seabeds and geological activity have conspired to sequester organic material and transform it appropriately. The process takes millions of years to complete, and we are depleting the resource about 100,000 times faster than it is being replenished.[^28]
 
@@ -383,7 +383,7 @@ In all cases, it is obvious that we would pursue the easiest resources first: th
 :::{figure} ../images/fig-8-6.svg
 :label: fig-8-6
 :enumerator: 8.6
-:alt: Three scenarios for a finite resource playing out, all based on the same initial history (the red dot is “now”) and the same remaining amoun
+:alt: Three scenarios for a finite resource playing out, all based on the same initial history (the red dot is “now”) and the same remaining amount (blue-shaded region). The red bar over each represents the remaining time until resource decline. See text
 
 Three scenarios for a finite resource playing out, all based on the same initial history (the red dot is “now”) and the same remaining amount (blue-shaded region). The red bar over each represents the remaining time until resource decline. See text for details.
 :::
@@ -398,7 +398,7 @@ A plot of the discovery history of conventional oil is revealing, seen in [Figur
 :::{figure} ../images/fig-8-7.svg
 :label: fig-8-7
 :enumerator: 8.7
-:alt: Historical discovery rate of conventional oil (blue), measured in billion barrels (Gbbl) discovered each year [48]. The red curve shows annu
+:alt: Historical discovery rate of conventional oil (blue), measured in billion barrels (Gbbl) discovered each year [48]. The red curve shows annual global consumption of conventional crude oil. Until about 1985, we tended to discover more oil than we
 
 Historical discovery rate of conventional oil (blue), measured in billion barrels (Gbbl) discovered each year [[48](#ref-48)]. The red curve shows annual global consumption of conventional crude oil. Until about 1985, we tended to discover more oil than we used each year, but the rate of discovery peaked decades ago and is now in decline as we complete the job of exploring Earth’s resources. The blue area is made equal to area under the red curve, which itself represents the amount of oil used to date. This effectively means that we have used all the oil discovered up to 1976, and are now left with a dwindling bank account (oil reserve)—our annual income (new discovery) being less than our spending (consumption).
 :::
@@ -410,7 +410,7 @@ The information in [Figure 8.7](#fig-8-7) can also be re-cast to ask how many ye
 :::{figure} ../images/fig-8-8.svg
 :label: fig-8-8
 :enumerator: 8.8
-:alt: Years remaining in the global conventional oil resource as a function of time, extracted from the data in Figure 8.7. Since 1982, the world
+:alt: Years remaining in the global conventional oil resource as a function of time, extracted from the data in Figure 8.7. Since 1982, the world has been on a steady path toward depletion of the conventional oil resource by 2050.
 
 Years remaining in the global conventional oil resource as a function of time, extracted from the data in [Figure 8.7](#fig-8-7). Since 1982, the world has been on a steady path toward depletion of the conventional oil resource by 2050.
 :::
@@ -418,7 +418,7 @@ Years remaining in the global conventional oil resource as a function of time, e
 :::{figure} ../images/fig-8-9.svg
 :label: fig-8-9
 :enumerator: 8.9
-:alt: North Sea (U.K.) oil discoveries (blue, in giga-barrels per year) peaked in the 1970s and have basically ended. Production (red) lags discov
+:alt: North Sea (U.K.) oil discoveries (blue, in giga-barrels per year) peaked in the 1970s and have basically ended. Production (red) lags discovery, and cannot carry on much longer as the last of the discovered oil (unshaded blue outline) is extracted.
 
 North Sea (U.K.) oil discoveries (blue, in giga-barrels per year) peaked in the 1970s and have basically ended. Production (red) lags discovery, and cannot carry on much longer as the last of the discovered oil (unshaded blue outline) is extracted. Plot conventions follow those in [Figure 8.7](#fig-8-7).
 :::
@@ -428,7 +428,7 @@ We have seen this story play out numerous times within oil-producing regions. Di
 :::{figure} ../images/fig-8-10.svg
 :label: fig-8-10
 :enumerator: 8.10
-:alt: U.S. oil production history (blue; from [49]) and consumption history (red; from [34]), in both million barrels per day (left axis) and bill
+:alt: U.S. oil production history (blue; from [49]) and consumption history (red; from [34]), in both million barrels per day (left axis) and billion barrels per year (right). The conventional production peak is visible around 1970, a second peak around
 
 U.S. oil production history (blue; from [[49](#ref-49)]) and consumption history (red; from [[34](#ref-34)]), in both million barrels per day (left axis) and billion barrels per year (right). The conventional production peak is visible around 1970, a second peak around 1985 from Prudhoe Bay in Alaska, and finally a dramatic upturn due to hydraulic fracturing practices in the last decade. The gap between blue and red curves is made up by imports. The downturn in fracking production in 2020 coincides with the COVID pandemic, so it is not clear whether U.S. oil production will resume the climb or if we are past the peak.
 :::
@@ -445,7 +445,7 @@ Another wrinkle worth mentioning is the geopolitical angle. Much of the world’
 :::{figure} ../images/fig-8-11.svg
 :label: fig-8-11
 :enumerator: 8.11
-:alt: Distribution of proven oil reserves by country, on left, according to the U.S. Energy Information Administration. The oil in Venezuela and C
+:alt: Distribution of proven oil reserves by country, on left, according to the U.S. Energy Information Administration. The oil in Venezuela and Canada is heavy oil, harder to extract and process than the light oil characteristic of the middle-east. At
 
 Distribution of proven oil reserves by country, on left, according to the U.S. Energy Information Administration. The oil in Venezuela and Canada is heavy oil, harder to extract and process than the light oil characteristic of the middle-east. At right is the oil consumption by country for the top ten consumers (U.S. EIA). Note that the U.S. possesses 2% of the oil, but consumes about 20% of annual production, and an overall lack of correlation between who *has* oil and who *needs* it.
 :::
@@ -598,6 +598,7 @@ The rookie mistake here is assuming that adults are in charge. Markets are in ch
 [^24]: [Fig. 7.4](#fig-7-4) (p. 112) and [Fig. 7.7](#fig-7-7) (p. 114)
 [^25]: As a consequence, the U.S. is presently unable to support its petroleum needs from domestic resources alone.
 [^26]: … based on a crude calculation of the total resource and assuming a typical deposit thickness of 10 m
+[^27]: Losing even a drop per second adds up to 20 million barrels over one million years, which is short on these geological timescales.
 [^28]: A simple way to see this is that it took tens of millions years to create the resource that we are consuming over the course of a few centuries: a ratio of at least 100,000 (see [Box 10.2](#box-10-2); p. 176). This is like charging a phone for 3 hours and then discharging it in 0.1 seconds! Viva Las Vegas! Fireworks!
 [^29]: … colloquially called fracking
 [^30]: The Haber process uses the energetically cheap hydrogen in methane (CH$_{4})$ to produce ammonia (NH$_{3})$ as a chief ingredient in nitrogen-rich fertilizers.

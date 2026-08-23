@@ -21,7 +21,7 @@ Although the focus of this chapter will be on the alarming rate of population gr
 :::{figure} ../images/fig-3-1.svg
 :label: fig-3-1
 :enumerator: 3.1
-:alt: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population
+:alt: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in
 
 Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. [[14](#ref-14), [15](#ref-15), [16](#ref-16)].
 :::
@@ -58,7 +58,7 @@ The recent rapid rise is a fascinating development, and begs for a closer look. 
 :::{figure} ../images/fig-3-4.svg
 :label: fig-3-4
 :enumerator: 3.4
-:alt: Global population estimate, over recent centuries. On the logarithmic plot, lines of constant slope are exponential in behavior. Four such e
+:alt: Global population estimate, over recent centuries. On the logarithmic plot, lines of constant slope are exponential in behavior. Four such exponential segments can be broken out in the plot, having increasing growth rates. [14, 15].
 
 Global population estimate, over recent centuries. On the logarithmic plot, lines of constant slope are exponential in behavior. Four such exponential segments can be broken out in the plot, having increasing growth rates. [[14](#ref-14), [15](#ref-15)].
 :::
@@ -218,7 +218,7 @@ P\dot{} = \frac{Q - P}{Q} rP.
 :::{figure} ../images/fig-3-6.svg
 :label: fig-3-6
 :enumerator: 3.6
-:alt: The rate of growth in the logistic model decreases as population increases, starting out at when and reaching zero as (see Eq. 3.5).
+:alt: The rate of growth in the logistic model decreases as population increases, starting out at r when P = 0 and reaching zero as P → Q (see Eq. 3.5).
 
 The rate of growth in the logistic model decreases as population increases, starting out at $r$ when $P = 0$ and reaching zero as $P \rightarrow Q$ (see [Eq. 3.5](#eq-3-5)).
 :::
@@ -243,7 +243,7 @@ The first part of the curve in [Figure 3.7](#fig-3-7), for very negative values[
 :::{figure} ../images/fig-3-7.svg
 :label: fig-3-7
 :enumerator: 3.7
-:alt: Logistic population curve (blue), sometimes called an S-curve, as given in Eq. 3.6, in this case plotting for to match examples in the text.
+:alt: Logistic population curve (blue), sometimes called an S-curve, as given in Eq. 3.6, in this case plotting for r = 0.5 to match examples in the text. The red curve is the exponential that would result without any negative feedback.
 
 Logistic population curve (blue), sometimes called an S-curve, as given in [Eq. 3.6](#eq-3-6), in this case plotting for $r = 0.5$ to match examples in the text. The red curve is the exponential that would result without any negative feedback.
 :::
@@ -310,7 +310,7 @@ We can explore what happens to our logistic curve if the negative feedback is de
 :::{figure} ../images/fig-3-8.svg
 :label: fig-3-8
 :enumerator: 3.8
-:alt: Feedback delay generally results in overshoot and oscillation, shown for various delay values, . The black curve is the nominal no-delay log
+:alt: Feedback delay generally results in overshoot and oscillation, shown for various delay values, tau. The black curve (tau = 0) is the nominal no-delay logistic curve. As the delay increases, the severity of overshoot increases. Delays are explored in
 
 Feedback delay generally results in overshoot and oscillation, shown for various delay values, $\tau$. The black curve $(\tau = 0)$ is the nominal no-delay logistic curve. As the delay increases, the severity of overshoot increases. Delays are explored in increments of 0.5 times the characteristic timescale of $1/r$ (using $r = 0.5$ here to match previous examples, so that a delay of $\tau = 1.5/r$ equates to 3 time units on the graph, for instance). The delay durations are also indicated by bar lengths in the legend.
 :::
@@ -320,7 +320,7 @@ Eventually all the curves in [Figure 3.8](#fig-3-8) converge to the steady state
 :::{figure} ../images/fig-3-9.svg
 :label: fig-3-9
 :enumerator: 3.9
-:alt: Human population data points (blue) and a logistic curve (red) that represents the best fit to data points from 1950 onward. The resulting l
+:alt: Human population data points (blue) and a logistic curve (red) that represents the best fit to data points from 1950 onward. The resulting logistic function has Q ≈ 12 Gppl, r = 0.028, and a midpoint at the year 1997. The actual data sequence has a
 
 Human population data points (blue) and a logistic curve (red) that represents the best fit to data points from 1950 onward. The resulting logistic function has $Q \approx 12$ Gppl, $r = 0.028$, and a midpoint at the year 1997. The actual data sequence has a sudden bend at 1950 (Green Revolution?) that prevents a suitable fit to a larger span of data. In other words, the actual data do not follow a single logistic function very well, which is to be expected when conditions change suddenly (energy and technology, in this case) [[14](#ref-14), [15](#ref-15)].
 :::
@@ -366,7 +366,7 @@ Population growth happens when the birth rate exceeds the death rate.
 :::{figure} ../images/fig-3-10.svg
 :label: fig-3-10
 :enumerator: 3.10
-:alt: Net population rate, in percent, as a function of per-capita GDP. A clear trend shows wealthier countries having lower growth rates. A win-w
+:alt: Net population rate, in percent, as a function of per-capita GDP. A clear trend shows wealthier countries having lower growth rates. A win–win solution would seem to present itself, in which everyone arrives at the lower right-hand side of this
 
 Net population rate, in percent, as a function of per-capita GDP. A clear trend shows wealthier countries having lower growth rates. A win–win solution would seem to present itself, in which everyone arrives at the lower right-hand side of this graph: more money for all and a stable population! Dot size (area) is proportional to population [[6](#ref-6), [8](#ref-8), [19](#ref-19), [20](#ref-20)].
 :::
@@ -398,7 +398,7 @@ In order to accomplish this goal, reduced death rates are facilitated by
 :::{figure} ../images/fig-3-11.svg
 :label: fig-3-11
 :enumerator: 3.11
-:alt: Birth rates and death rates for countries, where dot size is proportional to population. The diagonal line indicates parity between birth an
+:alt: Birth rates and death rates for countries, where dot size is proportional to population. The diagonal line indicates parity between birth and death rates, resulting in no population growth. Countries above the line are growing population, while
 
 Birth rates and death rates for countries, where dot size is proportional to population. The diagonal line indicates parity between birth and death rates, resulting in no population growth. Countries above the line are growing population, while countries below are shrinking. A few countries fall a bit below this line [[8](#ref-8), [19](#ref-19), [20](#ref-20)].
 :::
@@ -410,7 +410,7 @@ introducing modern medicine and health services to the population. Reduced birth
 :::{figure} ../images/fig-3-12.svg
 :label: fig-3-12
 :enumerator: 3.12
-:alt: Schematic of how the demographic transition may play out in the space plotted in Figure 3.11. At points A and D, birth rates and death rates
+:alt: Schematic of how the demographic transition may play out in the space plotted in Figure 3.11. At points A and D, birth rates and death rates are equal, resulting in no population growth. Typically, death rates decline while birth rates increase
 
 Schematic of how the demographic transition may play out in the space plotted in [Figure 3.11](#fig-3-11). At points A and D, birth rates and death rates are equal, resulting in no population growth. Typically, death rates decline while birth rates increase (point B), and eventually death rates reach a floor while birth rates begin to fall (at C).
 :::
@@ -425,7 +425,7 @@ However, we need to understand the consequences. Just because we *want* somethin
 :::{figure} ../images/fig-3-13.jpg
 :label: fig-3-13
 :enumerator: 3.13
-:alt: Net population growth rate by country: birth rate minus death rate per 1,000 people per year. The highest net growth (darkest shading) is Ni
+:alt: Net population growth rate by country: birth rate minus death rate per 1,000 people per year. The highest net growth (darkest shading) is Niger, in Saharan Africa [19, 20].
 
 Net population growth rate by country: birth rate minus death rate per 1,000 people per year. The highest net growth (darkest shading) is Niger, in Saharan Africa [[19](#ref-19), [20](#ref-20)].
 :::
@@ -439,7 +439,7 @@ But let us cast population rates in different countries in a new light. Referrin
 :::{figure} ../images/fig-3-14.jpg
 :label: fig-3-14
 :enumerator: 3.14
-:alt: Absolute population growth rate by country: how many millions of people are added per year (birth rate minus death rate times population) [8
+:alt: Absolute population growth rate by country: how many millions of people are added per year (birth rate minus death rate times population) [8, 19, 20].
 
 Absolute population growth rate by country: how many millions of people are added per year (birth rate minus death rate times population) [[8](#ref-8), [19](#ref-19), [20](#ref-20)].
 :::
@@ -489,7 +489,7 @@ Adding another relevant perspective, when one considers that the per-capita ener
 :::{figure} ../images/fig-3-15.svg
 :label: fig-3-15
 :enumerator: 3.15
-:alt: Graphical representation of Table 3.4, for all countries. Dots, whose size is proportional to population, indicate how many people are added
+:alt: Graphical representation of Table 3.4, for all countries. Dots, whose size is proportional to population, indicate how many people are added per year, and how much additional energy demand is created as a consequence. Color indicates the added
 
 Graphical representation of [Table 3.4](#tab-3-4), for all countries. Dots, whose size is proportional to population, indicate how many people are added per year, and how much additional energy demand is created as a consequence. Color indicates the added population-growth-driven power demand an individual citizen is responsible for generating each year as a member of the society. Negative cases (contracting) include Russia, Japan, Germany, and Ukraine [[7](#ref-7), [8](#ref-8), [19](#ref-19), [20](#ref-20)].
 :::
@@ -558,7 +558,7 @@ Energy in this context is a proxy for other material resources. Consider the glo
 :::{figure} ../images/fig-3-17.svg
 :label: fig-3-17
 :enumerator: 3.17
-:alt: What our energy demand would have to do (blue-dashed line) if the growing global population (here projected as a red-dashed logistic curve)
+:alt: What our energy demand would have to do (blue-dashed line) if the growing global population (here projected as a red-dashed logistic curve) grew its per-capita energy consumption to current U.S. standards by the year 2100 (a factor-of-five
 
 What our energy demand would have to do (blue-dashed line) if the growing global population (here projected as a red-dashed logistic curve) grew its per-capita energy consumption to current U.S. standards by the year 2100 (a factor-of-five increase). Historical energy and population are represented as solid curves. The departure from past reality would have to be staggering [[15](#ref-15), [16](#ref-16)].
 :::
@@ -644,18 +644,13 @@ Hint: It is perfectly acceptable to hold a (preferably transparent) straight-edg
 
 :::
 
-2. Notice that on logarithmic plots,[^34] factors of ten on the logarithmic axis span the *same distance*. This applies for *any* numerical factor— not just ten.[^35] Shorter (minor) tick marks between labeled (major) ticks multiply the preceding tick label by 2, 3, 4, 5, 6, 7, 8, 9. The graphic below illustrates the constant distance property for a factor of two. Now try a different multiplier (not 2 or 10), measuring the distance between tick marks, and report/draw how you graphically verified that your numerical factor spans the same distance no matter where you “slide” it on the axis.
-
-:::{margin}
-that $\log ( \frac{a}{b} ) = \log a - \log b$. The property applies for any base, so $\log _{10}$ and ln behave the same way. The green bars indicate that the same distance from 1 to 2 applies to 3–6, 40–80, and 500–1,000.
-
-:::
+2. Notice that on logarithmic plots,[^34] factors of ten on the logarithmic axis span the *same distance*. This applies for *any* numerical factor— not just ten.[^35] Shorter (minor) tick marks between labeled (major) ticks multiply the preceding tick label by 2, 3, 4, 5, 6, 7, 8, 9. The graphic below illustrates the constant distance property for a factor of two.[^36] Now try a different multiplier (not 2 or 10), measuring the distance between tick marks, and report/draw how you graphically verified that your numerical factor spans the same distance no matter where you “slide” it on the axis.
 
    :::{figure} ../images/art-p073-1.svg
    :alt: Illustration from the original text
    :::
 
-3. Looking at [Figure 3.3](#fig-3-3), if humans had continued the slow growth phase characteristic of the period until about 1700, what does the *graph* suggest world population would be today, approximately, if the magenta line were extended to “now?”[^37] Put the answer in familiar terms, measured in millions or billions, depending on what is most natural.
+3. Looking at [Figure 3.3](#fig-3-3), if humans had continued the slow growth phase characteristic of the period until about 1700, what does the *graph* suggest world population would be today, approximately, if the magenta line were extended to “now?”[^37] Put the answer in familiar terms, measured in millions or billions, depending on what is most natural.[^38]
 
 4. Looking at [Figure 3.4](#fig-3-4), if humans had continued the moderate growth phase characteristic of the period from the year 1000 to 1700, what does the *graph* suggest world population would be today, approximately, if the magenta line were extended to “now?”
 
@@ -752,18 +747,8 @@ For instance, Oceania has a ratio of 1.0 for population growth (0.5% of populati
 22. The set of diagrams below show five different time sequences on the left akin to [Figure 3.16](#fig-3-16), labeled 1–5. The first four on the left have increasing $\tau$ (delay until birth rate begins falling), and the last increases birth rate before falling again. On the right are five trajectories in the birth/death rate space (like [Figure 3.12](#fig-3-12)), scrambled into a different order and labeled A–E.[^42] Deduce how the corresponding trajectory for each time sequence would appear in the birth/death rate plot on the right, matching letters to numbers for all five.
 
    :::{figure} ../images/art-p076-1.svg
-   :alt: Illustration from the original text
+   :alt: Five time sequences (labeled 1-5) of birth and death rate vs. time on the left, and five scrambled trajectories (labeled A-E) in birth/death rate space on the right, to be matched up.
    :::
-
-   1.
-
-   2.
-
-   3.
-
-   4.
-
-5. E.
 
 23. Referring to the figures for Problem 22 (and described within the same problem), which pair[^43] corresponds to the largest population surge, and which pair produces the smallest? Explain your reasoning, consistent with the presentation in the text.
 
@@ -822,8 +807,10 @@ Hint: think about what the graph would look like in these scenarios.
 [^32]: This is another case of delay in negative feedback resulting in overshoot.
 [^33]: A group size of 1,200 is small enough to prevent hiding irresponsible actions behind anonymity.
 [^34]: See, for example, [Figures 3.3](#fig-3-3) and 3.4.
-[^35]: This is due to the property of logarithms
-[^37]: Determine graphically (may need to zoom in). See Problem 2 and the associated graphic to better understand how the tick marks work. I.e., don’t say 0.01 billion if 10 million is more natural, or 8,000 million when 8 billion would do.
+[^35]: This is due to the property of logarithms that $\log(\frac{a}{b}) = \log a - \log b$. The property applies for any base, so $\log_{10}$ and ln behave the same way.
+[^36]: The green bars indicate that the same distance from 1 to 2 applies to 3–6, 40–80, and 500–1,000.
+[^37]: Determine graphically (may need to zoom in). See Problem 2 and the associated graphic to better understand how the tick marks work.
+[^38]: I.e., don’t say 0.01 billion if 10 million is more natural, or 8,000 million when 8 billion would do.
 [^39]: See [Eq. 3.6](#eq-3-6).
 [^40]: Numbers may change from when the plot was made; population can help settle based on dot size.
 [^41]: … much farther from dashed line

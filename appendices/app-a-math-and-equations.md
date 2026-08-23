@@ -143,7 +143,7 @@ Let’s formulate rules about multiplication of fractions based on stuff we know
 :::{figure} ../images/fig-a-1.svg
 :label: fig-a-1
 :enumerator: A.1
-:alt: Paralleling Eq. A.1, we can slice one pie into five equal pieces (left) and keep three of them (lower left); or we can split three pies into
+:alt: Paralleling Eq. A.1, we can slice one pie into five equal pieces (left) and keep three of them (lower left); or we can split three pies into equal-area pieces (same color; sometimes split up across different pies) and take one of the resulting
 
 Paralleling [Eq. A.1](#eq-a-1), we can slice one pie into five equal pieces (left) and keep three of them (lower left); or we can split three pies into equal-area pieces (same color; sometimes split up across different pies) and take one of the resulting pieces. In both cases, the bottom row is the same amount of pie.
 :::

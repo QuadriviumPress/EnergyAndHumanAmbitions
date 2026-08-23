@@ -74,7 +74,7 @@ Notice the black and gray block at lower center, representing electricity. We de
 :::{figure} ../images/fig-7-2.svg
 :label: fig-7-2
 :enumerator: 7.2
-:alt: Tracking of energy sources and end-use in the U.S. for 2018, from section 2.0 of the AER. Small numbers beside the blocks represent percenta
+:alt: Tracking of energy sources and end-use in the U.S. for 2018, from section 2.0 of the AER. Small numbers beside the blocks represent percentages. Numbers that are not percentages are qBtu (quads). From U.S. EIA.
 
 Tracking of energy sources and end-use in the U.S. for 2018, from section 2.0 of the AER. Small numbers beside the blocks represent percentages. Numbers that are not percentages are qBtu (quads). From U.S. EIA.
 :::
@@ -166,7 +166,7 @@ Multiplying the electrical output by a factor of about 3 recovers the thermal eq
 :::{figure} ../images/fig-7-4.svg
 :label: fig-7-4
 :enumerator: 7.4
-:alt: Recent history of primary energy consumption in the U.S. The three fossil fuels and nuclear are shown separately, and then all renewable sou
+:alt: Recent history of primary energy consumption in the U.S. The three fossil fuels and nuclear are shown separately, and then all renewable sources are grouped together. Note that at the end of the plot, coal has sunk into a tie with renewable
 
 Recent history of primary energy consumption in the U.S. The three fossil fuels and nuclear are shown separately, and then all renewable sources are grouped together. Note that at the end of the plot, coal has sunk into a tie with renewable resources. The plot on the right shows percentages of total energy. Most of the lines are fairly flat, although in recent years the main story is gas replacing coal.
 :::
@@ -183,7 +183,7 @@ right-hand side of the plot, and the trends suggest a clear reversal of rank goi
 :::{figure} ../images/fig-7-5.svg
 :label: fig-7-5
 :enumerator: 7.5
-:alt: Recent history of non-fossil energy consumption in the U.S. Nuclear, hydroelectric, and biomass have dominated, while wind and solar are ris
+:alt: Recent history of non-fossil energy consumption in the U.S. Nuclear, hydroelectric, and biomass have dominated, while wind and solar are rising to join as players. Asterisks indicate thermal equivalents, as described in Box 7.2. The same data are
 
 Recent history of non-fossil energy consumption in the U.S. Nuclear, hydroelectric, and biomass have dominated, while wind and solar are rising to join as players. Asterisks indicate thermal equivalents, as described in [Box 7.2](#box-7-2). The same data are plotted at right as a percentage of total energy. Aside from the rapid rise of nuclear in the middle years of the plot, the recent entry of wind and solar (though still only a few percent) is the most interesting development.
 :::
@@ -208,7 +208,7 @@ comparable in the U.S., this is not true globally, for reasons discussed shortly
 :::{figure} ../images/fig-7-7.svg
 :label: fig-7-7
 :enumerator: 7.7
-:alt: Recent history of primary energy consumption in the world. The three fossil fuels and nuclear are shown separately, while renewable sources
+:alt: Recent history of primary energy consumption in the world. The three fossil fuels and nuclear are shown separately, while renewable sources are grouped together. The plot on the right shows the same data as a percentage of the whole.
 
 Recent history of primary energy consumption in the world. The three fossil fuels and nuclear are shown separately, while renewable sources are grouped together. The plot on the right shows the same data as a percentage of the whole.
 :::
@@ -218,7 +218,7 @@ For non-fossil contributions, [Figure 7.8](#fig-7-8) shows the evolution of rece
 :::{figure} ../images/fig-7-8.svg
 :label: fig-7-8
 :enumerator: 7.8
-:alt: Recent history of non-fossil global energy consumption. Asterisks indicate thermal equivalents, as described in Box 7.2. The plot at right s
+:alt: Recent history of non-fossil global energy consumption. Asterisks indicate thermal equivalents, as described in Box 7.2. The plot at right shows each source as a percentage of the total energy. Biomass accounted for a quarter of global energy in
 
 Recent history of non-fossil global energy consumption. Asterisks indicate thermal equivalents, as described in [Box 7.2](#box-7-2). The plot at right shows each source as a percentage of the total energy. Biomass accounted for a quarter of global energy in 1950.
 :::
@@ -253,7 +253,7 @@ This may be a factor in nostalgia for what some Americans see as the “glory da
 :::{figure} ../images/fig-7-9.svg
 :label: fig-7-9
 :enumerator: 7.9
-:alt: The left figure combines Figure 7.4 and Figure 7.7 to show the percentage of energy resources consumed by the U.S. over time. The overall pi
+:alt: The left figure combines Figure 7.4 and Figure 7.7 to show the percentage of energy resources consumed by the U.S. over time. The overall picture is of a world catching up to an early leader. The U.S. was a literal “superpower” in the middle of the
 
 The left figure combines [Figure 7.4](#fig-7-4) and [Figure 7.7](#fig-7-7) to show the percentage of energy resources consumed by the U.S. over time. The overall picture is of a world catching up to an early leader. The U.S. was a literal “superpower” in the middle of the twentieth century. The dashed line at bottom represents the fraction of U.S. population in the world, so that energy use above this line means a greater-than-average share, which is true for all sources. The plot at right combines [Figure 7.5](#fig-7-5) and [Figure 7.8](#fig-7-8) to show the percentage of renewable and nuclear energy resources consumed by the U.S. over time. Solar and wind are characteristic of a nation known for
 :::

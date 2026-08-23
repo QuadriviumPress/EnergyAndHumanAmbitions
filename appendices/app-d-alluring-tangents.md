@@ -25,7 +25,7 @@ So that’s the limit to our vision, based on the idea that light has not had ti
 
 But is it a real edge? All indications are that it is certainly not. When we look 13.8 billion light years away, we just see this glowing plasma (the CMB). But in the intervening years, galaxies and stars and planets have formed in that region of space, and would appear “normal,” or mature today. So imagine a being on such a planet looking at us today, 13.8 billion light years distant. But they see us 13.8 billion years ago, when our neighborhood was still a glowing plasma well before the formation of galaxies, stars, and planets.
 
-Let’s say the distant being is directly behind you and you are both looking offin the same direction—the alien essentially looking over your shoulder as you look directly opposite the direction to the alien. You (or the primordial gas that will someday become you) are at the limit of their vision, and they can’t see anything beyond you. You sit at their edge. But to you it’s no edge. You have no trouble seeing more “normal” universe stretching another 13.8 billion light years beyond what our distant friend can see. It’s only a perceived edge, based on the limit of light travel time.
+Let’s say the distant being is directly behind you and you are both looking off in the same direction—the alien essentially looking over your shoulder as you look directly opposite the direction to the alien. You (or the primordial gas that will someday become you) are at the limit of their vision, and they can’t see anything beyond you. You sit at their edge. But to you it’s no edge. You have no trouble seeing more “normal” universe stretching another 13.8 billion light years beyond what our distant friend can see. It’s only a perceived edge, based on the limit of light travel time.
 
 A nice way to think of it is familiar scenes of limited vision, like in a fog or in the ocean, or even on the curved surface of Earth. All cases have a horizon: a limit to the distance visible. Yet moving to the edge of vision reveals a whole new region that was before invisible. Keep going and your starting region will no longer be visible, or within your horizon. But it has not ceased to exist.
 
@@ -74,7 +74,7 @@ A gas cloud in space collapses due to gravitational attraction, exchanging gravi
 
 Eventually, particles in the core of the about-to-be star are moving so fast as they heat up that the electrical potential barrier[^3] is overcome so that protons can get close enough for the strong nuclear force to take over and permit nuclear fusion to occur, at which point we can call this thing a *star*. Four protons[^4] bond together, two of which convert to neutrons to form a helium nucleus. The total mass of the result is *less* than the summed mass of the inputs, the balance[^5] going into photons, or light energy.
 
-The photons eventually make it out of the opaque plasma of the star, and stream toward Earth, where a leaf absorbs the energy and cleverly converts it to chemical energy by rearranging atoms and electrons into sugars.[^6] The leaf falls offand eventually settles at the bottom of a shallow sea to be buried by sediments and ultimately becomes oil, preserving most[^7] of its chemical energy as it changes molecular form.
+The photons eventually make it out of the opaque plasma of the star, and stream toward Earth, where a leaf absorbs the energy and cleverly converts it to chemical energy by rearranging atoms and electrons into sugars.[^6] The leaf falls off and eventually settles at the bottom of a shallow sea to be buried by sediments and ultimately becomes oil, preserving most[^7] of its chemical energy as it changes molecular form.
 
 One day, a silly human digs up the oil and combusts it with oxygen, converting chemical energy to thermal energy in a contained fireball explosion. The thermal energy is used to produce kinetic energy of a piston in a cylinder, transmitted mechanically to wheels that in turn propel a car along a freeway.[^8]
 
@@ -101,7 +101,7 @@ Even devices whose job it is to *cool* things are net generators of heat. The ai
 
 Essentially the only exceptions to the heat fate of our energy expenditures is anything that we launch into space, like electromagnetic radiation (radio, light). This is a very tiny fraction of our energy expenditure, and can be quantitatively ignored. Most of our energy is from burning fossil fuels, which is an inherently thermal process. The part we salvage as useful energy itself tends to end up as heat after serving its intended purpose.
 
-In the end, most of the heat we generate on Earth’s surface finds its way back to space as infrared radiation. All objects glow in the infrared, and once the radiation escapes our atmosphere it is gone from Earth forever.[^12] At this point, the energy is pretty well spent, so that we would not be able to profit from its use should we try to capture it.$^{13}$ The energy that came from the universe returns there, as part of the dull, fading glow that lingers from the Big Bang.
+In the end, most of the heat we generate on Earth’s surface finds its way back to space as infrared radiation. All objects glow in the infrared, and once the radiation escapes our atmosphere it is gone from Earth forever.[^12] At this point, the energy is pretty well spent, so that we would not be able to profit from its use should we try to capture it.[^13] The energy that came from the universe returns there, as part of the dull, fading glow that lingers from the Big Bang.
 
 (sec-d-3)=
 ## D.3 Electrified Transport
@@ -180,13 +180,13 @@ characterize charge times. Adding enough charge to cover an average day of 30 mi
 
 Imagine now making a long road trip, driving at 100 km per hour. Even the fastest charge rate[^30] in [Table D.1](#tab-d-1) is 2.5 times slower. Every 400 km driven will take 4 hours on the road plus 10 hours at a charger for an average rate of 28 km/hr,[^31] or 18 mi/hr.
 
-Special fast-charge stations can provide a staggering 250 $\mathrm{kW}^{32}$ of power, cutting charge times dramatically. But this is neighborhood-scale energy delivery that households cannot expect to supply themselves. It is also informative to compute the temperature rise of a battery from a fast charge. If charging is 90% efficient, the other 10% turns to heat in the battery. Each kilowatt-hour of battery capacity has an associated mass around 5–10 kg, and receives 0.1 kWh (360 kJ) of thermal energy when charged. At a specific heat capacity around 1,000 $\mathrm{J/kg}/^{\circ}\mathrm{C}$, a 360 kJ deposition increases the cell’s temperature by 36–$72^{\circ}\mathrm{C}$, depending on energy density.[^33] This is not a small rise (reaching boiling temperatures on warm days), and can contribute to shorter battery lifetime.
+Special fast-charge stations can provide a staggering 250 $\mathrm{kW}$[^32] of power, cutting charge times dramatically. But this is neighborhood-scale energy delivery that households cannot expect to supply themselves. It is also informative to compute the temperature rise of a battery from a fast charge. If charging is 90% efficient, the other 10% turns to heat in the battery. Each kilowatt-hour of battery capacity has an associated mass around 5–10 kg, and receives 0.1 kWh (360 kJ) of thermal energy when charged. At a specific heat capacity around 1,000 $\mathrm{J/kg}/^{\circ}\mathrm{C}$, a 360 kJ deposition increases the cell’s temperature by 36–$72^{\circ}\mathrm{C}$, depending on energy density.[^33] This is not a small rise (reaching boiling temperatures on warm days), and can contribute to shorter battery lifetime.
 
 :::{margin}
 … like 200 homes
 :::
 
-So electric cars are not simple drop-in replacements for the gasoline machines roaming the roads today, that effectively refuel at a rate of 10 $\mathrm{MW}^{34}$ given the fast delivery of an extremely energy-dense liquid. On performance and convenience measures, it would be hard to characterize them as *superior* substitutes. But they can *certainly* suit well for local travel when given ample time to recharge—overnight, for instance. And in the long run, it seems we will have little choice.
+So electric cars are not simple drop-in replacements for the gasoline machines roaming the roads today, that effectively refuel at a rate of 10 $\mathrm{MW}$[^34] given the fast delivery of an extremely energy-dense liquid. On performance and convenience measures, it would be hard to characterize them as *superior* substitutes. But they can *certainly* suit well for local travel when given ample time to recharge—overnight, for instance. And in the long run, it seems we will have little choice.
 
 :::{margin}
 … the equivalent electricity consumption of 10,000 homes or a medium-sized college campus
@@ -244,13 +244,13 @@ Tidal energy, covered in [Sec. 16.2](#sec-16-2) (p. 290), is one such entry that
 :::{figure} ../images/fig-d-1.svg
 :label: fig-d-1
 :enumerator: D.1
-:alt: The moon pulls harder on the near side of the earth, and less hard on the back side. Relative to the earth as a whole (medium force), the ne
+:alt: The moon pulls harder on the near side of the earth, and less hard on the back side. Relative to the earth as a whole (medium force), the near side advances toward the moon and the back side lags the rest of the earth, creating a bulge on both sides
 
 The moon pulls harder on the near side of the earth, and less hard on the back side. Relative to the earth as a whole (medium force), the near side advances toward the moon and the back side lags the rest of the earth, creating a bulge on both sides that is aligned toward the moon. Note that a drawing to scale would put the moon well off the page.
 :::
 
 :::{figure} ../images/art-p437-1.svg
-:alt: Illustration from the original text
+:alt: Chapter opening illustration
 :::
 
 The first step is realizing that Earth and Moon each *pull on each other*[^36] via gravitation. Since the strength of gravity decreases in proportion to the square of the distance between objects, the side of the earth closest to the moon is pulled more strongly than the center of the earth, and the side opposite the moon is pulled less strongly. The result is an elongation of the earth into a bulge—mostly manifested in the oceans ([Figure D.1](#fig-d-1)).
@@ -258,7 +258,7 @@ The first step is realizing that Earth and Moon each *pull on each other*[^36] v
 :::{figure} ../images/fig-d-2.svg
 :label: fig-d-2
 :enumerator: D.2
-:alt: The rotation of Earth and it continents “underneath” the tidal bulge creates a friction, or drag, that pulls the bulge around a few degrees
+:alt: The rotation of Earth and it continents “underneath” the tidal bulge creates a friction, or drag, that pulls the bulge around a few degrees (somewhat exaggerated here), so that it no longer points directly at the moon.
 
 The rotation of Earth and it continents “underneath” the tidal bulge creates a friction, or drag, that pulls the bulge around a few degrees (somewhat exaggerated here), so that it no longer points directly at the moon.
 :::
@@ -270,7 +270,7 @@ The second step is to appreciate that the earth rotates “underneath” the moo
 :::{figure} ../images/fig-d-3.svg
 :label: fig-d-3
 :enumerator: D.3
-:alt: Gravitationally, the earth looks like a big central mass and two bulge masses displaced from the connecting line. The closer mass pulls hard
+:alt: Gravitationally, the earth looks like a big central mass and two bulge masses displaced from the connecting line. The closer mass pulls harder than the more distant one, so the addition of all the force vectors (not to scale) results in a little
 
 Gravitationally, the earth looks like a big central mass and two bulge masses displaced from the connecting line. The closer mass pulls harder than the more distant one, so the addition of all the force vectors (not to scale) results in a little asymmetry, leaving a small sideways component of the force along the same direction as the moon’s orbital velocity (up in this drawing).
 :::
@@ -282,12 +282,12 @@ Accelerating an orbiting object along its trajectory adds energy to the orbit an
 :::{figure} ../images/fig-d-4.svg
 :label: fig-d-4
 :enumerator: D.4
-:alt: If we built some inconceivable global-scale tidal capture structure the size of oceans and let them drain for six hours or so, the artificia
+:alt: If we built some inconceivable global-scale tidal capture structure the size of oceans and let them drain for six hours or so, the artificial bulges we created would travel farther around with the earth’s rotation, enhancing the sideways “kick” and
 
 If we built some inconceivable global-scale tidal capture structure the size of oceans and let them drain for six hours or so, the artificial bulges we created would travel farther around with the earth’s rotation, enhancing the sideways “kick” and encouraging the moon to climb away from earth at a faster rate.
 :::
 
-If we built global-scale structures ([Figure D.4](#fig-d-4)) to capture tidal energy in a big way,[^41] we would effectively increase the lag angle of the tidal bulge. This is because we would likely release the captured stack of water over a period of many hours,[^42], rotating this stack of water around the planet farther than it would naturally go. Now the gravitational pull in the forward direction would increase and the egress would speed up. If we managed to extract 18 $\mathrm{TW}^{43}$ out of tides, this would be six times larger than the current 3 TW of tidal dissipation, and we might expect the egress to increase to about 23 cm per year.
+If we built global-scale structures ([Figure D.4](#fig-d-4)) to capture tidal energy in a big way,[^41] we would effectively increase the lag angle of the tidal bulge. This is because we would likely release the captured stack of water over a period of many hours,[^42] rotating this stack of water around the planet farther than it would naturally go. Now the gravitational pull in the forward direction would increase and the egress would speed up. If we managed to extract 18 $\mathrm{TW}$[^43] out of tides, this would be six times larger than the current 3 TW of tidal dissipation, and we might expect the egress to increase to about 23 cm per year.
 
 :::{margin}
 … our current energy scale; not feasible, but used to illustrate
@@ -421,7 +421,8 @@ Please, please, please—let this tragic fate not come to pass!
 [^9]: … a form of electric potential energy
 [^10]: In this way, we can make an explosion or fireball do useful work as in dynamite, internal combustion, or a coal-fired power plant.
 [^11]: The “shelf” we place the mass on eventually collapses or is otherwise disturbed.
-[^12]: … except for some improbable paths that reflect off the moon, for instance, and return to Earth 13: The temperature of the radiating entities is so close to ambient temperature that its efficiency to perform useful work would be nearly zero.
+[^12]: … except for some improbable paths that reflect off the moon, for instance, and return to Earth
+[^13]: The temperature of the radiating entities is so close to ambient temperature that its efficiency to perform useful work would be nearly zero.
 [^14]: … beware of the word “just,” often hiding lack of familiarity
 [^15]: The larger Tesla battery pack, for instance, provides 265 miles (425 km) of range and holds 85 kWh at a mass of 540 kg for an energy density of 0.16 kWh/g.
 [^16]: The math goes: 13 kWh/kg divided by 0.2 kWh/kg times 0.25/0.90, yielding a factor of 18. For the sake of estimation, 18 is close enough to a factor of 20 to use the more convenient and memorable $20\times$ scaling factor in what follows.
@@ -440,7 +441,9 @@ Please, please, please—let this tragic fate not come to pass!
 [^29]: … 3.3 days!
 [^30]: … which is much higher than typical parking lot chargers that are more in line with the middle row
 [^31]: … 400 km in 14 hours
+[^32]: … like 200 homes
 [^33]: … higher energy density (better) batteries will experience a larger temperature rise based on less mass to heat up per amount of energy injected
+[^34]: … the equivalent electricity consumption of 10,000 homes or a medium-sized college campus
 [^35]: Wired electrified transport has been a steady contributor to transportation for over a century.
 [^36]: In fact, equally, per Newton’s third law.
 [^37]: This is why we experience two high tides per day and two low tides: the earth is spinning underneath the opposite bulges, so that a site on the surface passes under a bulge (high tide) every $\sim 12$ hours.
@@ -449,6 +452,7 @@ Please, please, please—let this tragic fate not come to pass!
 [^40]: All the same, total solar eclipses will no longer occur after several hundred million years because the moon will be farther and too small to entirely block the sun.
 [^41]: Don’t count on this happening: it’s a truly ludicrous idea plagued by a giant list of practical problems, and all for such a small gain.
 [^42]: … like the $\sim 6$ hours between high tide and the next low-to-high tide cycle
+[^43]: … our current energy scale; not feasible, but used to illustrate
 [^44]: This is why it is not strictly renewable
 [^45]: This roughly marks the start of agriculture, and in any case is far closer to the truth than the adjacent order-of-magnitude figures of 1,000 years or 100,000 years.
 [^46]: Even if extending to other planets, the same logic will apply.

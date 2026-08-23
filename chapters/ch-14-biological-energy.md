@@ -26,7 +26,7 @@ This textbook will not focus on the complex mechanisms responsible for photosynt
 :::{figure} ../images/fig-14-1.svg
 :label: fig-14-1
 :enumerator: 14.1
-:alt: Cartoon version of photosynthesis, providing a graphical representation of Eq. 14.1. Water, CO, and sunlight are inputs. The leaf “exhales”
+:alt: Cartoon version of photosynthesis, providing a graphical representation of Eq. 14.1. Water, CO2, and sunlight are inputs. The leaf “exhales” oxygen and keeps sugar (only part of the final sugar molecule is pictured here).
 
 Cartoon version of photosynthesis, providing a graphical representation of [Eq. 14.1](#eq-14-1). Water, CO$_{2}$, and sunlight are inputs. The leaf “exhales” oxygen and keeps sugar (only part of the final sugar molecule is pictured here).
 :::
@@ -59,7 +59,7 @@ In terms of efficiency, plants tend to convert sunlight into stored chemical ene
 
 Let us consider a potato plant ([Figure 14.2](#fig-14-2)) as an example by which to estimate photosynthetic efficiency. The potato plant might have a leafy footprint of 0.5 $\mathrm{m}^{2}$—a square roughly 0.7 m on a side or a circle about 0.8 m in diameter—and produce four 0.5 kg potatoes, or 2 kg of starchy material. Carbohydrates have an energy density of 4 kcal/g, so the potato plant has stored 8,000 kcal, or about 32 MJ.[^3]
 
-If the typical five-month growing-season $(\sim 1.25 \times 10^{7}$ s) has insolation[^4] of 250 $\mathrm{W/m}^{2}$, the plant collects 125 $\mathrm{W}^{5}$ times $1.25 \times 10^{7}$ s, or $1.6 \times 10^{9}$ J, while making 32 MJ of spuds. The photosynthetic
+If the typical five-month growing-season $(\sim 1.25 \times 10^{7}$ s) has insolation[^4] of 250 $\mathrm{W/m}^{2}$, the plant collects 125 $\mathrm{W}$[^5] times $1.25 \times 10^{7}$ s, or $1.6 \times 10^{9}$ J, while making 32 MJ of spuds. The photosynthetic
 
 efficiency is calculated as the ratio of output to input: about 2% in this case.
 
@@ -132,7 +132,7 @@ In the U.S. in 2018, 2.28 qBtu (2.3%; 0.08 TW) came from biofuels [[34](#ref-34)
 
 :::
 
-Most prominently, ethanol is the chief biofuel, accounting for about 80% of the total. It is an alcohol that can be produced by fermenting the photosynthetically-produced sugars in the plant and then distilling the result.[^15] Structurally, ethanol is very similar to ethane except that the terminating hydrogen on one end of the chain is replaced by a hydroxyl group (OH; shown in [Figure 14.3](#fig-14-3)).
+Most prominently, ethanol is the chief biofuel, accounting for about 80% of the total. It is an alcohol that can be produced by fermenting the photosynthetically-produced sugars in the plant and then distilling the result.[^15] Structurally, ethanol is very similar to ethane[^16] except that the terminating hydrogen on one end of the chain is replaced by a hydroxyl group (OH; shown in [Figure 14.3](#fig-14-3)).
 
 Though it is not necessary to fully understand the chemistry,[^17] combustion of ethanol—for comparison to the fossil fuel reactions in [Eq. 8.1](#eq-8-1) (p. 126)—goes according to
 
@@ -301,7 +301,7 @@ To explore an example of how this all plays out, let’s say that corn ethanol p
 :::{figure} ../images/fig-14-4.svg
 :label: fig-14-4
 :enumerator: 14.4
-:alt: Area of corn growth needed to displace U.S. petroleum demand if at EROEI of 1.2:1. This is far larger than agriculturally productive land in
+:alt: Area of corn growth needed to displace U.S. petroleum demand if at EROEI of 1.2:1. This is far larger than agriculturally productive land in the U.S.
 
 Area of corn growth needed to displace U.S. petroleum demand if at EROEI of 1.2:1. This is far larger than agriculturally productive land in the U.S.
 :::
@@ -406,6 +406,7 @@ If the EROEI is less than 2:1 (as it is for many biofuels), we would cut your es
 [^2]: … which we combust when burning wood
 [^3]: Recall 4,184 J per kcal.
 [^4]: … summer, averaging day/night and weather
+[^5]: 250 $\mathrm{W/m}^{2}$ times the plant area
 [^6]: … such as cow dung
 [^7]: Fats and hydrocarbons like fossil fuels are 2–3 times more energy dense.
 [^8]: … assuming a wood stove or other efficient device to prevent most heat from just escaping through the chimney
@@ -415,7 +416,8 @@ If the EROEI is less than 2:1 (as it is for many biofuels), we would cut your es
 [^12]: About a quarter of the biomass is “dry” combustible material, at about 4 kcal/g.
 [^13]: See, for instance, [Box 13.3](#box-13-3) (p. 222) and [Box 17.1](#box-17-1) (p. 300).
 [^14]: Another 5% is from biofuels, usually blended into gasoline.
-[^15]: … also how “moonshine” alcohol is made … $\mathrm{C}_{2}$H$_{6}$: the second in the alkane sequence of methane, ethane, propane, butane, …, octane, etc.
+[^15]: … also how “moonshine” alcohol is made
+[^16]: $\mathrm{C}_{2}$H$_{6}$: the second in the alkane sequence of methane, ethane, propane, butane, …, octane, etc.
 [^17]: [Appendix B](#app-b) provides some background on chemical reactions and associated energy.
 [^18]: In practice, fossil fuels are used in the cultivating of biofuels, so it’s not a perfectly clean, closed cycle in present form.
 [^19]: See [Sec. B.3](#sec-b-3) (p. 391) for more insight into chemical reactions and energy content.

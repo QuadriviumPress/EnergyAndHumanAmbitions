@@ -163,13 +163,13 @@ Geothermal is just a small player. The fact that a country like Iceland can prod
 :::{figure} ../images/fig-16-1.svg
 :label: fig-16-1
 :enumerator: 16.1
-:alt: The moon (pictured closer here to fit on page) raises bulges on the near and far side of the earth, while the earth rotates underneath, caus
+:alt: The moon (pictured closer here to fit on page) raises bulges on the near and far side of the earth, while the earth rotates underneath, causing two high tides and two low tides each day.
 
 The moon (pictured closer here to fit on page) raises bulges on the near and far side of the earth, while the earth rotates underneath, causing two high tides and two low tides each day.
 :::
 
 :::{figure} ../images/art-p311-1.svg
-:alt: Illustration from the original text
+:alt: Chapter opening illustration
 :::
 
 The earth rotates “under” these bulges, since the bulges point along the Earth–Moon axis and take a month to make a complete revolution in space, while the earth rotates once per day. At a fixed position on Earth, then, the experience is two high tides and two low tides each day.[^18] As the tide comes in and flows out, friction between land and water results in energy dissipation, to the tune of 3 TW.[^19]
@@ -249,7 +249,7 @@ As a means of estimation, let’s imagine sinusoidal[^25] waves 1 m in amplitude
 :::{figure} ../images/fig-16-2.svg
 :label: fig-16-2
 :enumerator: 16.2
-:alt: Sinusoidal waves have amplitude , and wavelength . In terms of harvesting the gravitational potential energy, we can think of it as lopping
+:alt: Sinusoidal waves have amplitude A, and wavelength lambda. In terms of harvesting the gravitational potential energy, we can think of it as lopping off the crest and flipping it over onto the trough to level the water surface. In doing so, we move
 
 Sinusoidal waves have amplitude $A$, and wavelength $\lambda$. In terms of harvesting the gravitational potential energy, we can think of it as lopping off the crest and flipping it over onto the trough to level the water surface. In doing so, we move some mass, $m$, down a height $h$ to get $mgh$ of energy. The block-equivalent is shown below, where the area and average height of the sinusoidal trough/crest has been faithfully captured by rectangles of height $\sim 0.39A$ and length $\sim 0.41\lambda$. From these, it is possible to figure out the potential energy associated with the wave.
 :::

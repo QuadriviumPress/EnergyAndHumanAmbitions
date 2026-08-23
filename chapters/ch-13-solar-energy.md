@@ -107,7 +107,7 @@ All this may seem overwhelming, but take a breath, then just look at [Figure 13.
 :::{figure} ../images/fig-13-1.svg
 :label: fig-13-1
 :enumerator: 13.1
-:alt: Planck spectra, or blackbody spectra for three temperatures, indicating where the ultraviolet, visible, and infrared regions lie. The shapes
+:alt: Planck spectra, or blackbody spectra for three temperatures, indicating where the ultraviolet, visible, and infrared regions lie. The shapes of the three curves (spectra) are described by Eq. 13.4, the star locations are found by Eq. 13.5, and the
 
 Planck spectra, or blackbody spectra for three temperatures, indicating where the ultraviolet, visible, and infrared regions lie. The shapes of the three curves (spectra) are described by [Eq. 13.4](#eq-13-4), the star locations are found by [Eq. 13.5](#eq-13-5), and the total power radiated, per square meter of surface is the area under each curve, as captured in [Eq. 13.3](#eq-13-3). The dotted line relates to [Example 13.2.2](#ex-13-2-2). Note the 1e8 factor on the vertical axis, meaning that the axis goes from 0 to $1.0 \times 10^{8}\mathrm{W/m}^{2}/\mu \mathrm{m}$.
 :::
@@ -153,12 +153,12 @@ This choice makes the area about $1.0 \times 10^{8}\mathrm{W/m}^{2}/\mu \mathrm{
 :::{figure} ../images/fig-13-2.svg
 :label: fig-13-2
 :enumerator: 13.2
-:alt: Attempts to crudely match the area under the 6000 K Planck spectrum using rectangles of three different widths. The widest (1 ; dashed line)
+:alt: Attempts to crudely match the area under the 6000 K Planck spectrum using rectangles of three different widths. The widest (1 mu m; dashed line) is too much area; the narrowest (0.5 mu m; dotted line) is too small. The middle (0.75 mu m; pink area)
 
 Attempts to crudely match the area under the 6000 K Planck spectrum using rectangles of three different widths. The widest (1 $\mu \mathrm{m}$; dashed line) is too much area; the narrowest (0.5 $\mu \mathrm{m}$; dotted line) is too small. The middle (0.75 $\mu \mathrm{m}$; pink area) seems closest, by eye.
 :::
 
-Now that we’ve batted the equations around a little bit, like a cat might do if given a new mouse toy, let’s absorb some key takeaways. First, as the source gets hotter, the area under the curve[^14] increases *drastically*—as the *fourth-power* of $T$, according to [Eq. 13.3](#eq-13-3). This is seen in [Figure 13.1](#fig-13-1) in that going from 3,000 K to 6,000 $\mathrm{K}$ leads to a *tremendous* increase in area under the curve: 16 times, in fact.
+Now that we’ve batted the equations around a little bit, like a cat might do if given a new mouse toy, let’s absorb some key takeaways. First, as the source gets hotter, the area under the curve[^14] increases *drastically*—as the *fourth-power* of $T$, according to [Eq. 13.3](#eq-13-3). This is seen in [Figure 13.1](#fig-13-1) in that going from 3,000 K to 6,000 $\mathrm{K}$[^15] leads to a *tremendous* increase in area under the curve: 16 times, in fact.
 
 :::{margin}
 **Try it:** Follow along using [Figure 13.1](#fig-13-1).
@@ -170,7 +170,7 @@ Second, as an object gets hotter, it emits at shorter wavelengths, going from re
 :::{figure} ../images/fig-13-3.svg
 :label: fig-13-3
 :enumerator: 13.3
-:alt: A 10,000 K star (or any blackbody) has a spectrum that tilts blue in the visible spectrum, while a cooler star (object) at 3,000 K has a red
+:alt: A 10,000 K star (or any blackbody) has a spectrum that tilts blue in the visible spectrum, while a cooler star (object) at 3,000 K has a red slant. Spectra are normalized to the same peak for easier comparison.
 
 A 10,000 K star (or any blackbody) has a spectrum that tilts blue in the visible spectrum, while a cooler star (object) at 3,000 K has a red slant. Spectra are normalized to the same peak for easier comparison.
 :::
@@ -187,7 +187,7 @@ Various materials are used as the principal component in PV panels, but the vast
 :::{figure} ../images/fig-13-4.svg
 :label: fig-13-4
 :enumerator: 13.4
-:alt: PV cell structure and function. A junction between -doped and -doped semiconductors sets up an electric field across the junction. If an ele
+:alt: PV cell structure and function. A junction between n–doped and p–doped semiconductors sets up an electric field across the junction. If an electron promoted to the conduction band by an incoming photon wanders into the junction, it is swept across
 
 PV cell structure and function. A junction between $n$–doped and $p$–doped semiconductors sets up an electric field across the junction. If an electron promoted to the conduction band by an incoming photon wanders into the junction, it is swept across (red arrow) and successfully contributes to current. Electrons do not contribute if created above the junction—as is more probable for blue photons that are not likely to penetrate as far. Electrons do not contribute to the external (useful) current if they recombine (fill a hole) before finding the junction (red “poof”).
 :::
@@ -212,7 +212,7 @@ For the 77% of sunlight whose photons *are* energetic enough to bump an electron
 :::{figure} ../images/fig-13-5.svg
 :label: fig-13-5
 :enumerator: 13.5
-:alt: Energy budget in silicon PV cell. The areas of the four regions represent the fraction of the total incident energy going to each domain. Al
+:alt: Energy budget in silicon PV cell. The areas of the four regions represent the fraction of the total incident energy going to each domain. All light at wavelengths longer than 1.1 mu m (infrared; 23%) passes through the silicon without being
 
 Energy budget in silicon PV cell. The areas of the four regions represent the fraction of the total incident energy going to each domain. All light at wavelengths longer than 1.1 $\mu \mathrm{m}$ (infrared; 23%) passes through the silicon without being absorbed. The photons that *are* absorbed give excess kinetic energy to electrons, losing 33% of the incident energy as heat. This effect is progressively more pronounced the shorter the wavelength. Of the remaining 44%, about a quarter disappear as electrons “recombine” with vacancies (holes) in the silicon before getting a chance to contribute to a useful current by crossing the junction, leaving 32% as the maximum theoretical efficiency.
 :::
@@ -228,7 +228,7 @@ In total, the basic physics of a PV cell is such that 20% efficiency is a reason
 :::{figure} ../images/fig-13-6.svg
 :label: fig-13-6
 :enumerator: 13.6
-:alt: PV panels (modules) are constructed of typically 18, 36, 54, or 72 cells in series, two of which are depicted here. Cells are usually cm squ
+:alt: PV panels (modules) are constructed of typically 18, 36, 54, or 72 cells in series, two of which are depicted here. Cells are usually ~ 15 cm squares layered exactly as depicted in Figure 13.4. The bottom sides are covered by a continuous metal
 
 PV panels (modules) are constructed of typically 18, 36, 54, or 72 cells in series, two of which are depicted here. Cells are usually $\sim 15$ cm squares layered exactly as depicted in [Figure 13.4](#fig-13-4). The bottom sides are covered by a continuous metal contact and the tops host a fine grid of metal contacts that minimize blockage of incident sunlight. Each cell presents $\sim 0.5$ V, arranged *in series* to add up to tens of volts per panel. To accomplish this, the top grid of one cell is connected to the bottom contact on the next, all down the line.
 :::
@@ -238,7 +238,7 @@ PV panels are usually constructed of many individual PV cells wired in series, a
 :::{figure} ../images/fig-13-7.svg
 :label: fig-13-7
 :enumerator: 13.7
-:alt: Current-voltage curve for a PV cell. The cell in full sunlight will operate somewhere on the thick blue curve, and on a lower red curve unde
+:alt: Current–voltage (I--V) curve for a PV cell. The cell in full sunlight will operate somewhere on the thick blue curve, and on a lower red curve under weaker illumination. The maximum power point (mppt) is about 0.45 V for silicon, while the nominal
 
 Current–voltage $(I--V)$ curve for a PV cell. The cell in full sunlight will operate somewhere on the thick blue curve, and on a lower red curve under weaker illumination. The maximum power point (mppt) is about 0.45 V for silicon, while the nominal design might be for 0.35 V so that a 36-cell panel is sized to charge a 12 V battery. Rectangle area is proportional to power delivered, since $P = IV$.
 :::
@@ -297,7 +297,7 @@ High latitude sites suffer more from low sun angles, and obviously cloudier loca
 :::{figure} ../images/fig-13-8.jpg
 :label: fig-13-8
 :enumerator: 13.8
-:alt: Insolation onto locally horizontal surfaces for the world (for flat plates facing directly upward), in units of and day. The area of the blu
+:alt: Insolation onto locally horizontal surfaces for the world (for flat plates facing directly upward), in units of W/m^2 and kWh/m^2/day. The area of the blue square in the middle of the Atlantic ocean is enough to satisfy current global energy demand
 
 Insolation onto locally horizontal surfaces for the world (for flat plates facing directly upward), in units of $\mathrm{W/m}^{2}$ and $\mathrm{kWh/m}^{2}/$day. The area of the blue square in the middle of the Atlantic ocean is enough to satisfy current global energy demand, using 15% efficient solar collection (but distributed, of course). Source: The World Bank.
 :::
@@ -305,7 +305,7 @@ Insolation onto locally horizontal surfaces for the world (for flat plates facin
 :::{figure} ../images/fig-13-9.jpg
 :label: fig-13-9
 :enumerator: 13.9
-:alt: Horizontal insolation for the U.S. for a flat plate facing directly upward. Native units for the graphic are in day, the break-points betwee
+:alt: Horizontal insolation for the U.S. for a flat plate facing directly upward. Native units for the graphic are in kWh/m^2/day, the break-points between 4.0 and 5.75 kWh/m^2/day in steps of 0.25. These values can be converted to W/m^2 by multiplying by
 
 Horizontal insolation for the U.S. for a flat plate facing directly upward. Native units for the graphic are in $\mathrm{kWh/m}^{2}/$day, the break-points between 4.0 and 5.75 $\mathrm{kWh/m}^{2}/$day in steps of 0.25. These values can be converted to $\mathrm{W/m}^{2}$ by multiplying by 1,000 W/kW and dividing by 24 h/day. Annotations are added once in each color band (in black or yellow) to indicate the equivalent measure in $\mathrm{W/m}^{2}$ [[87](#ref-87)]. Alaska is not even close to scale. From NREL.
 :::
@@ -317,13 +317,13 @@ Horizontal insolation for the U.S. for a flat plate facing directly upward. Nati
 the sky near the equator, so panels there should lie flat.[^48] But at high northern latitudes, the sun is lower toward the southern horizon, so the panels should tilt up to best face the sun. Tilting at an angle equal to the latitude is the best compromise, as [Figure 13.10](#fig-13-10) illustrates.
 
 :::{figure} ../images/art-p239-1.svg
-:alt: Illustration from the original text
+:alt: Chapter opening illustration
 :::
 
 :::{figure} ../images/fig-13-10.svg
 :label: fig-13-10
 :enumerator: 13.10
-:alt: The left globe shows the sun’s view of 21 panels of the same size sitting flat on the ground at their various sites. In the middle globe, th
+:alt: The left globe shows the sun’s view of 21 panels of the same size sitting flat on the ground at their various sites. In the middle globe, the panels are all tilted up toward the equator. Notice the improvement in how much panel area is visible to
 
 The left globe shows the sun’s view of 21 panels of the same size sitting flat on the ground at their various sites. In the middle globe, the panels are all tilted up toward the equator. Notice the improvement in how much panel area is visible to the sun by doing this—especially at higher latitudes. At right is the side view, from which it is easier to appreciate why the best tilt angle is equal to the site latitude.
 :::
@@ -331,7 +331,7 @@ The left globe shows the sun’s view of 21 panels of the same size sitting flat
 :::{figure} ../images/fig-13-11.jpg
 :label: fig-13-11
 :enumerator: 13.11
-:alt: Solar potential for flat panels tilted to latitude, oriented south-relevant to PV panel installations. The graphic is presented in units of
+:alt: Solar potential for flat panels tilted to latitude, oriented south—relevant to PV panel installations. The graphic is presented in units of kWh/m^2/day, the break-points between colors running from 3.0 to 6.5 kWh/m^2/day in steps of 0.5. Annotations
 
 Solar potential for flat panels tilted to latitude, oriented south—relevant to PV panel installations. The graphic is presented in units of $\mathrm{kWh/m}^{2}/$day, the break-points between colors running from 3.0 to 6.5 $\mathrm{kWh/m}^{2}/$day in steps of 0.5. Annotations are added once in each color band (in black or yellow) to indicate the equivalent measure in $\mathrm{W/m}^{2}$ [[87](#ref-87)]. From NREL.
 :::
@@ -345,7 +345,7 @@ Some applications need to track the sun, like those that concentrate solar power
 :::{figure} ../images/fig-13-12.svg
 :label: fig-13-12
 :enumerator: 13.12
-:alt: On a fixed piece of land receiving a fixed amount of sunshine at a slant angle, the amount of energy received is independent of whether the
+:alt: On a fixed piece of land receiving a fixed amount of sunshine at a slant angle, the amount of energy received is independent of whether the panels are flat or tilted. Just tilting the flat panels up (middle) results in self-shading. It makes the
 
 On a fixed piece of land receiving a fixed amount of sunshine at a slant angle, the amount of energy received is independent of whether the panels are flat or tilted. Just tilting the flat panels up (middle) results in self-shading. It makes the most sense to tilt and separate panels (right), one benefit being that fewer panels are needed to collect the same incident energy.
 :::
@@ -355,7 +355,7 @@ about 30% over the flat, upward-facing panel. Concentration schemes make less se
 :::{figure} ../images/fig-13-13.jpg
 :label: fig-13-13
 :enumerator: 13.13
-:alt: Solar potential for tracking panels, facing directly toward the sun’s position and requiring a cloud-free view of the sun (concentrating col
+:alt: Solar potential for tracking panels, facing directly toward the sun’s position and requiring a cloud-free view of the sun (concentrating collectors). The graphic is presented in units of kWh/m^2/day, the break-points between colors running from 4.0
 
 Solar potential for tracking panels, facing directly toward the sun’s position and requiring a cloud-free view of the sun (concentrating collectors). The graphic is presented in units of $\mathrm{kWh/m}^{2}/$day, the break-points between colors running from 4.0 to 7.5 $\mathrm{kWh/m}^{2}/$day in steps of 0.5. Annotations are added once in each color band (in black or yellow) to indicate the equivalent measure in $\mathrm{W/m}^{2}$ [[87](#ref-87)]. From NREL.
 :::
@@ -396,7 +396,7 @@ A 30-year study by the National Renewable Energy Lab [[88](#ref-88)] initiated i
 :::{figure} ../images/fig-13-14.svg
 :label: fig-13-14
 :enumerator: 13.14
-:alt: Panel tilts for Table 13.2, for .
+:alt: Panel tilts for Table 13.2, for theta = 39°.
 
 Panel tilts for [Table 13.2](#tab-13-2), for $\theta = 39^{\circ}$.
 :::
@@ -430,7 +430,7 @@ Another daunting realization is that even though only 0.4% of the land is needed
 :::{figure} ../images/fig-13-15.svg
 :label: fig-13-15
 :enumerator: 13.15
-:alt: Solar input (red) and electricity demand (blue) look nothing alike. Solar data from the author’s home begins 31 March 2020, while demand is
+:alt: Solar input (red) and electricity demand (blue) look nothing alike. Solar data from the author’s home begins 31 March 2020, while demand is for California. Tick marks denote the start of each date, at midnight. April 22–27 are essentially perfect
 
 Solar input (red) and electricity demand (blue) look nothing alike. Solar data from the author’s home begins 31 March 2020, while demand is for California. Tick marks denote the start of each date, at midnight. April 22–27 are essentially perfect cloudless days, while the earlier part of the month had rainy periods. Note that even a very rainy day (April 10) provides *some* solar power (15% as much as a full-sun day). Intermittent clouds cause the “hair” seen on some days. The capacity factor for the month is 19%, while the perfect six days near the end perform at 27% capacity. From this, we infer that weather caused the yield to be 70% what it would have been had every day been cloudless.
 :::
@@ -531,12 +531,12 @@ What would these numbers become if trying to meet monthly instead of annual dema
 :::{figure} ../images/fig-13-16.jpg
 :label: fig-13-16
 :enumerator: 13.16
-:alt: Evolving price of PV installation per peak Watt. Yellow is for the panels; the two blues for electronics; peach is labor; and hashed is for
+:alt: Evolving price of PV installation per peak Watt. Yellow is for the panels; the two blues for electronics; peach is labor; and hashed is for the utility hookup, inspection, taxes, profits [89, 91]. From NREL.
 
 Evolving price of PV installation per peak Watt. Yellow is for the panels; the two blues for electronics; peach is labor; and hashed is for the utility hookup, inspection, taxes, profits [[89](#ref-89), [91](#ref-91)]. From NREL.
 :::
 
-If sizing for an off-grid system, we need to factor in some inefficiency for battery charge/discharge and design for poorer months, so should increase by another factor of at least 1.5. The cost of batteries can be rather large, too. A good rule of thumb is to have at least three days of storage in the event of no solar input for several days during a stormy period. For our 30 kWh per day target, we would want about 100 kWh of storage. As an easy way to get a cost estimate for storage, the Tesla powerwall 2 is 13.5 $\mathrm{kWh}$ and costs about \$7k apiece. If we follow along, the cost of the off-grid PV system for 30 kWh/day at an installation cost of \$3/W will be 7500 W $\times 1.5 \times 1.5 \times \$3 \approx$ \$50k for panels/installation plus \$56k for batteries.[^84] Then the batteries may be in need of replacement every 10–15 years.[^85]
+If sizing for an off-grid system, we need to factor in some inefficiency for battery charge/discharge and design for poorer months, so should increase by another factor of at least 1.5. The cost of batteries can be rather large, too. A good rule of thumb is to have at least three days of storage in the event of no solar input for several days during a stormy period. For our 30 kWh per day target, we would want about 100 kWh of storage. As an easy way to get a cost estimate for storage, the Tesla powerwall 2 is 13.5 $\mathrm{kWh}$[^83] and costs about \$7k apiece. If we follow along, the cost of the off-grid PV system for 30 kWh/day at an installation cost of \$3/W will be 7500 W $\times 1.5 \times 1.5 \times \$3 \approx$ \$50k for panels/installation plus \$56k for batteries.[^84] Then the batteries may be in need of replacement every 10–15 years.[^85]
 
 :::{margin}
 … so we would need about 8
@@ -562,9 +562,7 @@ The Energy Information Administration’s Electric Power Monthly (EPM) [[85](#re
 Photovoltaic power production by state, in GW, in 2018.
 :::
 
-:::{margin}
-North Carolina got about 5% of its electricity from solar in 2018, or less than 2% of all its energy.
-:::
+California is rocking it! The average solar power in California was 4.3 GW in 2018, far ahead of the next biggest: North Carolina at 0.82 GW. For California, this is 13% of its electricity. But electricity production is 38% of all energy in the U.S., so we might say that California gets about 5% of all its energy from solar. This is far ahead of other states.[^87] The U.S. as a whole gets about 0.9% of its energy from solar.
 
 :::{figure} ../images/fig-13-18.svg
 :label: fig-13-18
@@ -591,7 +589,7 @@ Per capita photovoltaic power production by state, in Watts per person.
 :::{figure} ../images/fig-13-20.png
 :label: fig-13-20
 :enumerator: 13.20
-:alt: Photovoltaic capacity factors by state. While we see lots of darker green, it’s because everybody has similarly low numbers, due to unavoida
+:alt: Photovoltaic capacity factors by state. While we see lots of darker green, it’s because everybody has similarly low numbers, due to unavoidable nighttime and low sun angles. Somebody tell Wyoming, North Dakota, and Alabama to get with the program!
 
 Photovoltaic capacity factors by state. While we see lots of darker green, it’s because everybody has similarly *low* numbers, due to unavoidable nighttime and low sun angles. Somebody tell Wyoming, North Dakota, and Alabama to get with the program!
 :::
@@ -599,7 +597,7 @@ Photovoltaic capacity factors by state. While we see lots of darker green, it’
 more poorly on this measure. Alaska clocks in just over 0.1, mapping to about 2.5 hours per day, on average.
 
 :::{figure} ../images/art-p248-1.svg
-:alt: Illustration from the original text
+:alt: Chapter opening illustration
 :::
 
 :::{table} Top five global producers of PV power in 2018, accounting for two-thirds of the world’s total production [[92](#ref-92), [93](#ref-93)]. The installed PV corresponds to peak watts $(\mathrm{W}_{\mathrm{p}})$, or production in full overhead sun.
@@ -666,15 +664,15 @@ Photovoltaics ([Section 13.3](#sec-13-3)) convert sunlight directly into electri
 Full sun delivers something like 1,000 $\mathrm{W/m}^{2}$ at the earth’s surface. Now imagine a window in a house intercepting 1.5 $\mathrm{m}^{2}$ of sunlight, in effect admitting 1,500 W into the home—like a space heater, and it’s free! Depending on window construction, some of the infrared energy may be blocked, so maybe not all 1,000 $\mathrm{W/m}^{2}$ will make it inside, but a sizable portion will. Clever design has south-facing windows for receiving low-angle winter sun, but an overhang to keep out the high summer sun ([Figure 13.21](#fig-13-21)). A dark and massive absorber[^91] inside the house capturing the heat can continue to provide warmth through the evening hours. The Passive House designs mentioned in the context of [Box 6.1](#box-6-1) (p. 92) attempt to maximize solar capture so that little active heating is required.
 
 :::{figure} ../images/art-p250-1.svg
-:alt: Illustration from the original text
+:alt: Chapter opening illustration
 :::
 
 :::{figure} ../images/fig-13-21.svg
 :label: fig-13-21
 :enumerator: 13.21
-:alt: A well-designed house has thick walls, thick insulation, and doublepaned windows. Even better, it can have south-facing windows that admit s
+:alt: A well-designed house has thick walls, thick insulation, and double-paned windows. Even better, it can have south-facing windows that admit sunlight in the winter but not in the summer (the overhang shields the window). A large, dark thermal
 
-A well-designed house has thick walls, thick insulation, and doublepaned windows. Even better, it can have south-facing windows that admit sunlight in the winter but not in the summer (the overhang shields the window). A large, dark thermal mass—stone or brick works well— can absorb energy and continue to release heat into the evening.
+A well-designed house has thick walls, thick insulation, and double-paned windows. Even better, it can have south-facing windows that admit sunlight in the winter but not in the summer (the overhang shields the window). A large, dark thermal mass—stone or brick works well— can absorb energy and continue to release heat into the evening.
 :::
 
 (sec-13-8-2)=
@@ -693,7 +691,7 @@ Solar trough cross sections showing the focusing of sunlight onto a central pipe
 :::{figure} ../images/fig-13-23.svg
 :label: fig-13-23
 :enumerator: 13.23
-:alt: A common solar thermal power scheme uses parabolic “trough” reflectors to focus sunlight onto a central pipe, which carries oil that can be
+:alt: A common solar thermal power scheme uses parabolic “trough” reflectors to focus sunlight onto a central pipe, which carries oil that can be heated to very high temperatures for making steam to run a traditional electrical power plant very much like
 
 A common solar thermal power scheme uses parabolic “trough” reflectors to focus sunlight onto a central pipe, which carries oil that can be heated to very high temperatures for making steam to run a traditional electrical power plant very much like that of [Fig. 6.2](#fig-6-2) (p. 95). Optional thermal storage can save heat for later use.
 :::
@@ -705,7 +703,7 @@ As for efficiency, solar thermal is at face value similar to PV: 15–20% is fai
 :::{figure} ../images/fig-13-24.jpg
 :label: fig-13-24
 :enumerator: 13.24
-:alt: Parabolic trough-based ST plant, in which part of the power generation facility is seen in the background. Reflectors must be spaced out to
+:alt: Parabolic trough-based ST plant, in which part of the power generation facility is seen in the background. Reflectors must be spaced out to prevent self-shadowing. From U.S. DoE.
 
 Parabolic trough-based ST plant, in which part of the power generation facility is seen in the background. Reflectors must be spaced out to prevent self-shadowing. From U.S. DoE.
 :::
@@ -724,7 +722,7 @@ One disadvantage of solar thermal is that concentration only works when the sun 
 
 Balancing this disadvantage is the fact that solar thermal has some built-in storage capacity, in that the heated oil can be “banked” for some hours[^92] and continue to produce electricity even during the passage of a cloud or for a few hours into the evening. In this sense, it can better match the peak of electrical demand (early evening: [Figure 13.15](#fig-13-15)) than can PV, which goes to zero once the sun sets.
 
-As seen in [Figure 13.13](#fig-13-13), the desert southwest is the best place in the U.S. for solar thermal electricity generation. It makes sense that deserts would be good spots, since effective concentration requires no interference from clouds. Incidentally, transmitting electricity over intermediate distances (across regions) is fairly efficient: typically better than 90% for distances shorter than $\sim 1,000$ km. In terms of implementation, solar thermal is a small player. In 2018, only four states produced solar thermal power, 68% from California and 22% from Arizona. [Table 13.4](#tab-13-4) provides some context, comparing ST to PV in each of the four states that have any solar thermal. For the entire U.S., less than 0.1% of electricity derives from solar thermal, and PV is about 25 times bigger on the whole. Globally, ST averages about 1.1 $\mathrm{GW}^{93}$ (2016), about half in Spain and a third in the U.S.[^94]
+As seen in [Figure 13.13](#fig-13-13), the desert southwest is the best place in the U.S. for solar thermal electricity generation. It makes sense that deserts would be good spots, since effective concentration requires no interference from clouds. Incidentally, transmitting electricity over intermediate distances (across regions) is fairly efficient: typically better than 90% for distances shorter than $\sim 1,000$ km. In terms of implementation, solar thermal is a small player. In 2018, only four states produced solar thermal power, 68% from California and 22% from Arizona. [Table 13.4](#tab-13-4) provides some context, comparing ST to PV in each of the four states that have any solar thermal. For the entire U.S., less than 0.1% of electricity derives from solar thermal, and PV is about 25 times bigger on the whole. Globally, ST averages about 1.1 $\mathrm{GW}$[^93] (2016), about half in Spain and a third in the U.S.[^94]
 
 :::{margin}
 … 0.006% of global demand
@@ -915,7 +913,8 @@ It is a good practice to round the final size up a bit to make sure additional i
 [^11]: This last one may be more familiar to students in its chemistry form of the gas constant $R = k_{\mathrm{B}}N_{\mathrm{A}}\approx 8.31 \mathrm{J/K/mol}$, where $N_{\mathrm{A}}\approx 6.022 \times 10^{23}$ is Avogadro’s number.
 [^12]: [Eq. 13.4](#eq-13-4) uses units of meters for $\lambda$, but [Figure 13.1](#fig-13-1) uses microns $(\mu \mathrm{m}$, or $10^{-6}$ m) for convenience. Also, [Eq. 13.4](#eq-13-4) delivers an answer in units of $\mathrm{W/m}^{2}$ per *meter* of wavelength, but for the plot we divided by $10^{6}$ so it would be $\mathrm{W/m}^{2}$ per *micron* of wavelength. By taking care of this detail, the area under each curve in [Figure 13.1](#fig-13-1) should match $\sigma T^{4}$ as in [Eq. 13.3](#eq-13-3).
 [^13]: Numerically, the numerator is $3.74 \times 10^{-16}$, the denominator is $10^{-30}$, and the argument in the exponential is 2.4, so that the second fraction is 0.1.
-[^14]: … total power emitted … doubling temperature
+[^14]: … total power emitted
+[^15]: … doubling temperature
 [^16]: Solar thermal generation will be covered in [Section 13.8](#sec-13-8).
 [^17]: … either during or after the semiconductor crystal growth; a process called “doping”
 [^18]: So-called $p--n$ junctions form the basis of diodes and transistors.
@@ -983,14 +982,17 @@ It is a good practice to round the final size up a bit to make sure additional i
 [^80]: 6.25 kW times 4.8 hours is 30 kWh.
 [^81]: The math is actually just the same, but we rearranged the order and interpretation.
 [^82]: … resulting in over-production in summer
+[^83]: … so we would need about 8
 [^84]: It is often the case that battery cost is comparable to the rest of the system, roughly doubling the total cost.
 [^85]: Good batteries generally last a few thousand full charge cycles.
 [^86]: See [Chapter 20](#ch-20) for examples.
+[^87]: North Carolina got about 5% of its electricity from solar in 2018, or less than 2% of all its energy.
 [^88]: Compare to 50 $\mathrm{mW/m}^{2}$ for hydroelectricity in Washington state ([Fig. 11.6](#fig-11-6); p. 187) and 17 $\mathrm{mW/m}^{2}$ for wind in Iowa ([Fig. 12.9](#fig-12-9); p. 201).
 [^89]: … still small compared to the American metric of 10,000 W/person
 [^90]: Cost *has* been a major barrier, but may cease to be so as prices fall further.
 [^91]: … dark rock or brick works well
 [^92]: … thus the “optional storage” block in [Figure 13.23](#fig-13-23)
+[^93]: … 0.006% of global demand
 [^94]: … therefore not much left in the rest of the world
 [^95]: … low capacity factor that is weather-dependent
 [^96]: … like transportation and industrial processing

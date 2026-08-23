@@ -63,7 +63,7 @@ The answer is one doubling-time before midnight, or 11:50 PM. [Figure 1.1](#fig-
 :::{figure} ../images/fig-1-1.svg
 :label: fig-1-1
 :enumerator: 1.1
-:alt: The last 90 minutes in the sequence of bacteria (green) growing in a jar, doubling every 10 minutes. For the first 22.5 hours, hardly anythi
+:alt: The last 90 minutes in the sequence of bacteria (green) growing in a jar, doubling every 10 minutes. For the first 22.5 hours, hardly anything would be visible. Note that the upward rise of green “bars” makes an exponential curve.
 
 The last 90 minutes in the sequence of bacteria (green) growing in a jar, doubling every 10 minutes. For the first 22.5 hours, hardly anything would be visible. Note that the upward rise of green “bars” makes an exponential curve.
 :::
@@ -157,11 +157,6 @@ M = 2^{t/t_{2}}= (e^{\ln 2})^{t/t_{2}}= e^{t \ln 2/t_{2}},
 
 where we started with [Eq. 1.1](#eq-1-1), re-expressed the number 2, and then applied the rule that raising a power to another power is the same as multiplying the powers to form a single one.[^6] By employing such tricks, we could cast any base to a power, like $b^{x}$ as some exponential function $e^{x\ln b}$, and thus can transform any “power” relationship into an exponential using base $e \approx 2.7183$. Casting [Eq. 1.2](#eq-1-2) in this form:
 
-:::{margin}
-$5^{12}$. So we effectively just multiplied the two exponents—3 and 4—to get the 12. It always works. Often, one need not memorize math rules: quick experimentation reveals how and why it works.
-
-:::
-
 :::{math}
 :label: eq-1-4
 :enumerator: 1.4
@@ -251,7 +246,7 @@ Lacking comparable data for the world, we use U.S. data simply to illustrate the
 :::{figure} ../images/fig-1-2.svg
 :label: fig-1-2
 :enumerator: 1.2
-:alt: U.S. energy over 200 years, showing a dramatic rise due almost entirely to fossil fuels. The red curve is an exponential fit tuned to cover
+:alt: U.S. energy over 200 years, showing a dramatic rise due almost entirely to fossil fuels. The red curve is an exponential fit tuned to cover the broader period shown in Figure 1.3.
 
 U.S. energy over 200 years, showing a dramatic rise due almost entirely to fossil fuels. The red curve is an exponential fit tuned to cover the broader period shown in [Figure 1.3](#fig-1-3).
 :::
@@ -273,7 +268,7 @@ Watts is a unit of *power*, which is a rate of energy. [Chapter 5](#ch-5) will c
 :::{figure} ../images/fig-1-3.svg
 :label: fig-1-3
 :enumerator: 1.3
-:alt: Energy trajectory in the U.S. over a long period. The red line is an exponential at a 2.9% growth rate, which appears linear on a logarithmi
+:alt: Energy trajectory in the U.S. over a long period. The red line is an exponential at a 2.9% growth rate, which appears linear on a logarithmic plot.
 
 Energy trajectory in the U.S. over a long period. The red line is an exponential at a 2.9% growth rate, which appears linear on a logarithmic plot.
 :::
@@ -402,7 +397,7 @@ The same relation ([Eq. 1.8](#eq-1-8)) governs the surface of the sun, light bul
 :::{figure} ../images/fig-1-4.svg
 :label: fig-1-4
 :enumerator: 1.4
-:alt: Earth-shown here in northern hemisphere summer-intercepts sunlight across the projected area of the Earth’s disk , while radiating from the
+:alt: Earth—shown here in northern hemisphere summer—intercepts sunlight across the projected area of the Earth’s disk (π R^2), while radiating from the entire surface area, which is four times larger (4π R^2).
 
 Earth—shown here in northern hemisphere summer—intercepts sunlight across the projected area of the Earth’s disk $(\pi R^{2})$, while radiating from the entire surface area, which is four times larger $(4\pi R^{2})$.
 :::
@@ -616,7 +611,7 @@ away, but then clothing reduces both to bring us to equilibrium/comfort.
 [^3]: If we’re at 1/8 right now and double every 35 years, we will be at 1/4 in 35 years, 1/2 in 70 years, and full in 105 years.
 [^4]: [Chapter 4](#ch-4) addresses space realities.
 [^5]: Unlike words/language, the symbols chosen for equations are just labels and carry no intrinsic meaning—so electing to use $x, n, t, b, M$, etc. reflect arbitrary choices and can be substituted at will, if done consistently. The content is in the *structure* of the equation/sentence.
-[^6]: As an example, think of $(5^{3})^{4}$ as $(5 \times 5 \times 5)^{4}= (5\times 5\times 5)\times (5\times 5\times 5)\times (5\times 5\times 5)\times (5\times$ 5 $\times 5)$, which is just 12 fives multiplied, or
+[^6]: As an example, think of $(5^{3})^{4}$ as $(5 \times 5 \times 5)^{4}= (5\times 5\times 5)\times (5\times 5\times 5)\times (5\times 5\times 5)\times (5\times$ 5 $\times 5)$, which is just 12 fives multiplied, or $5^{12}$. So we effectively just multiplied the two exponents—3 and 4—to get the 12. It always works. Often, one need not memorize math rules: quick experimentation reveals how and why it works.
 [^7]: What follows is a high-brow symbolic approach, but the same effective result can be achieved by setting $M = 2$ in [Eq. 1.5](#eq-1-5) and solving for $n$.
 [^8]: Fundamentally, this relates to the fact that the natural log of 10 is 2.30. The analog of [Eq. 1.7](#eq-1-7) using 10 in place of 2 and $p = 0.023$ for 2.3% growth rate will produce a factor-of-ten timescale $t_{10}\approx 100$ years.
 [^9]: ⚠ Do not interpret this section as predictions of how our future *will* go.

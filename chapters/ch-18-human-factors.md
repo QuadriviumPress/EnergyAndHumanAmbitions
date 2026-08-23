@@ -56,7 +56,7 @@ A survey of visitors to the author’s Do the Math website, which presents a qua
 :::{figure} ../images/fig-18-1.svg
 :label: fig-18-1
 :enumerator: 18.1
-:alt: Frequency of Myers-Briggs types from one collection of data, as percentages [117]. Areas are proportioned accordingly. Don’t take the number
+:alt: Frequency of Myers–Briggs types from one collection of data, as percentages [117]. Areas are proportioned accordingly. Don’t take the numbers literally: they are not as precisely determined as decimals indicate, but visually at least this
 
 Frequency of Myers–Briggs types from one collection of data, as percentages [[117](#ref-117)]. Areas are proportioned accordingly. Don’t take the numbers literally: they are not as precisely determined as decimals indicate, but visually at least this representation gives a decent sense for distribution. Note how significant it is when a two-thirds majority of interest-selected individuals piles into the small INTJ and INTP boxes at upper right, as described in the text.
 :::
@@ -66,7 +66,7 @@ this text, found that a staggering 44% of about 1,000 survey respondents shared 
 :::{figure} ../images/fig-18-2.svg
 :label: fig-18-2
 :enumerator: 18.2
-:alt: Stunning Myers-Briggs personality disparity between Do the Math readership and the general population. Areas of blue boxes represent frequen
+:alt: Stunning Myers–Briggs personality disparity between Do the Math readership and the general population. Areas of blue boxes represent frequency of types in the general population, as a variant of Figure 18.1. Pink areas reflect the readership of Do
 
 Stunning Myers–Briggs personality disparity between Do the Math readership and the general population. Areas of blue boxes represent frequency of types in the general population, as a variant of [Figure 18.1](#fig-18-1). Pink areas reflect the readership of Do the Math, and overlaps appear purple. Visible pink means overrepresentation on the site, and visible blue indicates underrepresentation. 73% of the readership occupies the top right corner of the personality types, even though these three boxes only capture 7% of the population. A result this extreme, involving over 1,000 respondents, is absurdly far from random. Percentages are shown in the three most overwhelmingly over-represented boxes, plus a 1% box for reference. What if objection to the Myers–Briggs framework correlated strongly with Myers–Briggs type?
 :::
@@ -190,7 +190,7 @@ As another example, development of a resource that will last 40 years and whose 
 :class: seealso
 :label: ex-18-3-2
 
-In order to replace the current 15 $\mathrm{TW}^{24}$ now derived from fossil fuels with a renewable resource whose lifetime is 40 years and EROEI is 10:1,[^25] what options might you suggest for diverting the 15 TW into construction and how long would it take under those options?
+In order to replace the current 15 $\mathrm{TW}$[^24] now derived from fossil fuels with a renewable resource whose lifetime is 40 years and EROEI is 10:1,[^25] what options might you suggest for diverting the 15 TW into construction and how long would it take under those options?
 
 It takes four years of the ultimate resource output to create the resource in this scenario. In one extreme, *all* 15 TW from fossil fuels could be diverted into the effort over a four year period[^26] to develop 15 TW of the new resource. Or half of the 15 TW fossil resource could be dedicated to the effort over 8 years, or a quarter over 16 years, or 10% over 40 years.[^27] Choosing this last path for a 40-year resource means “starting over” at this juncture, essentially forever re-investing 10% of available energy into perpetuating a resource with EROEI of 10:1.
 
@@ -292,11 +292,7 @@ Hint: you never need to convert qBtu: it’s just some energy unit.
 
 :::
 
-9. If some country or the entire world committed to a one-decade program to replace fossil fuels with solar photovoltaics at an EROEI of 6:1 ([Table 14.1](#tab-14-1); p. 242) based on a 36 year panel lifetime expectation, what fraction of that region’$\mathrm{s}^{49}$ energy would have to be poured into this effort?
-
-:::{margin}
-… country or world, depending on the chosen confines of the problem
-:::
+9. If some country or the entire world committed to a one-decade program to replace fossil fuels with solar photovoltaics at an EROEI of 6:1 ([Table 14.1](#tab-14-1); p. 242) based on a 36 year panel lifetime expectation, what fraction of that region’s[^49] energy would have to be poured into this effort?
 
 10. Imagine that we hit energy decline as a result of less energy available each year in traditional fossil forms, experiencing 5% less energy each year.[^50] A new renewable energy infrastructure effort will require up-front energy, reducing the available energy even further.[^51] Imagine yourself as a politician wanting to get elected *after* such a program has been started, and you think you can get elected by pledging to kill the program. What is your pitch to the voters to get elected?
 
@@ -332,6 +328,7 @@ Note that we have no solid understanding of the probability that life emerges or
 [^21]: … with interest
 [^22]: Any EROEI estimate must assume some resource lifetime in order to compute the amount of energy delivered.
 [^23]: … from a resource that is *already* producing energy
+[^24]: ~80% of the 18 TW total
 [^25]: … or a combination of resources having similar EROEI and lifetime
 [^26]: … leaving nothing for societal needs
 [^27]: Even a 10% diversion will “hurt” and be unwelcomed.
@@ -356,6 +353,7 @@ Note that we have no solid understanding of the probability that life emerges or
 [^46]: Form a rough guess on ratio of areas.
 [^47]: … emerging to best serve collective survival interests
 [^48]: E.g., allow a larger indoor temperature range as it gets colder/warmer outside; eating less meat; conserving water via shower habits
+[^49]: … country or world, depending on the chosen confines of the problem
 [^50]: … a steep decline
 [^51]: … maybe by another 10% for a 40-year plan at EROEI of 10:1 and a 40-year lifetime resource
 [^52]: … stable star without flares and cosmic rays

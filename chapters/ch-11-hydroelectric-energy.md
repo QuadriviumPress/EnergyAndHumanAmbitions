@@ -75,7 +75,7 @@ To give a flavor of how weak gravitational potential energy is compared to other
 
 A standard AA battery cell has a charge rating of 2.5 Ah[^8] and operates at about 1.5 V. Following the development in [Sec. 5.8](#sec-5-8) (p. 81), we multiply these two numbers to get 3.75 Wh, translating to 13.5 kJ. Equating this to $mgh$, where we know $g \approx 10 \mathrm{m/s}^{2}$ and $h = 4$ m, we find that $m \approx 340$ kg. That’s really heavy—about the mass of 4–5 people.[^9] Meanwhile, the AA battery is a puny 0.023 kg. Reflect for a moment on this comparison, visualizing 340 kg lifted 4 m above the ground providing the same amount of energy as a AA battery held in your hand.
 
-Gasoline is even more extreme. At an energy density around 34 kJ per mL of volume, filling a AA-sized cup[^10] with gasoline yields about 250 kJ of energy.[^11] Performing the same computation, we would need to lift over 6,000 kg (6 metric tons) to a height of 4 m to get the same energy content. Typical cars have masses in the 1,000–2,000 kg range, so we’re talking about something like 4 cars! One caveat is that we are not typically able to convert the thermal energy in gasoline[^12] into useful work at much better than 25%, while gravitational potential energy can be converted at nearly 100%. Still, being able to lift 1,500 $\mathrm{kg}^{13}$ to a height of 4 m using the energy in 7 mL of gasoline is rather impressive, again emphasizing that gravitational potential energy is pretty weak. It only amounts to significance when the masses (volumes) of water are rather large.
+Gasoline is even more extreme. At an energy density around 34 kJ per mL of volume, filling a AA-sized cup[^10] with gasoline yields about 250 kJ of energy.[^11] Performing the same computation, we would need to lift over 6,000 kg (6 metric tons) to a height of 4 m to get the same energy content. Typical cars have masses in the 1,000–2,000 kg range, so we’re talking about something like 4 cars! One caveat is that we are not typically able to convert the thermal energy in gasoline[^12] into useful work at much better than 25%, while gravitational potential energy can be converted at nearly 100%. Still, being able to lift 1,500 $\mathrm{kg}$[^13] to a height of 4 m using the energy in 7 mL of gasoline is rather impressive, again emphasizing that gravitational potential energy is pretty weak. It only amounts to significance when the masses (volumes) of water are rather large.
 
 :::{margin}
 … now just one car, rather than four; it means this small volume of gasoline can propel a car up a 4 m hill
@@ -89,7 +89,7 @@ The basic idea behind hydroelectricity is that water in a reservoir behind a dam
 :::{figure} ../images/fig-11-2.svg
 :label: fig-11-2
 :enumerator: 11.2
-:alt: Cross section of a dam, holding back a reservoir of water at height, , over the downstream river.
+:alt: Cross section of a dam, holding back a reservoir of water at height, h, over the downstream river.
 
 Cross section of a dam, holding back a reservoir of water at height, $h$, over the downstream river.
 :::
@@ -141,7 +141,7 @@ A **capacity factor** is the ratio of actual performance over time to the peak p
 
 Boulder (Hoover) Dam on the Colorado River is listed in [[66](#ref-66)] as having a capacity of 2,080 MW and an annual production of 4.2 TWh. What is its capacity factor?
 
-We just need to turn the 4.2 TWh in a year into an average delivered power. Following the definition of a watt-hour, we note that all we really have to do is divide $4.2 \times 10^{12}\mathrm{Wh}^{16}$ by the number of hours in a year: 24 times 365, or 8760.
+We just need to turn the 4.2 TWh in a year into an average delivered power. Following the definition of a watt-hour, we note that all we really have to do is divide $4.2 \times 10^{12}\mathrm{Wh}$[^16] by the number of hours in a year: 24 times 365, or 8760.
 
 $4.2 \times 10^{12}\mathrm{Wh}/8760$ h $\approx 480$ MW average power. Dividing this by 2,080 MW (max capacity) gives a 23% capacity factor.
 
@@ -177,7 +177,7 @@ To put this in perspective, it takes 100 calories (418 J) to bring one gram of w
 :::{figure} ../images/fig-11-4.svg
 :label: fig-11-4
 :enumerator: 11.4
-:alt: The hydrological cycle. Sunlight evaporates water from the surface, at a cost of 2,250 J per gram. Each kilometer of height the gram of wate
+:alt: The hydrological cycle. Sunlight evaporates water from the surface, at a cost of 2,250 J per gram. Each kilometer of height the gram of water gains in forming clouds costs an additional 10 J. When rain falls on terrain, most of the gravitational
 
 The hydrological cycle. Sunlight evaporates water from the surface, at a cost of 2,250 J per gram. Each kilometer of height the gram of water gains in forming clouds costs an additional 10 J. When rain falls on terrain, most of the gravitational potential energy is spent, but on average retains 8 J—based on an average land elevation of 800 m. The 2,250 J of evaporation energy is released as heat when the water condenses into clouds.
 :::
@@ -222,12 +222,12 @@ Hydroelectric power is not available to the same degree everywhere. Geography an
 | U.S. Total | 33 |
 :::
 
-To get a sense for how concentrated different sources are, we will make a habit of examining power density for renewable resource implementations. [Figure 11.6](#fig-11-6) indicates the state-by-state density of hydroelectric power generation,[^23] just dividing generation by state area. No state exceeds 0.05 $\mathrm{W/m}^{2}$, which can be contrasted to insolation values (see Ex. 10.3.1; p. 174) of $\sim 200 \mathrm{W/m}^{2}$. Globally, total land area is about
+To get a sense for how concentrated different sources are, we will make a habit of examining power density for renewable resource implementations. [Figure 11.6](#fig-11-6) indicates the state-by-state density of hydroelectric power generation,[^23] just dividing generation by state area. No state exceeds 0.05 $\mathrm{W/m}^{2}$, which can be contrasted to insolation values (see Ex. 10.3.1; p. 174) of $\sim 200 \mathrm{W/m}^{2}$. Globally, total land area is about $1.25\times10^{14}$ m², so that a total hydroelectric potential of 2.5 TW[^24] would yield 0.02 $\mathrm{W/m}^{2}$. Therefore, the state of Washington stands out as
 
 :::{figure} ../images/fig-11-5.png
 :label: fig-11-5
 :enumerator: 11.5
-:alt: Average U.S. hydroelectric power delivered for each state, showing strongly along the west-coast, plus New York. And yes, Alaska really is t
+:alt: Average U.S. hydroelectric power delivered for each state, showing strongly along the west-coast, plus New York. And yes, Alaska really is that big.
 
 Average U.S. hydroelectric power delivered for each state, showing strongly along the west-coast, plus New York. And yes, Alaska really is that big.
 :::
@@ -236,7 +236,7 @@ Average U.S. hydroelectric power delivered for each state, showing strongly alon
 This is higher than estimated potential developed resources, but mathematically convenient here.
 :::
 
-unusual, having *already developed* a generation capacity 2.5 times larger
+unusual, having *already developed* a generation capacity 2.5 times larger than the upper-end global average expectation. In other words, most of the world cannot emulate what nature has provided in Washington.[^25] Not all places have the same available resources.
 
 :::{margin}
 Washington’s hydroelectric dominance owes largely to the presence of the mighty Columbia River, rather than human factors.
@@ -245,19 +245,19 @@ Washington’s hydroelectric dominance owes largely to the presence of the might
 :::{figure} ../images/fig-11-6.png
 :label: fig-11-6
 :enumerator: 11.6
-:alt: U.S. hydroelectric power per area delivered for each state, giving a sense of how concentrated the resource is. The units are milliwatts per
+:alt: U.S. hydroelectric power per area delivered for each state, giving a sense of how concentrated the resource is. The units are milliwatts per square meter, peaking at 48 mW/m^2 for Washington.
 
 U.S. hydroelectric power per area delivered for each state, giving a sense of how concentrated the resource is. The units are milliwatts per square meter, peaking at 48 $\mathrm{mW/m}^{2}$ for Washington.
 :::
 
 Next, we look at hydroelectric generation per capita. [Figure 11.7](#fig-11-7) shows the result. In this view, the states of the Pacific Northwest really pop up, and New York dims relative to its by-area showing. The contrast between [Figure 11.6](#fig-11-6) and [Figure 11.7](#fig-11-7) is effectively reflecting population density: large, sparsely-populated states[^26] show up more prominently on the per-capita map than the per-area map.
 
-Finally, for completeness, we look at the capacity factors of hydroelectric installations, by state. The total installed capacity in the database used for these plots is 77.6 GW spread among 1,317 dams, while producing an annual average of 28.1 GW—corresponding to an overall capacity factor of 0.36. [Figure 11.8](#fig-11-8) shows how this distributes around the country. Since the Pacific Northwest dominates in installed hydroelectric power, it largely determines the overall capacity factor. Iowa stands out as having a high capacity factor, but only has 0.153 GW of installed capacity.[^27] Contrast this to Washington, having an installation capacity of 20.7 GW.
+Finally, for completeness, we look at the capacity factors of hydroelectric installations, by state. The total installed capacity in the database used for these plots is 77.6 GW spread among 1,317 dams, while producing an annual average of 28.1 GW—corresponding to an overall capacity factor of 0.36. [Figure 11.8](#fig-11-8) shows how this distributes around the country. Since the Pacific Northwest dominates in installed hydroelectric power, it largely determines the overall capacity factor. Iowa stands out as having a high capacity factor, but only has 0.153 GW of installed capacity.[^27] Contrast this to Washington, having an installation capacity of 20.7 GW.[^28]
 
 :::{figure} ../images/fig-11-7.png
 :label: fig-11-7
 :enumerator: 11.7
-:alt: U.S. hydroelectric power per population within each state, indicating which residents receive the most hydroelectric power. The Pacific Nort
+:alt: U.S. hydroelectric power per population within each state, indicating which residents receive the most hydroelectric power. The Pacific Northwest wins.
 
 U.S. hydroelectric power per population within each state, indicating which residents receive the most hydroelectric power. The Pacific Northwest wins.
 :::
@@ -265,7 +265,7 @@ U.S. hydroelectric power per population within each state, indicating which resi
 :::{figure} ../images/fig-11-8.png
 :label: fig-11-8
 :enumerator: 11.8
-:alt: U.S. hydroelectric capacity factors by state. The national average (weighted by generation) is about 0.4, meaning that over the course of a
+:alt: U.S. hydroelectric capacity factors by state. The national average (weighted by generation) is about 0.4, meaning that over the course of a year the dams deliver 40% of their rated capacity—subject to seasonal water flow.
 
 U.S. hydroelectric capacity factors by state. The national average (weighted by generation) is about 0.4, meaning that over the course of a year the dams deliver 40% of their rated capacity—subject to seasonal water flow.
 :::
@@ -362,7 +362,7 @@ Hint: the energy density in MJ per kg is a property of the gasoline.
 
 7. A typical American household uses approximately 30 kWh per day of electricity. Convert this to Joules and then imagine building a water tank 10.8 m above the house[^37] to supply one day’s worth of electricity.[^38] How much mass of water is this, in kg? At a density of 1,000 $\mathrm{kg/m}^{3}$, what is the volume in cubic meters, and what is the side length of a cube[^39] having this volume? Take a moment to visualize (or sketch) this arrangement.
 
-8. The biggest hydroelectric installation in the U.S. is the Grand Coulee dam on the Columbia River. The enormous flow rate reaches its maximum at 4,300 $\mathrm{m}^{3}/\mathrm{s}$, and the dam (reservoir) height is 168 m. At an efficiency of 90%, at what rate is this dam capable of producing hydroelectric power (in $\mathrm{GW}^{40})$? Don’t forget the density of water and that $g \approx 10 \mathrm{m/s}^{2}$.
+8. The biggest hydroelectric installation in the U.S. is the Grand Coulee dam on the Columbia River. The enormous flow rate reaches its maximum at 4,300 $\mathrm{m}^{3}/\mathrm{s}$, and the dam (reservoir) height is 168 m. At an efficiency of 90%, at what rate is this dam capable of producing hydroelectric power (in $\mathrm{GW}$[^40])? Don’t forget the density of water and that $g \approx 10 \mathrm{m/s}^{2}$.
 
 :::{margin}
 ⓘ For comparison, a large nuclear reactor typically produces about 1 GW of electrical power.
@@ -386,7 +386,7 @@ Hint: Multiplying peak power by hours in a year will result in units similar to 
 
 :::
 
-13. The Robert Moses Niagara dam in New York is rated at 2,429 $\mathrm{MW}^{41}$ and has a high capacity factor of 0.633. How many kWh does it produce in an average day, and how many homes would this serve at the national average of 30 kWh/day?
+13. The Robert Moses Niagara dam in New York is rated at 2,429 $\mathrm{MW}$[^41] and has a high capacity factor of 0.633. How many kWh does it produce in an average day, and how many homes would this serve at the national average of 30 kWh/day?
 
 :::{margin}
 … peak power capacity
@@ -421,8 +421,10 @@ Hint: Convert average power to kW then multiply by hours.
 [^10]: … just over 7 mL
 [^11]: Thus, gasoline is nearly 20 times as energy-dense as a AA battery *by volume*. Usually, we will discuss energy density *by mass*, in which case the $\sim 5\times$ denser battery provides nearly $100\times$ less energy per gram than does gasoline.
 [^12]: … via combustion; see [Sec. 6.4](#sec-6-4) (p. 93)
+[^13]: … now just one car, rather than four; it means this small volume of gasoline can propel a car up a 4 m hill
 [^14]: Fundamentally, motors and generators are nearly identical in concept and construction.
 [^15]: Flow rate times density gives mass per second: 2,000 $\mathrm{m}^{3}/\mathrm{s}$ times 1,000 $\mathrm{kg/m}^{3}=$ 2 $\times 10^{6}$ kg/s
+[^16]: 1 TWh is $10^{12}$ Wh.
 [^17]: … one cubic centimeter
 [^18]: … typical cloud height
 [^19]: The sun must, in total, supply 2,300 J to evaporate and lift the gram of water, and only 50 J of the 2,300 J is kept as potential energy.
@@ -430,8 +432,11 @@ Hint: Convert average power to kW then multiply by hours.
 [^21]: … reduced from 8 J since most rain falls back onto ocean
 [^22]: … if cost is no barrier
 [^23]: … based on actual generation, not installed capacity
+[^24]: This is higher than estimated potential developed resources, but mathematically convenient here.
+[^25]: Washington’s hydroelectric dominance owes largely to the presence of the mighty Columbia River, rather than human factors.
 [^26]: Montana, Idaho, even Alaska
-[^27]: … delivering an average of 0.114 GW in 8 dams, dominated by the 0.125 GW Keokuk dam … delivering an average of 8.9 GW spread across 65 dams
+[^27]: … delivering an average of 0.114 GW in 8 dams, dominated by the 0.125 GW Keokuk dam
+[^28]: … delivering an average of 8.9 GW spread across 65 dams
 [^29]: … aside from construction and decommissioning aspects
 [^30]: … no imposed short-term fluctuations in available power, as happens for solar or wind
 [^31]: … the dam itself, at least; turbines and generators will need periodic replacement
@@ -443,6 +448,8 @@ Hint: Convert average power to kW then multiply by hours.
 [^37]: Pretend all the water is at this height.
 [^38]: Assume 100% conversion efficiency for mathematical convenience.
 [^39]: … cube root of volume
+[^40]: ⓘ For comparison, a large nuclear reactor typically produces about 1 GW of electrical power.
+[^41]: … peak power capacity
 [^42]: Each stage will knock down the number further; report each in TW.
 [^43]: This is the largest jump, keeping only 50 J out of every 2,300 J.
 [^44]: $44,000\times 10^{12}$ W divided by $3.7\times 10^{14}\mathrm{m}^{2}$ of ocean surface is 120 $\mathrm{W/m}^{2}$.

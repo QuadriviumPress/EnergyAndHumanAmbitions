@@ -115,7 +115,7 @@ Notice that all of the unqualified[^12] “Yes” entries in [Table 10.1](#tab-1
 :::{figure} ../images/fig-10-1.svg
 :label: fig-10-1
 :enumerator: 10.1
-:alt: Energy inputs to the earth, ignoring the radiation piece (since that is an output channel). About 70% of incoming solar energy is absorbed b
+:alt: Energy inputs to the earth, ignoring the radiation piece (since that is an output channel). About 70% of incoming solar energy is absorbed by the atmosphere and land, while about 30% is immediately reflected back to space (mostly by clouds). About
 
 Energy inputs to the earth, ignoring the radiation piece (since that is an output channel). About 70% of incoming solar energy is absorbed by the atmosphere and land, while about 30% is immediately reflected back to space (mostly by clouds). About half of the energy absorbed at the surface goes into evaporating water, while smaller portions drive winds, photosynthesis (land and sea), and ocean currents. Additional non-solar inputs are geothermal and tidal in origin [[63](#ref-63)–[65](#ref-65)].
 :::
@@ -166,11 +166,6 @@ Clouds and ice (mostly) reflect almost 30% of incoming sunlight, leaving 123,000
 How much would a black table[^18] warm up sitting in full sun for ten minutes?
 
 A nice round-number approximation of full overhead sunlight is that it delivers 1,000 $\mathrm{W/m}^{2}$ to the ground. If we situate a table whose top surface area is 1 $\mathrm{m}^{2}$, has a mass of 20 kg, and a specific heat capacity of 1,000 $\mathrm{J/kg}/^{\circ}\mathrm{C}$ under full sun, we can proceed as follows.
-
-::::
-
-::::{admonition} Example
-:class: seealso
 
 The table will absorb 1,000 J per second,[^19] and therefore receives 600,000 J over the course of ten minutes. Multiplying the specific heat capacity by the table mass means the table absorbs 20,000 J for every $1^{\circ}\mathrm{C}$ of temperature rise, and therefore would climb $30^{\circ}\mathrm{C}$ in 10 minutes, in this case. That’s a little unrealistically high, because a real table would also have cooling influences from the air and infrared radiation. But the main point is to show how absorbed sunlight heats things up—like the Earth.
 

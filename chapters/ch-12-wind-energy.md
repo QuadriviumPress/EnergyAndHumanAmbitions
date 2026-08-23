@@ -95,7 +95,7 @@ patterns over the course of 24 hours: a full day of the driving solar input arou
 :::{figure} ../images/fig-12-2.png
 :label: fig-12-2
 :enumerator: 12.2
-:alt: Average wind velocity at a height of 80 m across the U.S. [69]. Boundaries between colored boxes are every 0.5 m/s from 4.0 m/s to 10.0 m/s.
+:alt: Average wind velocity at a height of 80 m across the U.S. [69]. Boundaries between colored boxes are every 0.5 m/s from 4.0 m/s to 10.0 m/s. Nothing on this map exceeds 9 m/s, and the deepest green is below 4 m/s. The plains states are the hot
 
 Average wind velocity at a height of 80 m across the U.S. [[69](#ref-69)]. Boundaries between colored boxes are every 0.5 m/s from 4.0 m/s to 10.0 m/s. Nothing on this map exceeds 9 m/s, and the deepest green is below 4 m/s. The plains states are the hot ticket. Note that Alaska is not to scale. From NREL.
 :::
@@ -125,7 +125,7 @@ To understand practically-available energy, we back up and consider how much air
 :::{figure} ../images/fig-12-3.svg
 :label: fig-12-3
 :enumerator: 12.3
-:alt: Wind power concept. In time interval at wind speed , a volume of air encounters the rotor having the shape of a cylinder of radius and lengt
+:alt: Wind power concept. In time interval Delta t at wind speed v, a volume of air encounters the rotor having the shape of a cylinder of radius R and length vDelta t. Note that most wind turbines are designed to pivot about a vertical axis to face into
 
 Wind power concept. In time interval $\Delta t$ at wind speed $v$, a volume of air encounters the rotor having the shape of a cylinder of radius $R$ and length $v\Delta t$. Note that most wind turbines are designed to pivot about a vertical axis to face into the wind, whatever the direction.
 :::
@@ -181,7 +181,7 @@ Setting $\epsilon = 1$ in [Eq. 12.2](#eq-12-2) corresponds to the *total* power 
 :::{figure} ../images/fig-12-4.jpg
 :label: fig-12-4
 :enumerator: 12.4
-:alt: Theoretical and practical wind turbine efficiencies , or c in the plot), for various designs. The parameter is the ratio of tip speed to win
+:alt: Theoretical and practical wind turbine efficiencies (epsilon, or cp in the plot), for various designs. The parameter lambda is the ratio of tip speed to wind speed: higher lambda means a faster tip speed [74]. All designs must be below the Betz
 
 Theoretical and practical wind turbine efficiencies $(\epsilon$, or c$_{\mathrm{p}}$ in the plot), for various designs. The parameter $\lambda$ is the ratio of tip speed to wind speed: higher $\lambda$ means a faster tip speed [[74](#ref-74)]. All designs must be below the Betz limit (horizontal line near top). At slower speeds, the Glauert limit confines performance to occupy the region to the right of the curve marked 2. Each of the 7 designs shown has arched curves, achieving maximum efficiency at a particular tip speed. Too slow, and the turbine is not transmitting much energy; too fast and drag/friction begins to dominate. Adapted from ©2010 WIT Press.
 :::
@@ -210,7 +210,7 @@ Besides the limit on how much power can be pulled out of the air by a single tur
 :::{figure} ../images/fig-12-5.svg
 :label: fig-12-5
 :enumerator: 12.5
-:alt: Overhead view of wind farm turbine locations, for the case where separations are 10 rotor-diameters along the wind direction, and 5 rotor di
+:alt: Overhead view of wind farm turbine locations, for the case where separations are 10 rotor-diameters along the wind direction, and 5 rotor diameters in the cross-wind direction—a geometry that yields 1.6% area “fill factor.” Current recommendations
 
 Overhead view of wind farm turbine locations, for the case where separations are 10 rotor-diameters along the wind direction, and 5 rotor diameters in the cross-wind direction—a geometry that yields 1.6% area “fill factor.” Current recommendations are for 15 and 8 rotor diameters, which is significantly more sparse than even this depiction, leading to 0.65% area fill. Note that most wind turbines can turn to face the wind direction, for times when its direction is not the prevailing one.
 :::
@@ -230,7 +230,7 @@ A final general note about wind generation is somewhat obvious: the wind is not 
 :::{figure} ../images/fig-12-6.jpg
 :label: fig-12-6
 :enumerator: 12.6
-:alt: One month of wind generation from a 20 MW wind farm, illustrating the intermittent nature and why capacity factors are low [76]. The facilit
+:alt: One month of wind generation from a 20 MW wind farm, illustrating the intermittent nature and why capacity factors are low [76]. The facility saturates at maximum power late in the month, self-limiting to avoid damage to the turbines. ©2010 Springer.
 
 One month of wind generation from a 20 MW wind farm, illustrating the intermittent nature and why capacity factors are low [[76](#ref-76)]. The facility saturates at maximum power late in the month, self-limiting to avoid damage to the turbines. ©2010 Springer.
 :::
@@ -240,7 +240,7 @@ For very low wind speeds,[^19] wind turbines do not have enough wind to turn at 
 :::{figure} ../images/fig-12-7.jpg
 :label: fig-12-7
 :enumerator: 12.7
-:alt: Actual data (thickly-clustered black circles) of power delivered by a turbine rated at 2 MW, as a function of wind velocity. The red curve r
+:alt: Actual data (thickly-clustered black circles) of power delivered by a turbine rated at 2 MW, as a function of wind velocity. The red curve represents the theoretical Betz limit of 59%, appearing as a cubic function of velocity—as Eq. 12.2 dictates.
 
 Actual data (thickly-clustered black circles) of power delivered by a turbine rated at 2 MW, as a function of wind velocity. The red curve represents the theoretical Betz limit of 59%, appearing as a cubic function of velocity—as [Eq. 12.2](#eq-12-2) dictates. The better-matching blue curve corresponds to an overall efficiency $\epsilon =$ c$_{\mathrm{p}}= 0.44$ (44%), and the green curve—which rolls over from the cubic function and saturates at higher velocities—is the manufacturer’s expectation for the unit [[77](#ref-77)]. The “cut-in” velocity for this turbine is around 3.5 m/s: note the small step up from zero output in the green curve. This turbine saturates around 12 m/s: the green curve flattens out and no black circles appear above the cutoff. From ©2017 Wiley.
 :::
@@ -277,7 +277,7 @@ Global wind installations are rising rapidly, currently (as of 2020) above 600 G
 :::{figure} ../images/fig-12-8.png
 :label: fig-12-8
 :enumerator: 12.8
-:alt: Wind power by state, in terms of average generation, in GW, in 2018. The color scale may seem unhelpful, but the unavoidable truth is that m
+:alt: Wind power by state, in terms of average generation, in GW, in 2018. The color scale may seem unhelpful, but the unavoidable truth is that many states don’t have a lot going on, and Texas is so dominant as to render other states almost
 
 Wind power by state, in terms of average generation, in GW, in 2018. The color scale may seem unhelpful, but the unavoidable truth is that many states don’t have a lot going on, and Texas is so dominant as to render other states almost insignificant. A logarithmic color scale could help, but then the important lesson on the gross disparity might go unappreciated.
 :::
@@ -287,20 +287,12 @@ In 2018, the U.S. had about 94 GW of *installed* wind capability.[^25] This numb
 :::{figure} ../images/fig-12-9.png
 :label: fig-12-9
 :enumerator: 12.9
-:alt: Average wind power by state, divided by state area to indicate a density of the developed resource, in milliwatts per square meter (based on
+:alt: Average wind power by state, divided by state area to indicate a density of the developed resource, in milliwatts per square meter (based on 2018 data). We might expect some resemblance to Figure 12.2, based on where the resource is most favorable.
 
 Average wind power by state, divided by state area to indicate a density of the developed resource, in milliwatts per square meter (based on 2018 data). We might expect some resemblance to [Figure 12.2](#fig-12-2), based on where the resource is most favorable.
 :::
 
-Following the flow we used in [Sec. 11.3](#sec-11-3) (p. 186), we show wind generation
-
-:::{margin}
-… about 10 times, in the case of Iowa, but bear in mind the 0.2 $\mathrm{W/m}^{2}$ estimate was based on 5 m/s, while Iowa scores a bit higher, according to [Figure 12.2](#fig-12-2)
-:::
-
-:::{margin}
-… 0.05 $\mathrm{W/m}^{2}$ in Washington; followed by New York at 0.02 $\mathrm{W/m}^{2}$
-:::
+Following the flow we used in [Sec. 11.3](#sec-11-3) (p. 186), we show wind generation as a function of area ([Figure 12.9](#fig-12-9)), to get a sense for how concentrated the installations are. Oklahoma and Iowa jump in front of Texas by this measure. Texas has more total generation than all others, but is a very large state in terms of area. Iowa, for instance produces about 30% as much wind power as Texas, but at only 20% the size. The numbers, reaching about 0.017 $\mathrm{W/m}^{2}$ are a bit smaller than those for hydroelectricity, where two states exceeded this value.[^27] We can compare these numbers to the 0.2 $\mathrm{W/m}^{2}$ *fully-developed* potential we estimated in the paragraph following [Eq. 12.3](#eq-12-3) to conclude that in principle we could expand wind by a large factor.[^28]
 
 :::{figure} ../images/fig-12-10.png
 :label: fig-12-10
@@ -327,7 +319,7 @@ Capacity factor for wind installations by state (based on 2018 data).
 
 Wind has surged tremendously in the last decade ([Fig. 7.5](#fig-7-5); p. 113), proving to be an economically viable and competitive resource. But how much could we expect to get from wind?
 
-Putting a few of the previous results together, if the entire contiguous U.S. (area $\sim 10^{13}\mathrm{m}^{2})$ were developed for wind at an estimated power density of 0.2 $\mathrm{W/m}^{2}$—which was based on a 5 m/s average wind speed—and a capacity factor of 33%, the U.S. could theoretically produce 0.7 $\mathrm{TW}^{30}$ from wind—roughly 20 times what is produced today. We should take this crude estimate as an extreme upper end, since it is inconceivable that we would develop wind so fully as to never be more than a few hundred meters—a few rotor diameters—away from a wind turbine, no matter where we go. Also, many areas are sub-threshold and would not support investment in wind development.
+Putting a few of the previous results together, if the entire contiguous U.S. (area $\sim 10^{13}\mathrm{m}^{2})$ were developed for wind at an estimated power density of 0.2 $\mathrm{W/m}^{2}$—which was based on a 5 m/s average wind speed—and a capacity factor of 33%, the U.S. could theoretically produce 0.7 $\mathrm{TW}$[^30] from wind—roughly 20 times what is produced today. We should take this crude estimate as an extreme upper end, since it is inconceivable that we would develop wind so fully as to never be more than a few hundred meters—a few rotor diameters—away from a wind turbine, no matter where we go. Also, many areas are sub-threshold and would not support investment in wind development.
 
 :::{margin}
 ⚠ We’re fudging things a bit here for the sake of simplicity. If turbines are built for 12 m/s, the capacity factor already has some averaging built in, so using 5 m/s *and* a capacity factor of 0.33 is unfair. On the other hand, much of the country spends substantial time below the cut-in speed for turbines, and the cruel cubic function of velocity greatly suppresses much of the land area as impractical for wind development. So the approach is a compromise that might balance out reasonably.
@@ -409,7 +401,7 @@ mosphere, $h_{0}$, which you may wish to compare to the tallest mountains on Ear
 
 10. How much *power* would a moderate-sized 50%–efficient wind turbine produce whose radius is 10 m at wind speeds of 5 m/s, 10 m/s, 15 m/s, and 20 m/s? Express the answers in kW or MW, depending on what is most natural.
 
-11. The Betz limit says that we get to keep no more than 59% of the available wind power. If 59% of the kinetic energy in a lump of air moving at speed $v$ is removed, how fast is it going afterwards, as a fraction of the original speed?
+11. The Betz limit says that we get to keep no more than 59% of the available wind power. If 59% of the kinetic energy in a lump of air moving at speed[^38] $v$ is removed, how fast is it going afterwards,[^39] as a fraction of the original speed?
 
 :::{margin}
 Make up your own velocity or solve in symbols/variables: same either way. This relates to wind speed just behind a wind turbine
@@ -432,7 +424,7 @@ Reflect on the fact that just estimating the rotor blade length and timing its r
 
 17. In a way similar to [Figure 12.5](#fig-12-5), replicate the statement in the text that the fraction of land covered per rotor area is 0.65% if turbines are separated by 15 rotor diameters along one direction and 8 rotor diameters along the cross direction.
 
-18. Check that the units of Eq. $12.3^{43}$ indeed are equivalent to Watts per square meter $(\mathrm{W/m}^{2})$.
+18. Check that the units of [Eq. 12.3](#eq-12-3)[^43] indeed are equivalent to Watts per square meter $(\mathrm{W/m}^{2})$.
 
 :::{margin}
 … essentially $\rho v^{3}$
@@ -481,7 +473,10 @@ Hint: no external research necessary: what do the numbers mean?
 [^24]: To compare wind to total energy, we follow the thermal equivalent convention discussed for [Table 10.3](#tab-10-3) (p. 177)
 [^25]: From tables 1.14.B and 6.2.B in [[85](#ref-85)]
 [^26]: … as we also saw in [Table 10.3](#tab-10-3) (p. 177)
+[^27]: … 0.05 $\mathrm{W/m}^{2}$ in Washington; followed by New York at 0.02 $\mathrm{W/m}^{2}$
+[^28]: … about 10 times, in the case of Iowa, but bear in mind the 0.2 $\mathrm{W/m}^{2}$ estimate was based on 5 m/s, while Iowa scores a bit higher, according to [Figure 12.2](#fig-12-2)
 [^29]: Lack of wind makes it a poor fit: see also [Figure 12.2](#fig-12-2).
+[^30]: ⚠ We’re fudging things a bit here for the sake of simplicity. If turbines are built for 12 m/s, the capacity factor already has some averaging built in, so using 5 m/s *and* a capacity factor of 0.33 is unfair. On the other hand, much of the country spends substantial time below the cut-in speed for turbines, and the cruel cubic function of velocity greatly suppresses much of the land area as impractical for wind development. So the approach is a compromise that might balance out reasonably.
 [^31]: Domestic cats turn out to kill far more birds than wind turbines do, currently.
 [^32]: … how painful can a few Joules be?
 [^33]: … corresponding to a volume of 10 mL appropriate to a slap area of 10 cm by 10 cm and to a depth of 1 mm
@@ -489,7 +484,10 @@ Hint: no external research necessary: what do the numbers mean?
 [^35]: Try it using a different mass.
 [^36]: … using variables/symbols
 [^37]: … 0 K, when the kinetic energy is effectively frozen out, or stopped
+[^38]: Make up your own velocity or solve in symbols/variables: same either way.
+[^39]: This relates to wind speed just behind a wind turbine
 [^40]: ⚠ not radius
 [^41]: Hint: focus on tip speed.
 [^42]: … corresponding to radius of the rotor
+[^43]: … essentially $\rho v^{3}$
 [^44]: Hint: compute power at 12 m/s then apply capacity factor

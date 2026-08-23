@@ -38,7 +38,7 @@ What was true in the past is largely still true today: resources like oil, steel
 :::{figure} ../images/fig-2-1.svg
 :label: fig-2-1
 :enumerator: 2.1
-:alt: Per capita energy use as a function of GDP on a logarithmic scale. Per capita GDP is the sum total of a country’s economy divided by populat
+:alt: Per capita energy use as a function of GDP on a logarithmic scale. Per capita GDP is the sum total of a country’s economy divided by population, effectively indicating average annual income. The rate at which an individual uses energy is expressed
 
 Per capita energy use as a function of GDP on a logarithmic scale. Per capita GDP is the sum total of a country’s economy divided by population, effectively indicating average annual income. The rate at which an individual uses energy is expressed as a power, in Watts. A strong correlation exists here across many orders-of-magnitude: rich countries use more energy, per person [[6](#ref-6), [7](#ref-7), [8](#ref-8)]. A few instructive cases (red dots) are labeled. The dot areas are scaled to population.
 :::
@@ -71,7 +71,7 @@ We will cover units of energy in [Chapter 5](#ch-5). For now, it is sufficient t
 :::{figure} ../images/fig-2-2.svg
 :label: fig-2-2
 :enumerator: 2.2
-:alt: Energy intensity of countries, on a log-log plot. The vertical axis shows how energetically “hungry” each country is in relation to its econ
+:alt: Energy intensity of countries, on a log–log plot. The vertical axis shows how energetically “hungry” each country is in relation to its economic output, while the horizontal axis sorts countries by economic output per person. A few instructive cases
 
 Energy intensity of countries, on a log–log plot. The vertical axis shows how energetically “hungry” each country is in relation to its economic output, while the horizontal axis sorts countries by economic output per person. A few instructive cases (red dots) are labeled. The dot areas are scaled to population. Prosperous countries tend to have lower intensity than developing countries, but part of this may relate to moving manufacturing from the former to the latter [[6](#ref-6), [7](#ref-7), [8](#ref-8)].
 :::
@@ -151,7 +151,7 @@ Bulb packaging still refers to the “equivalent wattage” of a bulb, even thou
 :::{figure} ../images/fig-2-3.svg
 :label: fig-2-3
 :enumerator: 2.3
-:alt: Historical progress of lighting efficiency on a logarithmic plot, using bars to indicate the approximate range of time and performance. The
+:alt: Historical progress of lighting efficiency on a logarithmic plot, using bars to indicate the approximate range of time and performance. The dashed line at top represents the maximum theoretical luminous efficacy for white light (no waste heat). The
 
 Historical progress of lighting efficiency on a logarithmic plot, using bars to indicate the approximate range of time and performance. The dashed line at top represents the maximum theoretical luminous efficacy for white light (no waste heat). The dotted line rises by our customary factor of ten per century (2.3% annual rate). Note that the guiding line reaches the theoretical maximum mid-century (red star), indicating that this centuries-long ride cannot continue much longer [[10](#ref-10), [11](#ref-11)].
 :::
@@ -216,7 +216,7 @@ Let us now consider a thought experiment. We will use [Figure 2.4](#fig-2-4) as 
 :::{figure} ../images/fig-2-4.svg
 :label: fig-2-4
 :enumerator: 2.4
-:alt: Model evolution of the economy after physical resources saturate. The blue curve is the scale of the physical economy (leveling out, or satu
+:alt: Model evolution of the economy after physical resources saturate. The blue curve is the scale of the physical economy (leveling out, or saturating). The solid red curve is the total economic scale, which we force to adhere to a constant growth rate
 
 Model evolution of the economy after physical resources saturate. The blue curve is the scale of the physical economy (leveling out, or saturating). The solid red curve is the total economic scale, which we force to adhere to a constant growth rate $(10\times$ per century, or 2.3% annual rate). The magenta curve is the percentage of the economy in non-physical sectors, and the red dashed curve is a more realistic reaction of the economy to a saturating physical sector. Colored arrows point to the scale that each curve should use—logarithmic on the left for economic scales and linear on the right for the percentage curve. This model is constructed simply to illustrate the overall behavior: time scales and other quantitative details should not be taken literally.
 :::
@@ -346,7 +346,7 @@ Look at the column for total energy consumption in units of quadrillion Btu.
 
 :::
 
-4. Estimate the energy intensity of the UCSD campus, based on an annual electricity expenditure around $10^{15}$ J.[^26] For the financial side, assume that student payments (tuition, fees, room and board) account for 40% of the total budget. Use your knowledge of typical tuition/fees and enrollment to come up with a number. Compare your result to global figures for energy intensity.
+4. Estimate the energy intensity of the UCSD campus, based on an annual electricity expenditure around $10^{15}$ J.[^26] For the financial side, assume that student payments (tuition, fees, room and board) account for 40% of the total budget.[^27] Use your knowledge of typical tuition/fees and enrollment to come up with a number. Compare your result to global figures for energy intensity.
 
 :::{margin}
 Don’t get hung up on in-state fraction; just make a crude guess (maybe guess an average) and clearly state assumptions.
@@ -417,7 +417,8 @@ You might pick any subset of solar, wind, hydroelectric, geothermal, nuclear, et
 [^23]: … closer to modern-day physics than to modern-day economics, rooted in the natural world
 [^24]: The classic example is Thomas Malthus, who warned of limits over 200 years ago based on finite resource limits before fossil fuels ripped the narrative apart. The lasting association is that “Malthus equals wrong,” leading to the dangerous takeaway that all warnings in this vein are discredited and can be ignored. Note that the most consequential and overlooked lesson from the story about “the boy who cried wolf” is that a *real* wolf *did* appear.
 [^25]: … which, let’s be clear, we’re arguing is ultimately not at all viable…
-[^26]: Based on a 30 MW electrical load times the number of seconds in a year; this won’t account for all energy expenditures, missing transportation, for instance. Federal grants comprise most of the rest, and a small amount from state taxes
+[^26]: Based on a 30 MW electrical load times the number of seconds in a year; this won’t account for all energy expenditures, missing transportation, for instance.
+[^27]: Federal grants comprise most of the rest, and a small amount from state taxes.
 [^28]: In the same sense as was calculated for Problem 5
 [^29]: … things that cost money
 [^30]: A factor is just a multiplicative scale: e.g., 24 is a factor of 6 larger than 4.

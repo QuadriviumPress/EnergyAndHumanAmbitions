@@ -148,7 +148,7 @@ A story illustrates the challenge. An economist named Herman Daly worked at the 
 :::{figure} ../images/fig-19-1.svg
 :label: fig-19-1
 :enumerator: 19.1
-:alt: Standard concept of the economy, but importantly surrounded by a finite box labeled “The Environment.” Most instances of this figure avoid t
+:alt: Standard concept of the economy, but importantly surrounded by a finite box labeled “The Environment.” Most instances of this figure avoid the insinuation that the economy is contained in a finite domain, in part because it raises the uncomfortable
 
 Standard concept of the economy, but importantly surrounded by a finite box labeled “The Environment.” Most instances of this figure avoid the insinuation that the economy is contained in a finite domain, in part because it raises the uncomfortable question of how close we are to filling up the box.
 :::

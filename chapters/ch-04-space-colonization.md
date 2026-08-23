@@ -29,7 +29,7 @@ The convention is to capitalize Earth when it is used as a proper *name*, and re
 :::{figure} ../images/fig-4-1.jpg
 :label: fig-4-1
 :enumerator: 4.1
-:alt: Earth and Moon (far right) to scale. On this scale, the sun would be larger than the page and about 400 pages away. Mars would be 160 to 1,1
+:alt: Earth and Moon (far right) to scale. On this scale, the sun would be larger than the page and about 400 pages away. Mars would be 160 to 1,100 pages away. Since 1972, humans have not traveled beyond the black outline of the earth in this figure (600
 
 Earth and Moon (far right) to scale. On this scale, the sun would be larger than the page and about 400 pages away. Mars would be 160 to 1,100 pages away. Since 1972, humans have not traveled beyond the black outline of the earth in this figure (600 km).
 :::
@@ -42,7 +42,7 @@ Sun
 :::{figure} ../images/fig-4-2.svg
 :label: fig-4-2
 :enumerator: 4.2
-:alt: Proving the point that textbooks are not conducive to correctly-scaled graphics of objects in space, by the time the Earth-Sun distance span
+:alt: Proving the point that textbooks are not conducive to correctly-scaled graphics of objects in space, by the time the Earth-Sun distance spans the page, Earth (on far right) is too small to be visible in print, at less than 1% the diameter of the
 
 Proving the point that textbooks are not conducive to correctly-scaled graphics of objects in space, by the time the Earth-Sun distance spans the page, Earth (on far right) is too small to be visible in print, at less than 1% the diameter of the orange sun at far left. The Earth–Moon distance is about the width of the arrow shaft pointing to Earth. Humans have *never* traveled more than the arrow shaft’s width from Earth, and have not even gone 0.2% *that far* in about 50 years! Mars, on average, is farther from Earth than is the sun.
 :::
@@ -177,7 +177,7 @@ But penetrating the nature of the individual galaxies (coins, in the previous ex
 :::{figure} ../images/fig-4-3.jpg
 :label: fig-4-3
 :enumerator: 4.3
-:alt: Galaxies are actually distributed in a frothy foam-like pattern crudely lining the edges of vast bubbles (voids; appearing as dark regions i
+:alt: Galaxies are actually distributed in a frothy foam-like pattern crudely lining the edges of vast bubbles (voids; appearing as dark regions in the image). This structure forms as a natural consequence of gravity as galaxies pull on each other and
 
 Galaxies are actually distributed in a frothy foam-like pattern crudely lining the edges of vast bubbles (voids; appearing as dark regions in the image). This structure forms as a natural consequence of gravity as galaxies pull on each other and coalesce into groups, leaving emptiness between. This graphic shows the bubble edges and filaments where galaxies collect. The larger galaxies are bright dots in this view—almost like cities along a 3-dimensional web of highways through the vast emptiness. From the Millennium Simulation [[25](#ref-25)].
 :::
@@ -244,7 +244,7 @@ Before turning attention to what we have not yet done in space, students may app
 :::{figure} ../images/fig-4-4.svg
 :label: fig-4-4
 :enumerator: 4.4
-:alt: The pink band indicates the farthest humans have been from the surface of the earth for the last years. The Hubble Space Telescope (HST) orb
+:alt: The pink band indicates the farthest humans have been from the surface of the earth for the last ~ 50 years. The Hubble Space Telescope (HST) orbits at the top of this band at 600 km altitude, and the International Space Station in the middle at 400
 
 The pink band indicates the farthest humans have been from the surface of the earth for the last $\sim 50$ years. The Hubble Space Telescope (HST) orbits at the top of this band at 600 km altitude, and the International Space Station in the middle at 400 km. Beyond the thin black line outlining the globe, Earth’s atmosphere is too tenuous to support life.
 :::
@@ -309,7 +309,7 @@ We also should recall the lesson from [Chapter 1](#ch-1) about exponential growt
 :::{figure} ../images/fig-4-5.svg
 :label: fig-4-5
 :enumerator: 4.5
-:alt: Rocky-body atmospheres in the solar system, showing average temperature (Celsius) and pressure (atmospheres). The range of “comfort” for Ear
+:alt: Rocky-body atmospheres in the solar system, showing average temperature (Celsius) and pressure (atmospheres). The range of “comfort” for Earth is shown as a blue rectangle going from -10°C to 40°C and 0.2 atm (where the atmosphere would need to be
 
 Rocky-body atmospheres in the solar system, showing *average* temperature (Celsius) and pressure (atmospheres). The range of “comfort” for Earth is shown as a blue rectangle going from $-10^{\circ}\mathrm{C}$ to $40^{\circ}\mathrm{C}$ and 0.2 atm (where the atmosphere would need to be 100% oxygen) to (arbitrarily) 10 atm. Not only are the other bodies *far* outside our comfort range, the compositions are noxious, and lack oxygen. Bear in mind that a change of even a few degrees— as in climate change—is a big deal. Even Mt. Everest, where humans can survive for only a few hours with supplemental oxygen is *substantially* more hospitable than Mars.
 :::

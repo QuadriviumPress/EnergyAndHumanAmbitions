@@ -58,7 +58,7 @@ Beginning in 1958, Dave Keeling of the Scripps Institution of Oceanography began
 :::{figure} ../images/fig-9-1.svg
 :label: fig-9-1
 :enumerator: 9.1
-:alt: In blue (left axis), CO measurements from Mauna Loa (Hawaii) for the last 60 years, showing a relentless and accelerating upward trend now a
+:alt: In blue (left axis), CO2 measurements from Mauna Loa (Hawaii) for the last 60 years, showing a relentless and accelerating upward trend now at abut 2.6 ppmv per year [50]. Seasonal variations due to photosynthesis are seen on top of this trend.
 
 In blue (left axis), CO$_{2}$ measurements from Mauna Loa (Hawaii) for the last 60 years, showing a relentless and accelerating upward trend now at abut 2.6 ppm$_{\mathrm{v}}$ per year [[50](#ref-50)]. Seasonal variations due to photosynthesis are seen on top of this trend. Pre-industrial levels were around 280 ppm$_{\mathrm{v}}$, so that we have added about 130 parts per million (ppm). Red dots (right axis) show global average mean temperature records over the same period [[51](#ref-51)]. Thus far, global average temperature has risen about $1^{\circ}\mathrm{C}$. Note that the Kyoto Protocol in 1997 and Paris Agreement in 2015 ([Box 19.4](#box-19-4); p. 331) do not visibly curb the upward trajectory of CO$_{2}$ emissions.
 :::
@@ -73,7 +73,7 @@ Measurements of trapped air bubbles in the Greenland ice sheet going back about 
 :::{figure} ../images/fig-9-2.svg
 :label: fig-9-2
 :enumerator: 9.2
-:alt: Historical use of fossil fuels worldwide, repeated from Figure 8.2 [16]. On the left is the raw usage rate expressed in terawatts, while the
+:alt: Historical use of fossil fuels worldwide, repeated from Figure 8.2 [16]. On the left is the raw usage rate expressed in terawatts, while the right is a per-capita measure. The three fossil fuel types are stacked on top of one another, so that gas
 
 Historical use of fossil fuels worldwide, repeated from [Figure 8.2](#fig-8-2) [[16](#ref-16)]. On the left is the raw usage rate expressed in terawatts, while the right is a per-capita measure. The three fossil fuel types are stacked on top of one another, so that gas makes the smallest contribution, not the largest. For instance, on the right-hand-edge of the left panel, coal goes from 0 to 5 TW, oil from 5 to 11 (thus 6 TW from oil), and gas from 11 to 15, indicating 4 TW from gas. The left-hand panel makes clear that fossil fuel use is still rising dramatically, and thus CO$_{2}$ emissions.
 :::
@@ -109,7 +109,7 @@ We will use oil as an example. In [Figure 9.2](#fig-9-2), we appear to get about
 | $\div \sim 2$ | CO$_{2}$ ppm$_{\mathrm{v}}/\mathrm{yr}$ (stays in atmosphere) |   |   |   |
 :::
 
-The mass of the atmosphere is about $5\times 10^{18}$ kg, obtained by multiplying 10,000 kg of air[^6] sitting over every square meter by the $4\pi R^{2}_{\oplus}$ surface area of the earth. Dividing the $1.2 \times 10^{13}\mathrm{kg}^{7}$ of oil-generated CO$_{2}$ by the mass of the atmosphere yields $2.4 \times 10^{-6}$, or 2.4 parts per million.[^8] We are almost there. The quantity we have calculated is parts per million by mass (ppm$_{\mathrm{m}})$, not the conventional parts per million by volume (ppm$_{\mathrm{v}})$. Since air[^9] averages 29 g/mol, and CO$_{2}$ is 44 g/mol, the mass concentration of CO$_{2}$ is higher than the volume occupation in air by a factor of 44/29, or 1.52. Thus we divide our 2.4 ppm$_{\mathrm{m}}$ result by 1.52 to get 1.6 ppm$_{\mathrm{v}}$. A final correction is that only half of this stays in the atmosphere, so that today we are putting 0.8 ppm$_{\mathrm{v}}$ into the atmosphere each year from oil.
+The mass of the atmosphere is about $5\times 10^{18}$ kg, obtained by multiplying 10,000 kg of air[^6] sitting over every square meter by the $4\pi R^{2}_{\oplus}$ surface area of the earth. Dividing the $1.2 \times 10^{13}\mathrm{kg}$[^7] of oil-generated CO$_{2}$ by the mass of the atmosphere yields $2.4 \times 10^{-6}$, or 2.4 parts per million.[^8] We are almost there. The quantity we have calculated is parts per million by mass (ppm$_{\mathrm{m}})$, not the conventional parts per million by volume (ppm$_{\mathrm{v}})$. Since air[^9] averages 29 g/mol, and CO$_{2}$ is 44 g/mol, the mass concentration of CO$_{2}$ is higher than the volume occupation in air by a factor of 44/29, or 1.52. Thus we divide our 2.4 ppm$_{\mathrm{m}}$ result by 1.52 to get 1.6 ppm$_{\mathrm{v}}$. A final correction is that only half of this stays in the atmosphere, so that today we are putting 0.8 ppm$_{\mathrm{v}}$ into the atmosphere each year from oil.
 
 :::{margin}
 … the result of [Box 9.1](#box-9-1)
@@ -127,7 +127,7 @@ Summing up the rising contributions over time, this method of estimation suggest
 :::{figure} ../images/fig-9-3.svg
 :label: fig-9-3
 :enumerator: 9.3
-:alt: Estimated CO contributions from known fossil fuel expenditures based on chemistry and the assumption that half of CO stays in the atmosphere
+:alt: Estimated CO2 contributions from known fossil fuel expenditures based on chemistry and the assumption that half of CO2 stays in the atmosphere, while the rest is absorbed by the ocean and land. Units are parts per million by volume. The left-hand
 
 Estimated CO$_{2}$ contributions from known fossil fuel expenditures based on chemistry and the assumption that half of CO$_{2}$ stays in the atmosphere, while the rest is absorbed by the ocean and land. Units are parts per million by volume. The left-hand panel shows the annual addition, adding to 2.6 ppm$_{\mathrm{v}}$ per year and accounting for the slope in [Figure 9.1](#fig-9-1). The right-hand panel is the cumulative emission to date as a function of time—essentially adding up all the annual emissions from the left-hand panel. These curves are not stacked as are the ones in [Figure 9.2](#fig-9-2), so each can be read directly from the vertical axis. Note that oil and gas are still on the rise in the left-hand panel: we emit more CO$_{2}$ each year than we did the year before.
 :::
@@ -137,7 +137,7 @@ Adding all three contributions from the right-hand panel of [Figure 9.3](#fig-9-
 :::{figure} ../images/fig-9-4.svg
 :label: fig-9-4
 :enumerator: 9.4
-:alt: Fossil fuel contribution to CO (red) on top of CO measurements (blue). The red curve uses a starting point of 285 ppm and has 49% of CO emis
+:alt: Fossil fuel contribution to CO2 (red) on top of CO2 measurements (blue). The red curve uses a starting point of 285 ppmv and has 49% of CO2 emissions staying in the atmosphere. The overlap is remarkably good and convincing.
 
 Fossil fuel contribution to CO$_{2}$ (red) on top of CO$_{2}$ measurements (blue). The red curve uses a starting point of 285 ppm$_{\mathrm{v}}$ and has 49% of CO$_{2}$ emissions staying in the atmosphere. The overlap is remarkably good and convincing.
 :::
@@ -176,7 +176,7 @@ Climate change is a global phenomenon. Even if all emissions came from one count
 :::{figure} ../images/fig-9-5.svg
 :label: fig-9-5
 :enumerator: 9.5
-:alt: Cumulative contributions to CO emissions to date, grouped by continent. Major contributing countries are called out explicitly, and the rema
+:alt: Cumulative contributions to CO2 emissions to date, grouped by continent. Major contributing countries are called out explicitly, and the remaining contributions from each continent are grouped as a “rest of” category [52].
 
 Cumulative contributions to CO$_{2}$ emissions to date, grouped by continent. Major contributing countries are called out explicitly, and the remaining contributions from each continent are grouped as a “rest of” category [[52](#ref-52)].
 :::
@@ -208,7 +208,7 @@ this is the mechanism by which energy leaves the earth, the power of which is go
 :::{figure} ../images/fig-9-6.svg
 :label: fig-9-6
 :enumerator: 9.6
-:alt: Earth intercepts sunlight across the projected area of the Earth’s disk , while radiating from the entire surface area, which is four times
+:alt: Earth intercepts sunlight across the projected area of the Earth’s disk (π R^2), while radiating from the entire surface area, which is four times larger (4π R^2).
 
 Earth intercepts sunlight across the projected area of the Earth’s disk $(\pi R^{2})$, while radiating from the entire surface area, which is four times larger $(4\pi R^{2})$.
 :::
@@ -243,7 +243,7 @@ Of the greenhouse gases contributing to absorption as pictured in [Figure 9.7](#
 :::{figure} ../images/fig-9-7.jpg
 :label: fig-9-7
 :enumerator: 9.7
-:alt: Atmospheric transmission/absorption spectra [55]. The top panel shows solar input in red and infrared (thermal) radiation output in blue. Th
+:alt: Atmospheric transmission/absorption spectra [55]. The top panel shows solar input in red and infrared (thermal) radiation output in blue. The smooth curves are the theoretical blackbody Planck spectra at solar and terrestrial temperatures. Thus the
 
 Atmospheric transmission/absorption spectra [[55](#ref-55)]. The top panel shows solar input in red and infrared (thermal) radiation output in blue. The smooth curves are the theoretical blackbody Planck spectra at solar and terrestrial temperatures. Thus the smooth red curve represents the distribution of solar energy arriving at the top of Earth’s atmosphere, while the solid red filled feature is what survives the path to the ground. The smooth blue curve (middle of the set of three) represents radiation from the ground, but only a small fraction (blue filled region) passes directly through the atmosphere—the rest absorbed by greenhouse gases. The lower panels detail where light gets absorbed or scattered. Gray regions indicate absorption and scattering, so that white portions can be thought of as the transmitted part—often called “windows.” Key contributors (greenhouse gases) are broken out in panels below the total absorption panel. Notice that ozone blocks ultraviolet (UV), and Rayleigh scattering is what makes the sky blue—by being effective at scattering blue light from the sun (blue is on the left side of the band labeled “Visible,” while red is on the right). Created by Robert Rohde.
 :::
@@ -251,7 +251,7 @@ Atmospheric transmission/absorption spectra [[55](#ref-55)]. The top panel shows
 :::{figure} ../images/fig-9-8.jpg
 :label: fig-9-8
 :enumerator: 9.8
-:alt: Another view of just the water and carbon dioxide absorption spectra, better showing the overlapping role of each in the 10 window. From Rob
+:alt: Another view of just the water and carbon dioxide absorption spectra, better showing the overlapping role of each in the 10 mu m window. From Robert Rohde (NASA).
 
 Another view of just the water and carbon dioxide absorption spectra, better showing the overlapping role of each in the 10 $\mu \mathrm{m}$ window. From Robert Rohde (NASA).
 :::
@@ -277,7 +277,7 @@ change, but a hefty *passenger*.
 :::{figure} ../images/fig-9-9.svg
 :label: fig-9-9
 :enumerator: 9.9
-:alt: In the absence of greenhouse gases, infrared radiation has no difficulty escaping to space (left). When greenhouse gases (GHGs) are present
+:alt: In the absence of greenhouse gases, infrared radiation has no difficulty escaping to space (left). When greenhouse gases (GHGs) are present (right), most of the infrared radiation is absorbed by GHG molecules. These molecules later release the
 
 In the absence of greenhouse gases, infrared radiation has no difficulty escaping to space (left). When greenhouse gases (GHGs) are present (right), most of the infrared radiation is absorbed by GHG molecules. These molecules later release the absorbed energy as new infrared radiation, but in a randomized direction, so that some energy is returned to the ground, thereby keeping the surface warmer than it would be without greenhouse gases.
 :::
@@ -351,7 +351,7 @@ The positive feedbacks are important, and include factors like:
 :::{figure} ../images/fig-9-10.svg
 :label: fig-9-10
 :enumerator: 9.10
-:alt: As CO concentration increases, the radiative forcing (left axis) increases, driving the temperature (right axis) up. We are now at 420 ppm
+:alt: As CO2 concentration increases, the radiative forcing (left axis) increases, driving the temperature (right axis) up. We are now at 420 ppmv, corresponding to a radiative forcing of 2.2 W/m^2 and 1.7°C of ultimate temperature increase (red star).
 
 As CO$_{2}$ concentration increases, the radiative forcing (left axis) increases, driving the temperature (right axis) up. We are now at 420 ppm$_{\mathrm{v}}$, corresponding to a radiative forcing of 2.2 $\mathrm{W/m}^{2}$ and $1.7^{\circ}\mathrm{C}$ of ultimate temperature increase (red star). Presently, the temperature has only increased by $1.0^{\circ}\mathrm{C}$ (red circle), but will catch up to a new equilibrium once oceans warm and ice melts.
 :::
@@ -364,7 +364,7 @@ As CO$_{2}$ concentration increases, the radiative forcing (left axis) increases
 
 A few negative feedback mechanisms[^30] exist as well, but are outweighed by the positive feedback terms.
 
-Global temperature increase is already about $1.0^{\circ}\mathrm{C}$ [[58](#ref-58)]. Note that even if we never added another CO$_{2}$ molecule to the atmosphere, the temperature would continue to rise as the ocean slowly catches up to the new equilibrium. We would expect the temperature to stabilize around $1.7^{\circ}\mathrm{C}$ higher for today’s CO$_{2}$ excess, according to the calculation above. Thus the climb is about 55% done. Of course, more CO$_{2}$ will be added, so the eventual temperature rise is destined to be higher still.
+Global temperature increase is already about $1.0^{\circ}\mathrm{C}$ [[58](#ref-58)]. Note that even if we never added another CO$_{2}$ molecule to the atmosphere, the temperature would continue to rise as the ocean[^31] slowly catches up to the new equilibrium. We would expect the temperature to stabilize around $1.7^{\circ}\mathrm{C}$ higher for today’s CO$_{2}$ excess, according to the calculation above. Thus the climb is about 55% done. Of course, more CO$_{2}$ will be added, so the eventual temperature rise is destined to be higher still.
 
 :::{margin}
 [[58](#ref-58)]: National Oceanic and Atmospheric Administration (NOAA) (2019), *Global Climate Report*
@@ -386,7 +386,7 @@ First, let’s imagine that we suddenly arrest the upward climb characteristic o
 :::{figure} ../images/fig-9-11.svg
 :label: fig-9-11
 :enumerator: 9.11
-:alt: CO rise if fixing fossil fuel use at today’s levels for the rest of the century, following the conventions of Figure 9.3. We would still add
+:alt: CO2 rise if fixing fossil fuel use at today’s levels for the rest of the century, following the conventions of Figure 9.3. We would still add 2.6 ppmv per year from now until the end of the run in 2100, and would have accumulated a total rise of 339
 
 CO$_{2}$ rise if fixing fossil fuel use at today’s levels for the rest of the century, following the conventions of [Figure 9.3](#fig-9-3). We would still add 2.6 ppm$_{\mathrm{v}}$ per year from now until the end of the run in 2100, and would have accumulated a total rise of 339 ppm$_{\mathrm{v}}$, or 2.75 times the problematic amount already accumulated to date. The associated temperature rise would be $3.4^{\circ}\mathrm{C}$. For this and all subsequent scenarios, the plots show only the half of emitted CO$_{2}$ that remains in the atmosphere.
 :::
@@ -417,7 +417,7 @@ simulation allows us to evaluate the best-case (and unrealistic) scenario of *in
 :::{figure} ../images/fig-9-12.svg
 :label: fig-9-12
 :enumerator: 9.12
-:alt: CO rise if instantly substituting coal (worst CO intensity) with natural gas (best CO intensity) and then maintaining current levels for the
+:alt: CO2 rise if instantly substituting coal (worst CO2 intensity) with natural gas (best CO2 intensity) and then maintaining current levels for the rest of this century. Our annual contribution would drop from 2.6 ppmv/yr to 1.8 ppmv/yr based on this
 
 CO$_{2}$ rise if instantly substituting coal (worst CO$_{2}$ intensity) with natural gas (best CO$_{2}$ intensity) and then maintaining current levels for the rest of this century. Our annual contribution would drop from 2.6 ppm$_{\mathrm{v}}/\mathrm{yr}$ to 1.8 ppm$_{\mathrm{v}}/\mathrm{yr}$ based on this substitution, and the total accumulation would be 268 ppm$_{\mathrm{v}}$ by century’s end (2.2 times the accumulation to date). The associated temperature rise would be $2.9^{\circ}\mathrm{C}$.
 :::
@@ -434,7 +434,7 @@ Reducing fossil fuel use even more quickly, tapering to zero by 2050, results in
 :::{figure} ../images/fig-9-13.svg
 :label: fig-9-13
 :enumerator: 9.13
-:alt: CO rise if immediately reversing fossil fuel use in an ambitious decline reaching zero by the year 2100. The accumulation would come to 235
+:alt: CO2 rise if immediately reversing fossil fuel use in an ambitious decline reaching zero by the year 2100. The accumulation would come to 235 ppmv at the end, which is almost twice the current level (1.9 times). The associated temperature rise would
 
 CO$_{2}$ rise if immediately reversing fossil fuel use in an ambitious decline reaching zero by the year 2100. The accumulation would come to 235 ppm$_{\mathrm{v}}$ at the end, which is almost twice the current level (1.9 times). The associated temperature rise would be $2.6^{\circ}\mathrm{C}$.
 :::
@@ -442,7 +442,7 @@ CO$_{2}$ rise if immediately reversing fossil fuel use in an ambitious decline r
 :::{figure} ../images/fig-9-14.svg
 :label: fig-9-14
 :enumerator: 9.14
-:alt: CO rise if we mounted a superaggressive weaning of fossil fuels, completed by the year 2050. In this extreme case, the total CO emission wou
+:alt: CO2 rise if we mounted a superaggressive weaning of fossil fuels, completed by the year 2050. In this extreme case, the total CO2 emission would be 169 ppmv, or 37% more than we have produced to date. The associated temperature rise would be 2°C.
 
 CO$_{2}$ rise if we mounted a superaggressive weaning of fossil fuels, completed by the year 2050. In this extreme case, the total CO$_{2}$ emission would be 169 ppm$_{\mathrm{v}}$, or 37% more than we have produced to date. The associated temperature rise would be $2^{\circ}\mathrm{C}$.
 :::
@@ -473,7 +473,7 @@ Earth is by-and-large in thermodynamic equilibrium. The sun deposits energy onto
 :::{figure} ../images/fig-9-15.svg
 :label: fig-9-15
 :enumerator: 9.15
-:alt: Four steps to illustrate (in a grossly simplified way) the process of Earth adapting to an increase in greenhouse gas (GHG). Starting from t
+:alt: Four steps to illustrate (in a grossly simplified way) the process of Earth adapting to an increase in greenhouse gas (GHG). Starting from the left within each panel, solar input is held constant at 240 W/m^2. Most of the radiation leaving the
 
 Four steps to illustrate (in a grossly simplified way) the process of Earth adapting to an increase in greenhouse gas (GHG). Starting from the left within each panel, solar input is held constant at 240 $\mathrm{W/m}^{2}$. Most of the radiation leaving the ground—quantitatively adhering to $\sigma T^{4}$—is absorbed by GHGs (fraction absorbed indicated in GHG “cloud”), the rest escaping directly to space. Half the absorbed energy is radiated up (escaping) and half back down. The dashed arrow at right is the net radiation escaping. Integer numbers are in $\mathrm{W/m}^{2}$, and arrow widths are scaled accordingly. Ground temperature is indicated at bottom. See text for narrative sequence.
 :::
@@ -601,7 +601,7 @@ Tip: don’t treat sections like this as the textbook “telling” you stuff. I
 
 The way things *really* work is that the excess $1.6 \times 10^{22}$ J annually associated with a radiative excess of 1 $\mathrm{W/m}^{2}$ gets distributed into lots of channels at once. If ice only gets 3% of the attention in proportion to its area, only 5 $\times 10^{20}$ J goes into the ice in a year. Dividing by $4.9 \times 10^{21}$ J/m (from [Table 9.7](#tab-9-7)), we find that we might expect 0.1 m of ice to disappear each year. Since the ocean is roughly 25 times larger than the ice areas,[^60] the associated sea level rise from redistributing the ice melt across the entire ocean surface would be about 25 times less, or about 4 mm/yr.[^61]
 
-Meanwhile, the constant, swirling contact between water and air, and between air and land, keeps all three in sync with each other: one will not race off to get hot without the others. And in this case, the ocean—with its giant thermal mass and extensive air-water interface—is the limiting factor on how fast things can heat up. If we confine ocean heating to the top 300 m of water, the excess $1.6 \times 10^{22}$ J per year leads to an annual temperature rise of about $0.035^{\circ}\mathrm{C}$ per year, or about 30 years to climb $1^{\circ}\mathrm{C}$ (at a 1 $\mathrm{W/m}^{2}$ imbalance).
+Meanwhile, the constant, swirling contact between water and air, and between air and land, keeps all three in sync with each other: one will not race off to get hot without the others. And in this case, the ocean—with its giant thermal mass and extensive air-water interface—is the limiting factor on how fast things can heat up. If we confine ocean heating to the top 300 m[^62] of water, the excess $1.6 \times 10^{22}$ J per year leads to an annual temperature rise of about $0.035^{\circ}\mathrm{C}$ per year, or about 30 years to climb $1^{\circ}\mathrm{C}$ (at a 1 $\mathrm{W/m}^{2}$ imbalance).
 
 :::{margin}
 **Try it:** See if you can replicate this result.
@@ -609,10 +609,6 @@ Meanwhile, the constant, swirling contact between water and air, and between air
 :::
 
 Although this section may seem to be long, convoluted, and perhaps even boring, it accomplished a number of things for us:
-
-:::{margin}
-The ocean is such a dominant thermal player that the rate at which temperature rises depends critically on how well and deeply mixed the thermal influence is.
-:::
 
 1. it showed how a change in GHG absorption fraction leads to a radiative forcing imbalance;
 
@@ -634,7 +630,7 @@ The previous section covered the energetics of melting ice sheets. The resulting
 :::{figure} ../images/fig-9-16.jpg
 :label: fig-9-16
 :enumerator: 9.16
-:alt: Satellite measurements of sea level since 1993, showing a rise of 3.6 mm per year. Melting ice is the largest contribution, although thermal
+:alt: Satellite measurements of sea level since 1993, showing a rise of 3.6 mm per year. Melting ice is the largest contribution, although thermal expansion plays a role as well [61]. From NOAA.
 
 Satellite measurements of sea level since 1993, showing a rise of 3.6 mm per year. Melting ice is the largest contribution, although thermal expansion plays a role as well [[61](#ref-61)]. From NOAA.
 :::
@@ -655,7 +651,7 @@ We can get a quick handle on how much sea level rise might possibly be in store,
 :::{figure} ../images/fig-9-17.svg
 :label: fig-9-17
 :enumerator: 9.17
-:alt: If sea area is times that of an ice-covered island, water level will rise by times the ice thickness if it all melts. The diagram shows a wa
+:alt: If sea area is x times that of an ice-covered island, water level will rise by 1/x times the ice thickness if it all melts. The diagram shows a way to think about this, for x = 3: by slicing the ice into x = 3 layers to redistribute the volume on
 
 If sea area is $x$ times that of an ice-covered island, water level will rise by $1/x$ times the ice thickness if it all melts. The diagram shows a way to think about this, for $x = 3$: by slicing the ice into $x = 3$ layers to redistribute the volume on top of the water. In this case, a 30 m ice sheet would raise sea level by 10 m if melted.
 :::
@@ -750,9 +746,7 @@ Resource[^74] disruptions, however, can send markets into free-fall and stimulat
 
 18. If the “bad” news that we are about halfway through the fossil fuels is wrong, and we are only one-quarter of the way through, and we end up using all of it, what would the ultimate CO$_{2}$ concentration be in ppm$_{\mathrm{v}}$, extrapolating the increase so far? How many degrees would this turn into based on our understanding of radiative forcing and the climate sensitivity parameter?
 
-19. Using [Eq. 9.5](#eq-9-5) and CO$_{2,\mathrm{orig}}= 280$ ppm$_{\mathrm{v}}$, together with a climate sensitivity parameter of $0.8^{\circ}\mathrm{C}$ per $\mathrm{W/m}^{2}$, how much would you predict Earth’s temperature to rise for CO$_{2}$ levels of 330, 380, 430, 480, 530, and 580 ppm$_{\mathrm{v}}$?[^84] The inputs increase by steps of 50
-
-   (linearly). Is the corresponding temperature trend linear?[^85]
+19. Using [Eq. 9.5](#eq-9-5) and CO$_{2,\mathrm{orig}}= 280$ ppm$_{\mathrm{v}}$, together with a climate sensitivity parameter of $0.8^{\circ}\mathrm{C}$ per $\mathrm{W/m}^{2}$, how much would you predict Earth’s temperature to rise for CO$_{2}$ levels of 330, 380, 430, 480, 530, and 580 ppm$_{\mathrm{v}}$?[^84] The inputs increase by steps of 50 (linearly). Is the corresponding temperature trend linear?[^85]
 
 20. Which of the following are positive vs. negative feedback effects for climate change as a result of warming, and why?
 
@@ -825,6 +819,7 @@ Hint: multiply by area of Earth and seconds in a year to get Joules of input.
 [^4]: Plants seasonally absorb and then release CO$_{2}$ as leaves grow and then die.
 [^5]: At 120 kg per barrel, this turns into the expected 30 billion barrels per year as a check to see that we’re on the right track.
 [^6]: This is a close approximation to the actual value, obtained by dividing standard atmospheric pressure of 101,325 Pa by $g \approx 9.8 \mathrm{m/s}^{2}$.
+[^7]: … the result of [Box 9.1](#box-9-1)
 [^8]: Just multiply by one million, or $10^{6}$ to get ppm.
 [^9]: Air is about 75% $\mathrm{N}_{2}$ at 28 g/mol plus 25% O$_{2}$ at 32 g/mol.
 [^10]: Why do we keep using coal if it’s the worst? Because replacement infrastructure is very expensive, and fossil fuel extraction does not work like a bank account allowing withdrawals at an arbitrary rate. We could not suddenly switch over and continue to satisfy demand, even if everyone wanted to—which they don’t.
@@ -848,6 +843,7 @@ Hint: multiply by area of Earth and seconds in a year to get Joules of input.
 [^28]: See [[57](#ref-57)] for a good synopsis and references to primary material within.
 [^29]: Just multiply 2.2 $\mathrm{W/m}^{2}$ by 0.8 $^{\circ}\mathrm{C}$ per $\mathrm{W/m}^{2}$.
 [^30]: ⚠ By far the most important negative feedback mechanism is the infrared radiation itself, increasing dramatically as temperature increases (as $T^{4})$, thus opposing the temperature rise by a cooling influence. Here, we mean negative feedback influences *in addition to* this main one.
+[^31]: … lots of thermal mass, or heat capacity
 [^32]: None of the scenarios we will fabricate are *realistic*, exactly, but help us establish boundaries of possible outcomes. Mathematical models need not capture all the nuances to still be useful guides to understanding.
 [^33]: … reflected in the left-hand panel of [Figure 9.3](#fig-9-3)
 [^34]: … resulting in about 620 ppm$_{\mathrm{v}}$; up 339 ppm$_{\mathrm{v}}$ from the pre-industrial 280 ppm$_{\mathrm{v}}$
@@ -878,6 +874,7 @@ Hint: multiply by area of Earth and seconds in a year to get Joules of input.
 [^59]: … 334 kJ vs. $\sim 4$ kJ to heat water by $1^{\circ}\mathrm{C}$
 [^60]: Ice covers 3% of the globe, while the ocean covers 71%.
 [^61]: This is not far from reality, as will be seen in [Section 9.4.3](#sec-9-4-3).
+[^62]: The ocean is such a dominant thermal player that the rate at which temperature rises depends critically on how well and deeply mixed the thermal influence is.
 [^63]: Ice floating on the ocean is already displacing water, so its melting does not impact sea level.
 [^64]: … if uniformly distributed across the continent
 [^65]: In the spirit of an approximate estimate, we ignore the 10% difference in the density of ice vs. water and assume that one cubic meter of ice displaces one cubic meter of water.

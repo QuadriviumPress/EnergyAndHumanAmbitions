@@ -28,7 +28,7 @@ The nucleus is about 100,000 times smaller than the electron cloud,[^1] but cont
 :::{figure} ../images/fig-15-1.svg
 :label: fig-15-1
 :enumerator: 15.1
-:alt: Zooming in on an atom in steps of . At left, we see the entire extent of the atom’s electron cloud. For a while, no nucleus is visible, bein
+:alt: Zooming in on an atom in steps of 10×. At left, we see the entire extent of the atom’s electron cloud. For a while, no nucleus is visible, being 100,000 times smaller than the atom itself. The nucleus within an atom is like a small dust grain in a
 
 Zooming in on an atom in steps of $10\times$. At left, we see the entire extent of the atom’s electron cloud. For a while, no nucleus is visible, being 100,000 times smaller than the atom itself. The nucleus within an atom is like a small dust grain in a bedroom.
 :::
@@ -60,7 +60,7 @@ A **nuclide** is any unique combination of nucleons, so that every nucleus is on
 :::{figure} ../images/fig-15-2.svg
 :label: fig-15-2
 :enumerator: 15.2
-:alt: Lower left start of the Chart of the Nuclides, shown pictorially in terms of the number of protons (red) and number of neutrons (lavender) i
+:alt: Lower left start of the Chart of the Nuclides, shown pictorially in terms of the number of protons (red) and number of neutrons (lavender) in each nuclide. Gray boxes are stable nuclides, and H3 (tritium) is semi-stable for a decade or so.
 
 Lower left start of the Chart of the Nuclides, shown pictorially in terms of the number of protons (red) and number of neutrons (lavender) in each nuclide. Gray boxes are stable nuclides, and H3 (tritium) is semi-stable for a decade or so.
 :::
@@ -70,7 +70,7 @@ Lower left start of the Chart of the Nuclides, shown pictorially in terms of the
 :::{figure} ../images/fig-15-3.svg
 :label: fig-15-3
 :enumerator: 15.3
-:alt: Layout of the Chart of the Nuclides, showing positions of naturally occurring nuclei (stable or long-lived enough to be present on Earth). St
+:alt: Layout of the Chart of the Nuclides, showing positions of naturally occurring nuclei (stable or long-lived enough to be present on Earth). Stable nuclei tend to have more neutrons than protons—especially for heavier nuclei. This is why the track of
 
 Layout of the Chart of the Nuclides, showing positions of naturally occurring nuclei (stable or long-lived enough to be present on Earth). Stable nuclei tend to have more neutrons than protons—especially for heavier nuclei. This is why the track of stable nuclei bends away from the $N = Z$ diagonal line. Arrows point to important elements of iron, lead, thorium, and uranium at $Z$ values of 26, 82, 90, and 92, respectively.
 :::
@@ -97,7 +97,7 @@ Because the Chart of the Nuclides has neutron number, $N$, increasing from left 
 :::{figure} ../images/fig-15-4.svg
 :label: fig-15-4
 :enumerator: 15.4
-:alt: Chart of the Nuclides for the low-mass end. Neutron number, , increases toward the right (green numbering at bottom) and proton number, , in
+:alt: Chart of the Nuclides for the low-mass end. Neutron number, N, increases toward the right (green numbering at bottom) and proton number, Z, increases vertically (blue numbering at left). Scientific notation is expressed as, e.g., 8e–23, meaning 8 ×
 
 Chart of the Nuclides for the low-mass end. Neutron number, $N$, increases toward the right (green numbering at bottom) and proton number, $Z$, increases vertically (blue numbering at left). Scientific notation is expressed as, e.g., 8e–23, meaning 8 $\times 10^{-23}$. A wealth of information is included: spend some time studying the surrounding guides to learn what data each box contains.
 :::
@@ -153,7 +153,7 @@ Luckily, radioactive decays don’t go just any which way, but stick to a very s
 :::{figure} ../images/fig-15-5.svg
 :label: fig-15-5
 :enumerator: 15.5
-:alt: Radioactive decay mechanisms for , and . Protons are colored red, and neutrons light purple. The total nucleon counts
+:alt: Radioactive decay mechanisms for alpha, beta -, and beta +. Protons are colored red, and neutrons light purple. The total nucleon counts are correct for the two beta decays, but only schematic for the larger ^144Nd nucleus used to illustrate alpha
 
 Radioactive decay mechanisms for $\alpha, \beta ^{-}$, and $\beta ^{+}$. Protons are colored red, and neutrons light purple. The total nucleon counts are correct for the two beta decays, but only schematic for the larger $^{144}$Nd nucleus used to illustrate alpha decay, which is predominantly seen only in heavier nuclei (aside from $^{5}$Li and $^{8}$Be). The positron is an anti-electron: a positively-charged antimatter counterpart to the electron. Neutrinos are sometimes called “ghost” particles for their near-complete non-interactivity with ordinary matter.
 :::
@@ -184,7 +184,7 @@ Gamma decay of an excited nucleus.
 :::{figure} ../images/fig-15-7.svg
 :label: fig-15-7
 :enumerator: 15.7
-:alt: Radioactive decays shown as moves on the “chess board” of the Chart of the Nuclides. The different decay types are color-coded to match Figu
+:alt: Radioactive decays shown as moves on the “chess board” of the Chart of the Nuclides. The different decay types are color-coded to match Figure 15.8, and are only shown in a few representative squares. Decays frequently occur in a series, one after
 
 Radioactive decays shown as moves on the “chess board” of the Chart of the Nuclides. The different decay types are color-coded to match [Figure 15.8](#fig-15-8), and are only shown in a few representative squares. Decays frequently occur in a series, one after the other (a decay chain), as hinted by the double-sequence starting at $^{12}$Be and ending on $^{12}\mathrm{C}$. Note that the square of every unstable nuclide indicates a decay type, even if arrows are not present.
 :::
@@ -216,7 +216,7 @@ As is evident in [Figure 15.8](#fig-15-8), unstable isotopes *above* the stable 
 :::{figure} ../images/fig-15-8.jpg
 :label: fig-15-8
 :enumerator: 15.8
-:alt: Another view of the Chart of the Nuclides, color coded to indicate prevailing decay modes as a function of position on the chart. Note that
+:alt: Another view of the Chart of the Nuclides, color coded to indicate prevailing decay modes as a function of position on the chart. Note that beta + sometimes captures an electron rather than emitting a positron, but amounting to the same thing
 
 Another view of the Chart of the Nuclides, color coded to indicate prevailing decay modes as a function of position on the chart. Note that $\beta ^{+}$ sometimes captures an electron rather than emitting a positron, but amounting to the same thing, essentially. From U.S. DoE.
 :::
@@ -271,7 +271,7 @@ In practice, and perhaps surprisingly, atoms (nuclei) weigh *less* than the sum 
 :::{figure} ../images/fig-15-9.svg
 :label: fig-15-9
 :enumerator: 15.9
-:alt: One must add energy to overcome nuclear binding energy in order to bust up a nucleus into its constituent nucleons (left). Thus, the collect
+:alt: One must add energy to overcome nuclear binding energy in order to bust up a nucleus into its constituent nucleons (left). Thus, the collective mass of a nucleus plus the mass associated with the energy it takes to break it apart (via E = mc^2) must
 
 One must add energy to overcome nuclear binding energy in order to bust up a nucleus into its constituent nucleons (left). Thus, the collective mass of a nucleus *plus* the mass associated with the energy it takes to break it apart (via $E = mc^{2})$ must be equal to the sum of the masses of the constituent parts (middle). Therefore, if we compare the mass of the nucleus *alone* (removing the energy’s mass from the scale) it must be less than the mass of the loose collection of nucleons (right).
 :::
@@ -354,7 +354,7 @@ Notice that the first entry in [Table 15.5](#tab-15-5) for the single-proton hyd
 :::{figure} ../images/fig-15-10.svg
 :label: fig-15-10
 :enumerator: 15.10
-:alt: Binding energy per nucleon as a function of total mass number, . The nuclei featured in Table 15.5 are indicated
+:alt: Binding energy per nucleon as a function of total mass number, A. The nuclei featured in Table 15.5 are indicated as red points. Note in particular that ^56Fe sits at the peak of the curve. Fusion operates from left to right, building larger nuclei
 
 Binding energy per nucleon as a function of total mass number, $A$. The nuclei featured in [Table 15.5](#tab-15-5) are indicated as red points. Note in particular that $^{56}$Fe sits at the peak of the curve. Fusion operates from left to right, building larger nuclei, and fission goes from right to left, tearing apart nuclei. Only actions that *climb* this curve are energetically favorable, meaning that fusion is profitable on the left-hand side, and fission makes sense on the right: each driving toward the peak binding energy per nucleon.
 :::
@@ -377,7 +377,7 @@ It can be helpful to think of [Figure 15.10](#fig-15-10) upside-down, as in [Fig
 :::{figure} ../images/fig-15-11.svg
 :label: fig-15-11
 :enumerator: 15.11
-:alt: Turning the binding energy curve upside-down makes it easier to conceptualize fusion and fission driving toward the most tightly bound point
+:alt: Turning the binding energy curve upside-down makes it easier to conceptualize fusion and fission driving toward the most tightly bound point (iron), like a ball might roll.
 
 Turning the binding energy curve upside-down makes it easier to conceptualize fusion and fission driving toward the most tightly bound point (iron), like a ball might roll.
 :::
@@ -387,7 +387,7 @@ Having covered some fundamentals, we are ready to tackle aspects of nuclear ener
 :::{figure} ../images/fig-15-12.jpg
 :label: fig-15-12
 :enumerator: 15.12
-:alt: Typical nuclear power plant design, bearing much resemblance to the generic scheme from Figure 6.2. Details on the reactor core will follow
+:alt: Typical nuclear power plant design, bearing much resemblance to the generic scheme from Figure 6.2. Details on the reactor core will follow in Section 15.4.4. Source: TVA.
 
 Typical nuclear power plant design, bearing much resemblance to the generic scheme from [Figure 6.2](#fig-6-2). Details on the reactor core will follow in [Section 15.4.4](#sec-15-4-4). Source: TVA.
 :::
@@ -395,20 +395,20 @@ Typical nuclear power plant design, bearing much resemblance to the generic sche
 (sec-15-4-1)=
 ### 15.4.1 The Basic Idea
 
-Out of all the nuclides, three are amenable for use in a fission reactor. Two are isotopes of uranium: $^{233}$U and $^{235}$U; and one is plutonium: $^{239}$Pu. Of these, only $^{235}$U is found in nature, so we will concentrate on this one, returning later to the other two when we talk about breeder reactors in [Section 15.4.4](#sec-15-4-4).2.
+Out of all the nuclides, three are amenable for use in a fission reactor. Two are isotopes of uranium: $^{233}$U and $^{235}$U; and one is plutonium: $^{239}$Pu. Of these, only $^{235}$U is found in nature, so we will concentrate on this one, returning later to the other two when we talk about breeder reactors in [Section 15.4.4.2](#sec-15-4-4).
 
 What makes $^{235}$U (and the other two) special is that a slow[^23] neutron— one just bumping around at a speed governed by the local temperature, and thus called a thermal neutron—can walk up to and stick[^24] to the nucleus and cause it to split into two large chunks—depicted in [Figure 15.13](#fig-15-13). Other nuclei would not break up, just accepting the new neutron and possibly converting a neutron to a proton via $\beta ^{-}$ decay.
 
 :::{figure} ../images/fig-15-13.svg
 :label: fig-15-13
 :enumerator: 15.13
-:alt: Fission schematic for showing one of many possible outcomes-
+:alt: Fission schematic for ^235U, showing one of many possible outcomes—in this case ^90Br and ^144La plus two neutrons (an example case treated in detail in the text). The intermediate state, ^236U, created when ^235U absorbs a neutron, is highly
 
 Fission schematic for $^{235}$U, showing one of many possible outcomes—in this case $^{90}$Br and $^{144}$La plus two neutrons (an example case treated in detail in the text). The intermediate state, $^{236}$U, created when $^{235}$U absorbs a neutron, is highly unstable and will spontaneously break into (always) two different-size large fragments (“daughter” nuclei) and perhaps some extra neutrons. Gamma rays and kinetic energy (high-velocity fragments) are also released. Note that at each stage, the total number of nucleons is always 236.
 :::
 
 :::{figure} ../images/art-p281-1.svg
-:alt: Illustration from the original text
+:alt: Chapter opening illustration
 :::
 
 When the nucleus breaks up, the pieces fly out at high speed, carrying kinetic energy that will be deposited in the local material as they bump their way to a halt. Gamma rays[^25] are also released. By catching all of this energetic output, the surrounding material gets very hot and can be used to make steam.
@@ -418,7 +418,7 @@ When the nucleus breaks up, the pieces fly out at high speed, carrying kinetic e
 
 As we have seen, in order to get fission to happen, we need $^{235}$U and some wandering neutrons. Once fission commences, the breakup of the nucleus usually “drips” a few spare neutrons, like crumbs left after cutting a piece of bread. The left-over neutrons provide a replenished source of neutrons ready to initiate more fission events. Now the door is open for a chain reaction, in which the neutrons produced by the fission events are the very things needed to stimulate additional fission events.
 
-When the nucleus splits, any extra neutrons come out “hot” (high speed), which tend to bounce off uranium nuclei without sticking. They need to be slowed down, which is accomplished by a moderator: basically light atoms[^26] that can receive the neutron impact as a sort of damping medium. Then the main trick is to prevent a runaway that could occur if *too many* neutrons become available; in which case it’s a party that can get out of control. So nuclear plants employ control rods containing materials particularly effective at absorbing (trapping) neutrons. The colors of the lower halves of some squares in the Chart of the Nuclides ([Figure 15.4](#fig-15-4)) indicate neutron capture cross section. Boron ([^10] ) is aB favorite choice to soak up neutrons and tame (or even halt) the reaction. The goal is to maintain a chain reaction that produces a net balance of **exactly one** unabsorbed slow neutron per fission event, available to attach itself to a waiting $^{235}$U nucleus.
+When the nucleus splits, any extra neutrons come out “hot” (high speed), which tend to bounce off uranium nuclei without sticking. They need to be slowed down, which is accomplished by a moderator: basically light atoms[^26] that can receive the neutron impact as a sort of damping medium. Then the main trick is to prevent a runaway that could occur if *too many* neutrons become available; in which case it’s a party that can get out of control. So nuclear plants employ control rods containing materials particularly effective at absorbing (trapping) neutrons. The colors of the lower halves of some squares in the Chart of the Nuclides ([Figure 15.4](#fig-15-4)) indicate neutron capture cross section. Boron ($^{10}$B) is a favorite choice to soak up neutrons and tame (or even halt) the reaction. The goal is to maintain a chain reaction that produces a net balance of **exactly one** unabsorbed slow neutron per fission event, available to attach itself to a waiting $^{235}$U nucleus.
 
 (sec-15-4-3)=
 ### 15.4.3 Fission Accounting
@@ -430,7 +430,7 @@ The math always has to add up: nucleons are not created or destroyed during a fi
 :::{figure} ../images/fig-15-14.svg
 :label: fig-15-14
 :enumerator: 15.14
-:alt: Fission of square, upper right) tends to produce two neutron-rich fragments. If it split exactly in two, the result would lie at the midpoin
+:alt: Fission of ^235U (small red square, upper right) tends to produce two neutron-rich fragments. If it split exactly in two, the result would lie at the midpoint of the orange line connecting ^235U to the origin, at the yellow circle. In practice, an
 
 Fission of $^{235}$U (small red square, upper right) tends to produce two neutron-rich fragments. If it split exactly in two, the result would lie at the midpoint of the orange line connecting $^{235}$U to the origin, at the yellow circle. In practice, an equal split is highly unlikely, as one fragment tends to be around $A \sim 95$ and the other around $A \sim 140$, as depicted by the probability histogram in green. The two green stars separated along the orange line represent a more likely outcome for the two fragments. As long as the green stars are located so that the yellow circle is exactly between them, the accounting of proton and neutron number is satisfied. Because the orange line lies to the right of the stable nuclei, the fission products tend to be neutron-rich and undergo a series of radioactive $\beta ^{-}$ decays before reaching stability, which could take a very long time in some cases.
 :::
@@ -466,7 +466,7 @@ Being a probabilistic (random) process, each fission can result in a large set o
 :::{figure} ../images/fig-15-15.svg
 :label: fig-15-15
 :enumerator: 15.15
-:alt: Various fission product outcomes are possible, indicated here by four sets of colored star pairs and connecting lines. The average position
+:alt: Various fission product outcomes are possible, indicated here by four sets of colored star pairs and connecting lines. The average position of each pair is the yellow circle (the stars are diametrically opposite the circle), which guarantees that
 
 Various fission product outcomes are possible, indicated here by four sets of colored star pairs and connecting lines. The average position of each pair is the yellow circle (the stars are diametrically opposite the circle), which guarantees that the total number of neutrons and protons is unchanged from the parent nucleus to the daughter nuclei. To the extent that additional neutrons are left behind like crumbs, the stars will displace to the left of their indicated positions a bit, as hinted by the lighter-shaded “ghost” stars, whose offsets from the nominal star positions will also vary depending on how many neutrons are left out of the two final fragments. The coloring of the histogram indicates radioactive lifetime for the decay chain of a neutron-rich fragment at each mass number, matching the half-life color scheme used in [Figure 15.4](#fig-15-4).
 :::
@@ -513,13 +513,9 @@ We now just need to divide by how many grams of “fuel” we supplied, which is
 
 Considering that the average American uses energy at a rate of 10,000 W, how much $^{235}$U per year is needed to satisfy this demand for one individual?
 
-Since we have just computed the energy density of $^{235}$U to be 17 $\times 10^{6}$ kcal/g ([Box 15.3](#box-15-3)), let’s first put the total energy in units of Joules, multiplying $10^{4}$ W by $3.155 \times 10^{7}$ seconds in a year and then dividing by 4,184 J/kcal to get kilocalories. The result is 75 million kcal, so that an American’s annual energy needs could be met by 4.5 $\mathrm{g}^{30}$ of $^{235}$U. That translates to about a quarter of a cubic centimeter, or a small pebble, at the density of uranium. Pretty amazing!
+Since we have just computed the energy density of $^{235}$U to be 17 $\times 10^{6}$ kcal/g ([Box 15.3](#box-15-3)), let’s first put the total energy in units of Joules, multiplying $10^{4}$ W by $3.155 \times 10^{7}$ seconds in a year and then dividing by 4,184 J/kcal to get kilocalories. The result is 75 million kcal, so that an American’s annual energy needs could be met by 4.5 $\mathrm{g}$[^30] of $^{235}$U. That translates to about a quarter of a cubic centimeter, or a small pebble, at the density of uranium. Pretty amazing!
 
 ::::
-
-:::{margin}
-75 million kcal divided by 17 million kcal/g is 4.5 g.
-:::
 
 We can take a graphical shortcut to all of [Section 15.4.3](#sec-15-4-3), which hopefully will tie things together in an instructive way.
 
@@ -529,7 +525,7 @@ We can take a graphical shortcut to all of [Section 15.4.3](#sec-15-4-3), which 
 
 Refer back to [Figure 15.10](#fig-15-10) (and/or [Table 15.5](#tab-15-5)) to see that $^{235}$U has a binding energy of about 7.6 MeV per nucleon. Where we end up, around $A \approx 95$ and $A \approx 140$, the binding energies per nucleon are around 8.7 and 8.4 MeV/nuc at these locations, respectively.
 
-Multiplying the binding energy per nucleon by the number of nucleons provides a measure of *total* binding energy: in this case 1,790 MeV for $^{235}$U, about 825 MeV for the daughter nucleus around $A \approx 95$, and 1,175 MeV for $A \approx 140.^{31}$ Adding the latter two, we find that the fission products have a total binding energy around 2,000 MeV, which is greater[^32] than the $^{235}$U binding energy by about 210 MeV—somewhat close to the 172 MeV computed for the particular example in [Table 15.7](#tab-15-7).
+Multiplying the binding energy per nucleon by the number of nucleons provides a measure of *total* binding energy: in this case 1,790 MeV for $^{235}$U, about 825 MeV for the daughter nucleus around $A \approx 95$, and 1,175 MeV for $A \approx 140$.[^31] Adding the latter two, we find that the fission products have a total binding energy around 2,000 MeV, which is greater[^32] than the $^{235}$U binding energy by about 210 MeV—somewhat close to the 172 MeV computed for the particular example in [Table 15.7](#tab-15-7).
 
 ::::
 
@@ -593,7 +589,7 @@ As of 2019, the world has about 455 operating nuclear reactors, amounting to an 
 
 Nuclear plants only last about 50–60 years, after which the material comprising the core becomes brittle from exposure to damaging radioactivity and must be decommissioned. The median age of reactors in the U.S. is 40 years, and all but three are over 30 years old. Additional challenges will be addressed in the sections that follow.
 
-When nuclear energy was first being rolled out in the 1950s, the catch phrase was that it would be “too cheap to meter,” a sentiment presumably fueled by the stupendous energy density of uranium, requiring very small quantities compared to fossil fuels. The reality has not worked out that way. Today, a 1 GW nuclear power plant may cost \$9 billion to build [102]. That’s \$9 per Watt of output power, which we can compare to the cost of a solar panel, at about \$0.50 per W (Fig. 13.16; p. 225), or utility-scale installation at \$1 per Watt [[89](#ref-89)]. While it seems that solar[^36] wins by a huge margin, the low capacity factor of solar reduces average power output to 10–20% of the peak rating, depending on location. Meanwhile, nuclear reactors tend to run steadily 90% of the time—the off-time used for maintenance and fuel loading. So nuclear fission costs about \$10 per delivered Watt, while solar panels are \$2.5–5 per delivered
+When nuclear energy was first being rolled out in the 1950s, the catch phrase was that it would be “too cheap to meter,” a sentiment presumably fueled by the stupendous energy density of uranium, requiring very small quantities compared to fossil fuels. The reality has not worked out that way. Today, a 1 GW nuclear power plant may cost \$9 billion to build [[102](#ref-102)]. That’s \$9 per Watt of output power, which we can compare to the cost of a solar panel, at about \$0.50 per W ([Fig. 13.16](#fig-13-16); p. 225), or utility-scale installation at \$1 per Watt [[89](#ref-89)]. While it seems that solar[^36] wins by a huge margin, the low capacity factor of solar reduces average power output to 10–20% of the peak rating, depending on location. Meanwhile, nuclear reactors tend to run steadily 90% of the time—the off-time used for maintenance and fuel loading. So nuclear fission costs about \$10 per delivered Watt, while solar panels are \$2.5–5 per delivered
 
 :::{margin}
 [[102](#ref-102)]: Union of Concerned Scientists (2015), *The Cost of Nuclear Power*
@@ -610,11 +606,7 @@ So far, we have ignored a crucial fact. Only 0.72% of natural uranium on Earth i
 :class: tip
 :label: box-15-4
 
-The Big Bang that formed the universe produced only the lightest 1
-
-nuclei. By-and-large, the result was 75% hydrogen ( H) and 25% 4 2 3
-
-helium ( He). Deuterium ( H) and He were produced at the 0.003% and 0.001% levels, respectively, and then the tiniest trace of lithium. No carbon or oxygen emerged, which must be “cooked up” via fusion in stars.
+The Big Bang that formed the universe produced only the lightest nuclei. By-and-large, the result was 75% hydrogen ($^{1}$H) and 25% helium ($^{4}$He). Deuterium ($^{2}$H) and $^{3}$He were produced at the 0.003% and 0.001% levels, respectively, and then the tiniest trace of lithium. No carbon or oxygen emerged, which must be “cooked up” via fusion in stars.
 
 Fusion in stars does not “climb over” the peak of the binding-energy curve in [Figure 15.10](#fig-15-10), so stops in the vicinity[^38] of iron. From where, then, did all of the heavier elements on the periodic table derive? Exploding stars called supernovae and merging neutron stars appear to be the origin of elements beyond zinc.
 
@@ -768,7 +760,7 @@ Chernobyl was not so lucky in April 1986 when an ill-conceived test went sideway
 :::{figure} ../images/fig-15-21.jpg
 :label: fig-15-21
 :enumerator: 15.21
-:alt: Three Mile Island nuclear plant in Pennsylvania. The two reactor cores are in the foreground of the larger cooling towers behind. Source: U.
+:alt: Three Mile Island nuclear plant in Pennsylvania. The two reactor cores are in the foreground of the larger cooling towers behind. Source: U.S. DoE.
 
 Three Mile Island nuclear plant in Pennsylvania. The two reactor cores are in the foreground of the larger cooling towers behind. Source: U.S. DoE.
 :::
@@ -827,15 +819,9 @@ Fusion concept: helium from deuterium.
 
 First, the basics. We have alluded to the fact that fusion builds from the 1
 
-small to the big. Putting four H nuclei together, at 1.007825 a.m.u. each 4
+small to the big. Putting four $^{1}$H nuclei together, at 1.007825 a.m.u. each and forming $^{4}$He at 4.0026033 a.m.u. leaves a difference of 0.0287 a.m.u.— 0.7% of the total mass—which amounts to 153 million kcal/g.[^58] This is *almost ten times* as large as the amount for fission (17 million kcal/g; [Box 15.3](#box-15-3)), making it ten-million times more potent than chemical reactions. Recall that fusion’s better performance can be related to the steepness of the left-hand-side of the binding-energy-per-nucleon curve of [Figure 15.10](#fig-15-10).
 
-and forming He at 4.0026033 a.m.u. leaves a difference of 0.0287 a.m.u.— 0.7% of the total mass—which amounts to 153 million kcal/g.[^58] This is *almost ten times* as large as the amount for fission (17 million kcal/g; [Box 15.3](#box-15-3)), making it ten-million times more potent than chemical reactions. Recall that fusion’s better performance can be related to the steepness of the left-hand-side of the binding-energy-per-nucleon curve of [Figure 15.10](#fig-15-10).
-
-What makes fusion so difficult is that getting protons to stick together is incredibly hard. Their electric repulsion is so strong that they need to be approaching each other at a significant fraction of the speed of light (about 7%) in order to get within reach of the strong nuclear force that takes over at distances smaller than about $10^{-15}$ m. The corresponding temperature is a billion degrees.[^59] Even the center of the sun is “only” 16 million degrees. The sun has the advantage of being enormous, though. So even at a comparatively chilly 16 million degrees, some rare protons by chance will be going extra fast and have enough oomph to overcome the repulsion and stick together. It’s like winning the lottery against very long odds, but the sun is large enough to buy ample tickets so the process still happens often enough.[^60] We don’t have such a luxury in a terrestrial laboratory setting, so we need higher temperatures than what exists in the center of the sun! 2 1
-
-Using H nuclei (deuterons, labeled D) instead of H (protons) in what is called a D–D fusion reactor, allows operation at 100 million degrees 3
-
-instead of 1 billion. And colliding one deuteron with a triton[^61] ( H nucleus, labeled T; 12.3 year half-life), *only* requires 45 million degrees for a D–T fusion reactor. For this reason, only D–T fusion is currently pursued.
+What makes fusion so difficult is that getting protons to stick together is incredibly hard. Their electric repulsion is so strong that they need to be approaching each other at a significant fraction of the speed of light (about 7%) in order to get within reach of the strong nuclear force that takes over at distances smaller than about $10^{-15}$ m. The corresponding temperature is a billion degrees.[^59] Even the center of the sun is “only” 16 million degrees. The sun has the advantage of being enormous, though. So even at a comparatively chilly 16 million degrees, some rare protons by chance will be going extra fast and have enough oomph to overcome the repulsion and stick together. It’s like winning the lottery against very long odds, but the sun is large enough to buy ample tickets so the process still happens often enough.[^60] We don’t have such a luxury in a terrestrial laboratory setting, so we need higher temperatures than what exists in the center of the sun! Using $^{2}$H nuclei (deuterons, labeled D) instead of $^{1}$H (protons) in what is called a D–D fusion reactor, allows operation at 100 million degrees instead of 1 billion. And colliding one deuteron with a triton[^61] ($^{3}$H nucleus, labeled T; 12.3 year half-life), *only* requires 45 million degrees for a D–T fusion reactor. For this reason, only D–T fusion is currently pursued.
 
 For all three types, the relevant reactions[^62] are:
 
@@ -885,7 +871,7 @@ As for the fusion enterprise, an effort called ITER ([Figure 15.23](#fig-15-23))
 :::{figure} ../images/fig-15-23.jpg
 :label: fig-15-23
 :enumerator: 15.23
-:alt: ITER tokamak cut-away where the plasma would be created. The white outer chamber is the size of a six-story building. From the ITER Organiza
+:alt: ITER tokamak cut-away where the plasma would be created. The white outer chamber is the size of a six-story building. From the ITER Organization.
 
 ITER tokamak cut-away where the plasma would be created. The white outer chamber is the size of a six-story building. From the ITER Organization.
 :::
@@ -896,9 +882,7 @@ Let’s say that by the year 2050, we will have mastered the art and can build a
 
 Fusion is therefore a complicated and not particularly cheap way to generate electricity. Meanwhile, we are not running terribly short on renewable ways to produce electricity: solar; wind; hydroelectric; geothermal; tidal. Liquid fuels for transportation represent a greater and more pressing challenge, and fusion does not directly address this aspect any better than other options for electrical production. Fusion is by far the most complex power generation scheme we have ever attempted, evidenced by the 70 year effort to bring it to fruition that is still underway. How many physics PhDs will it take to keep a fusion plant running? Sometimes, we get stuck pursuing a flawed vision of the future, and have trouble reevaluating our options. Imagine being a middle-aged physicist or engineer in the 1950s. In your lifetime, you would have seen the advent of the car, airplane, radio, television, nuclear fission, among a blur of other technology advances. The next frontier was obviously fusion, so let’s crack that one! At this point, 70 years later, maybe we should ask: why?
 
-And let’s point out that fusion is not without its waste challenges. It is still a radioactive environment, albeit not one that produces dangerous 4
-
-direct products ( He is okay!). It *does* involve a radioactive fuel source (tritium), and it *does* embed the containment vessel with high energy particles and neutrons that over time compromise the integrity of the vessel so that it must be discarded as a radioactively-charged hunk of metal.[^75] By comparison, solar, wind, and other renewable sources based on the sun have no such problems. All of the nastiness is created in the sun, and stays in the sun.
+And let’s point out that fusion is not without its waste challenges. It is still a radioactive environment, albeit not one that produces dangerous direct products ($^{4}$He is okay!). It *does* involve a radioactive fuel source (tritium), and it *does* embed the containment vessel with high energy particles and neutrons that over time compromise the integrity of the vessel so that it must be discarded as a radioactively-charged hunk of metal.[^75] By comparison, solar, wind, and other renewable sources based on the sun have no such problems. All of the nastiness is created in the sun, and stays in the sun.
 
 (sec-15-5-3)=
 ### 15.5.3 Pros and Cons of Fusion
@@ -958,7 +942,7 @@ The wording is long because without context, it’s just math. The real learning
 
 9. In close analog to the half-lives of $^{235}$U and $^{238}$U, let’s say two elements have half lives of 4.5 billion years and 750 million years.[^80] If we start out having the same number of each (1:1 ratio), what will the ratio be after 4.5 billion years? Express as $x$:1, where $x$ is the larger of the two.
 
-10. Control rods in nuclear reactors tend to contain [^10], which hasB a high neutron absorption cross section.[^81] What happens to this nucleus when it absorbs a neutron, and is the result stable? If not, track the decay chain until it lands on a stable nucleus.
+10. Control rods in nuclear reactors tend to contain $^{10}$B, which has a high neutron absorption cross section.[^81] What happens to this nucleus when it absorbs a neutron, and is the result stable? If not, track the decay chain until it lands on a stable nucleus.
 
 11. If someone managed to create a $^{14}$B nucleus, what would its fate be? Track the decay chain on [Figure 15.4](#fig-15-4)—indicating the type of decay at each step—until it reaches stability, and indicate how long each step is likely to take.
 
@@ -1025,7 +1009,7 @@ Hint: Don’t forget to count both H.
 
 :::
 
-   process going from two deuterium ( H) nuclei to He, in MeV?
+   process going from two deuterium ($^{2}$H) nuclei to $^{4}$He, in MeV?
 
 28. Both nuclear and coal electric power plants are heat engines. What is the fundamental difference between these two, comparing [Fig. 6.2](#fig-6-2) (p. 95) to [Figure 15.12](#fig-15-12)?
 
@@ -1043,7 +1027,7 @@ Hint: how many days will one plant live, then how many plants per day?
 
 :::
 
-31. Extending Problem 16 toward what *actually* happens, we know from [Table 15.7](#tab-15-7) that the change in mass (which was close to 1 kg in Prob. 16) is only 0.08% of the $^{235}$U mass.[^84] Furthermore, a fresh fuel rod is only 5% $^{235}$U—the rest being $^{238}$U. So how much total uranium[^85] must be loaded into the reactor each year, if all the $^{235}$U is used up?$^{86}$
+31. Extending Problem 16 toward what *actually* happens, we know from [Table 15.7](#tab-15-7) that the change in mass (which was close to 1 kg in Prob. 16) is only 0.08% of the $^{235}$U mass.[^84] Furthermore, a fresh fuel rod is only 5% $^{235}$U—the rest being $^{238}$U. So how much total uranium[^85] must be loaded into the reactor each year, if all the $^{235}$U is used up?[^86]
 
 32. Problem 15 indicated that we need the mass-equivalent of fewer than 10 tons[^87] of material to support the world’s annual energy
 
@@ -1076,11 +1060,7 @@ Hint: start by adding a neutron to $^{232}$Th
 
 38. Let’s say that spent fuel rods are pulled out of the holding pool at the nuclear facility ten years after they came out of the core. Based on the total radioactive power from waste products (black line on [Figure 15.19](#fig-15-19)), *approximately* how long will you have to wait until the radioactivity level is down by another factor of 1,000 from where it is at the time of extraction?
 
-39. Operating approximately 450 nuclear plants over about 60 years at a total thermal level of 1 TW, we have had two major radioactive releases into the environment. If we went completely down the nuclear road and get all 18 $\mathrm{TW}^{89}$ this way, what rate of accidents might we expect, if the rate just scales with usage levels?
-
-:::{margin}
-… also a thermal measure
-:::
+39. Operating approximately 450 nuclear plants over about 60 years at a total thermal level of 1 TW, we have had two major radioactive releases into the environment. If we went completely down the nuclear road and get all 18 $\mathrm{TW}$[^89] this way, what rate of accidents might we expect, if the rate just scales with usage levels?
 
 40. On balance, considering the benefits and downsides of conventional nuclear fission, where do you come down in terms of support for either terminating, continuing, or expanding our use of this technology? Should we pursue breeder reactors at a large scale? Please justify your conclusion based on the things you consider to be most important.
 
@@ -1120,7 +1100,7 @@ Hint: the volume of a sphere is $4\pi R^{3}/3$.
 [^19]: 1 MeV is $10^{6}$ eV, and 1 eV is $1.6022 \times 10^{-19}$ J ([Sec. 5.9](#sec-5-9); p. 83).
 [^20]: … thus how much energy would need to be supplied to completely *unbind* the entire nucleus, as in [Figure 15.9](#fig-15-9)
 [^21]: Actually, $^{62}$Ni wins by a hair at 8.795 MeV/nuc, but is somewhat overlooked because it is only 0.006% as abundant as $^{56}$Fe, whose binding energy per nucleon is essentially tied for the top at 8.790 MeV/nuc.
-[^22]: A peak exists because nucleons initially find advantage in binding together, but ultimately the increasing number of mutuallyrepelling protons makes the environment less appealing for larger nuclides.
+[^22]: A peak exists because nucleons initially find advantage in binding together, but ultimately the increasing number of mutually repelling protons makes the environment less appealing for larger nuclides.
 [^23]: This is in contrast to a fast neutron that tends to bounce rather than stick to the nucleus.
 [^24]: No forces prevent a neutron from approaching a nucleus. Happening to hit the tiny nucleus is the only barrier.
 [^25]: … very high energy photons
@@ -1128,6 +1108,8 @@ Hint: the volume of a sphere is $4\pi R^{3}/3$.
 [^27]: $^{235}$U had $A - Z = 235 - 92 = 143$ neutrons, plus the thermal neutron addition.
 [^28]: … also matching the scenario in [Figure 15.13](#fig-15-13) and the penultimate column of [Table 15.6](#tab-15-6)
 [^29]: This result, by the way, is the same as 172.3 MeV in [Table 15.7](#tab-15-7) using the conversion that 1 MeV is $1.6022 \times 10^{-13}$ J.
+[^30]: 75 million kcal divided by 17 million kcal/g is 4.5 g.
+[^31]: $7.6 \times 235$; $8.7 \times 95$; and $8.4 \times 140$
 [^32]: Binding energy *reduces* mass, so larger binding energy means lighter overall mass.
 [^33]: Each missing neutron deprives us of more than the standard $\sim 8$ MeV per nucleon, as neutrons have no penalty for repulsive electric charge. The 8 MeV per nucleon is an average over protons and neutrons.
 [^34]: … always this direction, so that gravity does the pulling rather than relying on some other drive force
@@ -1163,7 +1145,7 @@ Hint: the volume of a sphere is $4\pi R^{3}/3$.
 [^64]: … in the form of radioactive release back to the plasma
 [^65]: Should we be proud if we succeed, or embarrassed at the lengths we had to go to?
 [^66]: See the Chart of the Nuclides abundance information in [Figure 15.4](#fig-15-4).
-[^67]: … one H, one H and one oxygen
+[^67]: … one $^{1}$H, one $^{2}$H and one oxygen
 [^68]: Ocean water is *far* easier to access than underground oil deposits, after all.
 [^69]: Most lithium is used in batteries; the R/P ratio in this case is 500 years.
 [^70]: … only 8% of current annual production
@@ -1181,7 +1163,9 @@ Hint: the volume of a sphere is $4\pi R^{3}/3$.
 [^82]: Region descriptions can include references to the mass range (e.g., low mass or high mass), above or below the stable elements (proton-rich or neutron-rich).
 [^83]: ⓘ This is how much mass would have to “disappear” each year to satisfy current human demand.
 [^84]: 0.185 out of 235 a.m.u.
-[^85]: Treat the two isotopes as having the same mass: the rod has 20 times more uranium than just the $^{235}$U part. 86: It’s not, actually, so this answer is a lower limit on the actual mass that has to be loaded in. So much for the $\sim 1$ kg answer from Problem 16.
+[^85]: Treat the two isotopes as having the same mass: the rod has 20 times more uranium than just the $^{235}$U part.
+[^86]: It’s not, actually, so this answer is a lower limit on the actual mass that has to be loaded in. So much for the $\sim 1$ kg answer from Problem 16.
 [^87]: One ton is 1,000 kg.
 [^88]: … given enrichment inefficiency
+[^89]: … also a thermal measure
 [^90]: Tritium is not labeled, but visible just below 3 MeV on the left side.

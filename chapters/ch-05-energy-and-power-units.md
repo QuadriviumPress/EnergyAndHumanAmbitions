@@ -75,7 +75,7 @@ Think about the famous equation $E = mc^{2}$. Energy is mass times the speed of 
 
 Also, kinetic energy is $\mathrm{K.E}. = \frac{1}{2}mv^{2}$, telling a similar story in terms of units: mass times velocity-squared.
 
-Gravitational potential energy is just the weight of an object times the height it is lifted through. The weight (force) is mass $(m)$ times the acceleration due to gravity[^5] $(g)$, so that lifting (applying a force equal to the weight) through a height $(h)$ results in a potential energy gain of $\mathrm{P.E}. = mgh$. The units again check out as
+Gravitational potential energy is just the weight of an object times the height it is lifted through.[^4] The weight (force) is mass $(m)$ times the acceleration due to gravity[^5] $(g)$, so that lifting (applying a force equal to the weight) through a height $(h)$ results in a potential energy gain of $\mathrm{P.E}. = mgh$. The units again check out as
 
 :::{math}
 mgh \rightarrow \mathrm{kg} \cdot \frac{\mathrm{m}}{\mathrm{s}^{2}} \cdot \mathrm{m} = \frac{\mathrm{kg} \cdot \mathrm{m} \cdot \mathrm{m}}{\mathrm{s}^{2}} = \frac{\mathrm{kg} \cdot \mathrm{m}^{2}}{\mathrm{s}^{2}} = \mathrm{J}.
@@ -94,7 +94,7 @@ More on kinetic energy in [Chapter 12](#ch-12).
 :::
 
 :::{margin}
-More on gravitational potential energy in [Chapter 11](#ch-11). Another example of work (energy) being force times distance.
+More on gravitational potential energy in [Chapter 11](#ch-11).
 
 :::
 
@@ -164,7 +164,7 @@ can be used to make steam that drives a turbine (kinetic energy) that in turn ge
 :::{figure} ../images/fig-5-1.svg
 :label: fig-5-1
 :enumerator: 5.1
-:alt: Example exchange of potential energy (P.E.) into kinetic energy (K.E.) as an apple drops from a tree. The total energy always adds to the sa
+:alt: Example exchange of potential energy (P.E.) into kinetic energy (K.E.) as an apple drops from a tree. The total energy always adds to the same amount (here 7 J). The apple speeds up as it gains kinetic energy (losing potential energy). When it comes
 
 Example exchange of potential energy (P.E.) into kinetic energy (K.E.) as an apple drops from a tree. The total energy always adds to the same amount (here 7 J). The apple speeds up as it gains kinetic energy (losing potential energy). When it comes to rest on the ground, the energy will have gone into 7 J of heat (the associated temperature rise is too small to notice).
 :::
@@ -216,7 +216,7 @@ Weight is $mg$. In this case, $m$ is 10 kg. If we’re being sticklers, $g = 9.8
 :::{figure} ../images/fig-5-2.svg
 :label: fig-5-2
 :enumerator: 5.2
-:alt: Various power levels for comparison and intuition-building. Green entries correspond to metabolic power [33]. Purple entries are devices and
+:alt: Various power levels for comparison and intuition-building. Green entries correspond to metabolic power [33]. Purple entries are devices and appliances. Orange entries are per-capita totals for societal (non-metabolic) energy use. Note that
 
 Various power levels for comparison and intuition-building. Green entries correspond to metabolic power [[33](#ref-33)]. Purple entries are devices and appliances. Orange entries are per-capita totals for societal (non-metabolic) energy use. Note that appliances whose job it is to create heat demand the greatest power. The “heating appliance” entry stands for things like microwave ovens, toaster ovens, space heaters, or hair dryers plugged into electrical outlets. Do not take the numbers provided as definitive or exact, as almost everything in the
 :::
@@ -312,7 +312,7 @@ A common unit for describing chemical and thermal processes is the calorie and i
 
 A **calorie** is defined as the amount of energy it takes to heat one gram of water (thus also 1 mL, or 1 $\mathrm{cm}^{3}$, or 1 cc) by one degree Celsius ([Figure 5.3](#fig-5-3)). One calorie (note the small “c”) is 4.184 J of energy.
 
-One **Calorie** (note the capital “C”$)^{14}$ is 1,000 calories, or 1 **kilocalorie**
+One **Calorie** (note the capital “C”)[^14] is 1,000 calories, or 1 **kilocalorie**
 
 (1 kcal), equating to 4,184 J. Most memorably, it is the amount of energy it takes to heat one kilogram (or one liter; 1 L) of water by $1^{\circ}\mathrm{C}$. Due to the tragic convention of Calorie, we will opt for **kcal** whenever possible.
 
@@ -325,13 +325,13 @@ This might win the prize for the dumbest convention in science: never define a u
 :::
 
 :::{figure} ../images/art-p100-1.svg
-:alt: Illustration from the original text
+:alt: Chapter opening illustration
 :::
 
 :::{figure} ../images/fig-5-3.svg
 :label: fig-5-3
 :enumerator: 5.3
-:alt: Following the definition of a calorie, adding 50 cal to one gram of water raises its temperature by .
+:alt: Following the definition of a calorie, adding 50 cal to one gram of water raises its temperature by 50°C.
 
 Following the definition of a calorie, adding 50 cal to one gram of water raises its temperature by $50^{\circ}\mathrm{C}$.
 :::
@@ -658,7 +658,7 @@ Students may wish to see a master table of conversions between all the units dis
 3. This would be a fantastic opportunity for you to design and populate your *own* master conversion table. Then you’ll really own it.
 
 :::{figure} ../images/art-p106-1.svg
-:alt: Illustration from the original text
+:alt: Chapter opening illustration
 :::
 
 (sec-5-12)=
@@ -679,11 +679,7 @@ Weight is $mg$, where $g \approx 10 \mathrm{m/s}^{2}$.
 
 5. The numbers in [Table 5.1](#tab-5-1) are *reasonable* but should not be thought of as *right*.[^40] You can make your own table by using $mgh$ for lifting and $\frac{1}{2}mv^{2}$ for kinetic energy. For this exercise, pick three familiar activities or situations that allow you to estimate an energy scale in Joules and compute/estimate the results.
 
-6. Just for fun, compute the energy associated with the mass of a tiny bit of shaving stubble having a mass of 0.01 $\mathrm{mg}^{41}$ using $E = mc^{2}$. Make sure you use the correct units to put the result in Joules. The speed of light, $c$, is approximately 3 $\times 10^{8}$ m/s.
-
-:::{margin}
-… based on 0.1 mm diameter and 1 mm long
-:::
+6. Just for fun, compute the energy associated with the mass of a tiny bit of shaving stubble having a mass of 0.01 $\mathrm{mg}$[^41] using $E = mc^{2}$. Make sure you use the correct units to put the result in Joules. The speed of light, $c$, is approximately 3 $\times 10^{8}$ m/s.
 
 7. What exchanges of energy (between what forms) happens when a hand grenade explodes and sends pieces of its casing flying away from the explosion at high velocity? You may wish to describe more than one step/exchange.
 
@@ -806,6 +802,7 @@ Not all these conversions are likely to be useful, but a few will come up in pra
 [^1]: This definition applies to the common circumstance when the motion is aligned with the direction of force, like pushing a box across a level floor, propelling a car along the road, or lifting a weight.
 [^2]: Acceleration is the rate of change of velocity. Since velocity is measured in meters per second, the rate at which it changes will be meters per second *per second*, or $\mathrm{m/s/s}$, or $\mathrm{m/s}^{2}$. Some students may know that gravitational acceleration on Earth’s surface is 9.8 $\mathrm{m/s}^{2}$, which is another way to remember.
 [^3]: For examples like these, framed as statements and not questions, you can practice solving several types of problems by covering up one number and then solving for it using still-available information. So each statement can be seen as several examples in one!
+[^4]: Another example of work (energy) being force times distance.
 [^5]: The force needed to hold against gravity is just $F = ma = mg$
 [^6]: The only exception is on cosmological scales and times. But across scales even as large as the Milky Way galaxy and over millions of years, we are on solid footing to consider conservation of energy to be inviolate. It is fascinating to note that conservation of energy stems from a symmetry in time itself: if the laws and constants of the Universe are the same across some span of time, then energy is conserved during such time—a concept we trace to Emmy Noether. See [Sec. D.2](#sec-d-2) (p. 406) for more.
 [^7]: … sometimes called channels
@@ -815,6 +812,7 @@ Not all these conversions are likely to be useful, but a few will come up in pra
 [^11]: ⚠ Perhaps related to [Box 5.3](#box-5-3).
 [^12]: … an incandescent, for instance
 [^13]: … maybe 30 m/s; 67 m.p.h.; 108 k.p.h.
+[^14]: This might win the prize for the dumbest convention in science: never define a unit as case-sensitive, as it cannot be differentiated in spoken language!
 [^15]: Human metabolism is not the same as heating water, but the energy involved can still be counted in an energy unit that is defined in terms of heating water. It’s still just energy.
 [^16]: It would serve little purpose to perform exact math here—producing 96.85 W in this case—since the idea that someone’s daily diet is exactly 2,000.00 kcal is pretty preposterous. It will likely vary by at least 10% from day to day, and by even larger amounts from individual to individual, so that 100 W is a convenient and approximate representation.
 [^17]: Make sure this is clear to you; by understanding, we are installing concepts instead of formulas, which are more powerful and lasting.
@@ -841,6 +839,7 @@ Not all these conversions are likely to be useful, but a few will come up in pra
 [^38]: The two are related by the speed of light, $c$, via $\lambda \nu = c$.
 [^39]: A micron $(\mu \mathrm{m}$, or micrometer) is another way to say $10^{-6}$ m.
 [^40]: Every nerf toss is not 15 J; the bookbag lift depends on how heavy and how high the lift; every example would have a range of reasonable numbers.
+[^41]: … based on 0.1 mm diameter and 1 mm long
 [^42]: Ignoring inefficiencies of moving legs, rounding flights, etc.
 [^43]: … or chin-up, lifting your entire body up to a bar using your arms
 [^44]: … regionally variable

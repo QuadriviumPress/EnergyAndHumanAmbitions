@@ -16,7 +16,7 @@ Chemistry deals with atoms and molecules and the interactions between them. Atom
 :::{figure} ../images/fig-b-1.svg
 :label: fig-b-1
 :enumerator: B.1
-:alt: Periodic Table of the Elements. This version is too small to permit names, so that only symbols are given. The more familiar elements are hi
+:alt: Periodic Table of the Elements. This version is too small to permit names, so that only symbols are given. The more familiar elements are highlighted. Numbers represent the number of protons in the nucleus of the associated atoms.
 
 Periodic Table of the Elements. This version is too small to permit names, so that only symbols are given. The more familiar elements are highlighted. Numbers represent the number of protons in the nucleus of the associated atoms.
 :::
@@ -51,7 +51,7 @@ Examples of a few familiar atoms and molecules are presented in [Figure B.2](#fi
 :::{figure} ../images/fig-b-2.svg
 :label: fig-b-2
 :enumerator: B.2
-:alt: Representing atoms as colored spheres for schematic purposes, we can depict the general appearance of molecules as bonded collections of ato
+:alt: Representing atoms as colored spheres for schematic purposes, we can depict the general appearance of molecules as bonded collections of atoms. Here, we have three elements—hydrogen, oxygen, and carbon—combined into familiar molecules. Oxygen in the
 
 Representing atoms as colored spheres for schematic purposes, we can depict the general appearance of molecules as bonded collections of atoms. Here, we have three elements—hydrogen, oxygen, and carbon—combined into familiar molecules. Oxygen in the air we breathe is self-bonded into a “diatomic” molecule. Two representations appear below each molecule: a diagram indicating bonds (including double-bonds in some cases), and the chemical formula.
 :::
@@ -72,7 +72,7 @@ Let’s figure out a tougher formula, pertaining to the combustion of ethanol (d
 
 where question marks indicate what we need to figure out. Three unknowns and one equation? It may seem hopeless, but the formula is *not* the equation. The equations are that the total number of carbons on each side are equal, the total number of oxygens are equal, and the total number of hydrogens are equal. So we actually have three equations.[^11]
 
-Start by noticing that the left side has 2 carbons and 6 hydrogens. We don’t know how many oxygens yet, but it’s good enough to start. On the right, carbon only shows up in CO$_{2}$, so getting 2 carbons on the right requires 2CO$_{2}$. Likewise, hydrogen only shows up in water, and ethanol has 6 hydrogen atoms to stuffinto water molecules that hold 2 hydrogens apiece. It will obviously take 3 water molecules to account for 6 hydrogens.[^12] So now the right side is hammered out:
+Start by noticing that the left side has 2 carbons and 6 hydrogens. We don’t know how many oxygens yet, but it’s good enough to start. On the right, carbon only shows up in CO$_{2}$, so getting 2 carbons on the right requires 2CO$_{2}$. Likewise, hydrogen only shows up in water, and ethanol has 6 hydrogen atoms to stuff into water molecules that hold 2 hydrogens apiece. It will obviously take 3 water molecules to account for 6 hydrogens.[^12] So now the right side is hammered out:
 
 :::{math}
 \mathrm{C}_{2} H _{6} O + ?O _{2}\rightarrow 2CO _{2}+ 3H _{2} O
@@ -91,7 +91,7 @@ The job is done: the reaction is now balanced. That’s stoichiometry.
 :::{figure} ../images/fig-b-3.svg
 :label: fig-b-3
 :enumerator: B.3
-:alt: Two example fossil fuel reactions (combustion) are shown here. The first is coal and the second is natural gas (methane). Both cases simply
+:alt: Two example fossil fuel reactions (combustion) are shown here. The first is coal and the second is natural gas (methane). Both cases simply rearrange the input atoms without creating or destroying any, so that the count is the same on both sides of
 
 Two example fossil fuel reactions (combustion) are shown here. The first is coal and the second is natural gas (methane). Both cases simply rearrange the input atoms without creating or destroying any, so that the count is the same on both sides of the arrow (which denotes the direction of the reaction). In other words, four purple hydrogens on the left in the case of methane must all appear on the right somewhere. The formula version also just counts instances of each atom/molecule, in which pre-factors (coefficients) indicate how many molecules are present.
 :::
@@ -148,13 +148,7 @@ For instance, sucrose has the formula $\mathrm{C}_{12}$H$_{22}$O$_{11}$, so that
 
 The numerator of [Eq. B.1](#eq-b-1) tells us that we get the most energy from each carbon atom, 30% as much from each hydrogen atom, and take a 50% hit (deduction) for each oxygen atom. Nitrogen is energetically inert and does not contribute to the numerator—while degrading the energy density by adding mass in the denominator. The negative coefficient for oxygen tells us something important. Since combustion is a process of joining oxygen to atoms in the fuel, the presence of oxygen *already* in the fuel means it is already partly “reacted” and has less to offer in the way of new oxygen bonds.
 
-:::{margin}
-This is a generically useful practice: it helps integrate new knowledge into your brain by validating the behavior in known contexts. Does it make sense? Can you accept it, or does it seem wrong/suspect? Experts often apply new tools first to familiar situations whose answers are known to build trust and competence using the new tool before applying it more broadly.
-:::
-
-We can explore the sensibility of [Eq. B.1](#eq-b-1) by testing it on some known
-
-product at the end of the energy process. H$_{2}$O, as another commonboundary cases.$^{17}$CO$_{2}$, calculating for CO$_{2}$ should offer no energy to us, since it’s a “waste”Since one ubiquitous end-product of combustion is
+We can explore the sensibility of [Eq. B.1](#eq-b-1) by testing it on some known boundary cases.[^17] Since one ubiquitous end-product of combustion is CO$_{2}$, calculating for CO$_{2}$ should offer no energy to us, since it’s a “waste” product at the end of the energy process. H$_{2}$O, as another common
 
 :::{margin}
 **Try it:** Try it out, using $c = 1$ and $o = 2$.
@@ -274,6 +268,7 @@ This is an example where internalizing the ideal gas law for what it *means*, or
 [^14]: To be explicit, if a formula is balanced for individual molecules, then it should also be balanced if doubling the “recipe,” or tripling, multiplying by 10, or even by 6 $\times 10^{23}$.
 [^15]: Recall that energy is a measure of work, or a force times a distance.
 [^16]: The coefficients in the denominator reflect the fact that carbon is 12 units of mass, oxygen is 16, etc.
+[^17]: This is a generically useful practice: it helps integrate new knowledge into your brain by validating the behavior in known contexts. Does it make sense? Can you accept it, or does it seem wrong/suspect? Experts often apply new tools first to familiar situations whose answers are known to build trust and competence using the new tool before applying it more broadly.
 [^18]: A Pascal (Pa) is also a Newton of force per square meter, which reduces to more fundamental units of $\mathrm{J/m}^{3}$ (Joules of energy per cubic meter).
 [^19]: And $T(^{\circ}$F$) = 1.8 \cdot T(^{\circ}\mathrm{C}) + 32$.
 [^20]: 1 atmosphere is 101,325 Pa.
