@@ -209,7 +209,7 @@ Lifting a 10 kg box, whose weight is therefore about 100 N, through a vertical d
 ::::
 
 :::{margin}
-Weight is $mg$. In this case, $m$is 10 kg. If we’re being sticklers, $g = 9.8 \mathrm{m/s}^{2}$, but for convenience we can typically use $g \approx 10 \mathrm{m/s}^{2}$ without significant loss of precision.
+Weight is $mg$. In this case, $m$ is 10 kg. If we’re being sticklers, $g = 9.8 \mathrm{m/s}^{2}$, but for convenience we can typically use $g \approx 10 \mathrm{m/s}^{2}$ without significant loss of precision.
 
 :::
 

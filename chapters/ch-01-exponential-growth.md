@@ -359,7 +359,7 @@ What happens to all of this waste heat? If it all stayed on Earth, the temperatu
 P = A_{\mathrm{surf}}\sigma (T^{4}_{\mathrm{hot}}-T^{4}_{\mathrm{cold}}).
 :::
 
-$P$ is the power radiated, $A_{\mathrm{surf}}$ is the surface area, $T_{\mathrm{hot}}$ is the temperature of the radiating object in Kelvin[^16] (very important!), $T_{\mathrm{cold}}$ is the temperature of the environment (also Kelvin), and $\sigma$is the Stefan–Boltzmann constant: $\sigma = 5.67 \times 10^{-8}\mathrm{W/m}^{2}/\mathrm{K}^{4}.$[^17] Note that the law operates on the *difference* of the fourth powers of two temperatures.
+$P$ is the power radiated, $A_{\mathrm{surf}}$ is the surface area, $T_{\mathrm{hot}}$ is the temperature of the radiating object in Kelvin[^16] (very important!), $T_{\mathrm{cold}}$ is the temperature of the environment (also Kelvin), and $\sigma$ is the Stefan–Boltzmann constant: $\sigma = 5.67 \times 10^{-8}\mathrm{W/m}^{2}/\mathrm{K}^{4}.$[^17] Note that the law operates on the *difference* of the fourth powers of two temperatures.
 
 ::::{admonition} Example 1.3.1
 :class: seealso

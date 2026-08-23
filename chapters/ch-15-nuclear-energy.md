@@ -72,7 +72,7 @@ Lower left start of the Chart of the Nuclides, shown pictorially in terms of the
 :enumerator: 15.3
 :alt: Layout of the Chart of the Nuclides, showing positions of naturally occurring nuclei (stable or long-lived enough to be present on Earth). St
 
-Layout of the Chart of the Nuclides, showing positions of naturally occurring nuclei (stable or long-lived enough to be present on Earth). Stable nuclei tend to have more neutrons than protons—especially for heavier nuclei. This is why the track of stable nuclei bends away from the $N = Z$diagonal line. Arrows point to important elements of iron, lead, thorium, and uranium at $Z$ values of 26, 82, 90, and 92, respectively.
+Layout of the Chart of the Nuclides, showing positions of naturally occurring nuclei (stable or long-lived enough to be present on Earth). Stable nuclei tend to have more neutrons than protons—especially for heavier nuclei. This is why the track of stable nuclei bends away from the $N = Z$ diagonal line. Arrows point to important elements of iron, lead, thorium, and uranium at $Z$ values of 26, 82, 90, and 92, respectively.
 :::
 
 [Figure 15.4](#fig-15-4) shows the lower-left corner of the chart in much greater detail.[^5] For each element (horizontal row), properties of all known isotopes are listed—even those that are radioactive and do not persist for even a small fraction of a second before decaying. Stable isotopes are denoted by gray boxes. The mass of each, in atomic mass units (a.m.u.)— defined so that the neutral $^{12}\mathrm{C}$ atom is exactly 12.0000 a.m.u.—is given, and the natural abundance as found on Earth, in percent. The Chart of the Nuclides lets us peak inside the periodic table in great detail, as [Example 15.1.2](#ex-15-1-2) suggests.
@@ -158,7 +158,7 @@ Luckily, radioactive decays don’t go just any which way, but stick to a very s
 Radioactive decay mechanisms for $\alpha, \beta ^{-}$, and $\beta ^{+}$. Protons are colored red, and neutrons light purple. The total nucleon counts are correct for the two beta decays, but only schematic for the larger $^{144}$Nd nucleus used to illustrate alpha decay, which is predominantly seen only in heavier nuclei (aside from $^{5}$Li and $^{8}$Be). The positron is an anti-electron: a positively-charged antimatter counterpart to the electron. Neutrinos are sometimes called “ghost” particles for their near-complete non-interactivity with ordinary matter.
 :::
 
-1. **Alpha decay** $(\alpha)$, in which a foursome of two protons and two neutrons—essentially a $^{4}$He nucleus—leaps out.[^10] When this happens, the nucleus reduces its $N$ by two, reduces its $Z$ by two, and therefore $A$by 4. On the chart of the nuclides, it moves two squares left and two squares down (see [Figure 15.7](#fig-15-7)). For example, $^{8}$Be decays this way, essentially splitting into two $^{4}$He nuclei;
+1. **Alpha decay** $(\alpha)$, in which a foursome of two protons and two neutrons—essentially a $^{4}$He nucleus—leaps out.[^10] When this happens, the nucleus reduces its $N$ by two, reduces its $Z$ by two, and therefore $A$ by 4. On the chart of the nuclides, it moves two squares left and two squares down (see [Figure 15.7](#fig-15-7)). For example, $^{8}$Be decays this way, essentially splitting into two $^{4}$He nuclei;
 
 :::{margin}
 **Try it:** Follow along on [Figure 15.4](#fig-15-4).

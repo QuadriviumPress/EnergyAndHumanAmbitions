@@ -92,7 +92,7 @@ We already saw this equation in the context of Earth’s energy balance in [Sect
 B_{\lambda}= \frac{2\pi hc^{2}}{\lambda ^{5}} \frac{1}{e^{hc/\lambda k_{\mathrm{B}}T}- 1}\ \left[\frac{\mathrm{W/m}^{2}}{\mathrm{m}}\right],
 :::
 
-[Eq. 13.4](#eq-13-4) might look formidable, but only $\lambda$and $T$ are variable. It describes the Planck spectrum, otherwise known as the blackbody[^10] spectrum. For some temperature, $T$, this function specifies how much power is emitted at each wavelength, $\lambda$. Three fundamental physical constants from key areas of physics make an appearance: $c \approx 3 \times 10^{8}$ m/s is the familiar speed of light from relativity; $h \approx 6.626 \times 10^{-34}$ J $\cdot$ s is Planck’s constant from quantum mechanics, and $k_{\mathrm{B}}\approx 1.38 \times 10^{-23}$ J/K is the Boltzmann constant of thermodynamics.[^11]
+[Eq. 13.4](#eq-13-4) might look formidable, but only $\lambda$ and $T$ are variable. It describes the Planck spectrum, otherwise known as the blackbody[^10] spectrum. For some temperature, $T$, this function specifies how much power is emitted at each wavelength, $\lambda$. Three fundamental physical constants from key areas of physics make an appearance: $c \approx 3 \times 10^{8}$ m/s is the familiar speed of light from relativity; $h \approx 6.626 \times 10^{-34}$ J $\cdot$ s is Planck’s constant from quantum mechanics, and $k_{\mathrm{B}}\approx 1.38 \times 10^{-23}$ J/K is the Boltzmann constant of thermodynamics.[^11]
 
 :::{math}
 :label: eq-13-5

@@ -42,183 +42,15 @@ Where a claim is arithmetic, the recomputation is shown so it can be checked.
 These are the highest-consequence items: the text as printed states something
 that is wrong or that contradicts the book's own tables.
 
-### 1.1 `chapters/ch-01-exponential-growth.md:61` — bacteria jar percentage
+All of 1.1–1.17 (bacteria jar percentage, interest example, Dyson-sphere
+atmosphere thickness, Table 1.4 rows and caption, Problem 18 energy value,
+Table 9.6 ice mass, Boltzmann constant exponent/units, Stefan–Boltzmann units
+in `back/notation.md`, the Chapter 14 table cross-reference, National Ignition
+Facility naming, the Chapter 15 margin note, footnote 58's missing "million",
+the Chapter 16 Scotland/UK phrasing, the Montreal Protocol date, "Max Planck",
+and the four bibliography misspellings) have been fixed in the source.
 
-> At 11 PM, the jar is at one-64th capacity, or **1.7%** full.
-
-1/64 = 1.5625%, which rounds to **1.6%**, not 1.7%.
-*Author erratum.*
-
-### 1.2 `chapters/ch-01-exponential-growth.md:112` — interest example contradicts Table 1.2
-
-> Then in three years it will be **\$106.18**, or \$100 times $1.02^{3}$.
-
-$100 \times 1.02^3 = \$106.12$, and [Table 1.2](#tab-1-2) — eleven lines below —
-correctly lists `| 3 | 1.0612 | \$106.12 |`. The prose contradicts the table.
-*Author erratum.*
-
-### 1.3 `chapters/ch-01-exponential-growth.md:315` — Dyson-sphere atmosphere thickness off by 1000×
-
-> The earth's atmosphere distributed over this area would be **0.015 m** thick.
-
-Atmospheric mass $5.15\times10^{18}$ kg at sea-level density 1.225 kg/m³ is
-$4.2\times10^{18}$ m³. Spread over the $2.81\times10^{23}$ m² sphere at 1 AU
-that is $1.5\times10^{-5}$ m — **0.015 mm**, not 0.015 m. As printed the
-atmosphere would be four times *thicker* than the 4 mm shell made from the
-entire mass of the Earth, which is impossible.
-*Author erratum (or a lost "m" → "mm").*
-
-### 1.4 `chapters/ch-01-exponential-growth.md:454` — Table 1.4 rows do not reproduce
-
-Recomputing Table 1.4 from [Eq. 1.11](#eq-1-11) —
-$T=\left[(0.707\times1360+P)/4\sigma\right]^{1/4}+33$ — reproduces the 100-,
-200-, 300- and 417-year rows exactly (288.1, 288.9, 296.9, 373.0), which
-confirms the model. Two rows do not reproduce:
-
-| Years | $P$ (W/m²) | Printed $T$ / $\Delta T$ | Recomputed $T$ / $\Delta T$ |
-| --- | --- | --- | --- |
-| 400 | 1,400 | 344 / 56 | **352** / **64** |
-| 417 | 2,070 | 373 / **100** | 373 / **85** |
-| 1,000 | $1.4\times10^{9}$ | 8,600 / 8,300 | **8,900** / **8,600** |
-
-For the 417-year row the printed $\Delta T$ of 100 looks like the Celsius
-temperature (373 K = 100 °C) rather than a difference; the row's own $T$ and
-$\Delta T$ are mutually inconsistent (373 − 288 = 85). For the 1,000-year row
-the printed $T$ (8,600) equals the correct $\Delta T$, suggesting a
-column shift.
-*Author erratum.*
-
-### 1.5 `chapters/ch-01-exponential-growth.md:445` — Table 1.4 caption: "by 900 years Earth is hotter than the sun"
-
-At 900 years $P = 1.4\times10^{8}$ W/m² gives $T \approx 5{,}020$ K, which is
-*below* the sun's ~5,800 K. The crossing happens at ~926 years. The body text
-at line 425 says "inside of 1,000 years", which is correct; the caption is not.
-*Author erratum.*
-
-### 1.6 `chapters/ch-04-space-colonization.md:458` — Problem 18 energy off by 10×
-
-> It takes about **5 $\times 10^{10}$ J** of energy to win the fight against gravity.
-
-Footnote [^33] specifies $mgh$ with $m \approx 1{,}500$ kg, and the problem
-gives $h = 320$ km: $1500 \times 9.8 \times 3.2\times10^{5} = 4.7\times10^{9}$ J.
-The value should be **$5 \times 10^{9}$ J**.
-
-This is confirmed by the answer key: `appendices/app-c-selected-answers.md:93`
-says "Will take 15–20 tanks of gas". $4.7\times10^{9}/2.5\times10^{7} = 188$
-gallons ≈ 15 tanks. The printed $5\times10^{10}$ J would give 2,000 gallons
-(≈ 150 tanks).
-*Author erratum.*
-
-### 1.7 `chapters/ch-09-climate-change.md:522` — Table 9.6 ice mass off by 10×
-
-Table 9.6 lists ice as volume $29\times10^{15}$ m³, density 917 kg/m³, and
-mass **$2.6\times10^{18}$ kg**. But $29\times10^{15} \times 917 =
-2.66\times10^{19}$ kg, i.e. **$26\times10^{18}$ kg**.
-
-Table 9.7 is right and Table 9.6 is wrong: Table 9.7's "total charge" for ice
-of $8.8\times10^{24}$ J requires $2.66\times10^{19}\ \mathrm{kg} \times
-3.34\times10^{5}\ \mathrm{J/kg}$. Using the printed Table 9.6 mass gives
-$0.87\times10^{24}$ J.
-*Author erratum.*
-
-### 1.8 `chapters/ch-13-solar-energy.md:100` — Boltzmann constant wrong exponent and wrong units
-
-> $k_{\mathrm{B}}\approx 1.38 \times 10^{-33}$ J $\cdot$ K is the Boltzmann constant
-
-Two errors: the exponent should be **−23**, and the units should be **J/K**,
-not J·K. Every other occurrence in the book is correct
-(`ch-06:194`, `app-b:235`, `back/notation.md:19`, `back/glossary.md:80`).
-*Author erratum.*
-
-### 1.9 `back/notation.md:31` — Stefan–Boltzmann constant units
-
-> $\sigma$ Stefan-Boltzmann constant: $5.67 \times 10^{-8}\mathrm{W/K/m}^{2}$
-
-The units are W/m²/K⁴. As printed the fourth power on kelvin is missing and
-the order is inverted. All four other occurrences in the book
-(`ch-01:362`, `ch-09:206`, `ch-13:87`, `back/glossary.md:599`) correctly read
-$\mathrm{W/m}^{2}/\mathrm{K}^{4}$.
-*Author erratum.*
-
-### 1.10 `chapters/ch-14-biological-energy.md:155` — wrong table cross-referenced (twice)
-
-> …the 3.09 factor for octane. In terms of CO$_{2}$ energy intensity, ethanol
-> produces 64 g of CO$_{2}$ for every 1 MJ of energy: exactly the same as
-> petroleum (**[Table 8.2](#tab-8-2)**).
-
-The 3.09 g/g and 64 g/MJ figures are in **Table 9.1**, not Table 8.2. Table 8.2
-has no CO₂ columns at all (its columns are molar mass, kJ/mol, kJ/g, kcal/g).
-The earlier reference in the same sentence — 11.5 kcal/g in Table 8.2 — is
-correct.
-*Author erratum.*
-
-### 1.11 `chapters/ch-15-nuclear-energy.md:963` — National Ignition Facility misnamed
-
-> An effort in the U.S. called the **nuclear ignition facility** (NIF)
-
-The facility is the **National** Ignition Facility.
-*Author erratum.*
-
-### 1.12 `chapters/ch-15-nuclear-energy.md:997` — margin note names the wrong two sections' subjects
-
-> Pros and cons are listed separately for **PV and ST** in
-> [Section 15.4.8](#sec-15-4-8) and [Section 15.5.3](#sec-15-5-3), respectively.
-
-Sections 15.4.8 and 15.5.3 are "Pros and Cons of Fission" and "Pros and Cons of
-Fusion". "PV and ST" is carried over verbatim from the identical margin note in
-`chapters/ch-13-solar-energy.md:798`. It should read "fission and fusion".
-*Author erratum.*
-
-### 1.13 `chapters/ch-15-nuclear-energy.md:1227` — footnote 58 drops "million" twice
-
-> …to get **153 kcal/g**. Starting with two deuterium nuclei reduces energy
-> yield a bit **to to 137 kcal/g**, and for deuterium-tritium reactions it's
-> down to 81 **million** kcal/g.
-
-The body text at line 900 correctly says "153 million kcal/g". Recomputing:
-p–p 153 million, D–D 136 million, D–T 81 million kcal/g. The first two are
-missing "million" (and "to to" was a doubled word).
-*Author erratum.*
-
-### 1.14 `chapters/ch-16-small-players.md:203` — Scotland listed as separate from the UK
-
-> Two other large tidal stations in the 300–400 MW capacity range are in the
-> works for **the UK and Scotland**.
-
-Scotland is part of the UK. Presumably one of the two should name a different
-jurisdiction (e.g. England and Wales, or a specific site).
-*Author erratum.*
-
-### 1.15 `chapters/ch-19-a-plan-might-be-welcome.md:88` — Montreal Protocol date
-
-> A global agreement in **1989** called the Montreal Protocol banned the use of
-> chlorofluorocarbons.
-
-The Montreal Protocol was agreed and signed in **1987**; it entered into force
-on 1 January 1989. As phrased ("a global agreement in 1989 called…") the date
-attaches to the agreement rather than to its entry into force.
-*Author erratum — worth verifying against the author's intent.*
-
-### 1.16 `back/image-attributions.md:15` — "Max Plank Institute"
-
-> produced by Volker Springel et al. at the **Max Plank** Institute
-
-Should be **Max Planck**. (The book spells "Planck" correctly in all five
-physics contexts: `back/glossary.md:74, 502, 505, 593, 674`.)
-*Author erratum.*
-
-### 1.17 Bibliography — four misspelled proper names
-
-| Line | As printed | Should be | Evidence |
-| --- | --- | --- | --- |
-| `back/bibliography.md:24` | *Exponential Economist Meets Finite **Pysicist*** | Physicist | the entry's own URL is `…/economist-meets-physicist/` |
-| `back/bibliography.md:45` | T J **Garret** | Garrett | the entry's own URL is `…/~tgarrett/…`; also `ch-02:202` |
-| `back/bibliography.md:132, 135` | University of **Calgory** | Calgary | ×2 |
-| `back/bibliography.md:51` | K Klein **Goldewĳk** | Goldewijk | the Dutch "ij" ligature (U+0133) survived conversion; it is the only occurrence of that character in the book |
-
-*Mixture of author errata and conversion artifacts.*
-
-### 1.18 Minor numerical inconsistencies between tables
+### 1.1 Minor numerical inconsistencies between tables
 
 These are small and may be deliberate rounding, but they are internal
 mismatches a reader will trip over:
@@ -236,19 +68,9 @@ mismatches a reader will trip over:
 
 ---
 
-## 2. Missing space after inline math (conversion defect)
+## 2. Lost and scrambled text (conversion defects)
 
-58 places where a closing `$` is followed immediately by an English word, e.g.
-`ch-01:362` "$\sigma$is the Stefan–Boltzmann constant", `ch-05:215` "$m$is 10
-kg", `ch-13:100` "$\lambda$and $T$ are variable", `ch-15:173` "$A$by 4",
-`ch-16:184` "$\epsilon$is the efficiency". Concentrated in
-`ch-13-solar-energy.md` (37) and `ch-09-climate-change.md` (5).
-
----
-
-## 3. Lost and scrambled text (conversion defects)
-
-### 3.1 Text reordered across the print columns
+### 2.1 Text reordered across the print columns
 
 Four paragraphs read as nonsense because margin-column and body-column runs
 were interleaved:
@@ -284,9 +106,9 @@ Reconstructed: "These are just a few of the **countless examples that may be
 explored using Eq. 20.1 or variants thereof to evaluate the energy impact of
 dietary choices.**"
 
-**`appendices/app-c-selected-answers.md`** — the whole file; see §5.
+**`appendices/app-c-selected-answers.md`** — the whole file; see §4.
 
-### 3.2 Sentences truncated or lost outright
+### 2.2 Sentences truncated or lost outright
 
 - `chapters/ch-11-hydroelectric-energy.md:240` — an orphaned sentence fragment
   sits alone between two margin blocks: "*unusual, having already developed a
@@ -314,7 +136,7 @@ dietary choices.**"
   : 2
   ```
 
-### 3.3 Isotope superscripts detached throughout Chapter 15
+### 2.3 Isotope superscripts detached throughout Chapter 15
 
 Mass-number superscripts were extracted as separate text runs and dumped onto
 their own lines, leaving the prose wrong. Examples:
@@ -335,7 +157,7 @@ Stray digit-only lines survive at `ch-15:165` ("5 8"), `:226` ("8"), `:942`
 ("1 2"), `:1089` ("2"), and `appendices/app-a-math-and-equations.md:200`
 ("1 1 3").
 
-### 3.4 Isotope superscripts turned into *footnote references* — Chapter 15 boron
+### 2.4 Isotope superscripts turned into *footnote references* — Chapter 15 boron
 
 Three places where `$^{10}$B` / `$^{11}$B` became `[^10]` / `[^11]`, which is
 worse than a lost character: MyST resolves them as links to real footnotes with
@@ -348,7 +170,7 @@ natural gas; footnote 11 is about neutrinos).
 | `ch-15:478` | "Boron (**[^10]** ) is a**B** favorite choice" | Boron ($^{10}$B) is a favorite choice |
 | `ch-15:1031` | "…tend to contain **[^10]**, which has**B** a high neutron absorption cross section" | contain $^{10}$B, which has a high… |
 
-### 3.5 Words fused where a line break was removed
+### 2.5 Words fused where a line break was removed
 
 The de-hyphenation step joined words that were never hyphenated. 26 instances:
 
@@ -368,7 +190,7 @@ The de-hyphenation step joined words that were never hyphenated. 26 instances:
 Related: `ch-06:833` has "expend-**ing**" — a print hyphenation that was *not*
 rejoined.
 
-### 3.6 Dangling word fragments at page boundaries
+### 2.6 Dangling word fragments at page boundaries
 
 Words split across a printed page were left split, so a paragraph begins with
 half a word:
@@ -382,9 +204,9 @@ half a word:
 
 ---
 
-## 4. Structural and markup defects (conversion)
+## 3. Structural and markup defects (conversion)
 
-### 4.1 47 numbered margin notes lost
+### 3.1 47 numbered margin notes lost
 
 The print edition's numbered margin notes became Markdown footnotes, but 47 of
 them are gone — neither referenced nor defined — leaving gaps in the numbering:
@@ -426,7 +248,7 @@ Two related symptoms:
    "From U. Calgary. **27: Losing even a drop per second**…"); `ch-11:449`;
    `ch-12:417`; `ch-13:551`; `ch-14:415`; `ch-15:1214`.
 
-### 4.2 202 figure alt-texts damaged
+### 3.2 202 figure alt-texts damaged
 
 Every `:alt:` line is generated by stripping math from the caption and then
 truncating. Consequences:
@@ -446,7 +268,7 @@ truncating. Consequences:
 
 For screen-reader users these are the *only* description of 202 figures.
 
-### 4.3 Captions and titles split across block boundaries
+### 3.3 Captions and titles split across block boundaries
 
 The caption or admonition title ends up partly outside its own block, so it
 renders in the wrong place:
@@ -473,7 +295,7 @@ renders in the wrong place:
   `ch-15:989`, where the paragraph beginning "The smaller number of positive
   points…" is swallowed into the final bullet of the fusion cons list.
 
-### 4.4 Tables whose rows or columns were destroyed
+### 3.4 Tables whose rows or columns were destroyed
 
 - **`ch-04` Table 4.2** (line 118) is unusable. The fraction numerators became
   their own rows and the astronomical symbols were replaced by ASCII:
@@ -508,7 +330,7 @@ renders in the wrong place:
 - **`ch-13` Problem 26** (line 879): a full 13-column month table crushed into
   a single table cell (and Problem 27 at line 889 refers back to it).
 
-### 4.5 Stray artefacts left in the body text
+### 3.5 Stray artefacts left in the body text
 
 - `chapters/ch-05-energy-and-power-units.md:15` — a line of OCR from the
   chapter-opening photograph of a utility bill is sitting in the body directly
@@ -549,7 +371,7 @@ renders in the wrong place:
   one line: `ch-03:690`, `ch-04:439`, `ch-07:295`, `ch-09:759`, `ch-15:1053`,
   `ch-20:610`.
 
-### 4.6 Cross-references and citations not converted
+### 3.6 Cross-references and citations not converted
 
 - **12 bibliography citations** were not turned into links, so they render as
   bare bracketed numbers: `ch-02:43`, `ch-02:76`, `ch-03:26`, `ch-04:10`,
@@ -570,7 +392,7 @@ bibliography entries are present, unduplicated and correctly targeted.
 
 ---
 
-## 5. Appendix C is unusable
+## 4. Appendix C is unusable
 
 `appendices/app-c-selected-answers.md` needs to be regenerated from scratch.
 The print edition sets the answer key in two narrow columns; the converter read
@@ -620,7 +442,7 @@ One author erratum is visible through the damage, at line 15: "A smidge higher
 
 ---
 
-## 6. Edition-consistency notes
+## 5. Edition-consistency notes
 
 Not errors in the source text, but places where this edition contradicts itself
 or the original:
@@ -649,8 +471,7 @@ or the original:
 
 | Class | Count |
 | --- | --- |
-| Numerical / factual errors | 17 |
-| Missing space after inline math | 58 |
+| Numerical / factual errors (remaining, likely-deliberate) | 4 |
 | Scrambled paragraphs | 4 (+ all of Appendix C) |
 | Sentences lost or truncated | 5 |
 | Glossary definitions lost | 3 |

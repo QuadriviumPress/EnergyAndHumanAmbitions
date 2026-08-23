@@ -184,7 +184,7 @@ The amount of energy depends on the area of the captured body of water and the h
 P = \epsilon \frac{\Delta E}{\Delta t} = \frac{\epsilon mg\frac{h}{2}}{\Delta t} = \frac{\epsilon \rho Agh^{2}}{2\Delta t},
 :::
 
-where $g \approx 10 \mathrm{m/s}^{2}$ is the acceleration due to gravity and $\epsilon$is the efficiency of converting gravitational energy into electrical energy.
+where $g \approx 10 \mathrm{m/s}^{2}$ is the acceleration due to gravity and $\epsilon$ is the efficiency of converting gravitational energy into electrical energy.
 
 ::::{admonition} Example 16.2.1
 :class: seealso
@@ -254,7 +254,7 @@ As a means of estimation, let’s imagine sinusoidal[^25] waves 1 m in amplitude
 Sinusoidal waves have amplitude $A$, and wavelength $\lambda$. In terms of harvesting the gravitational potential energy, we can think of it as lopping off the crest and flipping it over onto the trough to level the water surface. In doing so, we move some mass, $m$, down a height $h$ to get $mgh$ of energy. The block-equivalent is shown below, where the area and average height of the sinusoidal trough/crest has been faithfully captured by rectangles of height $\sim 0.39A$ and length $\sim 0.41\lambda$. From these, it is possible to figure out the potential energy associated with the wave.
 :::
 
-In order to figure out the energy involved, we need the mass of water raised and a height to which it is raised. Notice that in [Figure 16.2](#fig-16-2), the potential energy in the wave can be extracted by making the water flat again, which is equivalent to taking all the water from the crest and putting it into the trough. We just need to know how much water we’re moving, and through what height. [Figure 16.2](#fig-16-2) has done the fancy math already and redrawn the wave as rectangular chunks that have equivalent area as the sinusoidal crest and trough and also the same average (midpoint) height relative to the average surface height (dashed line). From this, we learn that the wave crest has area $A\lambda /2\pi$ and the height of the displacement is $\pi A/8$, where $A$is the wave amplitude from the top of the crest to the bottom of the trough.
+In order to figure out the energy involved, we need the mass of water raised and a height to which it is raised. Notice that in [Figure 16.2](#fig-16-2), the potential energy in the wave can be extracted by making the water flat again, which is equivalent to taking all the water from the crest and putting it into the trough. We just need to know how much water we’re moving, and through what height. [Figure 16.2](#fig-16-2) has done the fancy math already and redrawn the wave as rectangular chunks that have equivalent area as the sinusoidal crest and trough and also the same average (midpoint) height relative to the average surface height (dashed line). From this, we learn that the wave crest has area $A\lambda /2\pi$ and the height of the displacement is $\pi A/8$, where $A$ is the wave amplitude from the top of the crest to the bottom of the trough.
 
 :::{margin}
 ⚠ Author’s note: we’ll be going through a
