@@ -746,11 +746,7 @@ Heat pumps are like heat engines in reverse: driving a flow of thermal energy ag
 
 11. What is the only form of significant electricity production in the U.S. that does not involve a spinning shaft?
 
-12. If a can of soda (350 mL; treat as water) cools from $20^{\circ}\mathrm{C}$ to $0^{\circ}\mathrm{C}$, how much energy is extracted, and how much is the entropy (in J/K) in the can reduced using the average temperature and the
-
-   :::{math}
-   relation that \Delta Q = T\Delta S ?
-   :::
+12. If a can of soda (350 mL; treat as water) cools from $20^{\circ}\mathrm{C}$ to $0^{\circ}\mathrm{C}$, how much energy is extracted, and how much is the entropy (in J/K) in the can reduced using the average temperature and the relation that $\Delta Q = T\Delta S$?
 
 13. What would the maximum thermodynamic efficiency be of some heat engine operating between your skin temperature and the ambient environment $20^{\circ}\mathrm{C}$ cooler than your skin?
 

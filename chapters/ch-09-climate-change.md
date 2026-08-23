@@ -238,7 +238,7 @@ solving to$T \approx 255$ K, or $-18^{\circ}\mathrm{C}$ (about $0^{\circ}$F). Th
 
 We understand this mechanism perfectly. Being at a temperature of 288 K, the surface emission peaks at a wavelength around 10 $\mu \mathrm{m}$.[^19] The atmosphere is not transparent at all wavelengths, its various absorption features depicted in [Figure 9.7](#fig-9-7). The blue curve at upper right in this figure is the emission spectrum associated with infrared radiation.
 
-Of the greenhouse gases contributing to absorption as pictured in [Figure 9.7](#fig-9-7), water vapor is the dominant player, followed by CO$_{2}$. Notice that the blue solid portion in the figure[^20] is mirrored in white in the total absorption panel just below,[^21] and that the window is mostly defined by water vapor. But the right-hand—longer wavelength—side of the water window is stepped on by the CO$_{2}$ absorption feature, seen more clearly in [Figure 9.8](#fig-9-8). This CO$_{2}$ feature is responsible for the sharp cutoff on the
+Of the greenhouse gases contributing to absorption as pictured in [Figure 9.7](#fig-9-7), water vapor is the dominant player, followed by CO$_{2}$. Notice that the blue solid portion in the figure[^20] is mirrored in white in the total absorption panel just below,[^21] and that the window is mostly defined by water vapor. But the right-hand—longer wavelength—side of the water window is stepped on by the CO$_{2}$ absorption feature, seen more clearly in [Figure 9.8](#fig-9-8). This CO$_{2}$ feature is responsible for the sharp cutoff on the right side of the solid blue[^22] shape in [Figure 9.7](#fig-9-7). As CO$_{2}$ concentration in the atmosphere increases, this absorption feature gets wider, cutting deeper into the right edge of the escaping radiation (solid blue feature), allowing less radiation to escape.
 
 :::{figure} ../images/fig-9-7.jpg
 :label: fig-9-7
@@ -247,8 +247,6 @@ Of the greenhouse gases contributing to absorption as pictured in [Figure 9.7](#
 
 Atmospheric transmission/absorption spectra [[55](#ref-55)]. The top panel shows solar input in red and infrared (thermal) radiation output in blue. The smooth curves are the theoretical blackbody Planck spectra at solar and terrestrial temperatures. Thus the smooth red curve represents the distribution of solar energy arriving at the top of Earth’s atmosphere, while the solid red filled feature is what survives the path to the ground. The smooth blue curve (middle of the set of three) represents radiation from the ground, but only a small fraction (blue filled region) passes directly through the atmosphere—the rest absorbed by greenhouse gases. The lower panels detail where light gets absorbed or scattered. Gray regions indicate absorption and scattering, so that white portions can be thought of as the transmitted part—often called “windows.” Key contributors (greenhouse gases) are broken out in panels below the total absorption panel. Notice that ozone blocks ultraviolet (UV), and Rayleigh scattering is what makes the sky blue—by being effective at scattering blue light from the sun (blue is on the left side of the band labeled “Visible,” while red is on the right). Created by Robert Rohde.
 :::
-
-right side of the solid blue[^22] shape in [Figure 9.7](#fig-9-7). As CO$_{2}$ concentration in the atmosphere increases, this absorption feature gets wider, cutting deeper into the right edge of the escaping radiation (solid blue feature), allowing less radiation to escape.
 
 :::{figure} ../images/fig-9-8.jpg
 :label: fig-9-8
