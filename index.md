@@ -36,7 +36,7 @@ of the original design are mapped onto web equivalents:
 - **Unnumbered margin notes** — the author's general asides — become margin
   blocks, shown beside the paragraph they belong to on wide screens.
 - **Definitions**, **Boxes** and **Examples**, which the print edition sets in
-  pink, blue and yellow panels, become labelled call-outs of matching intent.
+  pink, blue and yellow panels, become labeled call-outs of matching intent.
 - Figures are re-cut from the source PDF as SVG wherever the artwork is vector,
   so they stay sharp at any zoom.
 - The alphabetical index is omitted: its page numbers have no web equivalent,

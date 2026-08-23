@@ -17,10 +17,10 @@ AER
 : Annual Energy Review.
 
 alpha decay
-: 4
+: is a radioactive decay process in which a heavy nucleus emits an alpha particle ($^{4}$He), reducing its mass number by 4 and its atomic number by 2.
 
 alpha particle
-: $(\alpha)$ is a $^{4}$He (helium) nucleus, ejected from a larger nucleus in an alpha decay It therefore consists of two protons and two neutrons.
+: $(\alpha)$ is a $^{4}$He (helium) nucleus, ejected from a larger nucleus in an alpha decay. It therefore consists of two protons and two neutrons.
 
 Amp
 : (A) is short for Ampere.
@@ -161,7 +161,7 @@ current
 : is a measure of charge flow, expressed in the SI unit of Amps.
 
 D–D fusion
-: 2
+: is a nuclear fusion reaction in which two deuterium nuclei ($^{2}$H) combine to form a $^{4}$He nucleus, releasing 23.8 MeV. It requires a higher ignition temperature than D–T fusion.
 
 death rate
 : quantifies the number of deaths per 1,000 people per year, typically. Numbers tend to be in the 5–30 range.
@@ -191,7 +191,7 @@ doubling time
 : is how long it takes a system or collection to double its amount under conditions of growth, such as in exponential growth. See also the rule of 70.
 
 D–T fusion
-: 2
+: is a nuclear fusion reaction in which a deuterium nucleus ($^{2}$H) and a tritium nucleus ($^{3}$H) combine to form a $^{4}$He nucleus and a neutron, releasing 17.6 MeV. It has the lowest ignition temperature of the fusion reactions discussed in the book, which is why it is the one currently pursued.
 
 duty cycle
 : refers to the percentage of time something is “active.” For example, a refrigerator may be on 40% of the time to maintain internal temperature, in which case its duty cycle is 40%.
@@ -527,7 +527,7 @@ proliferation
 : is used to describe widespread distribution of dangerous nuclear materials, which becomes difficult to control if they exist in abundance due to increased reliance on nuclear energy.
 
 proton
-: is one of two basic building blocks of atomic nuclei, the other being the neutron. Protons have positive charge, equal and opposite to that of the electron. Protons have a mass of 938.272 MeV, or 1.0072765 a.m.u.. Protons are made up of three quarks: 2 up and 1 down. 82, 252, 255, 256, 391, 392, 412 **proven reserve** pertains to the amount of resource known to exist, having been discovered and surveyed to estimate the economically recoverable amount.
+: is one of two basic building blocks of atomic nuclei, the other being the neutron. Protons have positive charge, equal and opposite to that of the electron. Protons have a mass of 938.272 MeV, or 1.0072765 a.m.u. Protons are made up of three quarks: 2 up and 1 down. 82, 252, 255, 256, 391, 392, 412 **proven reserve** pertains to the amount of resource known to exist, having been discovered and surveyed to estimate the economically recoverable amount.
 
 PV
 : photovoltaic.
@@ -539,7 +539,7 @@ R/P ratio
 : or reserves-to-production ratio is a means to assess time remaining for a resource of quantity R units, being used (produced) at a rate of P units per year. The result is years available at the present rate, absent discovery of additional resources or change in rate of use.
 
 radiation
-: is a broad term that can can describe light (e.g., electromagnetic radiation, infrared radiation, gamma rays) or particles from radioactive decay or cosmic origin. High-energy radiation of any form can cause damage to materials and biological tissues (DNA being perhaps most critical).
+: is a broad term that can describe light (e.g., electromagnetic radiation, infrared radiation, gamma rays) or particles from radioactive decay or cosmic origin. High-energy radiation of any form can cause damage to materials and biological tissues (DNA being perhaps most critical).
 
 radiative forcing
 : is used to describe the areal power (in $\mathrm{W/m}^{2})$ of absorbed solar energy and infrared radiation to space. In equilibrium, a balance exists so that the net radiative forcing is zero.

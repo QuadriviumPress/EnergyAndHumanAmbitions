@@ -252,7 +252,7 @@ U.S. hydroelectric power per area delivered for each state, giving a sense of ho
 
 Next, we look at hydroelectric generation per capita. [Figure 11.7](#fig-11-7) shows the result. In this view, the states of the Pacific Northwest really pop up, and New York dims relative to its by-area showing. The contrast between [Figure 11.6](#fig-11-6) and [Figure 11.7](#fig-11-7) is effectively reflecting population density: large, sparsely-populated states[^26] show up more prominently on the per-capita map than the per-area map.
 
-Finally, for completeness, we look at the capacity factors of hydroelectric installations, by state. The total installed capacity in the database used for these plots is 77.6 GW spread among 1,317 dams, while producing an annual average of 28.1 GW—corresponding to an overall capacity factor of 0.36. [Figure 11.8](#fig-11-8) shows how this distributes around the country. Since the Pacific Northwest dominates in installed hydroelectric power, it largely determines the overall capacity factor. Iowa stands out as having a high capacity factor, but only has 0.153 GW of installed capacity.[^27] Contrast this to Washington, having an installation capacity of 20.7 GW.$^{28}$
+Finally, for completeness, we look at the capacity factors of hydroelectric installations, by state. The total installed capacity in the database used for these plots is 77.6 GW spread among 1,317 dams, while producing an annual average of 28.1 GW—corresponding to an overall capacity factor of 0.36. [Figure 11.8](#fig-11-8) shows how this distributes around the country. Since the Pacific Northwest dominates in installed hydroelectric power, it largely determines the overall capacity factor. Iowa stands out as having a high capacity factor, but only has 0.153 GW of installed capacity.[^27] Contrast this to Washington, having an installation capacity of 20.7 GW.
 
 :::{figure} ../images/fig-11-7.png
 :label: fig-11-7
@@ -407,7 +407,7 @@ Hint: Convert average power to kW then multiply by hours.
 
    By this analysis, how much hydroelectric power is theoretically possible, globally?
 
-17. [Fig. 10.1](#fig-10-1) (p. 174) indicated that about 44,000 TW globally goes into evaporating water. We can turn this into an estimate of how much rain we expect per year, on average. The simplest way to do this is to think of a single square meter of ocean surface, receiving an average evaporation input power of 120 W.[^44] Each millimeter of of water depth across our square meter has a volume of 1 L, or a mass of 1 kg. At a steady input of 120 W,[^45] how many millimeters of water are drawn off in a year? That same amount will come back down *somewhere* as precipitation.
+17. [Fig. 10.1](#fig-10-1) (p. 174) indicated that about 44,000 TW globally goes into evaporating water. We can turn this into an estimate of how much rain we expect per year, on average. The simplest way to do this is to think of a single square meter of ocean surface, receiving an average evaporation input power of 120 W.[^44] Each millimeter of water depth across our square meter has a volume of 1 L, or a mass of 1 kg. At a steady input of 120 W,[^45] how many millimeters of water are drawn off in a year? That same amount will come back down *somewhere* as precipitation.
 
 [^1]: Somewhat ironically, we only *feel* gravity because of a much stronger electromagnetic force that prevents us from falling through the floor. Electrons in the atoms in the floor and our feet repel each other to prevent free-fall—a weightless state in which gravity can’t be felt!
 [^2]: Recall Def. 5.1.1 (p. 73).
@@ -431,7 +431,7 @@ Hint: Convert average power to kW then multiply by hours.
 [^22]: … if cost is no barrier
 [^23]: … based on actual generation, not installed capacity
 [^26]: Montana, Idaho, even Alaska
-[^27]: … delivering an average of 0.114 GW in 8 dams, dominated by the 0.125 GW Keokuk dam 28: … delivering an average of 8.9 GW spread across 65 dams
+[^27]: … delivering an average of 0.114 GW in 8 dams, dominated by the 0.125 GW Keokuk dam … delivering an average of 8.9 GW spread across 65 dams
 [^29]: … aside from construction and decommissioning aspects
 [^30]: … no imposed short-term fluctuations in available power, as happens for solar or wind
 [^31]: … the dam itself, at least; turbines and generators will need periodic replacement

@@ -12,8 +12,6 @@ Energy units from everyday life. Clockwise from upper left: a utility bill (kWh 
 
 # 5. Energy and Power Units
 
-Gas Jun 29, 2020 - Jul 29, 2020 4 Therms 7.01
-
 This chapter provides a baseline for understanding the rest of the content in this book, so that students may learn to interpret and convert units, while building a useful intuition in the process. [Sec. A.10](#sec-a-10) (p. 382) in the Appendices offers some tips on manipulating units and performing unit conversions.
 
 Unlike most chapters, this one does not tell a single story or advance our perspective on the world. But it builds a foundation, putting us in a position to start looking at consequential matters of energy use in our society in chapters to come. Hopefully, patience will be rewarded.
@@ -77,7 +75,7 @@ Think about the famous equation $E = mc^{2}$. Energy is mass times the speed of 
 
 Also, kinetic energy is $\mathrm{K.E}. = \frac{1}{2}mv^{2}$, telling a similar story in terms of units: mass times velocity-squared.
 
-Gravitational potential energy is just the weight of an object times the height it is lifted through.$^{4}$ The weight (force) is mass $(m)$ times the acceleration due to gravity[^5] $(g)$, so that lifting (applying a force equal to the weight) through a height $(h)$ results in a potential energy gain of $\mathrm{P.E}. = mgh$. The units again check out as
+Gravitational potential energy is just the weight of an object times the height it is lifted through. The weight (force) is mass $(m)$ times the acceleration due to gravity[^5] $(g)$, so that lifting (applying a force equal to the weight) through a height $(h)$ results in a potential energy gain of $\mathrm{P.E}. = mgh$. The units again check out as
 
 :::{math}
 mgh \rightarrow \mathrm{kg} \cdot \frac{\mathrm{m}}{\mathrm{s}^{2}} \cdot \mathrm{m} = \frac{\mathrm{kg} \cdot \mathrm{m} \cdot \mathrm{m}}{\mathrm{s}^{2}} = \frac{\mathrm{kg} \cdot \mathrm{m}^{2}}{\mathrm{s}^{2}} = \mathrm{J}.
@@ -96,7 +94,7 @@ More on kinetic energy in [Chapter 12](#ch-12).
 :::
 
 :::{margin}
-More on gravitational potential energy in [Chapter 11](#ch-11). 4: Another example of work (energy) being force times distance.
+More on gravitational potential energy in [Chapter 11](#ch-11). Another example of work (energy) being force times distance.
 
 :::
 
@@ -119,8 +117,7 @@ Energy manifests in a variety of forms, which we will treat in greater detail in
 | Energy Form | Formula | Chapter(s) | Applications |
 | --- | --- | --- | --- |
 | gravitational potential | $mgh$ | 11, 16 | hydroelectric, tidal |
-|   | 1 |   |   |
-| kinetic | $_{2}mv^{2}$ | 12, 16 | wind, ocean current |
+| kinetic | $\frac{1}{2}mv^{2}$ | 12, 16 | wind, ocean current |
 | photon/light | $h\nu$ | 13 | solar |
 | chemical | $H -TS$ | 8, 14 | fossil fuels, biomass |
 | thermal | $c_{\mathrm{p}}m\Delta T$ | 6, 16 | geothermal, heat engines |
@@ -177,7 +174,7 @@ Any of the forms of energy (e.g., in [Table 5.2](#tab-5-2)) can convert into the
 One useful clarification is that thermal energy is really just random motions—kinetic energy—of individual atoms and molecules. So in the case of nuclear fission in [Example 5.2.1](#ex-5-2-1), the initial kinetic energy of the nuclear fragments is already thermal in nature, but at a higher temperature (faster speeds) than the surrounding material. By bumping into surrounding atoms, the excess speed is diffused into the medium, raising its temperature while “cooling” the fragments themselves as they are slowed down.
 
 :::{margin}
-The differences between kinetic and thermal energy is about *coherence*, in that we characterize the kinetic energy of a raindrop by its bulk motion or velocity. Meanwhile, water molecules *within* the drop are zipping about in *random* directions and at very high speeds exceeding 1,000 meters per second.
+The difference between kinetic and thermal energy is about *coherence*, in that we characterize the kinetic energy of a raindrop by its bulk motion or velocity. Meanwhile, water molecules *within* the drop are zipping about in *random* directions and at very high speeds exceeding 1,000 meters per second.
 
 :::
 
@@ -315,7 +312,7 @@ A common unit for describing chemical and thermal processes is the calorie and i
 
 A **calorie** is defined as the amount of energy it takes to heat one gram of water (thus also 1 mL, or 1 $\mathrm{cm}^{3}$, or 1 cc) by one degree Celsius ([Figure 5.3](#fig-5-3)). One calorie (note the small “c”) is 4.184 J of energy.
 
-One **Calorie** (note the capital ”C”$)^{14}$ is 1,000 calories, or 1 **kilocalorie**
+One **Calorie** (note the capital “C”$)^{14}$ is 1,000 calories, or 1 **kilocalorie**
 
 (1 kcal), equating to 4,184 J. Most memorably, it is the amount of energy it takes to heat one kilogram (or one liter; 1 L) of water by $1^{\circ}\mathrm{C}$. Due to the tragic convention of Calorie, we will opt for **kcal** whenever possible.
 
@@ -543,7 +540,7 @@ Households in the U.S. often have circuit breakers allowing maximum currents of 
 
 ::::
 
-Finally, we are in a position to understand how much energy a battery will hold. Batteries are rated by two numbers: voltage, and charge capacity. Since current is charge per time, multiplying current and time results in just charge.[^32] Therefore, charge capacity in batteries is characterized as Amp-hours (Ah) or milli-amp-hours (mAh). Since Amps times Volts is Watts (Eq. 5.2), Amp-hours times Volts is Watt-hours, a familiar unit of energy from [Section 5.4](#sec-5-4).
+Finally, we are in a position to understand how much energy a battery will hold. Batteries are rated by two numbers: voltage, and charge capacity. Since current is charge per time, multiplying current and time results in just charge.[^32] Therefore, charge capacity in batteries is characterized as Amp-hours (Ah) or milli-amp-hours (mAh). Since Amps times Volts is Watts ([Eq. 5.2](#eq-5-2)), Amp-hours times Volts is Watt-hours, a familiar unit of energy from [Section 5.4](#sec-5-4).
 
 ::::{admonition} Example 5.8.2
 :class: seealso
@@ -608,11 +605,7 @@ The energy of a photon is given by
 :::{math}
 :label: eq-5-4
 :enumerator: 5.4
-E = h\nu = hc
-:::
-
-:::{math}
-\lambda,
+E = h\nu = \frac{hc}{\lambda},
 :::
 
 where $h = 6.626 \times 10^{-34}$ J $\cdot$ s is Planck’s constant and $c \approx 3.0 \times 10^{8}$ m/s is the speed of light.
@@ -638,7 +631,7 @@ Given the wavelength in microns $(\mu \mathrm{m})$, the energy of a photon in eV
 :::{math}
 :label: eq-5-5
 :enumerator: 5.5
-E_{\mathrm{eV}}= \lambda (\mu \mathrm{m}) eV .1.24
+E_{\mathrm{eV}}= \frac{1.24}{\lambda (\mu \mathrm{m})}
 :::
 
 ::::
@@ -753,12 +746,7 @@ Hint: either treating it as if it is only on for 12 hours, or operating at half-
 21. Heating a typical house might require something like 200 W of power for every degree Celsius difference between inside and outside temperatures. If the inside temperature is kept at $20^{\circ}\mathrm{C}$ and the outside temperature holds steady all day and night at $0^{\circ}\mathrm{C}$, how much power is required to maintain the temperature?
 
 :::{margin}
-ⓘ For instance, if the temperature differ-
-
-:::
-
-:::{margin}
-ence is $10^{\circ}\mathrm{C}$, the house will require 2,000 W of steady input to maintain temperature.
+ⓘ For instance, if the temperature difference is $10^{\circ}\mathrm{C}$, the house will require 2,000 W of steady input to maintain temperature.
 
 :::
 
@@ -813,7 +801,7 @@ Not all these conversions are likely to be useful, but a few will come up in pra
 
 36. Considering the typical wavelength of light to be 0.55 $\mu \mathrm{m}$, what is a typical photon energy, in Joules, and how many photons per second emerge from a 1 W light source?[^54]
 
-37. At what wavelength, in microns $(\mu \mathrm{m})$, is the corresponding photon energy in eV the same number? A deliberately wrong example to illustrate would be if a $2.6\mu \mathrm{m}$ wavelength corresponded to 2.6 eV (it doesn’t’).
+37. At what wavelength, in microns $(\mu \mathrm{m})$, is the corresponding photon energy in eV the same number? A deliberately wrong example to illustrate would be if a $2.6\mu \mathrm{m}$ wavelength corresponded to 2.6 eV (it doesn’t).
 
 [^1]: This definition applies to the common circumstance when the motion is aligned with the direction of force, like pushing a box across a level floor, propelling a car along the road, or lifting a weight.
 [^2]: Acceleration is the rate of change of velocity. Since velocity is measured in meters per second, the rate at which it changes will be meters per second *per second*, or $\mathrm{m/s/s}$, or $\mathrm{m/s}^{2}$. Some students may know that gravitational acceleration on Earth’s surface is 9.8 $\mathrm{m/s}^{2}$, which is another way to remember.

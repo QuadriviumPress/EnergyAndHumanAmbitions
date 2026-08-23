@@ -40,7 +40,7 @@ What was true in the past is largely still true today: resources like oil, steel
 :enumerator: 2.1
 :alt: Per capita energy use as a function of GDP on a logarithmic scale. Per capita GDP is the sum total of a country’s economy divided by populat
 
-Per capita energy use as a function of GDP on a logarithmic scale. Per capita GDP is the sum total of a country’s economy divided by population, effectively indicating average annual income. The rate at which an individual uses energy is expressed as a power, in Watts. A strong correlation exists here across many orders-of-magnitude: rich countries use more energy, per person [6–8]. A few instructive cases (red dots) are labeled. The dot areas are scaled to population.
+Per capita energy use as a function of GDP on a logarithmic scale. Per capita GDP is the sum total of a country’s economy divided by population, effectively indicating average annual income. The rate at which an individual uses energy is expressed as a power, in Watts. A strong correlation exists here across many orders-of-magnitude: rich countries use more energy, per person [[6](#ref-6), [7](#ref-7), [8](#ref-8)]. A few instructive cases (red dots) are labeled. The dot areas are scaled to population.
 :::
 
 One way to capture the physical connection to economic activity is to represent the energy expenditure associated with each dollar[^3] spent. This economic *energy intensity* (see [Definition 2.1.1](#def-2-1-1)) of a country is just the energy expenditure of society divided by the gross domestic product (GDP).[^4]
@@ -73,7 +73,7 @@ We will cover units of energy in [Chapter 5](#ch-5). For now, it is sufficient t
 :enumerator: 2.2
 :alt: Energy intensity of countries, on a log-log plot. The vertical axis shows how energetically “hungry” each country is in relation to its econ
 
-Energy intensity of countries, on a log–log plot. The vertical axis shows how energetically “hungry” each country is in relation to its economic output, while the horizontal axis sorts countries by economic output per person. A few instructive cases (red dots) are labeled. The dot areas are scaled to population. Prosperous countries tend to have lower intensity than developing countries, but part of this may relate to moving manufacturing from the former to the latter [6–8].
+Energy intensity of countries, on a log–log plot. The vertical axis shows how energetically “hungry” each country is in relation to its economic output, while the horizontal axis sorts countries by economic output per person. A few instructive cases (red dots) are labeled. The dot areas are scaled to population. Prosperous countries tend to have lower intensity than developing countries, but part of this may relate to moving manufacturing from the former to the latter [[6](#ref-6), [7](#ref-7), [8](#ref-8)].
 :::
 
 [Figure 2.2](#fig-2-2) illustrates the range of intensities for all the countries in the world. Among the factors driving energy use are geographical extent (large countries require more long-haul transportation), climate (cold countries require more heating), efficiency, and lifestyle. Russia, Canada, and the U.S. have large territories, and the former two require more heating than most. By contrast, Switzerland is geographically small and outsources much of its heavy industry. Somebody should probably check on what’s happening in Venezuela.[^5]
@@ -156,7 +156,7 @@ Bulb packaging still refers to the “equivalent wattage” of a bulb, even thou
 Historical progress of lighting efficiency on a logarithmic plot, using bars to indicate the approximate range of time and performance. The dashed line at top represents the maximum theoretical luminous efficacy for white light (no waste heat). The dotted line rises by our customary factor of ten per century (2.3% annual rate). Note that the guiding line reaches the theoretical maximum mid-century (red star), indicating that this centuries-long ride cannot continue much longer [[10](#ref-10), [11](#ref-11)].
 :::
 
-The historical progress can fool us into thinking that we can expect a continued march to better substitutes. Having witnessed a half-dozen rabbits come out of the hat[^12] in the example of lighting technology ([Box 2.1](#box-2-1)), we are conditioned to believe more are forthcoming. It will be true until it isn’t any more (e.g., see [Figure 2.3](#fig-2-3)) One way to put it is that 6 rabbits does not imply an infinite number. We should welcome each new rabbit, but not hinge our future on a continual stream of new rabbits.
+The historical progress can fool us into thinking that we can expect a continued march to better substitutes. Having witnessed a half-dozen rabbits come out of the hat[^12] in the example of lighting technology ([Box 2.1](#box-2-1)), we are conditioned to believe more are forthcoming. It will be true until it isn’t any more (e.g., see [Figure 2.3](#fig-2-3)). One way to put it is that 6 rabbits do not imply an infinite number. We should welcome each new rabbit, but not hinge our future on a continual stream of new rabbits.
 
 :::{margin}
 We will return to this theme in the context of fossil fuels, which might be termed the *mother of all rabbits*, in this context. Having pulled such a stupendous rabbit out of the hat once, many assume we’re set from now on. In this case, equating one to infinity is even more dubious.
@@ -199,7 +199,7 @@ Efficiency improvements are not capable of resolving resource demand.
 ::::
 
 :::{margin}
-[[12](#ref-12)]: Garret (2014), *Rebound, Backfire, and the Jevons Paradox*
+[[12](#ref-12)]: Garrett (2014), *Rebound, Backfire, and the Jevons Paradox*
 
 :::
 
@@ -333,12 +333,7 @@ So, while acknowledging that growth in the past has brought uncountable benefits
 1. At a 3.5% growth (interest) rate, how much would \$1,000 invested at the time Columbus sailed to America be worth today (hint: use the rule of 70)? Put this in context (compare to richest individuals or find a similar GDP for some country).
 
 :::{margin}
-ⓘ Retention of [Chapter 1](#ch-1) material is as-
-
-:::
-
-:::{margin}
-sumed. The real world is not partitioned into chapters, and neither should your brain be.
+ⓘ Retention of [Chapter 1](#ch-1) material is assumed. The real world is not partitioned into chapters, and neither should your brain be.
 
 :::
 
@@ -351,7 +346,7 @@ Look at the column for total energy consumption in units of quadrillion Btu.
 
 :::
 
-4. Estimate the energy intensity of the UCSD campus, based on an annual electricity expenditure around $10^{15}$ J.[^26] For the financial side, assume that student payments (tuition, fees, room and board) accounts for 40% of the total budget.$^{27}$ Use your knowledge of typical tuition/fees and enrollment to come up with a number. Compare your result to global figures for energy intensity.
+4. Estimate the energy intensity of the UCSD campus, based on an annual electricity expenditure around $10^{15}$ J.[^26] For the financial side, assume that student payments (tuition, fees, room and board) account for 40% of the total budget. Use your knowledge of typical tuition/fees and enrollment to come up with a number. Compare your result to global figures for energy intensity.
 
 :::{margin}
 Don’t get hung up on in-state fraction; just make a crude guess (maybe guess an average) and clearly state assumptions.
@@ -382,18 +377,18 @@ The answer should be well less than 100%.
 
 11. List three substances or critical concepts we rely on that have no superior substitutes in the universe.
 
-12. Based on your present state of knowledge, detail what you think an optimist might say about the superiority of post-fossil energy substitutes?
+12. Based on your present state of knowledge, detail what you think an optimist might say about the superiority of post-fossil energy substitutes.
 
 :::{margin}
 You might pick any subset of solar, wind, hydroelectric, geothermal, nuclear, etc. to guide your thinking.
 
 :::
 
-13. Based on your present state of knowledge, detail what you think a pessimist might say about the lack of superiority of post-fossil energy substitutes?
+13. Based on your present state of knowledge, detail what you think a pessimist might say about the lack of superiority of post-fossil energy substitutes.
 
-14. Justify what, In your mind, is a reasonable lower limit to the percentage of the economy that could be based on decoupled (not energy or resource heavy) activities? Make an argument for what leads you to this “floor.”
+14. Justify what, in your mind, is a reasonable lower limit to the percentage of the economy that could be based on decoupled (not energy or resource heavy) activities. Make an argument for what leads you to this “floor.”
 
-15. One form of decoupled activity that some will bring up is virtual reality: you can travel the world (or solar system?) without resourcehogging transportation and other material costs. Do you see this as a viable alternative that is likely to largely supplant physical travel? Why or why not?
+15. One form of decoupled activity that some will bring up is virtual reality: you can travel the world (or solar system?) without resource-hogging transportation and other material costs. Do you see this as a viable alternative that is likely to largely supplant physical travel? Why or why not?
 
 16. Are you sold on the argument that the physics-imposed limit to resource/energy growth demands an ultimate cessation of economic growth as well? If so, highlight the persuasive elements. If not, why not?
 
@@ -418,11 +413,11 @@ You might pick any subset of solar, wind, hydroelectric, geothermal, nuclear, et
 [^19]: It is assumed here (optimistically) that we have managed to find a renewable alternative that can satisfy a constant demand effectively indefinitely. If not, the story is even worse and we are forced to *ramp down* the scale of the physical sector, which would force the blue curve in [Figure 2.4](#fig-2-4) to descend in later years.
 [^20]: … and not artificially via inflation, but in terms of real value
 [^21]: In the U.S., Social Security and Medicare are examples.
-[^22]: Growth in both workforce and investments are essential ingredients of these schemes that pay out more than an individual’s past contributions to the program.
+[^22]: Growth in both workforce and investments is essential ingredients of these schemes that pay out more than an individual’s past contributions to the program.
 [^23]: … closer to modern-day physics than to modern-day economics, rooted in the natural world
 [^24]: The classic example is Thomas Malthus, who warned of limits over 200 years ago based on finite resource limits before fossil fuels ripped the narrative apart. The lasting association is that “Malthus equals wrong,” leading to the dangerous takeaway that all warnings in this vein are discredited and can be ignored. Note that the most consequential and overlooked lesson from the story about “the boy who cried wolf” is that a *real* wolf *did* appear.
 [^25]: … which, let’s be clear, we’re arguing is ultimately not at all viable…
-[^26]: Based on a 30 MW electrical load times the number of seconds in a year; this won’t account for all energy expenditures, missing transportation, for instance. 27: Federal grants comprise most of the rest, and a small amount from state taxes
+[^26]: Based on a 30 MW electrical load times the number of seconds in a year; this won’t account for all energy expenditures, missing transportation, for instance. Federal grants comprise most of the rest, and a small amount from state taxes
 [^28]: In the same sense as was calculated for Problem 5
 [^29]: … things that cost money
 [^30]: A factor is just a multiplicative scale: e.g., 24 is a factor of 6 larger than 4.

@@ -27,30 +27,11 @@ In order to frame just how important fossil fuels are and have been, we again ta
 
 The result may have greater impact if you are an active participant in its creation. So get some paper, the back of an envelope, or something. Draw a horizontal axis as a timeline. Label the left edge as –10,000 years (past). The right edge is +10,000 years (future). The middle is 0 (now; see the example in the margin). The vertical axis represents global energy production, on a linear scale. For ages, this was too tiny to see poking up above the floor. Only about 200 years ago did it become visible. So for the first 98% of the way from -10,000 to 0, draw a line hugging the floor. In the last 200 years, energy usage has increased exponentially.[^1] So draw a smooth curve connecting the previous line into a steep rise at present (middle of the plot), using much or all of the available vertical space.
 
-| 0 |
-| --- |
-| 0 |
-
-:::{margin}
--10,000 10,000
-
-:::
-
 :::{figure} ../images/art-p141-1.svg
 :alt: Illustration from the original text
 :::
 
-:::{margin}
-10,000
-
-:::
-
 What emerges is the classic “hockey stick” plot that applies to many physical attributes of our world: population, carbon dioxide, temperature, and—in the present case—energy use. In the long flat portion of the plot, our energy came from firewood and muscle (both animal and human labor). But the sudden transformative rise is really a story of fossil fuels. Even today, having added hydroelectric, nuclear, solar, wind, geothermal, and tidal power to the mix, fossil fuels still account for over 80% of the total.[^2]
-
-:::{margin}
-10,000
-
-:::
 
 Let us then continue the plot *in the context of fossil fuels*. Being a finite resource, we know in broad terms what the curve *must* look like. It must drop back down to zero and ride into the future looking much as it did in the past: at zero. One may debate the exact timing of the peak of fossil fuel use, but for a variety of reasons we would be well justified in placing it sometime this century. We’ll leave it to individual preference if you want to allow the curve to climb a bit more before turning down, but don’t stray too far. This century ends only 1% of the way from 0 to +10,000, so don’t let the peak get very far at all from the middle of the plot. Once turning down, the curve is likely to look reasonably symmetric, returning to zero in short order and staying there.
 
@@ -85,7 +66,7 @@ Also, the very disruption of losing such a critical resource without adequate ad
 
 ::::
 
-Note that [Figure 8.1](#fig-8-1) is not intended to predict a particular future path. But it can serve to to counterbalance the prevailing optimism about a technologically marvelous future by providing a sanity check so that we might acknowledge that *we really do not know*. How can it be wrong to say that we do not know what the future holds? Yet, accompanying this uncertainty is a glimmer of hope: if the future is so uncertain and unscripted, then perhaps we have the power to write the script and set ourselves onto a viable and pleasant future path. If we elect to do so, it is of paramount importance that we do not ignore limitations imposed by nature in the process.
+Note that [Figure 8.1](#fig-8-1) is not intended to predict a particular future path. But it can serve to counterbalance the prevailing optimism about a technologically marvelous future by providing a sanity check so that we might acknowledge that *we really do not know*. How can it be wrong to say that we do not know what the future holds? Yet, accompanying this uncertainty is a glimmer of hope: if the future is so uncertain and unscripted, then perhaps we have the power to write the script and set ourselves onto a viable and pleasant future path. If we elect to do so, it is of paramount importance that we do not ignore limitations imposed by nature in the process.
 
 (sec-8-2)=
 ## 8.2 Overview: Coal, Oil, and Gas
@@ -128,7 +109,7 @@ Petroleum—also called oil—is ubiquitous in our world as the source for gasol
 
 Petroleum first entered the modern scene around 1850, and the first drilled well[^18] was in 1858 in Pennsylvania. Early uses were for kerosene lamps.[^19] The first commercial internal combustion engine closely followed in 1859, arriving at an essentially modern form in 1876 at the hands of Nikolaus Otto.[^20] The first production automobile using a gasoline-powered internal combustion engine was developed by Karl Benz in 1885 and Henry Ford’s Model T began mass-production in 1913. In the intervening years, electric cars surprisingly were more popular, but quickly gave way to the gasoline[^21] car due to superior range, quick refueling, and cost.
 
-Today, petroleum supplies 37% of energy consumption in the U.S.[^22] 70% of petroleum goes to transportation (92% of transportation energy is in the form of petroleum), while another 24% goes to industrial processes.[^23]. Globally, petroleum usage represents a slightly smaller fraction of total energy than in the U.S., at 31% of total energy consumption.[^24]
+Today, petroleum supplies 37% of energy consumption in the U.S.[^22] 70% of petroleum goes to transportation (92% of transportation energy is in the form of petroleum), while another 24% goes to industrial processes.[^23] Globally, petroleum usage represents a slightly smaller fraction of total energy than in the U.S., at 31% of total energy consumption.[^24]
 
 The petroleum extracted from the ground is often called crude oil, and consists primarily of hydrocarbon chains of various lengths. The lighter molecules (shorter chains)—typified by octane ([Figure 8.3](#fig-8-3))—are useful for gasoline, while the much heavier (longer) molecules are found in tar/asphalt, lubricants, or used as “petrochemical feedstock” for plastics. The process of refinement separates constituents by chain length, producing gasoline, kerosene, diesel, heating oil, lubricants, tar, etc. 92% of crude oil goes to energy production of some form (burned), while 8% is used to create petrochemical products, as depicted in [Figure 8.4](#fig-8-4).
 
@@ -150,23 +131,23 @@ Fractional use of a barrel of petroleum, from [[41](#ref-41)]. All but asphalt, 
 
 Petroleum is measured in barrels (bbl), equating to 159 L (42 gal). Each barrel of crude oil contains about 6.1 GJ of energy (1,700 kWh; 5.8 MBtu). For reference, the world consumes about 30 billion barrels a year (the U.S. is about 7 billion barrels per year, or 20 million barrels per day). No single country produces oil at a rate greater than about 12 million barrels per day.[^25]
 
-To provide some perspective on how special/rare oil is, the chances of finding any by drilling a random spot on the planet is about 0.01%.[^26] This is because many geological conditions must be met to make oil:
+To provide some perspective on how special/rare oil is, the chances of finding any by drilling a random spot on the planet are about 0.01%.[^26] This is because many geological conditions must be met to make oil:
 
 1. Organic material must be deposited in an oxygen-poor environment to inhibit decomposition, like dead animal and plant remnants settling to the bottom of a still, shallow sea;
 
 2. The material must be buried and spend time under at least 2 km of rock, to “crack” large organic molecules into the appropriate size, like octane, for instance ([Figure 8.3](#fig-8-3));
 
-3. The material must not go below about 4 km of rock, or the pressure will “overcrack” the molecules to form natural gas (still useful, if trapped underground);
+3. The material must not go below about 4 km of rock, or the pressure will “over-crack” the molecules to form natural gas (still useful, if trapped underground);
 
 :::{figure} ../images/fig-8-5.jpg
 :label: fig-8-5
 :enumerator: 8.5
-:alt: Oil and gas embedded in porous rock, under an impermeable caprock [42]. From U. Calgary. 27: Losing even a drop per second adds up to 20 mil
+:alt: Oil and gas embedded in porous rock, under an impermeable caprock [42]. From U. Calgary. Losing even a drop per second adds up to 20 mil
 
-Oil and gas embedded in porous rock, under an impermeable caprock [[42](#ref-42)]. From U. Calgary. 27: Losing even a drop per second adds up to 20 million barrels over one million years, which is short on these geological timescales.
+Oil and gas embedded in porous rock, under an impermeable caprock [[42](#ref-42)]. From U. Calgary. Losing even a drop per second adds up to 20 million barrels over one million years, which is short on these geological timescales.
 :::
 
-4. An impermeable caprock structure must sit atop the permeable and porous rock ([Figure 8.5](#fig-8-5)) that holds the high-pressure oil to keep it from simply escaping.$^{27}$
+4. An impermeable caprock structure must sit atop the permeable and porous rock ([Figure 8.5](#fig-8-5)) that holds the high-pressure oil to keep it from simply escaping.
 
 Oil deposits are rare and tend to be clustered in certain regions of the world where ancient shallow seabeds and geological activity have conspired to sequester organic material and transform it appropriately. The process takes millions of years to complete, and we are depleting the resource about 100,000 times faster than it is being replenished.[^28]
 
@@ -179,7 +160,7 @@ Natural gas is familiar to many as a source of heat in homes (stoves, hot water,
 
 Natural gas is primarily methane (CH$_{4})$. Its formation process is similar to that of oil, but deeper underground where the pressure is higher and longer-chain hydrocarbons are broken down to single-carbon methane molecules. We find natural gas trapped in underground reservoirs, often on top of oil deposits ([Figure 8.5](#fig-8-5)). Thus petroleum drilling operations typically also produce natural gas output.[^31] The gas itself tends to flow out freely once a well is drilled, since it is under great pressure and not viscous like oil. The first commercial use of natural gas started with a well in New York in 1821, leading to a pipeline distribution for street lighting in Philadelphia in 1836. Because of its low density[^32] compared to coal or petroleum, it is often impractical to collect, store and transport the gas, strongly favoring a pipeline infrastructure for its delivery. Lack of pipeline infrastructure delayed widespread use of natural gas until about 1970. It is also possible to liquefy natural gas (called LNG) by cooling to $-160^{\circ}\mathrm{C}$ and then storing/transporting in cryogenic vessels.
 
-Natural gas constitutes 31% of energy consumption in the U.S., and 22% globally.[^33]. Because of the need for pipeline infrastructure in order to deliver gas to consumers, remote areas are typically unable to take advantage of the resource. The uses for natural gas in the U.S. are more diverse than for coal or oil: 35% goes to electricity production, 34% for industrial purposes, and 29% for residential and commercial heating.[^34]
+Natural gas constitutes 31% of energy consumption in the U.S., and 22% globally.[^33] Because of the need for pipeline infrastructure in order to deliver gas to consumers, remote areas are typically unable to take advantage of the resource. The uses for natural gas in the U.S. are more diverse than for coal or oil: 35% goes to electricity production, 34% for industrial purposes, and 29% for residential and commercial heating.[^34]
 
 (sec-8-3)=
 ## 8.3 Chemical Energy
@@ -268,7 +249,7 @@ To put these energy densities into perspective and demonstrate how amazing fossi
 (sec-8-4-2)=
 ### 8.4.2 What Makes Fossil Fuels Terrible
 
-**Climate Change**: Nothing comes for free. Fossil fuels also bring many downsides. Chief on many peoples’ minds today is climate change, via CO$_{2}$ emission—an unavoidable consequence of combustion ([Eq. 8.1](#eq-8-1)). Extracting energy from fossil fuels,[^43] leaves no choice but to accept CO$_{2}$ as a byproduct, in large quantities. We will get to the details of climate change in [Chapter 9](#ch-9), but for now will just say that increased CO$_{2}$ in the atmosphere changes the equilibrium temperature of Earth by altering how effectively the surface can radiate heat away to space through the atmosphere. The physical mechanism is *very* well understood, and the amount of CO$_{2}$ that fossil fuel combustion has produced is *more than enough* to account for the measured CO$_{2}$ increase in our atmosphere. What is less certain is how the complex, nonlinear, interconnected climate systems will react, and whether positive feedbacks that exacerbate the problem dominate[^44] over negative feedbacks that act to tame the consequences. In the meantime, fossil fuels have handed us a global-scale
+**Climate Change**: Nothing comes for free. Fossil fuels also bring many downsides. Chief on many peoples’ minds today is climate change, via CO$_{2}$ emission—an unavoidable consequence of combustion ([Eq. 8.1](#eq-8-1)). Extracting energy from fossil fuels[^43] leaves no choice but to accept CO$_{2}$ as a byproduct, in large quantities. We will get to the details of climate change in [Chapter 9](#ch-9), but for now will just say that increased CO$_{2}$ in the atmosphere changes the equilibrium temperature of Earth by altering how effectively the surface can radiate heat away to space through the atmosphere. The physical mechanism is *very* well understood, and the amount of CO$_{2}$ that fossil fuel combustion has produced is *more than enough* to account for the measured CO$_{2}$ increase in our atmosphere. What is less certain is how the complex, nonlinear, interconnected climate systems will react, and whether positive feedbacks that exacerbate the problem dominate[^44] over negative feedbacks that act to tame the consequences. In the meantime, fossil fuels have handed us a global-scale
 
 problem of uncertain magnitude and may end up costing us—and other species—dearly.
 
@@ -299,7 +280,7 @@ Deciding whether fossil fuels have had a net-positive or net-negative influence 
 | technology | so yesterday |
 :::
 
-In essence, humanity is running this global-scale unauthorized experiment on the planet without a plan. Nothing like this has ever happened, so we don’t know how it will turn out. We have plenty of evidence that past civilizations overextend and collapsed [[43](#ref-43)], but we can’t identify a fitting analog to successful navigation of the fossil fuel phenomenon. Meanwhile, plenty of signs justify grave concern.
+In essence, humanity is running this global-scale unauthorized experiment on the planet without a plan. Nothing like this has ever happened, so we don’t know how it will turn out. We have plenty of evidence that past civilizations overextended and collapsed [[43](#ref-43)], but we can’t identify a fitting analog to successful navigation of the fossil fuel phenomenon. Meanwhile, plenty of signs justify grave concern.
 
 :::{margin}
 [[43](#ref-43)]: Diamond (2005), *Collapse: How Societies Choose to Fail or Succeed*
@@ -340,7 +321,7 @@ The simplest approach to evaluating a timescale for resource availability is the
 
 [Table 8.5](#tab-8-5) reports the proven reserves in the world and in the U.S. for the three fossil fuels, the estimated fraction used so far globally, the rate of consumption,[^50] and the timescale given by the R/P ratio.
 
-:::{table} Summary of proven reserves, usage rates, and time remaining for the world and for the U.S. (if using *only* its domestic supply) [44–46]. Oil is measured in giga-barrels (Gbbl; $10^{9}$ bbl), gas in teracubic-meters (Tcm; $10^{12}\mathrm{m}^{3})$, and coal in gigatons (Gt; $10^{12}$ kg; noting that 1 ton is 1,000 kg).
+:::{table} Summary of proven reserves, usage rates, and time remaining for the world and for the U.S. (if using *only* its domestic supply) [[44](#ref-44), [45](#ref-45), [46](#ref-46)]. Oil is measured in giga-barrels (Gbbl; $10^{9}$ bbl), gas in teracubic-meters (Tcm; $10^{12}\mathrm{m}^{3})$, and coal in gigatons (Gt; $10^{12}$ kg; noting that 1 ton is 1,000 kg).
 :label: tab-8-5
 :enumerator: 8.5
 
@@ -358,7 +339,7 @@ The world has already consumed 1.5 trillion barrels of oil, which is nearly the 
 
 proven reserves,[^52] but the globe is pretty well explored now, and we would not expect huge surprises like another hidden middle-east-size oil deposit. Note that for natural gas, the estimated total resource in the U.S. (what we *think* we may yet find beyond proven reserves) is about 55 Tcm, which would last just over 60 years.[^53]
 
-It is difficult to compare the remaining resource in the three forms directly, since different units are used for each. But we can cast each in terms of energy units for comparison. Doing so, the global reserves of oil, gas, and coal correspond to 10, 8, and 20 ZJ[^54] remaining, respectively. We have so far consumed 8, 4, and 8 ZJ of oil, gas, and coal ([Table 8.6](#tab-8-6)). These form the basis of the estimated fraction consumed in [Table 8.5](#tab-8-5). Note that the amount of oil and gas remaining are roughly comparable in energy, while coal is roughly twice as much.
+It is difficult to compare the remaining resource in the three forms directly, since different units are used for each. But we can cast each in terms of energy units for comparison. Doing so, the global reserves of oil, gas, and coal correspond to 10, 8, and 20 ZJ[^54] remaining, respectively. We have so far consumed 8, 4, and 8 ZJ of oil, gas, and coal ([Table 8.6](#tab-8-6)). These form the basis of the estimated fraction consumed in [Table 8.5](#tab-8-5). Note that the amounts of oil and gas remaining are roughly comparable in energy, while coal is roughly twice as much.
 
 :::{table} Proven reserves and amount used, in energy terms.
 :label: tab-8-6
@@ -414,7 +395,7 @@ Three scenarios for a finite resource playing out, all based on the same initial
 (sec-8-5-3)=
 ### 8.5.3 Clues in the Data
 
-Despite the uncertainties listed above, we can say for sure that Earth is endowed with a finite supply of fossil fuels, and that in order to consume the resource, deposits must first be discovered via exploration and then developed into active wells. Even in areas known to have oil,[^58] only about one in ten exploratory wells bears fruit. The chances of striking oil at a random location[^59] on Earth is in the neighborhood of 0.01%. [Section 8.2.2](#sec-8-2-2) indicated the chain of events that must transpire to produce oil.
+Despite the uncertainties listed above, we can say for sure that Earth is endowed with a finite supply of fossil fuels, and that in order to consume the resource, deposits must first be discovered via exploration and then developed into active wells. Even in areas known to have oil,[^58] only about one in ten exploratory wells bears fruit. The chances of striking oil at a random location[^59] on Earth are in the neighborhood of 0.01%. [Section 8.2.2](#sec-8-2-2) indicated the chain of events that must transpire to produce oil.
 
 A plot of the discovery history of conventional oil is revealing, seen in [Figure 8.7](#fig-8-7). In it, we see that discovery peaked over 50 years ago. Since we can’t extract oil we have not yet discovered—much like we can’t possess an iPhone model that hasn’t even been designed yet, the area under the consumption (red) curve must ultimately be *no larger* than
 
@@ -446,7 +427,7 @@ Years remaining in the global conventional oil resource as a function of time, e
 North Sea (U.K.) oil discoveries (blue, in giga-barrels per year) peaked in the 1970s and have basically ended. Production (red) lags discovery, and cannot carry on much longer as the last of the discovered oil (unshaded blue outline) is extracted. Plot conventions follow those in [Figure 8.7](#fig-8-7).
 :::
 
-We have seen this story play out numerous times within oil-producing regions. Discovery of oil in the North Sea put the U.K. into the oil business about 50 years ago ([Figure 8.9](#fig-8-9)). At first, the discovery rate was brisk, followed by 20 years of modest discovery. It appears that nothing is left to find, as discoveries have stopped. The production shows a double-peak structure—maybe echoing the discovery lull around 1980— but in any case is nearing the end of extraction. Only about 6% of the discovered oil (effectively that discovered after 1996; unshaded in [Figure 8.9](#fig-8-9)) is left: not much remains to pump out. The U.S. experienced a similar history ([Figure 8.10](#fig-8-10)) in that discovery of conventional oil peaked around 1950, and production peaked two decades later, around 1970. Nobody wanted this to happen, although some oil geologists (notably M. King Hubbert) pointed out its inevitability based on the preceding discovery peak and simple logic.[^60] The U.S. had been the largest oil producer since the dawn of the oil age, and was now slipping.[^61] The peak and subsequent fall caused great anxiety and stimulated tremendous effort to find and develop additional oil resources, leading to the discovery of oil at Prudhoe Bay in Alaska—responsible for the second (lower) peak in the mid 80s. But then the decline resumed for another couple of decades, to the chagrin of many.[^62]
+We have seen this story play out numerous times within oil-producing regions. Discovery of oil in the North Sea put the U.K. into the oil business about 50 years ago ([Figure 8.9](#fig-8-9)). At first, the discovery rate was brisk, followed by 20 years of modest discovery. It appears that nothing is left to find, as discoveries have stopped. The production shows a double-peak structure—maybe echoing the discovery lull around 1980— but in any case is nearing the end of extraction. Only about 6% of the discovered oil (effectively that discovered after 1996; unshaded in [Figure 8.9](#fig-8-9)) is left: not much remains to pump out. The U.S. experienced a similar history ([Figure 8.10](#fig-8-10)) in that discovery of conventional oil peaked around 1950, and production peaked two decades later, around 1970. Nobody wanted this to happen, although some oil geologists (notably M. King Hubbert) pointed out its inevitability based on the preceding discovery peak and simple logic.[^60] The U.S. had been the largest oil producer since the dawn of the oil age, and was now slipping.[^61] The peak and subsequent fall caused great anxiety and stimulated tremendous effort to find and develop additional oil resources, leading to the discovery of oil at Prudhoe Bay in Alaska—responsible for the second (lower) peak in the mid-1980s. But then the decline resumed for another couple of decades, to the chagrin of many.[^62]
 
 :::{figure} ../images/fig-8-10.svg
 :label: fig-8-10
@@ -561,7 +542,7 @@ The rookie mistake here is assuming that adults are in charge. Markets are in ch
 
 13. Using the values in [Table 8.2](#tab-8-2), compute the energy content of a gallon of gasoline assuming that octane $(\mathrm{C}_{8}$H$_{18})$ is a good representative, energetically. Express your answer in both MJ and kWh. One gallon is 3.785 L and in the case of gasoline has a mass of 2.8 kg.[^81]
 
-14. Every day, Americans use about 9 $\times 10^{8}$ J of energy per person. Since we know that 37%, 13%, and 31% of this comes from oil, coal, and gas, respectively, use [Table 8.2](#tab-8-2) to figure out how much mass of each is used per day on American’s behalfs, and take a moment to compare to equivalent-mass volumes of water to provide familiar context.
+14. Every day, Americans use about 9 $\times 10^{8}$ J of energy per person. Since we know that 37%, 13%, and 31% of this comes from oil, coal, and gas, respectively, use [Table 8.2](#tab-8-2) to figure out how much mass of each is used per day on American’s behalf, and take a moment to compare to equivalent-mass volumes of water to provide familiar context.
 
 15. What if we could get our energy from drinking gasoline?[^82] Referring to [Table 8.2](#tab-8-2), how many grams of gasoline[^83] would we have to drink daily to satisfy the typical 2,000 kcal/day diet? How much volume does this represent if gasoline is 0.75 g/mL? Relate this to a familiar container for holding liquids.[^84]
 
@@ -585,7 +566,7 @@ The rookie mistake here is assuming that adults are in charge. Markets are in ch
 
 25. Explain, both in practical and mathematical terms, why the R/P ratio overestimates the time remaining for a resource if the rate of production (use) of that resource is continually increasing.
 
-26. It is hard for many people to appreciate that fossil fuels will not just “run out one day," because they don’t appreciate the substantial amount of work that must go into extracting the resource from a reluctant ground. What common, day-to-day personal experiences do you imagine contributes to this disconnect?[^89]
+26. It is hard for many people to appreciate that fossil fuels will not just “run out one day,” because they don’t appreciate the substantial amount of work that must go into extracting the resource from a reluctant ground. What common, day-to-day personal experiences do you imagine contribute to this disconnect?[^89]
 
 27. Simultaneously considering [Table 8.5](#tab-8-5) and the lessons from [Figure 8.6](#fig-8-6), what sort of timescale might you guess for when the world might see a more-or-less permanent downturn in oil production? Say how many years you think we have until a downturn and explain your reasoning.
 

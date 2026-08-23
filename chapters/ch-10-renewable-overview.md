@@ -21,25 +21,25 @@ This chapter is very brief, only setting the stage for upcoming chapters that go
 
 Before launching into detailed attributes of energy sources beyond fossil fuels, it is helpful to list the cast of characters.
 
-- **Hydroelectric** energy (Chap. 11) traps water from a river behind a dam, forced to flow through a turbine[^1] that spins a generator to make electricity.
+- **Hydroelectric** energy ([Chapter 11](#ch-11)) traps water from a river behind a dam, forced to flow through a turbine[^1] that spins a generator to make electricity.
 
-- **Wind** energy (Chap. 12) spins a turbine[^2] that makes electricity via a generator.
+- **Wind** energy ([Chapter 12](#ch-12)) spins a turbine[^2] that makes electricity via a generator.
 
-- **Solar** energy (Chap. 13) can provide direct heat or make electricity via photovoltaic (PV) panels or in a utility-scale solar thermal installation.
+- **Solar** energy ([Chapter 13](#ch-13)) can provide direct heat or make electricity via photovoltaic (PV) panels or in a utility-scale solar thermal installation.
 
-- **Biological** energy (Chap. 14) can range from food to firewood, or biofuels. These are generally a source of thermal energy, via burning, able to drive heat engines.
+- **Biological** energy ([Chapter 14](#ch-14)) can range from food to firewood, or biofuels. These are generally a source of thermal energy, via burning, able to drive heat engines.
 
-- **Nuclear Fission** (Chap. 15) relies on mining a finite supply of radioactive elements in the Earth’s crust whose fission (splitting) generates heat that can make steam to run a heat engine and generator to make electricity.
+- **Nuclear Fission** ([Chapter 15](#ch-15)) relies on mining a finite supply of radioactive elements in the Earth’s crust whose fission (splitting) generates heat that can make steam to run a heat engine and generator to make electricity.
 
-- **Nuclear Fusion** (Chap. 15), if successful, would use abundant hydrogen resources from water to build helium nuclei—a process that would release heat to make steam for running a heat engine and generator to make electricity.
+- **Nuclear Fusion** ([Chapter 15](#ch-15)), if successful, would use abundant hydrogen resources from water to build helium nuclei—a process that would release heat to make steam for running a heat engine and generator to make electricity.
 
-- **Geothermal** energy (Chap. 16) originates in Earth’s hot interior, and can be used for heating or to make steam to run a heat engine and generator to make electricity.
+- **Geothermal** energy ([Chapter 16](#ch-16)) originates in Earth’s hot interior, and can be used for heating or to make steam to run a heat engine and generator to make electricity.
 
-- **Tidal Capture** (Chap. 16) is very similar to hydroelectricity, but based on trapped tidal basins instead of dammed rivers.
+- **Tidal Capture** ([Chapter 16](#ch-16)) is very similar to hydroelectricity, but based on trapped tidal basins instead of dammed rivers.
 
-- **Ocean Currents** (Chap. 16) behave much like wind, and can be used similarly to produce electricity, but underwater.
+- **Ocean Currents** ([Chapter 16](#ch-16)) behave much like wind, and can be used similarly to produce electricity, but underwater.
 
-- **Waves** (Chap. 16) bring energy to shorelines that can drive specialized generators to make electricity.
+- **Waves** ([Chapter 16](#ch-16)) bring energy to shorelines that can drive specialized generators to make electricity.
 
 One prevalent theme connects most of these entries: lots of electricity, often by way of heat engines and/or generators. Indeed, alternatives to fossil fuels tend to excel at electricity production. But as we saw in [Fig. 7.2](#fig-7-2) (p. 110), electricity makes up only 38% of energy demand in the U.S., and only 17% of the energy *delivered* to the four end-use sectors.[^3] One lesson is that current energy uses that are *not* electricity-based—like transportation and industrial processing[^4]—will be more difficult to replace by the alternatives above.
 
@@ -60,7 +60,7 @@ is a non-fossil source of energy. Solar, wind, and nuclear would be examples.
 :class: important
 :label: def-10-2-2
 
-is a source of energy that is replenished by nature, so that its use may be sustained “indefinitely,” without depletion. Solar energy, for instance is not “used up” by placing a panel in the sunlight.
+is a source of energy that is replenished by nature, so that its use may be sustained “indefinitely,” without depletion. Solar energy, for instance, is not “used up” by placing a panel in the sunlight.
 
 ::::
 
@@ -117,7 +117,7 @@ Notice that all of the unqualified[^12] “Yes” entries in [Table 10.1](#tab-1
 :enumerator: 10.1
 :alt: Energy inputs to the earth, ignoring the radiation piece (since that is an output channel). About 70% of incoming solar energy is absorbed b
 
-Energy inputs to the earth, ignoring the radiation piece (since that is an output channel). About 70% of incoming solar energy is absorbed by the atmosphere and land, while about 30% is immediately reflected back to space (mostly by clouds). About half of the energy absorbed at the surface goes into evaporating water, while smaller portions drive winds, photosynthesis (land and sea), and ocean currents. Additional non-solar inputs are geothermal and tidal in origin [63–65].
+Energy inputs to the earth, ignoring the radiation piece (since that is an output channel). About 70% of incoming solar energy is absorbed by the atmosphere and land, while about 30% is immediately reflected back to space (mostly by clouds). About half of the energy absorbed at the surface goes into evaporating water, while smaller portions drive winds, photosynthesis (land and sea), and ocean currents. Additional non-solar inputs are geothermal and tidal in origin [[63](#ref-63)–[65](#ref-65)].
 :::
 
 ::::{admonition} Example 10.3.1 — Solar Input
@@ -141,7 +141,7 @@ Not all the sunlight arriving at the top of the atmosphere makes it to the surfa
 
 Clouds and ice (mostly) reflect almost 30% of incoming sunlight, leaving 123,000 TW to be absorbed by land, water, and atmosphere in various forms (see [Table 10.2](#tab-10-2)). Virtually all of the energy hitting the surface goes to direct thermal absorption,[^16] much of which then flows into evaporation of water—the starting point of the hydrological cycle. A tiny portion of the absorbed energy gives rise to wind, some of which will drive waves. An even smaller portion contributes to photosynthesis and supports essentially all life (biology) on the planet. And finally, a tiny fragment of the absorbed energy drives ocean currents. [Table 10.2](#tab-10-2) tracks where the incoming solar energy goes, in several stages, also listing non-solar geothermal and tidal contributions. For comparison, the current energy scale of human activity is approximately 18 TW, while human metabolism,[^17] is about 0.8 TW.
 
-:::{table} Earth’s energy input budget. Symbols $\odot, \oplus$, and \$represent Sun, Earth, and Moon, respectively. The second group breaks out the solar input into three pieces that add to the total in the row above. The third group all comes from absorbed energy—mostly at Earth’s surface. The last group is not from radiant solar energy, so that percentages are in parentheses as they do not belong to the solar budget
+:::{table} Earth’s energy input budget. Symbols $\odot, \oplus$, and \$represent Sun, Earth, and Moon, respectively. The second group breaks out the solar input into three pieces that add to the total in the row above. The third group all comes from absorbed energy—mostly at Earth’s surface. The last group is not from radiant solar energy, so that percentages are in parentheses as they do not belong to the solar budget [[63](#ref-63)–[65](#ref-65)].
 :label: tab-10-2
 :enumerator: 10.2
 
@@ -157,12 +157,6 @@ Clouds and ice (mostly) reflect almost 30% of incoming sunlight, leaving 123,000
 | ocean currents | 5 | 0.003 | $\odot \rightarrow \oplus$ surf. | moves water around |
 | geothermal | 44 | (0.025) | $\oplus$ | half original heat, half radioactive decays |
 | tides | 3 | (0.0018) |   | gravitational; mostly from Moon, some from Sun |
-:::
-
-[63–65].
-
-:::{math}
-\ , \odot
 :::
 
 ::::{admonition} Example 10.3.2 — Solar Heating

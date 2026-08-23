@@ -28,7 +28,7 @@ $R_{\odot}$ Radius of Sun: 695,700 km
 
 $r_{\oplus \odot}$ Earth–Sun distance (1 AU): 149.6 million km
 
-$\sigma$ Stefan-Boltzmann constant: $5.67 \times 10^{-8}\mathrm{W/K/m}^{2}$
+$\sigma$ Stefan–Boltzmann constant: $5.67 \times 10^{-8}\mathrm{W/m}^{2}/\mathrm{K}^{4}$
 
 $\Delta S$ Change in entropy, in J/K
 

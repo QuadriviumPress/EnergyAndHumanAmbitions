@@ -12,7 +12,7 @@ The ranges sometimes may be annoyingly large, but think of them as guard rails t
 
 This appendix, then, might be thought of as an “intuition implant” that simulates how problems are for experts. Real life does not provide “answers at the back of the book,” so experts rely on experience, intuition, and a sense for “reasonable” results to help them understand when they’ve taken a wrong turn. A successful use of this appendix would help train students to develop their own “common sense” guard rails.
 
-## Chapter 1** 20. A smidge higher then boiling
+## Chapter 1** 20. A smidge higher than boiling
 
 21. Between 200 and 250 K
 

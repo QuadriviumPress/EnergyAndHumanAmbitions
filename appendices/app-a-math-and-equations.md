@@ -15,7 +15,7 @@ Depending on background, math and equations may be an intimidating “foreign la
 (sec-a-1)=
 ## A.1 Relax on the Decimals
 
-First, we can form a more natural, forgiving relationship with numbers. Like your friends, they need not be held to exacting standards: they are simply trying to tell you something useful. Remembering that $\pi$ is roughly 3 is *far* more important than committing any further decimals to memory. If a friend traced out a circle in the sand and asked how much area it had,[^1] the poorly-defined and irregular boundary defies precise measurement, so why carry extra digits. Maybe just recognize that the radius is roughly one meter, so the area is about 3 square meters. Done.[^2] The message here is to give yourself a break and just not over-represent the precision (number of decimals) in your answer.
+First, we can form a more natural, forgiving relationship with numbers. Like your friends, they need not be held to exacting standards: they are simply trying to tell you something useful. Remembering that $\pi$ is roughly 3 is *far* more important than committing any further decimals to memory. If a friend traced out a circle in the sand and asked how much area it had,[^1] the poorly-defined and irregular boundary defies precise measurement, so why carry extra digits? Maybe just recognize that the radius is roughly one meter, so the area is about 3 square meters. Done.[^2] The message here is to give yourself a break and just not over-represent the precision (number of decimals) in your answer.
 
 Part of the reason students have a rigid relationship with numbers is because homework and test problems tend to come pre-loaded with numbers assumed to be exactly known. But the real world is seldom so generous, leaving us to forage for approximate numbers and estimations.
 
@@ -113,11 +113,11 @@ This book, and the problems within, often assume facility in computing areas or 
 
 A helpful trick is to turn the circle into a square, or the sphere into a cube, where our footing is more secure. Hopefully it is clear that the perimeter (length around) of a square whose side length is $a$ will be $4a$. The area will be $a \cdot a = a^{2}$. Units can help us, too: if $a = 3$ m, then the perimeter should also be a length with units of meters and the area should be in square meters. It would never do to have something like $a^{2}$ describe a perimeter (wrong units) or to have the area *not* contain something like $a^{2}$. The cube version has volume $a^{3}$.
 
-About those circles and spheres: The task is to fit a circle or sphere inside of a square or cube, so that $a = 2r$. In other words, the *diameter* $(2r$, where $r$ is radius) fits neatly across the side length of the square. The perimeter of the circle should be smaller than the $4a$ perimeter of the square,[^11], but a good deal larger than $2a$, which would represent a round trip directly across the square, through its center.[^12] So the circle perimeter is between $2a$ and $4a$, probably not far from $3a$. Since $a = 2r$, the perimeter should be somewhat close to $6r$. Suspecting that $\pi \sim 3$ shows up somewhere, the leap is not far to the perimeter being $2\pi r$.
+About those circles and spheres: The task is to fit a circle or sphere inside of a square or cube, so that $a = 2r$. In other words, the *diameter* $(2r$, where $r$ is radius) fits neatly across the side length of the square. The perimeter of the circle should be smaller than the $4a$ perimeter of the square,[^11] but a good deal larger than $2a$, which would represent a round trip directly across the square, through its center.[^12] So the circle perimeter is between $2a$ and $4a$, probably not far from $3a$. Since $a = 2r$, the perimeter should be somewhat close to $6r$. Suspecting that $\pi \sim 3$ shows up somewhere, the leap is not far to the perimeter being $2\pi r$.
 
 Likewise for the area: a circle within the square has an area smaller than that of the surrounding square $(a^{2})$, but surely larger than half the square area—maybe around three-quarters. In terms of radius, the whole square has area $a^{2}= 4r^{2}$, and three-quarters of this is $3r^{2}\sim \pi r^{2}$. Correct again!
 
-Volume is a little harder to visualize, but again the sphere will have a volume smaller than that of the cube: $a^{3}= 8r^{3}$. Maybe the sphere’s volume is about half that of the cube, so $4r^{3}$. But where would a $\pi$ go? It’s always a multiplier in these situations, so we can harmlessly throw in a $pi/3 \sim 1$ factor to get a volume $\frac{4}{3}\pi r^{3}$.
+Volume is a little harder to visualize, but again the sphere will have a volume smaller than that of the cube: $a^{3}= 8r^{3}$. Maybe the sphere’s volume is about half that of the cube, so $4r^{3}$. But where would a $\pi$ go? It’s always a multiplier in these situations, so we can harmlessly throw in a $\pi/3 \sim 1$ factor to get a volume $\frac{4}{3}\pi r^{3}$.
 
 The point is that forgetting the exact formulas is not fatal: just back up to a more familiar setting and build out from there. For cylinders, just combine elements of circular and rectangular geometries to realize that the volume is the area of the circle times the height[^13] of the cylinder. External surface area is twice the areas of the end-caps (each $\pi r^{2})$ plus the perimeter of the circle times the height—as if rolling out the skin into a rectangle and calculating its area.
 
@@ -145,7 +145,7 @@ Let’s formulate rules about multiplication of fractions based on stuff we know
 :enumerator: A.1
 :alt: Paralleling Eq. A.1, we can slice one pie into five equal pieces (left) and keep three of them (lower left); or we can split three pies into
 
-Paralleling [Eq. A.1](#eq-a-1), we can slice one pie into five equal pieces (left) and keep three of them (lower left); or we can split three pies into equal-area pieces (same color; sometimes split up across different pies) and take one of the resulting pieces. In both cases, the bottom row is the same amount of pie: $^{3}$ pies.
+Paralleling [Eq. A.1](#eq-a-1), we can slice one pie into five equal pieces (left) and keep three of them (lower left); or we can split three pies into equal-area pieces (same color; sometimes split up across different pies) and take one of the resulting pieces. In both cases, the bottom row is the same amount of pie.
 :::
 
 :::{margin}
@@ -156,32 +156,26 @@ $_{5}$ of one pie equals $\frac{1}{5}$ of three
 for any symbol (placeholder) and get the right answer? In other words, what should the question marks be in the following:
 
 :::{math}
-b \cdot ^{\frac{x}{y}} = ^{\frac{?}{?}}
+:label: eq-a-2
+:enumerator: A.2
+\frac{a}{b} \cdot \frac{x}{y} = \frac{?}{?}
 :::
 
-:::{math}
-\frac{a}{}
-:::
-
-(A.2)
-
-To answer, pick a scenario you *already know* and back-out the answer. You know that one half of one-half is one quarter. You also know that one half of $\frac{4}{5}$ must be $\frac{2}{5}$, or that three thirds must be a whole “one.” In math terms: 1 1 3
-
-2 $\cdot ^{\frac{1}{2}} = ^{\frac{1}{4}}$; 2 $\cdot ^{\frac{4}{5}} = ^{\frac{2}{5}}$; 1 $\cdot 1$
+To answer, pick a scenario you *already know* and back-out the answer. You know that one half of one-half is one quarter. You also know that one half of $\frac{4}{5}$ must be $\frac{2}{5}$, or that three thirds must be a whole “one.” In math terms:
 
 :::{math}
 :label: eq-a-3
 :enumerator: A.3
-\frac{}{3} = 1.
+\frac{1}{2}\cdot\frac{1}{2}=\frac{1}{4}; \quad \frac{1}{2}\cdot\frac{4}{5}=\frac{2}{5}; \quad \frac{1}{3}\cdot\frac{3}{3}=1.
 :::
 
 From these examples—and others that can be fabricated as wished or needed—it is possible to arrive at the conclusion that
 
 :::{math}
-^{\frac{a}{b}} \cdot ^{\frac{x}{y}} = \frac{a \cdot x}{b \cdot y}.
+:label: eq-a-4
+:enumerator: A.4
+\frac{a}{b} \cdot \frac{x}{y} = \frac{a \cdot x}{b \cdot y}.
 :::
-
-(A.4)
 
 In other words, just multiply the numerators together and multiply the denominators together, simplifying by common factors as needed.
 
@@ -197,17 +191,13 @@ One more framing of fractions and their relationship to multiplication and divis
 
 How can our intuition assist us in figuring out addition and subtraction of fractions? Use what you know:
 
-1 1 3
-
-2 $+ 1 2 + ^{\frac{1}{4}} = ^{\frac{3}{4}}$; 4 $< ^{\frac{1}{2}} + 1$
-
 :::{math}
 :label: eq-a-5
 :enumerator: A.5
-\frac{}{2} = 1; \frac{}{} \frac{}{} \frac{}{} \frac{}{} \frac{}{} \frac{}{3} < 1.
+\frac{1}{2}+\frac{1}{2}=1; \quad \frac{1}{2}+\frac{1}{4}=\frac{3}{4}; \quad \frac{1}{2}+\frac{1}{3}<1.
 :::
 
-Hopefully, the first two statements in [Eq. A.5](#eq-a-5) are apparent enough. The last one bounds the answer by what you already know. Since $\frac{1}{3}$ is larger than $\frac{1}{4}$.[^17] So adding $\frac{1}{2} + \frac{1}{3}$ must be larger than $\frac{1}{2} + \frac{1}{4} = \frac{3}{4}$. By similar logic, since one-third is smaller than one-half,[^18] their sum must be smaller than 1.
+Hopefully, the first two statements in [Eq. A.5](#eq-a-5) are apparent enough. The last one bounds the answer by what you already know. $\frac{1}{3}$ is larger than $\frac{1}{4}$.[^17] So adding $\frac{1}{2} + \frac{1}{3}$ must be larger than $\frac{1}{2} + \frac{1}{4} = \frac{3}{4}$. By similar logic, since one-third is smaller than one-half,[^18] their sum must be smaller than 1.
 
 Adding fractions like $\frac{1}{2}$ and $\frac{1}{3}$ is where common denominators come in. We can add numerators *only if the fractions share the same denominator*. We **never add denominators**. We can’t replicate the middle example in [Eq. A.5](#eq-a-5) by adding numerators *and* denominators, or we would get the nonsense answer $\frac{2}{6} = \frac{1}{3}$, rather than $\frac{3}{4}$.
 
@@ -223,7 +213,7 @@ So how would we ever recreate the whole common denominator scheme based on intui
 :enumerator: A.2
 :alt: Graphically, it is easy to see that similar/familiar scenarios to verify (and reinvent) the rules.
 
-Graphically, it is easy to see that $^{1}$ similar/familiar scenarios to verify (and reinvent) the rules.
+Graphically, it is easy to see that similar/familiar scenarios to verify (and reinvent) the rules.
 :::
 
 :::{margin}
@@ -243,11 +233,11 @@ So what are the rules for dealing with exponents when we raise the whole thing t
 :::{math}
 :label: eq-a-6
 :enumerator: A.6
-(x^{a})^{b}=? x^{p}\cdot x^{q}=? x^{n}= ?1
+(x^{a})^{b}=? \quad x^{p}\cdot x^{q}=? \quad \frac{1}{x^{n}}=?
 :::
 
 :::{margin}
-Notice that the the symbols used in this equation are just stand-ins for numbers, and have no intrinsic significance—whether we use $n$ or $p$ or $a$ for an exponent is irrelevant. For that matter, $x$ is not special either and we could have used a hexagon to stand in for the base in these relations, as a symbolic placeholder.
+Notice that the symbols used in this equation are just stand-ins for numbers, and have no intrinsic significance—whether we use $n$ or $p$ or $a$ for an exponent is irrelevant. For that matter, $x$ is not special either and we could have used a hexagon to stand in for the base in these relations, as a symbolic placeholder.
 
 :::
 
@@ -276,7 +266,7 @@ Finally, what about inversion, or dividing by $x^{n}$? As a preview, a negative 
 :::{math}
 :label: eq-a-9
 :enumerator: A.9
-x^{n}= x^{-n}.1
+\frac{1}{x^{n}} = x^{-n}.
 :::
 
 Negative exponents therefore flip the construction to the denominator, or denote a division rather than multiplication.
@@ -390,7 +380,7 @@ It’s not always so straightforward. Sometimes we have to “undo” or “inve
 :::{math}
 :label: eq-a-12
 :enumerator: A.12
-a = (a^{2}) ^{\frac{1}{2}} = \sqrt{a^{2}} = \sqrt{c^{2}}- b^{2}
+a = (a^{2}) ^{\frac{1}{2}} = \sqrt{a^{2}} = \sqrt{c^{2}-b^{2}}
 :::
 
 In this case, the power $\frac{1}{n}$ can be said to perform the inverse function of the power $n$. In more familiar contexts: subtraction is the inverse of addition; division is the inverse of multiplication. Less familiarly, but in similar veins: the sine is “undone” by arcsine;[^27] the exponential $e^{x}$ is undone by the natural $\log (\ln x)$; $10^{x}$ is undone by $\log _{10}x$, etc.
@@ -410,10 +400,8 @@ Because the numbers are often *meaningless* without the accompanying units, we s
 
 If we travel 4 meters in 2 seconds, we have
 
-42 m s $= \frac{4}{2} \cdot$ m
-
 :::{math}
-\frac{}{\mathrm{s}} = 2\mathrm{m/s}.
+\frac{4\ \mathrm{m}}{2\ \mathrm{s}} = \frac{4}{2}\cdot\frac{\mathrm{m}}{\mathrm{s}} = 2\ \mathrm{m/s}.
 :::
 
 Dividing the numbers alone to get 2 is not the whole story. We also divided the units to create a new one that was not in the initial set (m and s).
@@ -431,7 +419,7 @@ So we multiply the meters together just like we do the numbers, following the sa
 More complicated arrangements follow the same rules. For example, the force of drag[^30] on an object moving at speed $v$ through a medium of density $\rho$ is $F_{\mathrm{drag}}= \frac{1}{2}c_{\mathrm{D}}A\rho v^{2}$, where $A$ is the frontal (cross-sectional) area of the object and $c_{\mathrm{D}}$ is the dimensionless drag coefficient.[^31] The dimensions of area are $\mathrm{m}^{2}$; density is $\mathrm{kg/m}^{3}$ (mass per volume), and velocity is m/s (distance over time). The whole arrangement therefore has dimensions:
 
 :::{math}
-\mathrm{m}^{2}\cdot \frac{\mathrm{kg}}{\mathrm{m}^{3}} \cdot (\frac{\mathrm{m}}{\mathrm{s}})2 = \frac{\mathrm{m}^{2}\cdot \mathrm{kg} \cdot \mathrm{m}^{2}}{\mathrm{m}^{3}\cdot \mathrm{s}^{2}} = \frac{\mathrm{kg} \cdot \mathrm{m}^{4}}{\mathrm{m}^{3}\cdot \mathrm{s}^{2}} = \frac{\mathrm{kg} \cdot \mathrm{m}}{\mathrm{s}^{2}}.
+\mathrm{m}^{2}\cdot \frac{\mathrm{kg}}{\mathrm{m}^{3}} \cdot (\frac{\mathrm{m}}{\mathrm{s}})^2 = \frac{\mathrm{m}^{2}\cdot \mathrm{kg} \cdot \mathrm{m}^{2}}{\mathrm{m}^{3}\cdot \mathrm{s}^{2}} = \frac{\mathrm{kg} \cdot \mathrm{m}^{4}}{\mathrm{m}^{3}\cdot \mathrm{s}^{2}} = \frac{\mathrm{kg} \cdot \mathrm{m}}{\mathrm{s}^{2}}.
 :::
 
 The end result matches the definition of Newtons, and can be verified by the (possibly familiar) $F = ma$ form of Newton’s Second Law,[^32] whereby we have mass in kg times acceleration in $\mathrm{m/s}^{2}$ making kg $\cdot \mathrm{m/s}^{2}$.
@@ -444,21 +432,25 @@ When performing a chain of multiplications or divisions, we can carry the units 
 
 Let’s say we want to know how much energy, in Joules, the U.S. uses in a year based on knowledge that the average citizen accounts for 10,000 W (a Watt is a Joule per second) and the U.S. has 330 million people. First, let’s work with the 10,000 W per person metric:
 
-person $=10^{4}\mathrm{J/s}$ person $\cdot$ s $,10^{4}$ J
+:::{math}
+\frac{10^{4}\ \mathrm{J/s}}{\mathrm{person}} = \frac{10^{4}\ \mathrm{J}}{\mathrm{person}\cdot \mathrm{s}}
+:::
 
-where we have just moved the seconds into the denominator to multiply “person” (order doesn’t matter). Most of the problem is in going from seconds to years. It would like like this:
+where we have just moved the seconds into the denominator to multiply “person” (order doesn’t matter). Most of the problem is in going from seconds to years. It would look like this:
 
-person $\cdot$ s $\cdot 60 \mathrm{s}10^{4}$ J 1 $\min \cdot 60$ min1 hour $\cdot 24$ hour1 day $\cdot 365$ day1 year
+:::{math}
+\frac{10^{4}\ \mathrm{J}}{\mathrm{person}\cdot \mathrm{s}} \cdot \frac{60\ \mathrm{s}}{1\ \mathrm{min}} \cdot \frac{60\ \mathrm{min}}{1\ \mathrm{hour}} \cdot \frac{24\ \mathrm{hour}}{1\ \mathrm{day}} \cdot \frac{365\ \mathrm{day}}{1\ \mathrm{year}}
+:::
 
 Notice that each of the factors we multiply, even though they carry a non-unity numeric value, are *essentially* identities that describe equal intervals on top and bottom, in differing units.[^33] So we are effectively multiplying by 1 repeatedly in a **unit conversion** process.
 
 Also note that the chain we construct allows a boatload of cancellations, as almost all units present appear in both the numerator and denominator once. The only ones that do not are J in the numerator and year and person in the denominator. When we carry out the multiplication above and cancel units, we find that we are left with:
 
-$3.15 \times 10^{11}$ year $\cdot$ person$.\mathrm{J}$
+:::{math}
+\frac{3.15 \times 10^{11}\ \mathrm{J}}{\mathrm{person}\cdot \mathrm{year}}
+:::
 
-Oops, the units are helping us here by reminding us that we need to multiply by the population $(3.3 \times 10^{8}$ persons) to get the answer
-
-we sought.[^34] In this case, we end up with $1.04 \times 10^{20}$ J/year, which is what we were after.
+Oops, the units are helping us here by reminding us that we need to multiply by the population $(3.3 \times 10^{8}$ persons) to get the answer we sought.[^34] In this case, we end up with $1.04 \times 10^{20}$ J/year, which is what we were after.
 
 ::::
 
@@ -470,7 +462,9 @@ We just carried out unit conversions (in time) in [Example A.10.2](#ex-a-10-2), 
 
 We might want to convert the $1.04 \times 10^{20}$ J/year from [Example A.10.2](#ex-a-10-2) into quadrillion Btu per year. We know that 1 Btu is 1,055 J, and that a quadrillion is $10^{15}$. So we arrange the following:
 
-$1.04 \times 10^{20}$ year $\cdot 1$ BtuJ $1,$ 055 J $\cdot 1$ quadrillion$10^{15}\approx 100$ quadrillion $\mathrm{Btu}/$year$.$
+:::{math}
+\frac{1.04 \times 10^{20}\ \mathrm{J}}{\mathrm{year}} \cdot \frac{1\ \mathrm{Btu}}{1{,}055\ \mathrm{J}} \cdot \frac{1\ \mathrm{quadrillion}}{10^{15}} \approx 100\ \mathrm{quadrillion\ Btu/year}.
+:::
 
 ::::
 
@@ -539,7 +533,7 @@ It is well beyond the scope of this book to engage in an exhaustive review of ma
 [^7]: … teachers, too!
 [^8]: Except, perhaps we would learn that we inexplicably share the word “sock.”
 [^9]: … acknowledging that this exercise may be less intuitively obvious to non-native English speakers
-[^10]: The number of combinations is 4! (fourfactorial), or $4\cdot 3\cdot 2\cdot 1$. It is a worthy exercise to write out all 24 combinations, not only to verify the result but to give practice in how to systematically shuffle the words in an orderly manner—inventing your own functional rules as you go. You might even stumble on *why* 4 $\cdot 3 \cdot 2 \cdot 1$ is the right way to count the combinations based on your method of systematizing.
+[^10]: The number of combinations is 4! (four factorial), or $4\cdot 3\cdot 2\cdot 1$. It is a worthy exercise to write out all 24 combinations, not only to verify the result but to give practice in how to systematically shuffle the words in an orderly manner—inventing your own functional rules as you go. You might even stumble on *why* 4 $\cdot 3 \cdot 2 \cdot 1$ is the right way to count the combinations based on your method of systematizing.
 [^11]: … literally cutting corners
 [^12]: This path would look like a line across the square, traversed twice as a there-and-back trip.
 [^13]: … or length, if on its side
@@ -559,7 +553,7 @@ It is well beyond the scope of this book to engage in an exhaustive review of ma
 [^27]: … and the other way around, for all these examples
 [^28]: Something like 1.23456 would work, but make it your own!
 [^29]: Full disclosure: I don’t always do so, in haste. But I know they belong there and will throw them back in if I get tangled or end up suspecting a nonsense result.
-[^30]: This choice is intentionally unfamiliar and complicated–looking to demonstrate that units can help bring a sense of order and correctness even in alien contexts.
+[^30]: This choice is intentionally unfamiliar and complicated-looking to demonstrate that units can help bring a sense of order and correctness even in alien contexts.
 [^31]: The drag coefficient, $c_{\mathrm{D}}$, is usually in the range 0.3–1.
 [^32]: Force equals mass times acceleration
 [^33]: E.g., 24 hours and 1 day describe the same time interval.

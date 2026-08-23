@@ -85,7 +85,7 @@ The mass of a cubic meter of air is 1.25 kg, and the mass of atmosphere over one
 
 What this means is that air in motion can carry a significant amount of kinetic energy, since neither its mass nor velocity are zero. If the entire earth’s atmosphere moved at 5 m/s—a noticeable breeze—at a total mass[^5] of 5 $\times 10^{18}$ kg, we’d have 6 $\times 10^{19}$ J of kinetic energy in air currents. If we somehow pulled all this energy out of the air—stopping its motion entirely—we might expect the atmosphere to revive its normal wind
 
-patterns over the course of 24 hours: a full day of the driving solar input around the globe. The associated power works out to 700 TW. Notice that the value for wind in [Table 10.2](#tab-10-2) (p. 175) is pretty-darned close to this, at 900 TW.[^6] As the margin note indicates, we should be pleased to get within a factor of two for so little work and very off-the-cuffassumptions about global average air speed (see [Box 12.1](#box-12-1) for related thoughts). [Figure 12.2](#fig-12-2) shows the annual average wind velocity at a height of 80 m (typical wind turbine height) for the U.S. Note that the 5 m/s we used above falls comfortably within the 4–8 m/s range seen in the map.
+patterns over the course of 24 hours: a full day of the driving solar input around the globe. The associated power works out to 700 TW. Notice that the value for wind in [Table 10.2](#tab-10-2) (p. 175) is pretty-darned close to this, at 900 TW.[^6] As the margin note indicates, we should be pleased to get within a factor of two for so little work and very off-the-cuff assumptions about global average air speed (see [Box 12.1](#box-12-1) for related thoughts). [Figure 12.2](#fig-12-2) shows the annual average wind velocity at a height of 80 m (typical wind turbine height) for the U.S. Note that the 5 m/s we used above falls comfortably within the 4–8 m/s range seen in the map.
 
 :::{margin}
 **Try it:** See if you can confirm; own it yourself!
@@ -166,7 +166,7 @@ where $\rho _{\mathrm{air}}\approx 1.25 \mathrm{kg/m}^{3}$ at sea level. Efficie
 
 Notice that the delivered power scales, sensibly, with the area of the wind turbine’s blade path, but more importantly and perhaps surprisingly as the velocity *cubed* ([Table 12.1](#tab-12-1)). The cubed part should make you sit up straight: that’s a very strong function of velocity! It means that if the wind changes from a gentle 5 m/s to a brisk 10 m/s, the power available goes up by a factor of 8. A strong wind at 20 m/s has 64 times as much power as the 5 m/s breeze.[^11] We can understand the three powers of velocity thusly: two powers come from kinetic energy, and one from the length of the cylinder. As wind speed increases, not only does the oncoming air have more kinetic energy per fixed volume, but also a larger volume encounters the turbine in a given time.
 
-Setting $\epsilon = 1$ in Eq. 12.2 corresponds to the *total* power present in the wind. But we can’t be greedy and grab *all* of it. In fact, if we did, it would mean *stopping* the air at the wind turbine: pulling out all the kinetic energy means no velocity is left. If we did this, newly arriving air would divert around the stopped mass of air, and the turbine would no longer have access to oncoming energy. The theory has all been worked out:[^12] a turbine is limited to $\epsilon \le 16/27$ (59%) of the available energy, known as the Betz limit [[72](#ref-72)]. This is not a technological limitation, but comes from the physics of fluid flow. A second consideration enters for low-speed rotor motion, known as the Glauert limit [[73](#ref-73)], resulting in diminishing efficiency as wind speed drops.
+Setting $\epsilon = 1$ in [Eq. 12.2](#eq-12-2) corresponds to the *total* power present in the wind. But we can’t be greedy and grab *all* of it. In fact, if we did, it would mean *stopping* the air at the wind turbine: pulling out all the kinetic energy means no velocity is left. If we did this, newly arriving air would divert around the stopped mass of air, and the turbine would no longer have access to oncoming energy. The theory has all been worked out:[^12] a turbine is limited to $\epsilon \le 16/27$ (59%) of the available energy, known as the Betz limit [[72](#ref-72)]. This is not a technological limitation, but comes from the physics of fluid flow. A second consideration enters for low-speed rotor motion, known as the Glauert limit [[73](#ref-73)], resulting in diminishing efficiency as wind speed drops.
 
 :::{margin}
 [[72](#ref-72)]: Betz (1926), “Wind-Energie und ihre Ausnützung durch Windmühlen”
@@ -183,7 +183,7 @@ Setting $\epsilon = 1$ in Eq. 12.2 corresponds to the *total* power present in t
 :enumerator: 12.4
 :alt: Theoretical and practical wind turbine efficiencies , or c in the plot), for various designs. The parameter is the ratio of tip speed to win
 
-Theoretical and practical wind turbine efficiencies $(\epsilon$, or c$_{\mathrm{p}}$ in the plot), for various designs. The parameter $\lambda$ is the ratio of tip speed to wind speed: higher $\lambda$ means a faster tip speed [[74](#ref-74)]. All designs must be below the Betz limit (horizontal line near top). At slower speeds, the Glauert limit confines performance to occupy the region to the right of the curve marked 2. Each of the 7 designs shown have arched curves, achieving maximum efficiency at a particular tip speed. Too slow, and the turbine is not transmitting much energy; too fast and drag/friction begins to dominate. Adapted from ©2010 WIT Press.
+Theoretical and practical wind turbine efficiencies $(\epsilon$, or c$_{\mathrm{p}}$ in the plot), for various designs. The parameter $\lambda$ is the ratio of tip speed to wind speed: higher $\lambda$ means a faster tip speed [[74](#ref-74)]. All designs must be below the Betz limit (horizontal line near top). At slower speeds, the Glauert limit confines performance to occupy the region to the right of the curve marked 2. Each of the 7 designs shown has arched curves, achieving maximum efficiency at a particular tip speed. Too slow, and the turbine is not transmitting much energy; too fast and drag/friction begins to dominate. Adapted from ©2010 WIT Press.
 :::
 
 [Figure 12.4](#fig-12-4) shows these theoretical limits, along with design limits from various rotor configurations. Curves reflect an optimum rotor speed for each design: speeding up produces more generator output until it gets fast enough that air drag on the blades starts to dominate. The most common modern turbine is the 3-blade design,[^13] able to get roughly 50% of the energy out of the wind. Notice that the tip speed can be quite high: 6–8 times the wind speed. This can be quite alarming to birds in the area, whose cruising speed is nearer wind speed, and they
@@ -215,14 +215,12 @@ Besides the limit on how much power can be pulled out of the air by a single tur
 Overhead view of wind farm turbine locations, for the case where separations are 10 rotor-diameters along the wind direction, and 5 rotor diameters in the cross-wind direction—a geometry that yields 1.6% area “fill factor.” Current recommendations are for 15 and 8 rotor diameters, which is significantly more sparse than even this depiction, leading to 0.65% area fill. Note that most wind turbines can turn to face the wind direction, for times when its direction is not the prevailing one.
 :::
 
-5D
-
 In order to compare to other forms of renewable energy, we can evaluate a power per unit land area (in $\mathrm{W/m}^{2})$ by the following approach:
 
 :::{math}
 :label: eq-12-3
 :enumerator: 12.3
-\frac{\mathrm{power}}{\mathrm{area}} = \frac{\epsilon \rho _{\mathrm{air}}\pi R^{2}v^{3}}{ ^{\frac{1}{2}} 480R^{2}} = \frac{\pi}{960} \epsilon \rho _{\mathrm{air}}v^{3},
+\frac{\mathrm{power}}{\mathrm{area}} = \frac{\frac{1}{2}\epsilon \rho _{\mathrm{air}}\pi R^{2}v^{3}}{480R^{2}} = \frac{\pi}{960} \epsilon \rho _{\mathrm{air}}v^{3},
 :::
 
 employing the rule-of-thumb 8 $\times 15$ turbine placement scheme. Using an efficiency of 40% and $v = 5$ m/s,[^17] we get 0.2 $\mathrm{W/m}^{2}$—which is 1,000 times smaller than solar’s $\sim 200 \mathrm{W/m}^{2}$ insolation (Ex. 10.3.1; p. 174).
@@ -244,7 +242,7 @@ For very low wind speeds,[^19] wind turbines do not have enough wind to turn at 
 :enumerator: 12.7
 :alt: Actual data (thickly-clustered black circles) of power delivered by a turbine rated at 2 MW, as a function of wind velocity. The red curve r
 
-Actual data (thickly-clustered black circles) of power delivered by a turbine rated at 2 MW, as a function of wind velocity. The red curve represents the theoretical Betz limit of 59%, appearing as a cubic function of velocity—as Eq. 12.2 dictates. The better-matching blue curve corresponds to an overall efficiency $\epsilon =$ c$_{\mathrm{p}}= 0.44$ (44%), and the green curve—which rolls over from the cubic function and saturates at higher velocities—is the manufacturer’s expectation for the unit [[77](#ref-77)]. The “cut-in” velocity for this turbine is around 3.5 m/s: note the small step up from zero output in the green curve. This turbine saturates around 12 m/s: the green curve flattens out and no black circles appear above the cutoff. From ©2017 Wiley.
+Actual data (thickly-clustered black circles) of power delivered by a turbine rated at 2 MW, as a function of wind velocity. The red curve represents the theoretical Betz limit of 59%, appearing as a cubic function of velocity—as [Eq. 12.2](#eq-12-2) dictates. The better-matching blue curve corresponds to an overall efficiency $\epsilon =$ c$_{\mathrm{p}}= 0.44$ (44%), and the green curve—which rolls over from the cubic function and saturates at higher velocities—is the manufacturer’s expectation for the unit [[77](#ref-77)]. The “cut-in” velocity for this turbine is around 3.5 m/s: note the small step up from zero output in the green curve. This turbine saturates around 12 m/s: the green curve flattens out and no black circles appear above the cutoff. From ©2017 Wiley.
 :::
 
 [Figure 12.7](#fig-12-7) shows a typical power curve for a 2 MW turbine, on top of which are drawn a cubic function of velocity at the theoretical Betz limit (red curve), a cubic (blue) at 44% efficiency $(\epsilon = 0.44)$, and the green manufacturer’s curve [[77](#ref-77)]. Notice that the turbine performance
@@ -261,7 +259,7 @@ demonstrates the aspects covered in the previous paragraph: “cutting in” jus
 
 Global wind installations are rising rapidly, currently (as of 2020) above 600 GW of installed capacity.[^23] [Table 12.2](#tab-12-2) lists the major players, in terms of installed capacity, average generation, fraction of total energy,[^24] capacity factor, and share of global wind generation. The amount of wind energy in each country depends on a combination of how much wind is available in the country, how fast electricity demand is growing, electrical infrastructure, and political interest in renewable energies.
 
-:::{table} Global wind installations in 2018 [78–84]. The top six countries capture 85% of the global total.
+:::{table} Global wind installations in 2018 [[78](#ref-78), [79](#ref-79), [80](#ref-80), [81](#ref-81), [82](#ref-82), [83](#ref-83), [84](#ref-84)]. The top six countries capture 85% of the global total.
 :label: tab-12-2
 :enumerator: 12.2
 
@@ -329,7 +327,7 @@ Capacity factor for wind installations by state (based on 2018 data).
 
 Wind has surged tremendously in the last decade ([Fig. 7.5](#fig-7-5); p. 113), proving to be an economically viable and competitive resource. But how much could we expect to get from wind?
 
-Putting a few of the previous results together, If the entire contiguous U.S. (area $\sim 10^{13}\mathrm{m}^{2})$ were developed for wind at an estimated power density of 0.2 $\mathrm{W/m}^{2}$—which was based on a 5 m/s average wind speed—and a capacity factor of 33%, the U.S. could theoretically produce 0.7 $\mathrm{TW}^{30}$ from wind—roughly 20 times what is produced today. We should take this crude estimate as an extreme upper end, since it is inconceivable that we would develop wind so fully as to never be more than a few hundred meters—a few rotor diameters—away from a wind turbine, no matter where we go. Also, many areas are sub-threshold and would not support investment in wind development.
+Putting a few of the previous results together, if the entire contiguous U.S. (area $\sim 10^{13}\mathrm{m}^{2})$ were developed for wind at an estimated power density of 0.2 $\mathrm{W/m}^{2}$—which was based on a 5 m/s average wind speed—and a capacity factor of 33%, the U.S. could theoretically produce 0.7 $\mathrm{TW}^{30}$ from wind—roughly 20 times what is produced today. We should take this crude estimate as an extreme upper end, since it is inconceivable that we would develop wind so fully as to never be more than a few hundred meters—a few rotor diameters—away from a wind turbine, no matter where we go. Also, many areas are sub-threshold and would not support investment in wind development.
 
 :::{margin}
 ⚠ We’re fudging things a bit here for the sake of simplicity. If turbines are built for 12 m/s, the capacity factor already has some averaging built in, so using 5 m/s *and* a capacity factor of 0.33 is unfair. On the other hand, much of the country spends substantial time below the cut-in speed for turbines, and the cruel cubic function of velocity greatly suppresses much of the land area as impractical for wind development. So the approach is a compromise that might balance out reasonably.
@@ -353,7 +351,7 @@ A pros and cons list will help summarize. First, the positive attributes:
 - Harnessing wind is relatively low-tech and straightforward;
 - Wind has decent efficiency—typically 40–50%—in extracting energy from the oncoming wind;
 
-- Life-cycle CO$_{2}$ emissions for wind is only 2% that of traditional fossil fuel electricity [[68](#ref-68)];
+- Life-cycle CO$_{2}$ emissions for wind are only 2% that of traditional fossil fuel electricity [[68](#ref-68)];
 
 :::{margin}
 [[68](#ref-68)]: (2020), *Life Cycle GHG Emissions*
@@ -393,7 +391,7 @@ And the downsides:
 
 6. A typical house may have a floor area around 150 $\mathrm{m}^{2}$ (1,600 square feet). If the floor–to-ceiling distance is typically 2.5 m, how much mass is in the air within the house? Could you lift this much mass if handed to you as bags of rocks?
 
-7. Atmospheric pressure is about $10^{5}\mathrm{N/m}^{2}$, meaning that a 100,000 N weight of air—corresponding to a mass of 10,000 kg—sits atop very square meter of the ground (at or near sea level). If the air density were constant at 1.25 $\mathrm{kg/m}^{3}$—rather than decreasing with height as it actually does—how high would the atmosphere extend to result in this weight (mass)?
+7. Atmospheric pressure is about $10^{5}\mathrm{N/m}^{2}$, meaning that a 100,000 N weight of air—corresponding to a mass of 10,000 kg—sits atop every square meter of the ground (at or near sea level). If the air density were constant at 1.25 $\mathrm{kg/m}^{3}$—rather than decreasing with height as it actually does—how high would the atmosphere extend to result in this weight (mass)?
 
 :::{margin}
 ⓘ This is called the *scale height* of the at-
@@ -411,10 +409,10 @@ mosphere, $h_{0}$, which you may wish to compare to the tallest mountains on Ear
 
 10. How much *power* would a moderate-sized 50%–efficient wind turbine produce whose radius is 10 m at wind speeds of 5 m/s, 10 m/s, 15 m/s, and 20 m/s? Express the answers in kW or MW, depending on what is most natural.
 
-11. The Betz limit says that we get to keep no more than 59% of the available wind power. If 59% of the kinetic energy in a lump of air moving at speed $^{38}v$ is removed, how fast is it going afterwards,$^{39}$ as a fraction of the original speed?
+11. The Betz limit says that we get to keep no more than 59% of the available wind power. If 59% of the kinetic energy in a lump of air moving at speed $v$ is removed, how fast is it going afterwards, as a fraction of the original speed?
 
 :::{margin}
-Make up your own velocity or solve in symbols/variables: same either way. 39: This relates to wind speed just behind a wind turbine
+Make up your own velocity or solve in symbols/variables: same either way. This relates to wind speed just behind a wind turbine
 :::
 
 12. The largest wind turbines have rotor *diameters*[^40] around 150 m. Using a sensible efficiency of 50%, what power does such a jumbo turbine deliver at a maximum design wind speed of 13 m/s?
@@ -440,7 +438,7 @@ Reflect on the fact that just estimating the rotor blade length and timing its r
 … essentially $\rho v^{3}$
 :::
 
-19. Provide a clear explanation of why the area under the blue curve in [Figure 12.6](#fig-12-6) compared to the area of the whole rectangular box is an appropriate way to assess the capacity factor of the depicted wind farm?
+19. Provide a clear explanation of why the area under the blue curve in [Figure 12.6](#fig-12-6) compared to the area of the whole rectangular box is an appropriate way to assess the capacity factor of the depicted wind farm.
 
 20. What capacity factor would you estimate for the wind farm performance depicted in [Figure 12.6](#fig-12-6)? In other words, what is the approximate area under the curve compared to the entire box area, as explored in Problem 19? An approximate answer is fine.
 

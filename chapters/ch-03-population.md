@@ -23,7 +23,7 @@ Although the focus of this chapter will be on the alarming rate of population gr
 :enumerator: 3.1
 :alt: Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population
 
-Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. [14–16].
+Population (red) and energy demand (blue) on the same plot, showing how much faster energy demand (power) has risen compared to population, which translates to increasing per-capita usage. The vertical axes are scaled so that the curves overlap in the nineteenth century. [[14](#ref-14), [15](#ref-15), [16](#ref-16)].
 :::
 
 Since population plays a giant role in our future trajectory, we need to better understand its past. We can also gain some sense for theoretical
@@ -43,7 +43,7 @@ expectations, then discuss the heralded “demographic transition” and its imp
 Global population estimate, over the modern human era, on a linear scale. [Figure 3.1](#fig-3-1) offers a recent close-up. [[14](#ref-14), [15](#ref-15)].
 :::
 
-Wait, what? It still looks somewhat like a hockey stick (even more literally so)! How can that be?! This can’t be good news. Peering more closely, we can crudely break the history into two eras, each following exponential growth (straight lines on the plot), but at different rates. The early phase had a modest 0.044% growth rate. By the “rule of 70,” the corresponding doubling time is about 1,600 years. In more recent times, a 1% rate is more characteristic (70 year doubling). Indeed, we would be justified in saying that recent centuries are anomalous compared to the first 10,000 years of the plot. If we extend the the 0.04% line and the 1% line, we find that they intersect around the year 1700, which helps identify the era of marked transition.
+Wait, what? It still looks somewhat like a hockey stick (even more literally so)! How can that be?! This can’t be good news. Peering more closely, we can crudely break the history into two eras, each following exponential growth (straight lines on the plot), but at different rates. The early phase had a modest 0.044% growth rate. By the “rule of 70,” the corresponding doubling time is about 1,600 years. In more recent times, a 1% rate is more characteristic (70 year doubling). Indeed, we would be justified in saying that recent centuries are anomalous compared to the first 10,000 years of the plot. If we extend the 0.04% line and the 1% line, we find that they intersect around the year 1700, which helps identify the era of marked transition.
 
 :::{figure} ../images/fig-3-3.svg
 :label: fig-3-3
@@ -90,7 +90,7 @@ where $P_{0}$ is the population at time $t_{0}$, and $P$ is the population at ti
 :::{math}
 :label: eq-3-2
 :enumerator: 3.2
-t - t_{0}= lnln (1 (+ ^{\frac{P}{P_{0}}} p)).
+t - t_{0}= \frac{\ln (P/P_{0})}{\ln (1 + p)}.
 :::
 
 ::::{admonition} Example 3.1.1
@@ -235,7 +235,7 @@ The mathematical solution to this modified differential equation (whose solution
 :::{math}
 :label: eq-3-6
 :enumerator: 3.6
-P(t) = 1 + e^{-r(t-t_{0})}.Q
+P(t) = \frac{Q}{1 + e^{-r(t-t_{0})}}
 :::
 
 The first part of the curve in [Figure 3.7](#fig-3-7), for very negative values[^11] of $t - t_{0}$, is exponential but still small. At $t = t_{0}$ (time of inflection), the population is $Q/2$. As time marches forward into positive territory, $P$ approaches $Q$. As it does so, negative feedback mechanisms (limits to resource/food availability, predation, disease) become more assertive
@@ -338,7 +338,7 @@ halfway to the limiting value. A fit to the data ([Figure 3.9](#fig-3-9)) sugges
 (sec-3-2-2)=
 ### 3.2.2 Logistic Projection
 
-As suggested by [Figure 3.9](#fig-3-9), Human population is *not* following a strict logistic curve. If it were, the early period would look exponential at the $\sim 2.8\%$ rate corresponding to the best-fit logistic matching our recent trajectory, but growth was substantially slower than 2.8% in the past. Technology and fossil fuels have boosted our recent growth well beyond the sub-percent rates typical before $\sim 1950$. The point is that while reference to mathematical models can be extremely helpful in framing our thinking and exposing *robust, generic modes* of interest, *we should seldom take any mathematical model* ***literally***, as it likely does not capture the full complexity of the system it is trying to model. In the present case, it is enough to note that:
+As suggested by [Figure 3.9](#fig-3-9), human population is *not* following a strict logistic curve. If it were, the early period would look exponential at the $\sim 2.8\%$ rate corresponding to the best-fit logistic matching our recent trajectory, but growth was substantially slower than 2.8% in the past. Technology and fossil fuels have boosted our recent growth well beyond the sub-percent rates typical before $\sim 1950$. The point is that while reference to mathematical models can be extremely helpful in framing our thinking and exposing *robust, generic modes* of interest, *we should seldom take any mathematical model* ***literally***, as it likely does not capture the full complexity of the system it is trying to model. In the present case, it is enough to note that:
 
 1. exponentials relentlessly drive toward infinity (ultimately unrealistic);
 
@@ -496,7 +496,7 @@ Graphical representation of [Table 3.4](#tab-3-4), for all countries. Dots, whos
 
 The last column in [Table 3.4](#tab-3-4) is the per-citizen cost, meaning, for instance that each person in the U.S. adds about 50 Watts per year of energy demand via the country’s net population growth rate.[^29] In this sense, the last column is a sort of “personal contribution” an individual makes to the world’s resource demands via net population rates and consumption rates in their society. Those having high scores should think twice about assigning blame externally, and should perhaps tend to their own house, as the saying goes.
 
-Before departing this section, let us look at continent-scale regions rather than individual countries in terms of adding people and resource demands. [Table 3.5](#tab-3-5) echoes similar information to that in [Table 3.4](#tab-3-4), in modified form. What we learn from this table is that Asia’s demands are commensurate with their already-dominant population; North America creates the next largest pressure despite a much smaller population;
+Before departing this section, let us look at continent-scale regions rather than individual countries in terms of adding people and resource demands. [Table 3.5](#tab-3-5) echoes similar information to that in [Table 3.4](#tab-3-4), in modified form. What we learn from this table is that Asia’s demands are commensurate with its already-dominant population; North America creates the next largest pressure despite a much smaller population;
 
 :::{table} Population pressures from regions of the world, ranked by added power demand. Some of the columns are expressed as percentages of the total. The bottom row has totals in millions of people or total GW in place of percentages. [[7](#ref-7), [8](#ref-8), [19](#ref-19), [20](#ref-20)]
 :label: tab-3-5
@@ -644,10 +644,10 @@ Hint: It is perfectly acceptable to hold a (preferably transparent) straight-edg
 
 :::
 
-2. Notice that on logarithmic plots,[^34] factors of ten on the logarithmic axis span the *same distance*. This applies for *any* numerical factor— not just ten.[^35] Shorter (minor) tick marks between labeled (major) ticks multiply the preceding tick label by 2, 3, 4, 5, 6, 7, 8, 9. The graphic below illustrates the constant distance property for a factor of two.$^{36}$ Now try a different multiplier (not 2 or 10), measuring the distance between tick marks, and report/draw how you graphically verified that your numerical factor spans the same distance no matter where you “slide” it on the axis.
+2. Notice that on logarithmic plots,[^34] factors of ten on the logarithmic axis span the *same distance*. This applies for *any* numerical factor— not just ten.[^35] Shorter (minor) tick marks between labeled (major) ticks multiply the preceding tick label by 2, 3, 4, 5, 6, 7, 8, 9. The graphic below illustrates the constant distance property for a factor of two. Now try a different multiplier (not 2 or 10), measuring the distance between tick marks, and report/draw how you graphically verified that your numerical factor spans the same distance no matter where you “slide” it on the axis.
 
 :::{margin}
-that $\log ( \frac{a}{b} ) = \log a - \log b$. The property applies for any base, so $\log _{10}$ and ln behave the same way. 36: The green bars indicate that the same distance from 1 to 2 applies to 3–6, 40–80, and 500–1,000.
+that $\log ( \frac{a}{b} ) = \log a - \log b$. The property applies for any base, so $\log _{10}$ and ln behave the same way. The green bars indicate that the same distance from 1 to 2 applies to 3–6, 40–80, and 500–1,000.
 
 :::
 
@@ -655,7 +655,7 @@ that $\log ( \frac{a}{b} ) = \log a - \log b$. The property applies for any base
    :alt: Illustration from the original text
    :::
 
-3. Looking at [Figure 3.3](#fig-3-3), if humans had continued the slow growth phase characteristic of the period until about 1700, what does the *graph* suggest world population would be today, approximately, if the magenta line were extended to “now?”[^37] Put the answer in familiar terms, measured in millions or billions, depending on what is most natural.$^{38}$
+3. Looking at [Figure 3.3](#fig-3-3), if humans had continued the slow growth phase characteristic of the period until about 1700, what does the *graph* suggest world population would be today, approximately, if the magenta line were extended to “now?”[^37] Put the answer in familiar terms, measured in millions or billions, depending on what is most natural.
 
 4. Looking at [Figure 3.4](#fig-3-4), if humans had continued the moderate growth phase characteristic of the period from the year 1000 to 1700, what does the *graph* suggest world population would be today, approximately, if the magenta line were extended to “now?”
 
@@ -715,7 +715,7 @@ Show work and add one more decimal place to the answer as a way to validate that
 
 :::
 
-15. In a few clear sentences, explain why the maps in [Figure 3.13](#fig-3-13) and [Figure 3.14](#fig-3-14) look so different, in terms of which countries are shaded most darkly?
+15. In a few clear sentences, explain why the maps in [Figure 3.13](#fig-3-13) and [Figure 3.14](#fig-3-14) look so different, in terms of which countries are shaded most darkly.
 
 16. [Table 3.4](#tab-3-4) indicates which countries place the highest population-driven new demand on global resources using energy as a proxy. Which countries can American citizens regard as contributing more total resource demand? At the individual citizen-contribution level, what other citizens can Americans identify as being responsible for a greater demand on resources via population growth?
 
@@ -784,13 +784,13 @@ Hint: think about what the graph would look like in these scenarios.
 
 28. Make as compelling an argument as you can for why pursuit of the demographic transition may be ill-advised and potentially create rather than alleviate hardship. What are the downsides?
 
-29. List the pros and cons a young person without children might face around the decision to have a biological child of their own[^45] Consider not only personal contexts, but external, global ones as well, and thoughts about the future as you perceive it. It does not matter which list is longer or more compelling, but it is an exercise many will go through at some point in life—although maybe not explicitly on paper.
+29. List the pros and cons a young person without children might face around the decision to have a biological child of their own[^45]. Consider not only personal contexts, but external, global ones as well, and thoughts about the future as you perceive it. It does not matter which list is longer or more compelling, but it is an exercise many will go through at some point in life—although maybe not explicitly on paper.
 
 30. Do you think governments and/or tribal laws have any business setting policy around child birth policies? If so, what would you consider to be an acceptable form of control? If not, what other mechanisms might you propose for limiting population growth (or do you even consider that to be a priority or at all appropriate)?
 
 [^1]: … so that global average energy use per capita increases by a factor of five from where it is today
 [^2]: … except that famine and plague took a toll in the 14th century
-[^3]: … recalling that that the natural log and exponential functions “undo” each other (as inverse functions)
+[^3]: … recalling that the natural log and exponential functions “undo” each other (as inverse functions)
 [^4]: Gppl is giga-people, or billion people
 [^5]: For reference, the SARS-CoV2 pandemic of 2020 barely impacted global population growth rates. When population grows by more than 80 million each year, a disease killing even a few million people barely registers as a hit to the broader trend.
 [^6]: … no negative feedback yet
@@ -803,7 +803,7 @@ Hint: think about what the graph would look like in these scenarios.
 [^13]: Not coincidentally, $P = Q/2$ at the halfway point, $t = t_{0}$.
 [^14]: … based on remaining resources, $Q-P$, at the moment in [Eq. 3.5](#eq-3-5)
 [^15]: … meaning that population $P$ arrives at $Q$
-[^16]: For instance, a dramatic overshoot and collapse could be disruptive enough to take out our current infrastructure for fossil-fuelaided agriculture so that the $Q$ value essentially resets to some lower value.
+[^16]: For instance, a dramatic overshoot and collapse could be disruptive enough to take out our current infrastructure for fossil-fuel-aided agriculture so that the $Q$ value essentially resets to some lower value.
 [^17]: This ignores immigration, which just shifts living persons around.
 [^18]: 4 per 1,000 is 0.4 per 100, which is another way to say 0.4 percent.
 [^19]: Note that immigration is not considered here: just birth rate and death rate within the country.
@@ -823,7 +823,7 @@ Hint: think about what the graph would look like in these scenarios.
 [^33]: A group size of 1,200 is small enough to prevent hiding irresponsible actions behind anonymity.
 [^34]: See, for example, [Figures 3.3](#fig-3-3) and 3.4.
 [^35]: This is due to the property of logarithms
-[^37]: Determine graphically (may need to zoom in). See Problem 2 and the associated graphic to better understand how the tick marks work. 38: I.e., don’t say 0.01 billion if 10 million is more natural, or 8,000 million when 8 billion would do.
+[^37]: Determine graphically (may need to zoom in). See Problem 2 and the associated graphic to better understand how the tick marks work. I.e., don’t say 0.01 billion if 10 million is more natural, or 8,000 million when 8 billion would do.
 [^39]: See [Eq. 3.6](#eq-3-6).
 [^40]: Numbers may change from when the plot was made; population can help settle based on dot size.
 [^41]: … much farther from dashed line

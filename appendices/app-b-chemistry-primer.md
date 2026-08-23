@@ -141,7 +141,7 @@ The *approximate* energy available from the compound $\mathrm{C}_{\mathrm{c}}$H$
 :::{math}
 :label: eq-b-1
 :enumerator: B.1
-10012c + h + 16o + 14n kcal /\mathrm{g}.c + 0.3h - 0.5o
+\frac{100(c + 0.3h - 0.5o)}{12c + h + 16o + 14n}\ \mathrm{kcal/g}
 :::
 
 For instance, sucrose has the formula $\mathrm{C}_{12}$H$_{22}$O$_{11}$, so that $c = 12, h = 22$, $o = 11$, and $n = 0$. The denominator in the formula is just the molar mass,[^16] or 342 in this case. The numerator adds to 13.1, so that the result is 3.8 kcal/g—very close to the expected value around 4 kcal/g for a carbohydrate like sugar.
