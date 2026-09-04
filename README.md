@@ -36,17 +36,20 @@ University of California.
 | [`images/`](images/) | 162 figures plus chapter-opening photographs |
 | [`scripts/`](scripts/) | The PDF → MyST conversion pipeline |
 
-## Preview and build
+## Build
 
 Targets MyST CLI 1.10.1; needs [Node.js](https://nodejs.org/).
 
 ```bash
-npm install -g mystmd@1.10.1
-myst start          # local preview with live reload
-myst build --html   # static site in _build/html/
+npm install
+npm run start          # local preview with live reload
+npm run build          # static site in _build/html/
+npm run verify         # structural checks
 ```
 
-Generated files under `_build/` are not committed.
+Generated files under `_build/` are not committed. CI runs on pull requests
+(`.github/workflows/ci.yml`); pushes to `main` deploy via
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
 
 ## How the source PDF is converted
 

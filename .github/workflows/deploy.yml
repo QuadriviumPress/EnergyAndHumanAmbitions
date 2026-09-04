@@ -1,4 +1,4 @@
-# Verify the conversion and deploy the MyST edition to GitHub Pages.
+# Build and deploy the canonical MyST edition to GitHub Pages.
 name: MyST GitHub Pages Deploy
 
 on:
