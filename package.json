@@ -1,0 +1,13 @@
+{
+  "name": "energy-and-human-ambitions",
+  "private": true,
+  "description": "MyST Markdown edition of Energy and Human Ambitions on a Finite Planet",
+  "scripts": {
+    "start": "myst start",
+    "build": "myst build --html",
+    "verify": "python3 scripts/verify_book.py"
+  },
+  "devDependencies": {
+    "mystmd": "1.10.1"
+  }
+}
